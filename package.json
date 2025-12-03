@@ -1,0 +1,45 @@
+{
+  "name": "unifi-access-api",
+  "version": "1.0.1",
+  "author": {
+    "name": "Toby Martin",
+    "url": "https://github.com/dastari/unifi-access-api"
+  },
+  "description": "TypeScript client library for the UniFi Access REST API.",
+  "keywords": [
+    "unifi",
+    "access",
+    "api",
+    "typescript",
+    "sdk"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/cjs/index.cjs",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/esm/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.cjs",
+      "types": "./dist/esm/index.d.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json && tsc -p tsconfig.cjs.json",
+    "clean": "rm -rf dist",
+    "docs": "typedoc"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "typedoc": "^0.28.15",
+    "typedoc-plugin-markdown": "^4.9.0",
+    "typescript": "^5.6.3"
+  }
+}

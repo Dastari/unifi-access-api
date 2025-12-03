@@ -1,0 +1,1 @@
+{"version":3,"file":"api-server.d.ts","sourceRoot":"","sources":["../../../src/types/api-server.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,WAAW,EAAE,QAAQ,EAAE,MAAM,aAAa,CAAC;AAEzD,MAAM,MAAM,wBAAwB,GAAG,QAAQ,CAAC;AAChD,MAAM,MAAM,yBAAyB,GAAG,WAAW,CAAC,MAAM,CAAC,CAAC"}
