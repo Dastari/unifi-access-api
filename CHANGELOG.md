@@ -2,9 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.4] - 2025-12-04
+### Fixed
+- Preserve endpoint generic parameters when deriving client method signatures so top-level consumers no longer need `path` placeholders for endpoints without path params.
+
 ## [1.0.3] - 2025-12-04
 ### Fixed
-- Ensure TypeScript consumers pick up generated endpoint method typings by importing module augmentations from the package entrypoint (no more forced casts on `fetchAllUsers`, `fetchAllDoors`, etc.).
+- Ensure module augmentations are loaded from the package entrypoint so method documentation and editor hovers remain accurate.
 
 ## [1.0.2] - 2025-12-04
 ### Added

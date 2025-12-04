@@ -1,6 +1,6 @@
-import type { EndpointInvoker } from './internal/endpoint.js';
+import type { EndpointDefinition, EndpointInvoker } from './internal/endpoint.js';
 import type { endpointDefinitions } from './endpoints/index.js';
-type EndpointFor<K extends keyof typeof endpointDefinitions> = EndpointInvoker<typeof endpointDefinitions[K]>;
+type EndpointFor<K extends keyof typeof endpointDefinitions> = typeof endpointDefinitions[K] extends EndpointDefinition<infer P, infer Q, infer B, infer R, infer F> ? EndpointInvoker<EndpointDefinition<P, Q, B, R, F>> : never;
 declare module './client.js' {
     interface UnifiAccessApi {
         /**

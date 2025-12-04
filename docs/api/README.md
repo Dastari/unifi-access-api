@@ -1,4 +1,4 @@
-**unifi-access-api v1.0.3**
+**unifi-access-api v1.0.4**
 
 ***
 

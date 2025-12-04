@@ -1,8 +1,8 @@
-[**unifi-access-api v1.0.3**](../README.md)
+[**unifi-access-api v1.0.4**](../README.md)
 
 ***
 
-Defined in: [src/client.ts:102](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/client.ts#L102)
+Defined in: [src/client.ts:102](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/client.ts#L102)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [src/client.ts:102](https://github.com/Dastari/unifi-access-api/blob
 
 > **new UnifiAccessApi**(`options`): `UnifiAccessApi`
 
-Defined in: [src/client.ts:109](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/client.ts#L109)
+Defined in: [src/client.ts:109](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/client.ts#L109)
 
 #### Parameters
 
@@ -34,9 +34,9 @@ Defined in: [src/client.ts:109](https://github.com/Dastari/unifi-access-api/blob
 
 ### assignIdentityResourcesToUser
 
-> `readonly` **assignIdentityResourcesToUser**: `EndpointFor`\<`"assignIdentityResourcesToUser"`\>
+> `readonly` **assignIdentityResourcesToUser**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, [`IdentityAssignmentRequest`](../interfaces/IdentityAssignmentRequest.md), [`SuccessOnlyResponse`](../type-aliases/SuccessOnlyResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:874](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L874)
+Defined in: [src/unifi-access-api.docs.ts:877](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L877)
 
 Assign Identity Resources To User.
 
@@ -54,9 +54,9 @@ Promise resolving with the typed API response.
 
 ### assignIdentityResourcesToUserGroup
 
-> `readonly` **assignIdentityResourcesToUserGroup**: `EndpointFor`\<`"assignIdentityResourcesToUserGroup"`\>
+> `readonly` **assignIdentityResourcesToUserGroup**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, [`IdentityAssignmentRequest`](../interfaces/IdentityAssignmentRequest.md), [`SuccessOnlyResponse`](../type-aliases/SuccessOnlyResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:892](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L892)
+Defined in: [src/unifi-access-api.docs.ts:895](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L895)
 
 Assign Identity Resources To User Group.
 
@@ -74,9 +74,9 @@ Promise resolving with the typed API response.
 
 ### assignLicensePlatesToUser
 
-> `readonly` **assignLicensePlatesToUser**: `EndpointFor`\<`"assignLicensePlatesToUser"`\>
+> `readonly` **assignLicensePlatesToUser**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, [`AssignLicensePlatesRequest`](../type-aliases/AssignLicensePlatesRequest.md), [`SuccessOnlyResponse`](../type-aliases/SuccessOnlyResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:253](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L253)
+Defined in: [src/unifi-access-api.docs.ts:256](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L256)
 
 Assign License Plates To User.
 
@@ -94,9 +94,9 @@ Promise resolving with the typed API response.
 
 ### assignTouchPassToUser
 
-> `readonly` **assignTouchPassToUser**: `EndpointFor`\<`"assignTouchPassToUser"`\>
+> `readonly` **assignTouchPassToUser**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `touch_pass_id`: `string`; `user_id`: `string`; \}, `undefined`, `undefined`, [`TouchPassAssignmentResponse`](../type-aliases/TouchPassAssignmentResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:226](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L226)
+Defined in: [src/unifi-access-api.docs.ts:229](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L229)
 
 Assign Touch Pass To User.
 
@@ -114,9 +114,9 @@ Promise resolving with the typed API response.
 
 ### assignUserNfcCard
 
-> `readonly` **assignUserNfcCard**: `EndpointFor`\<`"assignUserNfcCard"`\>
+> `readonly` **assignUserNfcCard**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, [`AssignNfcCardRequest`](../interfaces/AssignNfcCardRequest.md), [`SuccessOnlyResponse`](../type-aliases/SuccessOnlyResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:64](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L64)
+Defined in: [src/unifi-access-api.docs.ts:67](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L67)
 
 Assign User Nfc Card.
 
@@ -134,9 +134,9 @@ Promise resolving with the typed API response.
 
 ### assignUserPinCode
 
-> `readonly` **assignUserPinCode**: `EndpointFor`\<`"assignUserPinCode"`\>
+> `readonly` **assignUserPinCode**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, [`AssignPinCodeRequest`](../interfaces/AssignPinCodeRequest.md), [`SuccessOnlyResponse`](../type-aliases/SuccessOnlyResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:82](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L82)
+Defined in: [src/unifi-access-api.docs.ts:85](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L85)
 
 Assign User Pin Code.
 
@@ -154,9 +154,9 @@ Promise resolving with the typed API response.
 
 ### assignUsersToGroup
 
-> `readonly` **assignUsersToGroup**: `EndpointFor`\<`"assignUsersToGroup"`\>
+> `readonly` **assignUsersToGroup**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, `string`[], [`SuccessOnlyResponse`](../type-aliases/SuccessOnlyResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:145](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L145)
+Defined in: [src/unifi-access-api.docs.ts:148](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L148)
 
 Assign Users To Group.
 
@@ -174,9 +174,9 @@ Promise resolving with the typed API response.
 
 ### assignVisitorLicensePlates
 
-> `readonly` **assignVisitorLicensePlates**: `EndpointFor`\<`"assignVisitorLicensePlates"`\>
+> `readonly` **assignVisitorLicensePlates**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, [`AssignVisitorLicensePlatesRequest`](../interfaces/AssignVisitorLicensePlatesRequest.md), [`SuccessOnlyResponse`](../type-aliases/SuccessOnlyResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:379](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L379)
+Defined in: [src/unifi-access-api.docs.ts:382](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L382)
 
 Assign Visitor License Plates.
 
@@ -194,9 +194,9 @@ Promise resolving with the typed API response.
 
 ### assignVisitorNfcCard
 
-> `readonly` **assignVisitorNfcCard**: `EndpointFor`\<`"assignVisitorNfcCard"`\>
+> `readonly` **assignVisitorNfcCard**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, [`AssignVisitorNfcCardRequest`](../interfaces/AssignVisitorNfcCardRequest.md), [`SuccessOnlyResponse`](../type-aliases/SuccessOnlyResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:325](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L325)
+Defined in: [src/unifi-access-api.docs.ts:328](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L328)
 
 Assign Visitor Nfc Card.
 
@@ -214,9 +214,9 @@ Promise resolving with the typed API response.
 
 ### assignVisitorPinCode
 
-> `readonly` **assignVisitorPinCode**: `EndpointFor`\<`"assignVisitorPinCode"`\>
+> `readonly` **assignVisitorPinCode**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, [`AssignVisitorPinCodeRequest`](../interfaces/AssignVisitorPinCodeRequest.md), [`SuccessOnlyResponse`](../type-aliases/SuccessOnlyResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:343](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L343)
+Defined in: [src/unifi-access-api.docs.ts:346](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L346)
 
 Assign Visitor Pin Code.
 
@@ -234,9 +234,9 @@ Promise resolving with the typed API response.
 
 ### assignVisitorQrCode
 
-> `readonly` **assignVisitorQrCode**: `EndpointFor`\<`"assignVisitorQrCode"`\>
+> `readonly` **assignVisitorQrCode**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, `undefined`, [`SuccessOnlyResponse`](../type-aliases/SuccessOnlyResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:361](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L361)
+Defined in: [src/unifi-access-api.docs.ts:364](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L364)
 
 Assign Visitor Qr Code.
 
@@ -254,9 +254,9 @@ Promise resolving with the typed API response.
 
 ### batchAssignTouchPasses
 
-> `readonly` **batchAssignTouchPasses**: `EndpointFor`\<`"batchAssignTouchPasses"`\>
+> `readonly` **batchAssignTouchPasses**: `EndpointInvoker`\<`EndpointDefinition`\<`undefined`, `undefined`, [`BatchAssignTouchPassRequest`](../interfaces/BatchAssignTouchPassRequest.md), [`BatchAssignTouchPassResponse`](../type-aliases/BatchAssignTouchPassResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:244](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L244)
+Defined in: [src/unifi-access-api.docs.ts:247](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L247)
 
 Batch Assign Touch Passes.
 
@@ -274,9 +274,9 @@ Promise resolving with the typed API response.
 
 ### createAccessPolicy
 
-> `readonly` **createAccessPolicy**: `EndpointFor`\<`"createAccessPolicy"`\>
+> `readonly` **createAccessPolicy**: `EndpointInvoker`\<`EndpointDefinition`\<`undefined`, `undefined`, [`CreateAccessPolicyRequest`](../interfaces/CreateAccessPolicyRequest.md), [`AccessPolicyResponse`](../type-aliases/AccessPolicyResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:397](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L397)
+Defined in: [src/unifi-access-api.docs.ts:400](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L400)
 
 Create Access Policy.
 
@@ -294,9 +294,9 @@ Promise resolving with the typed API response.
 
 ### createDoorGroup
 
-> `readonly` **createDoorGroup**: `EndpointFor`\<`"createDoorGroup"`\>
+> `readonly` **createDoorGroup**: `EndpointInvoker`\<`EndpointDefinition`\<`undefined`, `undefined`, [`CreateDoorGroupRequest`](../interfaces/CreateDoorGroupRequest.md), [`DoorGroupResponse`](../type-aliases/DoorGroupResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:685](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L685)
+Defined in: [src/unifi-access-api.docs.ts:688](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L688)
 
 Create Door Group.
 
@@ -314,9 +314,9 @@ Promise resolving with the typed API response.
 
 ### createHolidayGroup
 
-> `readonly` **createHolidayGroup**: `EndpointFor`\<`"createHolidayGroup"`\>
+> `readonly` **createHolidayGroup**: `EndpointInvoker`\<`EndpointDefinition`\<`undefined`, `undefined`, [`CreateHolidayGroupRequest`](../interfaces/CreateHolidayGroupRequest.md), [`HolidayGroupResponse`](../type-aliases/HolidayGroupResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:442](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L442)
+Defined in: [src/unifi-access-api.docs.ts:445](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L445)
 
 Create Holiday Group.
 
@@ -334,9 +334,9 @@ Promise resolving with the typed API response.
 
 ### createNfcEnrollmentSession
 
-> `readonly` **createNfcEnrollmentSession**: `EndpointFor`\<`"createNfcEnrollmentSession"`\>
+> `readonly` **createNfcEnrollmentSession**: `EndpointInvoker`\<`EndpointDefinition`\<`undefined`, `undefined`, [`CreateNfcEnrollmentSessionRequest`](../interfaces/CreateNfcEnrollmentSessionRequest.md), [`CreateNfcEnrollmentSessionResponse`](../type-aliases/CreateNfcEnrollmentSessionResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:541](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L541)
+Defined in: [src/unifi-access-api.docs.ts:544](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L544)
 
 Create Nfc Enrollment Session.
 
@@ -354,9 +354,9 @@ Promise resolving with the typed API response.
 
 ### createSchedule
 
-> `readonly` **createSchedule**: `EndpointFor`\<`"createSchedule"`\>
+> `readonly` **createSchedule**: `EndpointInvoker`\<`EndpointDefinition`\<`undefined`, `undefined`, [`CreateScheduleRequest`](../interfaces/CreateScheduleRequest.md), [`ScheduleResponse`](../type-aliases/ScheduleResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:487](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L487)
+Defined in: [src/unifi-access-api.docs.ts:490](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L490)
 
 Create Schedule.
 
@@ -374,9 +374,9 @@ Promise resolving with the typed API response.
 
 ### createUser
 
-> `readonly` **createUser**: `EndpointFor`\<`"createUser"`\>
+> `readonly` **createUser**: `EndpointInvoker`\<`EndpointDefinition`\<`undefined`, `undefined`, [`CreateUserRequest`](../interfaces/CreateUserRequest.md), [`CreateUserResponse`](../type-aliases/CreateUserResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:19](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L19)
+Defined in: [src/unifi-access-api.docs.ts:22](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L22)
 
 Create User.
 
@@ -394,9 +394,9 @@ Promise resolving with the typed API response.
 
 ### createUserGroup
 
-> `readonly` **createUserGroup**: `EndpointFor`\<`"createUserGroup"`\>
+> `readonly` **createUserGroup**: `EndpointInvoker`\<`EndpointDefinition`\<`undefined`, `undefined`, [`CreateUserGroupRequest`](../interfaces/CreateUserGroupRequest.md), [`SuccessOnlyResponse`](../type-aliases/SuccessOnlyResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:100](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L100)
+Defined in: [src/unifi-access-api.docs.ts:103](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L103)
 
 Create User Group.
 
@@ -414,9 +414,9 @@ Promise resolving with the typed API response.
 
 ### createVisitor
 
-> `readonly` **createVisitor**: `EndpointFor`\<`"createVisitor"`\>
+> `readonly` **createVisitor**: `EndpointInvoker`\<`EndpointDefinition`\<`undefined`, `undefined`, [`CreateVisitorRequest`](../interfaces/CreateVisitorRequest.md), [`CreateVisitorResponse`](../type-aliases/CreateVisitorResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:280](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L280)
+Defined in: [src/unifi-access-api.docs.ts:283](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L283)
 
 Create Visitor.
 
@@ -434,9 +434,9 @@ Promise resolving with the typed API response.
 
 ### createWebhookEndpoint
 
-> `readonly` **createWebhookEndpoint**: `EndpointFor`\<`"createWebhookEndpoint"`\>
+> `readonly` **createWebhookEndpoint**: `EndpointInvoker`\<`EndpointDefinition`\<`undefined`, `undefined`, [`WebhookEndpointRequest`](../interfaces/WebhookEndpointRequest.md), [`WebhookEndpointResponse`](../type-aliases/WebhookEndpointResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:919](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L919)
+Defined in: [src/unifi-access-api.docs.ts:922](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L922)
 
 Create Webhook Endpoint.
 
@@ -454,9 +454,9 @@ Promise resolving with the typed API response.
 
 ### deleteAccessPolicy
 
-> `readonly` **deleteAccessPolicy**: `EndpointFor`\<`"deleteAccessPolicy"`\>
+> `readonly` **deleteAccessPolicy**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, `undefined`, [`SuccessOnlyResponse`](../type-aliases/SuccessOnlyResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:415](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L415)
+Defined in: [src/unifi-access-api.docs.ts:418](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L418)
 
 Delete Access Policy.
 
@@ -474,9 +474,9 @@ Promise resolving with the typed API response.
 
 ### deleteApiServerCertificate
 
-> `readonly` **deleteApiServerCertificate**: `EndpointFor`\<`"deleteApiServerCertificate"`\>
+> `readonly` **deleteApiServerCertificate**: `EndpointInvoker`\<`EndpointDefinition`\<`undefined`, `undefined`, `undefined`, [`UploadCertificateResponse`](../type-aliases/UploadCertificateResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:955](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L955)
+Defined in: [src/unifi-access-api.docs.ts:958](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L958)
 
 Delete Api Server Certificate.
 
@@ -494,9 +494,9 @@ Promise resolving with the typed API response.
 
 ### deleteDoorGroupById
 
-> `readonly` **deleteDoorGroupById**: `EndpointFor`\<`"deleteDoorGroupById"`\>
+> `readonly` **deleteDoorGroupById**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, `undefined`, [`SuccessOnlyResponse`](../type-aliases/SuccessOnlyResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:721](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L721)
+Defined in: [src/unifi-access-api.docs.ts:724](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L724)
 
 Delete Door Group By Id.
 
@@ -514,9 +514,9 @@ Promise resolving with the typed API response.
 
 ### deleteHolidayGroup
 
-> `readonly` **deleteHolidayGroup**: `EndpointFor`\<`"deleteHolidayGroup"`\>
+> `readonly` **deleteHolidayGroup**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, `undefined`, [`SuccessOnlyResponse`](../type-aliases/SuccessOnlyResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:460](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L460)
+Defined in: [src/unifi-access-api.docs.ts:463](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L463)
 
 Delete Holiday Group.
 
@@ -534,9 +534,9 @@ Promise resolving with the typed API response.
 
 ### deleteNfcCard
 
-> `readonly` **deleteNfcCard**: `EndpointFor`\<`"deleteNfcCard"`\>
+> `readonly` **deleteNfcCard**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `token`: `string`; \}, `undefined`, `undefined`, [`SuccessOnlyResponse`](../type-aliases/SuccessOnlyResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:586](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L586)
+Defined in: [src/unifi-access-api.docs.ts:589](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L589)
 
 Delete Nfc Card.
 
@@ -554,9 +554,9 @@ Promise resolving with the typed API response.
 
 ### deleteNfcEnrollmentSession
 
-> `readonly` **deleteNfcEnrollmentSession**: `EndpointFor`\<`"deleteNfcEnrollmentSession"`\>
+> `readonly` **deleteNfcEnrollmentSession**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, `undefined`, [`SuccessOnlyResponse`](../type-aliases/SuccessOnlyResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:559](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L559)
+Defined in: [src/unifi-access-api.docs.ts:562](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L562)
 
 Delete Nfc Enrollment Session.
 
@@ -574,9 +574,9 @@ Promise resolving with the typed API response.
 
 ### deleteSchedule
 
-> `readonly` **deleteSchedule**: `EndpointFor`\<`"deleteSchedule"`\>
+> `readonly` **deleteSchedule**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, `undefined`, [`SuccessOnlyResponse`](../type-aliases/SuccessOnlyResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:523](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L523)
+Defined in: [src/unifi-access-api.docs.ts:526](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L526)
 
 Delete Schedule.
 
@@ -594,9 +594,9 @@ Promise resolving with the typed API response.
 
 ### deleteUser
 
-> `readonly` **deleteUser**: `EndpointFor`\<`"deleteUser"`\>
+> `readonly` **deleteUser**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, `undefined`, [`SuccessOnlyResponse`](../type-aliases/SuccessOnlyResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:208](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L208)
+Defined in: [src/unifi-access-api.docs.ts:211](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L211)
 
 Delete User.
 
@@ -614,9 +614,9 @@ Promise resolving with the typed API response.
 
 ### deleteUserGroup
 
-> `readonly` **deleteUserGroup**: `EndpointFor`\<`"deleteUserGroup"`\>
+> `readonly` **deleteUserGroup**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, `undefined`, [`SuccessOnlyResponse`](../type-aliases/SuccessOnlyResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:136](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L136)
+Defined in: [src/unifi-access-api.docs.ts:139](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L139)
 
 Delete User Group.
 
@@ -634,9 +634,9 @@ Promise resolving with the typed API response.
 
 ### deleteVisitor
 
-> `readonly` **deleteVisitor**: `EndpointFor`\<`"deleteVisitor"`\>
+> `readonly` **deleteVisitor**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, `undefined`, [`SuccessOnlyResponse`](../type-aliases/SuccessOnlyResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:316](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L316)
+Defined in: [src/unifi-access-api.docs.ts:319](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L319)
 
 Delete Visitor.
 
@@ -654,9 +654,9 @@ Promise resolving with the typed API response.
 
 ### deleteWebhookEndpoint
 
-> `readonly` **deleteWebhookEndpoint**: `EndpointFor`\<`"deleteWebhookEndpoint"`\>
+> `readonly` **deleteWebhookEndpoint**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, `undefined`, [`SuccessOnlyResponse`](../type-aliases/SuccessOnlyResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:937](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L937)
+Defined in: [src/unifi-access-api.docs.ts:940](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L940)
 
 Delete Webhook Endpoint.
 
@@ -674,9 +674,9 @@ Promise resolving with the typed API response.
 
 ### downloadTouchPassQrCode
 
-> `readonly` **downloadTouchPassQrCode**: `EndpointFor`\<`"downloadTouchPassQrCode"`\>
+> `readonly` **downloadTouchPassQrCode**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, `undefined`, [`FileResponse`](../interfaces/FileResponse.md), `"arrayBuffer"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:658](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L658)
+Defined in: [src/unifi-access-api.docs.ts:661](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L661)
 
 Download Touch Pass Qr Code.
 
@@ -694,9 +694,9 @@ Promise resolving with the typed API response.
 
 ### exportSystemLogs
 
-> `readonly` **exportSystemLogs**: `EndpointFor`\<`"exportSystemLogs"`\>
+> `readonly` **exportSystemLogs**: `EndpointInvoker`\<`EndpointDefinition`\<`undefined`, `undefined`, [`FetchSystemLogsRequest`](../interfaces/FetchSystemLogsRequest.md), [`FileResponse`](../interfaces/FileResponse.md), `"arrayBuffer"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:829](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L829)
+Defined in: [src/unifi-access-api.docs.ts:832](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L832)
 
 Export System Logs.
 
@@ -714,9 +714,9 @@ Promise resolving with the typed API response.
 
 ### fetchAccessPolicy
 
-> `readonly` **fetchAccessPolicy**: `EndpointFor`\<`"fetchAccessPolicy"`\>
+> `readonly` **fetchAccessPolicy**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, `undefined`, [`AccessPolicyResponse`](../type-aliases/AccessPolicyResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:424](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L424)
+Defined in: [src/unifi-access-api.docs.ts:427](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L427)
 
 Fetch Access Policy.
 
@@ -734,9 +734,9 @@ Promise resolving with the typed API response.
 
 ### fetchAllAccessPolicies
 
-> `readonly` **fetchAllAccessPolicies**: `EndpointFor`\<`"fetchAllAccessPolicies"`\>
+> `readonly` **fetchAllAccessPolicies**: `EndpointInvoker`\<`EndpointDefinition`\<`undefined`, \{ `keyword?`: `string`; `page_num?`: `number`; `page_size?`: `number`; \}, `undefined`, [`AccessPoliciesResponse`](../interfaces/AccessPoliciesResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:433](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L433)
+Defined in: [src/unifi-access-api.docs.ts:436](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L436)
 
 Fetch All Access Policies.
 
@@ -754,9 +754,9 @@ Promise resolving with the typed API response.
 
 ### fetchAllDoorGroups
 
-> `readonly` **fetchAllDoorGroups**: `EndpointFor`\<`"fetchAllDoorGroups"`\>
+> `readonly` **fetchAllDoorGroups**: `EndpointInvoker`\<`EndpointDefinition`\<`undefined`, `undefined`, `undefined`, [`DoorGroupsResponse`](../type-aliases/DoorGroupsResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:712](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L712)
+Defined in: [src/unifi-access-api.docs.ts:715](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L715)
 
 Fetch All Door Groups.
 
@@ -774,9 +774,9 @@ Promise resolving with the typed API response.
 
 ### fetchAllDoors
 
-> `readonly` **fetchAllDoors**: `EndpointFor`\<`"fetchAllDoors"`\>
+> `readonly` **fetchAllDoors**: `EndpointInvoker`\<`EndpointDefinition`\<`undefined`, `undefined`, `undefined`, [`DoorsResponse`](../type-aliases/DoorsResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:739](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L739)
+Defined in: [src/unifi-access-api.docs.ts:742](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L742)
 
 Fetch All Doors.
 
@@ -794,9 +794,9 @@ Promise resolving with the typed API response.
 
 ### fetchAllHolidayGroups
 
-> `readonly` **fetchAllHolidayGroups**: `EndpointFor`\<`"fetchAllHolidayGroups"`\>
+> `readonly` **fetchAllHolidayGroups**: `EndpointInvoker`\<`EndpointDefinition`\<`undefined`, `undefined`, `undefined`, [`HolidayGroupsResponse`](../type-aliases/HolidayGroupsResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:478](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L478)
+Defined in: [src/unifi-access-api.docs.ts:481](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L481)
 
 Fetch All Holiday Groups.
 
@@ -814,9 +814,9 @@ Promise resolving with the typed API response.
 
 ### fetchAllNfcCards
 
-> `readonly` **fetchAllNfcCards**: `EndpointFor`\<`"fetchAllNfcCards"`\>
+> `readonly` **fetchAllNfcCards**: `EndpointInvoker`\<`EndpointDefinition`\<`undefined`, \{ `page_num?`: `number`; `page_size?`: `number`; \}, `undefined`, [`NfcCardsResponse`](../interfaces/NfcCardsResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:577](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L577)
+Defined in: [src/unifi-access-api.docs.ts:580](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L580)
 
 Fetch All Nfc Cards.
 
@@ -834,9 +834,9 @@ Promise resolving with the typed API response.
 
 ### fetchAllSchedules
 
-> `readonly` **fetchAllSchedules**: `EndpointFor`\<`"fetchAllSchedules"`\>
+> `readonly` **fetchAllSchedules**: `EndpointInvoker`\<`EndpointDefinition`\<`undefined`, `undefined`, `undefined`, [`SchedulesResponse`](../type-aliases/SchedulesResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:514](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L514)
+Defined in: [src/unifi-access-api.docs.ts:517](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L517)
 
 Fetch All Schedules.
 
@@ -854,9 +854,9 @@ Promise resolving with the typed API response.
 
 ### fetchAllUserGroups
 
-> `readonly` **fetchAllUserGroups**: `EndpointFor`\<`"fetchAllUserGroups"`\>
+> `readonly` **fetchAllUserGroups**: `EndpointInvoker`\<`EndpointDefinition`\<`undefined`, `undefined`, `undefined`, [`FetchAllUserGroupsResponse`](../type-aliases/FetchAllUserGroupsResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:109](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L109)
+Defined in: [src/unifi-access-api.docs.ts:112](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L112)
 
 Fetch All User Groups.
 
@@ -874,9 +874,9 @@ Promise resolving with the typed API response.
 
 ### fetchAllUsers
 
-> `readonly` **fetchAllUsers**: `EndpointFor`\<`"fetchAllUsers"`\>
+> `readonly` **fetchAllUsers**: `EndpointInvoker`\<`EndpointDefinition`\<`undefined`, [`FetchUsersQuery`](../interfaces/FetchUsersQuery.md), `undefined`, [`FetchAllUsersResponse`](../type-aliases/FetchAllUsersResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:46](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L46)
+Defined in: [src/unifi-access-api.docs.ts:49](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L49)
 
 Fetch All Users.
 
@@ -894,9 +894,9 @@ Promise resolving with the typed API response.
 
 ### fetchAllUsersInGroup
 
-> `readonly` **fetchAllUsersInGroup**: `EndpointFor`\<`"fetchAllUsersInGroup"`\>
+> `readonly` **fetchAllUsersInGroup**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, `undefined`, [`FetchGroupUsersResponse`](../type-aliases/FetchGroupUsersResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:172](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L172)
+Defined in: [src/unifi-access-api.docs.ts:175](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L175)
 
 Fetch All Users In Group.
 
@@ -914,9 +914,9 @@ Promise resolving with the typed API response.
 
 ### fetchAllVisitors
 
-> `readonly` **fetchAllVisitors**: `EndpointFor`\<`"fetchAllVisitors"`\>
+> `readonly` **fetchAllVisitors**: `EndpointInvoker`\<`EndpointDefinition`\<`undefined`, \{ `expand[]?`: `string` \| `string`[]; `keyword?`: `string`; `page_num?`: `number`; `page_size?`: `number`; `status?`: `number`; \}, `undefined`, [`FetchVisitorsResponse`](../type-aliases/FetchVisitorsResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:298](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L298)
+Defined in: [src/unifi-access-api.docs.ts:301](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L301)
 
 Fetch All Visitors.
 
@@ -934,9 +934,9 @@ Promise resolving with the typed API response.
 
 ### fetchAssignableTouchPasses
 
-> `readonly` **fetchAssignableTouchPasses**: `EndpointFor`\<`"fetchAssignableTouchPasses"`\>
+> `readonly` **fetchAssignableTouchPasses**: `EndpointInvoker`\<`EndpointDefinition`\<`undefined`, `undefined`, `undefined`, [`AssignableTouchPassesResponse`](../type-aliases/AssignableTouchPassesResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:622](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L622)
+Defined in: [src/unifi-access-api.docs.ts:625](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L625)
 
 Fetch Assignable Touch Passes.
 
@@ -954,9 +954,9 @@ Promise resolving with the typed API response.
 
 ### fetchAvailableIdentityResources
 
-> `readonly` **fetchAvailableIdentityResources**: `EndpointFor`\<`"fetchAvailableIdentityResources"`\>
+> `readonly` **fetchAvailableIdentityResources**: `EndpointInvoker`\<`EndpointDefinition`\<`undefined`, \{ `resource_type?`: `string`; \}, `undefined`, [`IdentityAvailableResourcesResponse`](../type-aliases/IdentityAvailableResourcesResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:865](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L865)
+Defined in: [src/unifi-access-api.docs.ts:868](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L868)
 
 Fetch Available Identity Resources.
 
@@ -974,9 +974,9 @@ Promise resolving with the typed API response.
 
 ### fetchDeviceAccessSettings
 
-> `readonly` **fetchDeviceAccessSettings**: `EndpointFor`\<`"fetchDeviceAccessSettings"`\>
+> `readonly` **fetchDeviceAccessSettings**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `device_id`: `string`; \}, `undefined`, `undefined`, [`DeviceAccessMethodSettingsResponse`](../type-aliases/DeviceAccessMethodSettingsResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:802](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L802)
+Defined in: [src/unifi-access-api.docs.ts:805](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L805)
 
 Fetch Device Access Settings.
 
@@ -994,9 +994,9 @@ Promise resolving with the typed API response.
 
 ### fetchDevices
 
-> `readonly` **fetchDevices**: `EndpointFor`\<`"fetchDevices"`\>
+> `readonly` **fetchDevices**: `EndpointInvoker`\<`EndpointDefinition`\<`undefined`, `undefined`, `undefined`, [`DevicesResponse`](../type-aliases/DevicesResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:793](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L793)
+Defined in: [src/unifi-access-api.docs.ts:796](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L796)
 
 Fetch Devices.
 
@@ -1014,9 +1014,9 @@ Promise resolving with the typed API response.
 
 ### fetchDoorById
 
-> `readonly` **fetchDoorById**: `EndpointFor`\<`"fetchDoorById"`\>
+> `readonly` **fetchDoorById**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, `undefined`, [`DoorResponse`](../type-aliases/DoorResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:730](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L730)
+Defined in: [src/unifi-access-api.docs.ts:733](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L733)
 
 Fetch Door By Id.
 
@@ -1034,9 +1034,9 @@ Promise resolving with the typed API response.
 
 ### fetchDoorEmergencyStatus
 
-> `readonly` **fetchDoorEmergencyStatus**: `EndpointFor`\<`"fetchDoorEmergencyStatus"`\>
+> `readonly` **fetchDoorEmergencyStatus**: `EndpointInvoker`\<`EndpointDefinition`\<`undefined`, `undefined`, `undefined`, [`DoorEmergencyStatusResponse`](../type-aliases/DoorEmergencyStatusResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:784](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L784)
+Defined in: [src/unifi-access-api.docs.ts:787](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L787)
 
 Fetch Door Emergency Status.
 
@@ -1054,9 +1054,9 @@ Promise resolving with the typed API response.
 
 ### fetchDoorGroupById
 
-> `readonly` **fetchDoorGroupById**: `EndpointFor`\<`"fetchDoorGroupById"`\>
+> `readonly` **fetchDoorGroupById**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, `undefined`, [`DoorGroupResponse`](../type-aliases/DoorGroupResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:694](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L694)
+Defined in: [src/unifi-access-api.docs.ts:697](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L697)
 
 Fetch Door Group By Id.
 
@@ -1074,9 +1074,9 @@ Promise resolving with the typed API response.
 
 ### fetchDoorGroupTopology
 
-> `readonly` **fetchDoorGroupTopology**: `EndpointFor`\<`"fetchDoorGroupTopology"`\>
+> `readonly` **fetchDoorGroupTopology**: `EndpointInvoker`\<`EndpointDefinition`\<`undefined`, `undefined`, `undefined`, [`DoorTopologyResponse`](../type-aliases/DoorTopologyResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:676](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L676)
+Defined in: [src/unifi-access-api.docs.ts:679](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L679)
 
 Fetch Door Group Topology.
 
@@ -1094,9 +1094,9 @@ Promise resolving with the typed API response.
 
 ### fetchDoorLockRule
 
-> `readonly` **fetchDoorLockRule**: `EndpointFor`\<`"fetchDoorLockRule"`\>
+> `readonly` **fetchDoorLockRule**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, `undefined`, [`DoorLockRuleResponse`](../type-aliases/DoorLockRuleResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:766](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L766)
+Defined in: [src/unifi-access-api.docs.ts:769](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L769)
 
 Fetch Door Lock Rule.
 
@@ -1114,9 +1114,9 @@ Promise resolving with the typed API response.
 
 ### fetchHolidayGroup
 
-> `readonly` **fetchHolidayGroup**: `EndpointFor`\<`"fetchHolidayGroup"`\>
+> `readonly` **fetchHolidayGroup**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, `undefined`, [`HolidayGroupResponse`](../type-aliases/HolidayGroupResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:469](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L469)
+Defined in: [src/unifi-access-api.docs.ts:472](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L472)
 
 Fetch Holiday Group.
 
@@ -1134,9 +1134,9 @@ Promise resolving with the typed API response.
 
 ### fetchIdentityResourcesForUser
 
-> `readonly` **fetchIdentityResourcesForUser**: `EndpointFor`\<`"fetchIdentityResourcesForUser"`\>
+> `readonly` **fetchIdentityResourcesForUser**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, `undefined`, [`IdentityAvailableResourcesResponse`](../type-aliases/IdentityAvailableResourcesResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:883](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L883)
+Defined in: [src/unifi-access-api.docs.ts:886](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L886)
 
 Fetch Identity Resources For User.
 
@@ -1154,9 +1154,9 @@ Promise resolving with the typed API response.
 
 ### fetchIdentityResourcesForUserGroup
 
-> `readonly` **fetchIdentityResourcesForUserGroup**: `EndpointFor`\<`"fetchIdentityResourcesForUserGroup"`\>
+> `readonly` **fetchIdentityResourcesForUserGroup**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, `undefined`, [`IdentityAvailableResourcesResponse`](../type-aliases/IdentityAvailableResourcesResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:901](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L901)
+Defined in: [src/unifi-access-api.docs.ts:904](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L904)
 
 Fetch Identity Resources For User Group.
 
@@ -1174,9 +1174,9 @@ Promise resolving with the typed API response.
 
 ### fetchNfcCard
 
-> `readonly` **fetchNfcCard**: `EndpointFor`\<`"fetchNfcCard"`\>
+> `readonly` **fetchNfcCard**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `token`: `string`; \}, `undefined`, `undefined`, [`NfcCardResponse`](../type-aliases/NfcCardResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:568](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L568)
+Defined in: [src/unifi-access-api.docs.ts:571](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L571)
 
 Fetch Nfc Card.
 
@@ -1194,9 +1194,9 @@ Promise resolving with the typed API response.
 
 ### fetchNfcEnrollmentStatus
 
-> `readonly` **fetchNfcEnrollmentStatus**: `EndpointFor`\<`"fetchNfcEnrollmentStatus"`\>
+> `readonly` **fetchNfcEnrollmentStatus**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, `undefined`, [`NfcEnrollmentStatusResponse`](../type-aliases/NfcEnrollmentStatusResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:550](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L550)
+Defined in: [src/unifi-access-api.docs.ts:553](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L553)
 
 Fetch Nfc Enrollment Status.
 
@@ -1214,9 +1214,9 @@ Promise resolving with the typed API response.
 
 ### fetchSchedule
 
-> `readonly` **fetchSchedule**: `EndpointFor`\<`"fetchSchedule"`\>
+> `readonly` **fetchSchedule**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, `undefined`, [`ScheduleResponse`](../type-aliases/ScheduleResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:505](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L505)
+Defined in: [src/unifi-access-api.docs.ts:508](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L508)
 
 Fetch Schedule.
 
@@ -1234,9 +1234,9 @@ Promise resolving with the typed API response.
 
 ### fetchSystemLogResource
 
-> `readonly` **fetchSystemLogResource**: `EndpointFor`\<`"fetchSystemLogResource"`\>
+> `readonly` **fetchSystemLogResource**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, `undefined`, [`SystemLogResourceResponse`](../interfaces/SystemLogResourceResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:838](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L838)
+Defined in: [src/unifi-access-api.docs.ts:841](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L841)
 
 Fetch System Log Resource.
 
@@ -1254,9 +1254,9 @@ Promise resolving with the typed API response.
 
 ### fetchSystemLogs
 
-> `readonly` **fetchSystemLogs**: `EndpointFor`\<`"fetchSystemLogs"`\>
+> `readonly` **fetchSystemLogs**: `EndpointInvoker`\<`EndpointDefinition`\<`undefined`, [`SystemLogQuery`](../interfaces/SystemLogQuery.md), [`FetchSystemLogsRequest`](../interfaces/FetchSystemLogsRequest.md), [`SystemLogsResponse`](../interfaces/SystemLogsResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:820](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L820)
+Defined in: [src/unifi-access-api.docs.ts:823](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L823)
 
 Fetch System Logs.
 
@@ -1274,9 +1274,9 @@ Promise resolving with the typed API response.
 
 ### fetchSystemStaticResource
 
-> `readonly` **fetchSystemStaticResource**: `EndpointFor`\<`"fetchSystemStaticResource"`\>
+> `readonly` **fetchSystemStaticResource**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `path`: `string`; \}, `undefined`, `undefined`, [`FileResponse`](../interfaces/FileResponse.md), `"arrayBuffer"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:847](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L847)
+Defined in: [src/unifi-access-api.docs.ts:850](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L850)
 
 Fetch System Static Resource.
 
@@ -1294,9 +1294,9 @@ Promise resolving with the typed API response.
 
 ### fetchTouchPassDetails
 
-> `readonly` **fetchTouchPassDetails**: `EndpointFor`\<`"fetchTouchPassDetails"`\>
+> `readonly` **fetchTouchPassDetails**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, `undefined`, [`TouchPassDetailsResponse`](../type-aliases/TouchPassDetailsResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:640](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L640)
+Defined in: [src/unifi-access-api.docs.ts:643](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L643)
 
 Fetch Touch Pass Details.
 
@@ -1314,9 +1314,9 @@ Promise resolving with the typed API response.
 
 ### fetchTouchPassList
 
-> `readonly` **fetchTouchPassList**: `EndpointFor`\<`"fetchTouchPassList"`\>
+> `readonly` **fetchTouchPassList**: `EndpointInvoker`\<`EndpointDefinition`\<`undefined`, \{ `page_num?`: `number`; `page_size?`: `number`; `status?`: `string`; \}, `undefined`, [`TouchPassListResponse`](../interfaces/TouchPassListResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:604](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L604)
+Defined in: [src/unifi-access-api.docs.ts:607](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L607)
 
 Fetch Touch Pass List.
 
@@ -1334,9 +1334,9 @@ Promise resolving with the typed API response.
 
 ### fetchUser
 
-> `readonly` **fetchUser**: `EndpointFor`\<`"fetchUser"`\>
+> `readonly` **fetchUser**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, [`FetchUserQuery`](../interfaces/FetchUserQuery.md), `undefined`, [`FetchUserResponse`](../type-aliases/FetchUserResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:37](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L37)
+Defined in: [src/unifi-access-api.docs.ts:40](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L40)
 
 Fetch User.
 
@@ -1354,9 +1354,9 @@ Promise resolving with the typed API response.
 
 ### fetchUserAccessPolicies
 
-> `readonly` **fetchUserAccessPolicies**: `EndpointFor`\<`"fetchUserAccessPolicies"`\>
+> `readonly` **fetchUserAccessPolicies**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, [`FetchUserAccessPoliciesQuery`](../interfaces/FetchUserAccessPoliciesQuery.md), `undefined`, [`UserAccessPoliciesResponse`](../type-aliases/UserAccessPoliciesResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:181](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L181)
+Defined in: [src/unifi-access-api.docs.ts:184](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L184)
 
 Fetch User Access Policies.
 
@@ -1374,9 +1374,9 @@ Promise resolving with the typed API response.
 
 ### fetchUserGroup
 
-> `readonly` **fetchUserGroup**: `EndpointFor`\<`"fetchUserGroup"`\>
+> `readonly` **fetchUserGroup**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, `undefined`, [`FetchUserGroupResponse`](../type-aliases/FetchUserGroupResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:118](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L118)
+Defined in: [src/unifi-access-api.docs.ts:121](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L121)
 
 Fetch User Group.
 
@@ -1394,9 +1394,9 @@ Promise resolving with the typed API response.
 
 ### fetchUserGroupAccessPolicies
 
-> `readonly` **fetchUserGroupAccessPolicies**: `EndpointFor`\<`"fetchUserGroupAccessPolicies"`\>
+> `readonly` **fetchUserGroupAccessPolicies**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, `undefined`, [`UserAccessPoliciesResponse`](../type-aliases/UserAccessPoliciesResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:199](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L199)
+Defined in: [src/unifi-access-api.docs.ts:202](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L202)
 
 Fetch User Group Access Policies.
 
@@ -1414,9 +1414,9 @@ Promise resolving with the typed API response.
 
 ### fetchUsersInGroup
 
-> `readonly` **fetchUsersInGroup**: `EndpointFor`\<`"fetchUsersInGroup"`\>
+> `readonly` **fetchUsersInGroup**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, `undefined`, [`FetchGroupUsersResponse`](../type-aliases/FetchGroupUsersResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:163](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L163)
+Defined in: [src/unifi-access-api.docs.ts:166](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L166)
 
 Fetch Users In Group.
 
@@ -1434,9 +1434,9 @@ Promise resolving with the typed API response.
 
 ### fetchVisitor
 
-> `readonly` **fetchVisitor**: `EndpointFor`\<`"fetchVisitor"`\>
+> `readonly` **fetchVisitor**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, `undefined`, [`FetchVisitorResponse`](../type-aliases/FetchVisitorResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:289](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L289)
+Defined in: [src/unifi-access-api.docs.ts:292](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L292)
 
 Fetch Visitor.
 
@@ -1454,9 +1454,9 @@ Promise resolving with the typed API response.
 
 ### fetchWebhookEndpoints
 
-> `readonly` **fetchWebhookEndpoints**: `EndpointFor`\<`"fetchWebhookEndpoints"`\>
+> `readonly` **fetchWebhookEndpoints**: `EndpointInvoker`\<`EndpointDefinition`\<`undefined`, `undefined`, `undefined`, [`WebhookEndpointsResponse`](../type-aliases/WebhookEndpointsResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:910](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L910)
+Defined in: [src/unifi-access-api.docs.ts:913](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L913)
 
 Fetch Webhook Endpoints.
 
@@ -1474,9 +1474,9 @@ Promise resolving with the typed API response.
 
 ### generatePinCode
 
-> `readonly` **generatePinCode**: `EndpointFor`\<`"generatePinCode"`\>
+> `readonly` **generatePinCode**: `EndpointInvoker`\<`EndpointDefinition`\<`undefined`, `undefined`, `undefined`, [`GeneratePinCodeResponse`](../type-aliases/GeneratePinCodeResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:532](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L532)
+Defined in: [src/unifi-access-api.docs.ts:535](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L535)
 
 Generate Pin Code.
 
@@ -1494,9 +1494,9 @@ Promise resolving with the typed API response.
 
 ### importThirdPartyNfcCards
 
-> `readonly` **importThirdPartyNfcCards**: `EndpointFor`\<`"importThirdPartyNfcCards"`\>
+> `readonly` **importThirdPartyNfcCards**: `EndpointInvoker`\<`EndpointDefinition`\<`undefined`, `undefined`, [`BodyLike`](../type-aliases/BodyLike.md), [`ImportThirdPartyNfcCardsResponse`](../type-aliases/ImportThirdPartyNfcCardsResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:667](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L667)
+Defined in: [src/unifi-access-api.docs.ts:670](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L670)
 
 Import Third Party Nfc Cards.
 
@@ -1514,9 +1514,9 @@ Promise resolving with the typed API response.
 
 ### purchaseTouchPasses
 
-> `readonly` **purchaseTouchPasses**: `EndpointFor`\<`"purchaseTouchPasses"`\>
+> `readonly` **purchaseTouchPasses**: `EndpointInvoker`\<`EndpointDefinition`\<`undefined`, `undefined`, [`PurchaseTouchPassesRequest`](../interfaces/PurchaseTouchPassesRequest.md), [`PurchaseTouchPassResponse`](../type-aliases/PurchaseTouchPassResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:649](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L649)
+Defined in: [src/unifi-access-api.docs.ts:652](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L652)
 
 Purchase Touch Passes.
 
@@ -1534,9 +1534,9 @@ Promise resolving with the typed API response.
 
 ### searchTouchPasses
 
-> `readonly` **searchTouchPasses**: `EndpointFor`\<`"searchTouchPasses"`\>
+> `readonly` **searchTouchPasses**: `EndpointInvoker`\<`EndpointDefinition`\<`undefined`, \{ `condition`: `string`; \}, `undefined`, [`TouchPassListResponse`](../interfaces/TouchPassListResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:613](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L613)
+Defined in: [src/unifi-access-api.docs.ts:616](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L616)
 
 Search Touch Passes.
 
@@ -1554,9 +1554,9 @@ Promise resolving with the typed API response.
 
 ### searchUsers
 
-> `readonly` **searchUsers**: `EndpointFor`\<`"searchUsers"`\>
+> `readonly` **searchUsers**: `EndpointInvoker`\<`EndpointDefinition`\<`undefined`, [`SearchUsersQuery`](../interfaces/SearchUsersQuery.md), `undefined`, [`SearchUsersResponse`](../type-aliases/SearchUsersResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:217](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L217)
+Defined in: [src/unifi-access-api.docs.ts:220](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L220)
 
 Search Users.
 
@@ -1574,9 +1574,9 @@ Promise resolving with the typed API response.
 
 ### sendIdentityInvitations
 
-> `readonly` **sendIdentityInvitations**: `EndpointFor`\<`"sendIdentityInvitations"`\>
+> `readonly` **sendIdentityInvitations**: `EndpointInvoker`\<`EndpointDefinition`\<`undefined`, `undefined`, [`IdentityInvitationRequestItem`](../interfaces/IdentityInvitationRequestItem.md)[], [`IdentityInvitationResponse`](../type-aliases/IdentityInvitationResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:856](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L856)
+Defined in: [src/unifi-access-api.docs.ts:859](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L859)
 
 Send Identity Invitations.
 
@@ -1594,9 +1594,9 @@ Promise resolving with the typed API response.
 
 ### setDoorEmergencyStatus
 
-> `readonly` **setDoorEmergencyStatus**: `EndpointFor`\<`"setDoorEmergencyStatus"`\>
+> `readonly` **setDoorEmergencyStatus**: `EndpointInvoker`\<`EndpointDefinition`\<`undefined`, `undefined`, [`DoorEmergencyStatusRequest`](../interfaces/DoorEmergencyStatusRequest.md), [`SuccessOnlyResponse`](../type-aliases/SuccessOnlyResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:775](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L775)
+Defined in: [src/unifi-access-api.docs.ts:778](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L778)
 
 Set Door Emergency Status.
 
@@ -1614,9 +1614,9 @@ Promise resolving with the typed API response.
 
 ### setDoorLockRule
 
-> `readonly` **setDoorLockRule**: `EndpointFor`\<`"setDoorLockRule"`\>
+> `readonly` **setDoorLockRule**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, [`DoorLockRuleRequest`](../interfaces/DoorLockRuleRequest.md), [`SuccessOnlyResponse`](../type-aliases/SuccessOnlyResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:757](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L757)
+Defined in: [src/unifi-access-api.docs.ts:760](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L760)
 
 Set Door Lock Rule.
 
@@ -1634,9 +1634,9 @@ Promise resolving with the typed API response.
 
 ### unassignLicensePlateFromUser
 
-> `readonly` **unassignLicensePlateFromUser**: `EndpointFor`\<`"unassignLicensePlateFromUser"`\>
+> `readonly` **unassignLicensePlateFromUser**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `license_plate_id`: `string`; `user_id`: `string`; \}, `undefined`, `undefined`, [`SuccessOnlyResponse`](../type-aliases/SuccessOnlyResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:262](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L262)
+Defined in: [src/unifi-access-api.docs.ts:265](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L265)
 
 Unassign License Plate From User.
 
@@ -1654,9 +1654,9 @@ Promise resolving with the typed API response.
 
 ### unassignTouchPassFromUser
 
-> `readonly` **unassignTouchPassFromUser**: `EndpointFor`\<`"unassignTouchPassFromUser"`\>
+> `readonly` **unassignTouchPassFromUser**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `touch_pass_id`: `string`; `user_id`: `string`; \}, `undefined`, `undefined`, [`SuccessOnlyResponse`](../type-aliases/SuccessOnlyResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:235](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L235)
+Defined in: [src/unifi-access-api.docs.ts:238](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L238)
 
 Unassign Touch Pass From User.
 
@@ -1674,9 +1674,9 @@ Promise resolving with the typed API response.
 
 ### unassignUserNfcCard
 
-> `readonly` **unassignUserNfcCard**: `EndpointFor`\<`"unassignUserNfcCard"`\>
+> `readonly` **unassignUserNfcCard**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, [`UnassignNfcCardRequest`](../interfaces/UnassignNfcCardRequest.md), [`SuccessOnlyResponse`](../type-aliases/SuccessOnlyResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:73](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L73)
+Defined in: [src/unifi-access-api.docs.ts:76](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L76)
 
 Unassign User Nfc Card.
 
@@ -1694,9 +1694,9 @@ Promise resolving with the typed API response.
 
 ### unassignUserPinCode
 
-> `readonly` **unassignUserPinCode**: `EndpointFor`\<`"unassignUserPinCode"`\>
+> `readonly` **unassignUserPinCode**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, `undefined`, [`SuccessOnlyResponse`](../type-aliases/SuccessOnlyResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:91](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L91)
+Defined in: [src/unifi-access-api.docs.ts:94](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L94)
 
 Unassign User Pin Code.
 
@@ -1714,9 +1714,9 @@ Promise resolving with the typed API response.
 
 ### unassignUsersFromGroup
 
-> `readonly` **unassignUsersFromGroup**: `EndpointFor`\<`"unassignUsersFromGroup"`\>
+> `readonly` **unassignUsersFromGroup**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, `string`[], [`SuccessOnlyResponse`](../type-aliases/SuccessOnlyResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:154](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L154)
+Defined in: [src/unifi-access-api.docs.ts:157](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L157)
 
 Unassign Users From Group.
 
@@ -1734,9 +1734,9 @@ Promise resolving with the typed API response.
 
 ### unassignVisitorLicensePlate
 
-> `readonly` **unassignVisitorLicensePlate**: `EndpointFor`\<`"unassignVisitorLicensePlate"`\>
+> `readonly` **unassignVisitorLicensePlate**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `license_plate_id`: `string`; `visitor_id`: `string`; \}, `undefined`, `undefined`, [`SuccessOnlyResponse`](../type-aliases/SuccessOnlyResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:388](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L388)
+Defined in: [src/unifi-access-api.docs.ts:391](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L391)
 
 Unassign Visitor License Plate.
 
@@ -1754,9 +1754,9 @@ Promise resolving with the typed API response.
 
 ### unassignVisitorNfcCard
 
-> `readonly` **unassignVisitorNfcCard**: `EndpointFor`\<`"unassignVisitorNfcCard"`\>
+> `readonly` **unassignVisitorNfcCard**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, [`UnassignVisitorNfcCardRequest`](../interfaces/UnassignVisitorNfcCardRequest.md), [`SuccessOnlyResponse`](../type-aliases/SuccessOnlyResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:334](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L334)
+Defined in: [src/unifi-access-api.docs.ts:337](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L337)
 
 Unassign Visitor Nfc Card.
 
@@ -1774,9 +1774,9 @@ Promise resolving with the typed API response.
 
 ### unassignVisitorPinCode
 
-> `readonly` **unassignVisitorPinCode**: `EndpointFor`\<`"unassignVisitorPinCode"`\>
+> `readonly` **unassignVisitorPinCode**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, `undefined`, [`SuccessOnlyResponse`](../type-aliases/SuccessOnlyResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:352](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L352)
+Defined in: [src/unifi-access-api.docs.ts:355](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L355)
 
 Unassign Visitor Pin Code.
 
@@ -1794,9 +1794,9 @@ Promise resolving with the typed API response.
 
 ### unassignVisitorQrCode
 
-> `readonly` **unassignVisitorQrCode**: `EndpointFor`\<`"unassignVisitorQrCode"`\>
+> `readonly` **unassignVisitorQrCode**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, `undefined`, [`SuccessOnlyResponse`](../type-aliases/SuccessOnlyResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:370](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L370)
+Defined in: [src/unifi-access-api.docs.ts:373](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L373)
 
 Unassign Visitor Qr Code.
 
@@ -1814,9 +1814,9 @@ Promise resolving with the typed API response.
 
 ### unlockDoor
 
-> `readonly` **unlockDoor**: `EndpointFor`\<`"unlockDoor"`\>
+> `readonly` **unlockDoor**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, [`UnlockDoorRequest`](../interfaces/UnlockDoorRequest.md), [`SuccessOnlyResponse`](../type-aliases/SuccessOnlyResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:748](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L748)
+Defined in: [src/unifi-access-api.docs.ts:751](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L751)
 
 Unlock Door.
 
@@ -1834,9 +1834,9 @@ Promise resolving with the typed API response.
 
 ### updateAccessPolicy
 
-> `readonly` **updateAccessPolicy**: `EndpointFor`\<`"updateAccessPolicy"`\>
+> `readonly` **updateAccessPolicy**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, [`UpdateAccessPolicyRequest`](../interfaces/UpdateAccessPolicyRequest.md), [`SuccessOnlyResponse`](../type-aliases/SuccessOnlyResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:406](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L406)
+Defined in: [src/unifi-access-api.docs.ts:409](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L409)
 
 Update Access Policy.
 
@@ -1854,9 +1854,9 @@ Promise resolving with the typed API response.
 
 ### updateDeviceAccessSettings
 
-> `readonly` **updateDeviceAccessSettings**: `EndpointFor`\<`"updateDeviceAccessSettings"`\>
+> `readonly` **updateDeviceAccessSettings**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `device_id`: `string`; \}, `undefined`, [`AccessMethodSettings`](../interfaces/AccessMethodSettings.md), [`SuccessOnlyResponse`](../type-aliases/SuccessOnlyResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:811](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L811)
+Defined in: [src/unifi-access-api.docs.ts:814](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L814)
 
 Update Device Access Settings.
 
@@ -1874,9 +1874,9 @@ Promise resolving with the typed API response.
 
 ### updateDoorGroupById
 
-> `readonly` **updateDoorGroupById**: `EndpointFor`\<`"updateDoorGroupById"`\>
+> `readonly` **updateDoorGroupById**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, [`UpdateDoorGroupRequest`](../interfaces/UpdateDoorGroupRequest.md), [`SuccessOnlyResponse`](../type-aliases/SuccessOnlyResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:703](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L703)
+Defined in: [src/unifi-access-api.docs.ts:706](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L706)
 
 Update Door Group By Id.
 
@@ -1894,9 +1894,9 @@ Promise resolving with the typed API response.
 
 ### updateHolidayGroup
 
-> `readonly` **updateHolidayGroup**: `EndpointFor`\<`"updateHolidayGroup"`\>
+> `readonly` **updateHolidayGroup**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, [`UpdateHolidayGroupRequest`](../interfaces/UpdateHolidayGroupRequest.md), [`SuccessOnlyResponse`](../type-aliases/SuccessOnlyResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:451](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L451)
+Defined in: [src/unifi-access-api.docs.ts:454](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L454)
 
 Update Holiday Group.
 
@@ -1914,9 +1914,9 @@ Promise resolving with the typed API response.
 
 ### updateNfcCard
 
-> `readonly` **updateNfcCard**: `EndpointFor`\<`"updateNfcCard"`\>
+> `readonly` **updateNfcCard**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `token`: `string`; \}, `undefined`, [`UpdateNfcCardRequest`](../interfaces/UpdateNfcCardRequest.md), [`SuccessOnlyResponse`](../type-aliases/SuccessOnlyResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:595](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L595)
+Defined in: [src/unifi-access-api.docs.ts:598](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L598)
 
 Update Nfc Card.
 
@@ -1934,9 +1934,9 @@ Promise resolving with the typed API response.
 
 ### updateSchedule
 
-> `readonly` **updateSchedule**: `EndpointFor`\<`"updateSchedule"`\>
+> `readonly` **updateSchedule**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, [`UpdateScheduleRequest`](../interfaces/UpdateScheduleRequest.md), [`SuccessOnlyResponse`](../type-aliases/SuccessOnlyResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:496](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L496)
+Defined in: [src/unifi-access-api.docs.ts:499](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L499)
 
 Update Schedule.
 
@@ -1954,9 +1954,9 @@ Promise resolving with the typed API response.
 
 ### updateTouchPass
 
-> `readonly` **updateTouchPass**: `EndpointFor`\<`"updateTouchPass"`\>
+> `readonly` **updateTouchPass**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, [`UpdateTouchPassRequest`](../interfaces/UpdateTouchPassRequest.md), [`TouchPassDetailsResponse`](../type-aliases/TouchPassDetailsResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:631](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L631)
+Defined in: [src/unifi-access-api.docs.ts:634](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L634)
 
 Update Touch Pass.
 
@@ -1974,9 +1974,9 @@ Promise resolving with the typed API response.
 
 ### updateUser
 
-> `readonly` **updateUser**: `EndpointFor`\<`"updateUser"`\>
+> `readonly` **updateUser**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, [`UpdateUserRequest`](../interfaces/UpdateUserRequest.md), [`SuccessOnlyResponse`](../type-aliases/SuccessOnlyResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:28](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L28)
+Defined in: [src/unifi-access-api.docs.ts:31](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L31)
 
 Update User.
 
@@ -1994,9 +1994,9 @@ Promise resolving with the typed API response.
 
 ### updateUserAccessPolicies
 
-> `readonly` **updateUserAccessPolicies**: `EndpointFor`\<`"updateUserAccessPolicies"`\>
+> `readonly` **updateUserAccessPolicies**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, [`UpdateUserAccessPoliciesRequest`](../interfaces/UpdateUserAccessPoliciesRequest.md), [`SuccessOnlyResponse`](../type-aliases/SuccessOnlyResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:55](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L55)
+Defined in: [src/unifi-access-api.docs.ts:58](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L58)
 
 Update User Access Policies.
 
@@ -2014,9 +2014,9 @@ Promise resolving with the typed API response.
 
 ### updateUserGroup
 
-> `readonly` **updateUserGroup**: `EndpointFor`\<`"updateUserGroup"`\>
+> `readonly` **updateUserGroup**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, [`UpdateUserGroupRequest`](../interfaces/UpdateUserGroupRequest.md), [`SuccessOnlyResponse`](../type-aliases/SuccessOnlyResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:127](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L127)
+Defined in: [src/unifi-access-api.docs.ts:130](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L130)
 
 Update User Group.
 
@@ -2034,9 +2034,9 @@ Promise resolving with the typed API response.
 
 ### updateUserGroupAccessPolicies
 
-> `readonly` **updateUserGroupAccessPolicies**: `EndpointFor`\<`"updateUserGroupAccessPolicies"`\>
+> `readonly` **updateUserGroupAccessPolicies**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, [`UpdateGroupAccessPoliciesRequest`](../interfaces/UpdateGroupAccessPoliciesRequest.md), [`SuccessOnlyResponse`](../type-aliases/SuccessOnlyResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:190](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L190)
+Defined in: [src/unifi-access-api.docs.ts:193](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L193)
 
 Update User Group Access Policies.
 
@@ -2054,9 +2054,9 @@ Promise resolving with the typed API response.
 
 ### updateVisitor
 
-> `readonly` **updateVisitor**: `EndpointFor`\<`"updateVisitor"`\>
+> `readonly` **updateVisitor**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, [`UpdateVisitorRequest`](../interfaces/UpdateVisitorRequest.md), [`SuccessOnlyResponse`](../type-aliases/SuccessOnlyResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:307](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L307)
+Defined in: [src/unifi-access-api.docs.ts:310](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L310)
 
 Update Visitor.
 
@@ -2074,9 +2074,9 @@ Promise resolving with the typed API response.
 
 ### updateWebhookEndpoint
 
-> `readonly` **updateWebhookEndpoint**: `EndpointFor`\<`"updateWebhookEndpoint"`\>
+> `readonly` **updateWebhookEndpoint**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, [`WebhookEndpointRequest`](../interfaces/WebhookEndpointRequest.md), [`WebhookEndpointResponse`](../type-aliases/WebhookEndpointResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:928](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L928)
+Defined in: [src/unifi-access-api.docs.ts:931](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L931)
 
 Update Webhook Endpoint.
 
@@ -2094,9 +2094,9 @@ Promise resolving with the typed API response.
 
 ### uploadApiServerCertificate
 
-> `readonly` **uploadApiServerCertificate**: `EndpointFor`\<`"uploadApiServerCertificate"`\>
+> `readonly` **uploadApiServerCertificate**: `EndpointInvoker`\<`EndpointDefinition`\<`undefined`, `undefined`, [`BodyLike`](../type-aliases/BodyLike.md), [`UploadCertificateResponse`](../type-aliases/UploadCertificateResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:946](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L946)
+Defined in: [src/unifi-access-api.docs.ts:949](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L949)
 
 Upload Api Server Certificate.
 
@@ -2114,9 +2114,9 @@ Promise resolving with the typed API response.
 
 ### uploadUserAvatar
 
-> `readonly` **uploadUserAvatar**: `EndpointFor`\<`"uploadUserAvatar"`\>
+> `readonly` **uploadUserAvatar**: `EndpointInvoker`\<`EndpointDefinition`\<\{ `id`: `string`; \}, `undefined`, [`BodyLike`](../type-aliases/BodyLike.md), [`SuccessOnlyResponse`](../type-aliases/SuccessOnlyResponse.md), `"json"`\>\>
 
-Defined in: [src/unifi-access-api.docs.ts:271](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/unifi-access-api.docs.ts#L271)
+Defined in: [src/unifi-access-api.docs.ts:274](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/unifi-access-api.docs.ts#L274)
 
 Upload User Avatar.
 
@@ -2136,7 +2136,7 @@ Promise resolving with the typed API response.
 
 > **createNotificationClient**(`overrides`): [`UnifiAccessNotificationClient`](UnifiAccessNotificationClient.md)
 
-Defined in: [src/client.ts:258](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/client.ts#L258)
+Defined in: [src/client.ts:258](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/client.ts#L258)
 
 Creates a [UnifiAccessNotificationClient](UnifiAccessNotificationClient.md) configured with the same
 credentials as this REST client. Useful for consuming real-time device
