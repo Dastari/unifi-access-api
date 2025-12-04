@@ -1,7 +1,7 @@
-[**unifi-access-api v1.0.2**](../README.md)
+[**unifi-access-api v1.0.3**](../README.md)
 
 ***
 
 > **GeneratePinCodeResponse** = [`ApiResponse`](../interfaces/ApiResponse.md)\<`string`\>
 
-Defined in: [src/types/credentials.ts:71](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/credentials.ts#L71)
+Defined in: [src/types/credentials.ts:71](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/types/credentials.ts#L71)

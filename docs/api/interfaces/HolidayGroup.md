@@ -1,8 +1,8 @@
-[**unifi-access-api v1.0.2**](../README.md)
+[**unifi-access-api v1.0.3**](../README.md)
 
 ***
 
-Defined in: [src/types/access-control.ts:29](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/access-control.ts#L29)
+Defined in: [src/types/access-control.ts:29](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/types/access-control.ts#L29)
 
 ## Indexable
 
@@ -14,7 +14,7 @@ Defined in: [src/types/access-control.ts:29](https://github.com/Dastari/unifi-ac
 
 > `optional` **description**: `string`
 
-Defined in: [src/types/access-control.ts:33](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/access-control.ts#L33)
+Defined in: [src/types/access-control.ts:33](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/types/access-control.ts#L33)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [src/types/access-control.ts:33](https://github.com/Dastari/unifi-ac
 
 > `optional` **holidays**: [`Holiday`](Holiday.md)[]
 
-Defined in: [src/types/access-control.ts:34](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/access-control.ts#L34)
+Defined in: [src/types/access-control.ts:34](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/types/access-control.ts#L34)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [src/types/access-control.ts:34](https://github.com/Dastari/unifi-ac
 
 > **id**: `string`
 
-Defined in: [src/types/access-control.ts:30](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/access-control.ts#L30)
+Defined in: [src/types/access-control.ts:30](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/types/access-control.ts#L30)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [src/types/access-control.ts:30](https://github.com/Dastari/unifi-ac
 
 > `optional` **is\_default**: `boolean`
 
-Defined in: [src/types/access-control.ts:32](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/access-control.ts#L32)
+Defined in: [src/types/access-control.ts:32](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/types/access-control.ts#L32)
 
 ***
 
@@ -46,4 +46,4 @@ Defined in: [src/types/access-control.ts:32](https://github.com/Dastari/unifi-ac
 
 > **name**: `string`
 
-Defined in: [src/types/access-control.ts:31](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/access-control.ts#L31)
+Defined in: [src/types/access-control.ts:31](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/types/access-control.ts#L31)

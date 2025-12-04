@@ -31,4 +31,5 @@ __exportStar(require("./types/identity.js"), exports);
 __exportStar(require("./types/webhooks.js"), exports);
 __exportStar(require("./types/api-server.js"), exports);
 __exportStar(require("./events/notification-client.js"), exports);
+require("./unifi-access-api.docs.js");
 //# sourceMappingURL=index.js.map

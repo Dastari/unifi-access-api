@@ -1,8 +1,8 @@
-[**unifi-access-api v1.0.2**](../README.md)
+[**unifi-access-api v1.0.3**](../README.md)
 
 ***
 
-Defined in: [src/types/common.ts:27](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/common.ts#L27)
+Defined in: [src/types/common.ts:27](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/types/common.ts#L27)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [src/types/common.ts:27](https://github.com/Dastari/unifi-access-api
 
 > `optional` **end\_time**: `string`
 
-Defined in: [src/types/common.ts:29](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/common.ts#L29)
+Defined in: [src/types/common.ts:29](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/types/common.ts#L29)
 
 ***
 
@@ -18,4 +18,4 @@ Defined in: [src/types/common.ts:29](https://github.com/Dastari/unifi-access-api
 
 > `optional` **start\_time**: `string`
 
-Defined in: [src/types/common.ts:28](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/common.ts#L28)
+Defined in: [src/types/common.ts:28](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/types/common.ts#L28)

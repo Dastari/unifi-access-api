@@ -1,8 +1,8 @@
-[**unifi-access-api v1.0.2**](../README.md)
+[**unifi-access-api v1.0.3**](../README.md)
 
 ***
 
-Defined in: [src/types/credentials.ts:8](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/credentials.ts#L8)
+Defined in: [src/types/credentials.ts:8](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/types/credentials.ts#L8)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [src/types/credentials.ts:8](https://github.com/Dastari/unifi-access
 
 > `optional` **first\_name**: `string`
 
-Defined in: [src/types/credentials.ts:10](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/credentials.ts#L10)
+Defined in: [src/types/credentials.ts:10](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/types/credentials.ts#L10)
 
 ***
 
@@ -18,7 +18,7 @@ Defined in: [src/types/credentials.ts:10](https://github.com/Dastari/unifi-acces
 
 > **id**: `string`
 
-Defined in: [src/types/credentials.ts:9](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/credentials.ts#L9)
+Defined in: [src/types/credentials.ts:9](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/types/credentials.ts#L9)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [src/types/credentials.ts:9](https://github.com/Dastari/unifi-access
 
 > `optional` **last\_name**: `string`
 
-Defined in: [src/types/credentials.ts:11](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/credentials.ts#L11)
+Defined in: [src/types/credentials.ts:11](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/types/credentials.ts#L11)
 
 ***
 
@@ -34,4 +34,4 @@ Defined in: [src/types/credentials.ts:11](https://github.com/Dastari/unifi-acces
 
 > `optional` **name**: `string`
 
-Defined in: [src/types/credentials.ts:12](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/credentials.ts#L12)
+Defined in: [src/types/credentials.ts:12](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/types/credentials.ts#L12)

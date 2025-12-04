@@ -1,8 +1,8 @@
-[**unifi-access-api v1.0.2**](../README.md)
+[**unifi-access-api v1.0.3**](../README.md)
 
 ***
 
-Defined in: [src/types/credentials.ts:114](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/credentials.ts#L114)
+Defined in: [src/types/credentials.ts:114](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/types/credentials.ts#L114)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [src/types/credentials.ts:114](https://github.com/Dastari/unifi-acce
 
 > `optional` **card\_name**: `string`
 
-Defined in: [src/types/credentials.ts:115](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/credentials.ts#L115)
+Defined in: [src/types/credentials.ts:115](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/types/credentials.ts#L115)
 
 ***
 
@@ -18,4 +18,4 @@ Defined in: [src/types/credentials.ts:115](https://github.com/Dastari/unifi-acce
 
 > `optional` **status**: [`TouchPassStatus`](../type-aliases/TouchPassStatus.md)
 
-Defined in: [src/types/credentials.ts:116](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/credentials.ts#L116)
+Defined in: [src/types/credentials.ts:116](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/types/credentials.ts#L116)

@@ -11,4 +11,5 @@ export * from './types/identity.js';
 export * from './types/webhooks.js';
 export * from './types/api-server.js';
 export * from './events/notification-client.js';
+import './unifi-access-api.docs.js';
 //# sourceMappingURL=index.d.ts.map

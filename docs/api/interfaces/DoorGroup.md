@@ -1,8 +1,8 @@
-[**unifi-access-api v1.0.2**](../README.md)
+[**unifi-access-api v1.0.3**](../README.md)
 
 ***
 
-Defined in: [src/types/spaces.ts:10](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/spaces.ts#L10)
+Defined in: [src/types/spaces.ts:10](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/types/spaces.ts#L10)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [src/types/spaces.ts:10](https://github.com/Dastari/unifi-access-api
 
 > **id**: `string`
 
-Defined in: [src/types/spaces.ts:11](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/spaces.ts#L11)
+Defined in: [src/types/spaces.ts:11](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/types/spaces.ts#L11)
 
 ***
 
@@ -18,7 +18,7 @@ Defined in: [src/types/spaces.ts:11](https://github.com/Dastari/unifi-access-api
 
 > **name**: `string`
 
-Defined in: [src/types/spaces.ts:12](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/spaces.ts#L12)
+Defined in: [src/types/spaces.ts:12](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/types/spaces.ts#L12)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [src/types/spaces.ts:12](https://github.com/Dastari/unifi-access-api
 
 > **resources**: [`DoorGroupResource`](DoorGroupResource.md)[]
 
-Defined in: [src/types/spaces.ts:14](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/spaces.ts#L14)
+Defined in: [src/types/spaces.ts:14](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/types/spaces.ts#L14)
 
 ***
 
@@ -34,4 +34,4 @@ Defined in: [src/types/spaces.ts:14](https://github.com/Dastari/unifi-access-api
 
 > **type**: [`DoorGroupType`](../type-aliases/DoorGroupType.md)
 
-Defined in: [src/types/spaces.ts:13](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/spaces.ts#L13)
+Defined in: [src/types/spaces.ts:13](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/types/spaces.ts#L13)

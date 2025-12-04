@@ -1,8 +1,8 @@
-[**unifi-access-api v1.0.2**](../README.md)
+[**unifi-access-api v1.0.3**](../README.md)
 
 ***
 
-Defined in: [src/types/visitors.ts:84](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/visitors.ts#L84)
+Defined in: [src/types/visitors.ts:84](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/types/visitors.ts#L84)
 
 ## Properties
 
@@ -10,4 +10,4 @@ Defined in: [src/types/visitors.ts:84](https://github.com/Dastari/unifi-access-a
 
 > **qr\_code\_id**: `string`
 
-Defined in: [src/types/visitors.ts:85](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/visitors.ts#L85)
+Defined in: [src/types/visitors.ts:85](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/types/visitors.ts#L85)

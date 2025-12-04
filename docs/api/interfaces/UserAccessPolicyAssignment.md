@@ -1,8 +1,8 @@
-[**unifi-access-api v1.0.2**](../README.md)
+[**unifi-access-api v1.0.3**](../README.md)
 
 ***
 
-Defined in: [src/types/users.ts:36](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/users.ts#L36)
+Defined in: [src/types/users.ts:36](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/types/users.ts#L36)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [src/types/users.ts:36](https://github.com/Dastari/unifi-access-api/
 
 > **id**: `string`
 
-Defined in: [src/types/users.ts:37](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/users.ts#L37)
+Defined in: [src/types/users.ts:37](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/types/users.ts#L37)
 
 ***
 
@@ -18,7 +18,7 @@ Defined in: [src/types/users.ts:37](https://github.com/Dastari/unifi-access-api/
 
 > **name**: `string`
 
-Defined in: [src/types/users.ts:38](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/users.ts#L38)
+Defined in: [src/types/users.ts:38](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/types/users.ts#L38)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [src/types/users.ts:38](https://github.com/Dastari/unifi-access-api/
 
 > **resources**: [`AccessPolicyResource`](AccessPolicyResource.md)[]
 
-Defined in: [src/types/users.ts:39](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/users.ts#L39)
+Defined in: [src/types/users.ts:39](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/types/users.ts#L39)
 
 ***
 
@@ -34,4 +34,4 @@ Defined in: [src/types/users.ts:39](https://github.com/Dastari/unifi-access-api/
 
 > `optional` **schedule\_id**: `string` \| `null`
 
-Defined in: [src/types/users.ts:40](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/users.ts#L40)
+Defined in: [src/types/users.ts:40](https://github.com/Dastari/unifi-access-api/blob/72282c1f9a64c5820a87a676b3f9090b4f752852/src/types/users.ts#L40)
