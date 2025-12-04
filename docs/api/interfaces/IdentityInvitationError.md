@@ -1,8 +1,8 @@
-[**unifi-access-api v1.0.1**](../README.md)
+[**unifi-access-api v1.0.2**](../README.md)
 
 ***
 
-Defined in: [src/types/identity.ts:25](https://github.com/Dastari/unifi-access-api/blob/9117c1b472d15dc0296096b049a1848ccba9da3b/src/types/identity.ts#L25)
+Defined in: [src/types/identity.ts:25](https://github.com/Dastari/unifi-access-api/blob/99edd4ba353edf745a2261a69073c72c1aa7664e/src/types/identity.ts#L25)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [src/types/identity.ts:25](https://github.com/Dastari/unifi-access-a
 
 > **error\_code**: `string`
 
-Defined in: [src/types/identity.ts:26](https://github.com/Dastari/unifi-access-api/blob/9117c1b472d15dc0296096b049a1848ccba9da3b/src/types/identity.ts#L26)
+Defined in: [src/types/identity.ts:26](https://github.com/Dastari/unifi-access-api/blob/99edd4ba353edf745a2261a69073c72c1aa7664e/src/types/identity.ts#L26)
 
 ***
 
@@ -18,7 +18,7 @@ Defined in: [src/types/identity.ts:26](https://github.com/Dastari/unifi-access-a
 
 > **error\_msg**: `string`
 
-Defined in: [src/types/identity.ts:27](https://github.com/Dastari/unifi-access-api/blob/9117c1b472d15dc0296096b049a1848ccba9da3b/src/types/identity.ts#L27)
+Defined in: [src/types/identity.ts:27](https://github.com/Dastari/unifi-access-api/blob/99edd4ba353edf745a2261a69073c72c1aa7664e/src/types/identity.ts#L27)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [src/types/identity.ts:27](https://github.com/Dastari/unifi-access-a
 
 > **user\_email**: `string`
 
-Defined in: [src/types/identity.ts:28](https://github.com/Dastari/unifi-access-api/blob/9117c1b472d15dc0296096b049a1848ccba9da3b/src/types/identity.ts#L28)
+Defined in: [src/types/identity.ts:28](https://github.com/Dastari/unifi-access-api/blob/99edd4ba353edf745a2261a69073c72c1aa7664e/src/types/identity.ts#L28)
 
 ***
 
@@ -34,4 +34,4 @@ Defined in: [src/types/identity.ts:28](https://github.com/Dastari/unifi-access-a
 
 > **user\_id**: `string`
 
-Defined in: [src/types/identity.ts:29](https://github.com/Dastari/unifi-access-api/blob/9117c1b472d15dc0296096b049a1848ccba9da3b/src/types/identity.ts#L29)
+Defined in: [src/types/identity.ts:29](https://github.com/Dastari/unifi-access-api/blob/99edd4ba353edf745a2261a69073c72c1aa7664e/src/types/identity.ts#L29)

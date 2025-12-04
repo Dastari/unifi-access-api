@@ -1,6 +1,6 @@
 # UniFi Access API (TypeScript)
 
-Typed Node.js/TypeScript client for the UniFi Access REST API. The library wraps every documented endpoint from the UniFi Access API reference and exposes typed request/response contracts for convenient use in other projects.
+Typed Node.js/TypeScript client for the UniFi Access REST API (tested against UniFi Access API v3.3.21). The library wraps every documented endpoint from the UniFi Access API reference and exposes typed request/response contracts for convenient use in other projects.
 
 ## Installation
 
