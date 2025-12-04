@@ -4,4 +4,4 @@
 
 > **NfcCardOwnerType** = `"USER"` \| `"VISITOR"`
 
-Defined in: [src/types/credentials.ts:6](https://github.com/Dastari/unifi-access-api/blob/99edd4ba353edf745a2261a69073c72c1aa7664e/src/types/credentials.ts#L6)
+Defined in: [src/types/credentials.ts:6](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/credentials.ts#L6)

@@ -2,7 +2,7 @@
 
 ***
 
-Defined in: [src/types/visitors.ts:15](https://github.com/Dastari/unifi-access-api/blob/99edd4ba353edf745a2261a69073c72c1aa7664e/src/types/visitors.ts#L15)
+Defined in: [src/types/visitors.ts:15](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/visitors.ts#L15)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [src/types/visitors.ts:15](https://github.com/Dastari/unifi-access-a
 
 > `optional` **id**: `string`
 
-Defined in: [src/types/visitors.ts:16](https://github.com/Dastari/unifi-access-api/blob/99edd4ba353edf745a2261a69073c72c1aa7664e/src/types/visitors.ts#L16)
+Defined in: [src/types/visitors.ts:16](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/visitors.ts#L16)
 
 ***
 
@@ -18,7 +18,7 @@ Defined in: [src/types/visitors.ts:16](https://github.com/Dastari/unifi-access-a
 
 > `optional` **name**: `string`
 
-Defined in: [src/types/visitors.ts:18](https://github.com/Dastari/unifi-access-api/blob/99edd4ba353edf745a2261a69073c72c1aa7664e/src/types/visitors.ts#L18)
+Defined in: [src/types/visitors.ts:18](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/visitors.ts#L18)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [src/types/visitors.ts:18](https://github.com/Dastari/unifi-access-a
 
 > `optional` **type**: `string`
 
-Defined in: [src/types/visitors.ts:17](https://github.com/Dastari/unifi-access-api/blob/99edd4ba353edf745a2261a69073c72c1aa7664e/src/types/visitors.ts#L17)
+Defined in: [src/types/visitors.ts:17](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/visitors.ts#L17)
 
 ***
 
@@ -34,4 +34,4 @@ Defined in: [src/types/visitors.ts:17](https://github.com/Dastari/unifi-access-a
 
 > `optional` **week\_schedule**: [`ScheduleWeeklySlots`](ScheduleWeeklySlots.md)
 
-Defined in: [src/types/visitors.ts:19](https://github.com/Dastari/unifi-access-api/blob/99edd4ba353edf745a2261a69073c72c1aa7664e/src/types/visitors.ts#L19)
+Defined in: [src/types/visitors.ts:19](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/visitors.ts#L19)

@@ -2,7 +2,7 @@
 
 ***
 
-Defined in: [src/types/users.ts:135](https://github.com/Dastari/unifi-access-api/blob/99edd4ba353edf745a2261a69073c72c1aa7664e/src/types/users.ts#L135)
+Defined in: [src/types/users.ts:135](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/users.ts#L135)
 
 ## Properties
 
@@ -10,4 +10,4 @@ Defined in: [src/types/users.ts:135](https://github.com/Dastari/unifi-access-api
 
 > `optional` **only\_user\_policies**: `boolean`
 
-Defined in: [src/types/users.ts:136](https://github.com/Dastari/unifi-access-api/blob/99edd4ba353edf745a2261a69073c72c1aa7664e/src/types/users.ts#L136)
+Defined in: [src/types/users.ts:136](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/users.ts#L136)

@@ -4,7 +4,7 @@
 
 > **NotificationClientEvents** = `object`
 
-Defined in: [src/events/notification-client.ts:55](https://github.com/Dastari/unifi-access-api/blob/99edd4ba353edf745a2261a69073c72c1aa7664e/src/events/notification-client.ts#L55)
+Defined in: [src/events/notification-client.ts:55](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/events/notification-client.ts#L55)
 
 Event names and handler signatures emitted by
 [UnifiAccessNotificationClient](../classes/UnifiAccessNotificationClient.md).
@@ -15,7 +15,7 @@ Event names and handler signatures emitted by
 
 > **close**: (`code`, `reason`) => `void`
 
-Defined in: [src/events/notification-client.ts:57](https://github.com/Dastari/unifi-access-api/blob/99edd4ba353edf745a2261a69073c72c1aa7664e/src/events/notification-client.ts#L57)
+Defined in: [src/events/notification-client.ts:57](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/events/notification-client.ts#L57)
 
 #### Parameters
 
@@ -37,7 +37,7 @@ Defined in: [src/events/notification-client.ts:57](https://github.com/Dastari/un
 
 > **error**: (`error`) => `void`
 
-Defined in: [src/events/notification-client.ts:58](https://github.com/Dastari/unifi-access-api/blob/99edd4ba353edf745a2261a69073c72c1aa7664e/src/events/notification-client.ts#L58)
+Defined in: [src/events/notification-client.ts:58](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/events/notification-client.ts#L58)
 
 #### Parameters
 
@@ -55,7 +55,7 @@ Defined in: [src/events/notification-client.ts:58](https://github.com/Dastari/un
 
 > **message**: (`payload`) => `void`
 
-Defined in: [src/events/notification-client.ts:59](https://github.com/Dastari/unifi-access-api/blob/99edd4ba353edf745a2261a69073c72c1aa7664e/src/events/notification-client.ts#L59)
+Defined in: [src/events/notification-client.ts:59](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/events/notification-client.ts#L59)
 
 #### Parameters
 
@@ -73,7 +73,7 @@ Defined in: [src/events/notification-client.ts:59](https://github.com/Dastari/un
 
 > **open**: () => `void`
 
-Defined in: [src/events/notification-client.ts:56](https://github.com/Dastari/unifi-access-api/blob/99edd4ba353edf745a2261a69073c72c1aa7664e/src/events/notification-client.ts#L56)
+Defined in: [src/events/notification-client.ts:56](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/events/notification-client.ts#L56)
 
 #### Returns
 
@@ -85,7 +85,7 @@ Defined in: [src/events/notification-client.ts:56](https://github.com/Dastari/un
 
 > **raw**: (`data`) => `void`
 
-Defined in: [src/events/notification-client.ts:63](https://github.com/Dastari/unifi-access-api/blob/99edd4ba353edf745a2261a69073c72c1aa7664e/src/events/notification-client.ts#L63)
+Defined in: [src/events/notification-client.ts:63](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/events/notification-client.ts#L63)
 
 Emits the raw message payload before JSON parsing; useful for debugging.
 
@@ -105,7 +105,7 @@ Emits the raw message payload before JSON parsing; useful for debugging.
 
 > **reconnect**: (`attempt`) => `void`
 
-Defined in: [src/events/notification-client.ts:64](https://github.com/Dastari/unifi-access-api/blob/99edd4ba353edf745a2261a69073c72c1aa7664e/src/events/notification-client.ts#L64)
+Defined in: [src/events/notification-client.ts:64](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/events/notification-client.ts#L64)
 
 #### Parameters
 

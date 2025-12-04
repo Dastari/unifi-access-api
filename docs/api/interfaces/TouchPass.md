@@ -2,7 +2,7 @@
 
 ***
 
-Defined in: [src/types/credentials.ts:51](https://github.com/Dastari/unifi-access-api/blob/99edd4ba353edf745a2261a69073c72c1aa7664e/src/types/credentials.ts#L51)
+Defined in: [src/types/credentials.ts:51](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/credentials.ts#L51)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [src/types/credentials.ts:51](https://github.com/Dastari/unifi-acces
 
 > `optional` **activated\_at**: `string` \| `Record`\<`string`, `unknown`\> \| `null`
 
-Defined in: [src/types/credentials.ts:56](https://github.com/Dastari/unifi-access-api/blob/99edd4ba353edf745a2261a69073c72c1aa7664e/src/types/credentials.ts#L56)
+Defined in: [src/types/credentials.ts:56](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/credentials.ts#L56)
 
 ***
 
@@ -18,7 +18,7 @@ Defined in: [src/types/credentials.ts:56](https://github.com/Dastari/unifi-acces
 
 > `optional` **bundles**: [`TouchPassBundle`](TouchPassBundle.md)[]
 
-Defined in: [src/types/credentials.ts:64](https://github.com/Dastari/unifi-access-api/blob/99edd4ba353edf745a2261a69073c72c1aa7664e/src/types/credentials.ts#L64)
+Defined in: [src/types/credentials.ts:64](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/credentials.ts#L64)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [src/types/credentials.ts:64](https://github.com/Dastari/unifi-acces
 
 > **card\_id**: `string`
 
-Defined in: [src/types/credentials.ts:53](https://github.com/Dastari/unifi-access-api/blob/99edd4ba353edf745a2261a69073c72c1aa7664e/src/types/credentials.ts#L53)
+Defined in: [src/types/credentials.ts:53](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/credentials.ts#L53)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [src/types/credentials.ts:53](https://github.com/Dastari/unifi-acces
 
 > **card\_name**: `string`
 
-Defined in: [src/types/credentials.ts:54](https://github.com/Dastari/unifi-access-api/blob/99edd4ba353edf745a2261a69073c72c1aa7664e/src/types/credentials.ts#L54)
+Defined in: [src/types/credentials.ts:54](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/credentials.ts#L54)
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: [src/types/credentials.ts:54](https://github.com/Dastari/unifi-acces
 
 > `optional` **expired\_at**: `string` \| `Record`\<`string`, `unknown`\> \| `null`
 
-Defined in: [src/types/credentials.ts:57](https://github.com/Dastari/unifi-access-api/blob/99edd4ba353edf745a2261a69073c72c1aa7664e/src/types/credentials.ts#L57)
+Defined in: [src/types/credentials.ts:57](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/credentials.ts#L57)
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: [src/types/credentials.ts:57](https://github.com/Dastari/unifi-acces
 
 > **id**: `string`
 
-Defined in: [src/types/credentials.ts:52](https://github.com/Dastari/unifi-access-api/blob/99edd4ba353edf745a2261a69073c72c1aa7664e/src/types/credentials.ts#L52)
+Defined in: [src/types/credentials.ts:52](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/credentials.ts#L52)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: [src/types/credentials.ts:52](https://github.com/Dastari/unifi-acces
 
 > `optional` **last\_activity**: `string` \| `null`
 
-Defined in: [src/types/credentials.ts:58](https://github.com/Dastari/unifi-access-api/blob/99edd4ba353edf745a2261a69073c72c1aa7664e/src/types/credentials.ts#L58)
+Defined in: [src/types/credentials.ts:58](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/credentials.ts#L58)
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: [src/types/credentials.ts:58](https://github.com/Dastari/unifi-acces
 
 > **status**: [`TouchPassStatus`](../type-aliases/TouchPassStatus.md)
 
-Defined in: [src/types/credentials.ts:55](https://github.com/Dastari/unifi-access-api/blob/99edd4ba353edf745a2261a69073c72c1aa7664e/src/types/credentials.ts#L55)
+Defined in: [src/types/credentials.ts:55](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/credentials.ts#L55)
 
 ***
 
@@ -74,7 +74,7 @@ Defined in: [src/types/credentials.ts:55](https://github.com/Dastari/unifi-acces
 
 > `optional` **user\_avatar**: `string` \| `null`
 
-Defined in: [src/types/credentials.ts:59](https://github.com/Dastari/unifi-access-api/blob/99edd4ba353edf745a2261a69073c72c1aa7664e/src/types/credentials.ts#L59)
+Defined in: [src/types/credentials.ts:59](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/credentials.ts#L59)
 
 ***
 
@@ -82,7 +82,7 @@ Defined in: [src/types/credentials.ts:59](https://github.com/Dastari/unifi-acces
 
 > `optional` **user\_email**: `string` \| `null`
 
-Defined in: [src/types/credentials.ts:60](https://github.com/Dastari/unifi-access-api/blob/99edd4ba353edf745a2261a69073c72c1aa7664e/src/types/credentials.ts#L60)
+Defined in: [src/types/credentials.ts:60](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/credentials.ts#L60)
 
 ***
 
@@ -90,7 +90,7 @@ Defined in: [src/types/credentials.ts:60](https://github.com/Dastari/unifi-acces
 
 > `optional` **user\_id**: `string` \| `null`
 
-Defined in: [src/types/credentials.ts:61](https://github.com/Dastari/unifi-access-api/blob/99edd4ba353edf745a2261a69073c72c1aa7664e/src/types/credentials.ts#L61)
+Defined in: [src/types/credentials.ts:61](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/credentials.ts#L61)
 
 ***
 
@@ -98,7 +98,7 @@ Defined in: [src/types/credentials.ts:61](https://github.com/Dastari/unifi-acces
 
 > `optional` **user\_name**: `string` \| `null`
 
-Defined in: [src/types/credentials.ts:62](https://github.com/Dastari/unifi-access-api/blob/99edd4ba353edf745a2261a69073c72c1aa7664e/src/types/credentials.ts#L62)
+Defined in: [src/types/credentials.ts:62](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/credentials.ts#L62)
 
 ***
 
@@ -106,4 +106,4 @@ Defined in: [src/types/credentials.ts:62](https://github.com/Dastari/unifi-acces
 
 > `optional` **user\_status**: [`TouchPassUserStatus`](../type-aliases/TouchPassUserStatus.md) \| `null`
 
-Defined in: [src/types/credentials.ts:63](https://github.com/Dastari/unifi-access-api/blob/99edd4ba353edf745a2261a69073c72c1aa7664e/src/types/credentials.ts#L63)
+Defined in: [src/types/credentials.ts:63](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/credentials.ts#L63)

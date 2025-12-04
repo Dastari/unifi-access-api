@@ -2,7 +2,7 @@
 
 ***
 
-Defined in: [src/types/users.ts:99](https://github.com/Dastari/unifi-access-api/blob/99edd4ba353edf745a2261a69073c72c1aa7664e/src/types/users.ts#L99)
+Defined in: [src/types/users.ts:99](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/users.ts#L99)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [src/types/users.ts:99](https://github.com/Dastari/unifi-access-api/
 
 > `optional` **expand\[\]**: `"access_policy"` \| `"touch_pass"` \| (`"access_policy"` \| `"touch_pass"`)[]
 
-Defined in: [src/types/users.ts:102](https://github.com/Dastari/unifi-access-api/blob/99edd4ba353edf745a2261a69073c72c1aa7664e/src/types/users.ts#L102)
+Defined in: [src/types/users.ts:102](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/users.ts#L102)
 
 ***
 
@@ -18,7 +18,7 @@ Defined in: [src/types/users.ts:102](https://github.com/Dastari/unifi-access-api
 
 > `optional` **page\_num**: `number`
 
-Defined in: [src/types/users.ts:100](https://github.com/Dastari/unifi-access-api/blob/99edd4ba353edf745a2261a69073c72c1aa7664e/src/types/users.ts#L100)
+Defined in: [src/types/users.ts:100](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/users.ts#L100)
 
 ***
 
@@ -26,4 +26,4 @@ Defined in: [src/types/users.ts:100](https://github.com/Dastari/unifi-access-api
 
 > `optional` **page\_size**: `number`
 
-Defined in: [src/types/users.ts:101](https://github.com/Dastari/unifi-access-api/blob/99edd4ba353edf745a2261a69073c72c1aa7664e/src/types/users.ts#L101)
+Defined in: [src/types/users.ts:101](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/users.ts#L101)

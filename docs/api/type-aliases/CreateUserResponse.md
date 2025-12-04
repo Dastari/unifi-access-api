@@ -4,4 +4,4 @@
 
 > **CreateUserResponse** = [`ApiResponse`](../interfaces/ApiResponse.md)\<`Pick`\<[`UnifiAccessUser`](../interfaces/UnifiAccessUser.md), `"id"` \| `"first_name"` \| `"last_name"` \| `"user_email"`\>\>
 
-Defined in: [src/types/users.ts:139](https://github.com/Dastari/unifi-access-api/blob/99edd4ba353edf745a2261a69073c72c1aa7664e/src/types/users.ts#L139)
+Defined in: [src/types/users.ts:139](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/users.ts#L139)

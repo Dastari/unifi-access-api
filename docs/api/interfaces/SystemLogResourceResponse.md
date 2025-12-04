@@ -2,7 +2,7 @@
 
 ***
 
-Defined in: [src/types/system.ts:70](https://github.com/Dastari/unifi-access-api/blob/99edd4ba353edf745a2261a69073c72c1aa7664e/src/types/system.ts#L70)
+Defined in: [src/types/system.ts:70](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/system.ts#L70)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [src/types/system.ts:70](https://github.com/Dastari/unifi-access-api
 
 > **code**: `string`
 
-Defined in: [src/types/common.ts:4](https://github.com/Dastari/unifi-access-api/blob/99edd4ba353edf745a2261a69073c72c1aa7664e/src/types/common.ts#L4)
+Defined in: [src/types/common.ts:4](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/common.ts#L4)
 
 #### Inherited from
 
@@ -30,7 +30,7 @@ Defined in: [src/types/common.ts:4](https://github.com/Dastari/unifi-access-api/
 
 > **data**: `TData`
 
-Defined in: [src/types/common.ts:6](https://github.com/Dastari/unifi-access-api/blob/99edd4ba353edf745a2261a69073c72c1aa7664e/src/types/common.ts#L6)
+Defined in: [src/types/common.ts:6](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/common.ts#L6)
 
 #### Inherited from
 
@@ -42,7 +42,7 @@ Defined in: [src/types/common.ts:6](https://github.com/Dastari/unifi-access-api/
 
 > **msg**: `string`
 
-Defined in: [src/types/common.ts:5](https://github.com/Dastari/unifi-access-api/blob/99edd4ba353edf745a2261a69073c72c1aa7664e/src/types/common.ts#L5)
+Defined in: [src/types/common.ts:5](https://github.com/Dastari/unifi-access-api/blob/32def7a1c1b78a255c7d1a030ef6508415d069d4/src/types/common.ts#L5)
 
 #### Inherited from
 
