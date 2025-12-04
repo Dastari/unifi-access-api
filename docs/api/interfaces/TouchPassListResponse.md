@@ -2,7 +2,7 @@
 
 ***
 
-Defined in: [src/types/credentials.ts:96](https://github.com/Dastari/unifi-access-api/blob/f97355ae541454bc68fe05a35ba4f001e34dfa9c/src/types/credentials.ts#L96)
+Defined in: [src/types/credentials.ts:96](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/credentials.ts#L96)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [src/types/credentials.ts:96](https://github.com/Dastari/unifi-acces
 
 > **code**: `string`
 
-Defined in: [src/types/common.ts:4](https://github.com/Dastari/unifi-access-api/blob/f97355ae541454bc68fe05a35ba4f001e34dfa9c/src/types/common.ts#L4)
+Defined in: [src/types/common.ts:4](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/common.ts#L4)
 
 #### Inherited from
 
@@ -30,7 +30,7 @@ Defined in: [src/types/common.ts:4](https://github.com/Dastari/unifi-access-api/
 
 > **data**: [`TouchPass`](TouchPass.md)[]
 
-Defined in: [src/types/common.ts:6](https://github.com/Dastari/unifi-access-api/blob/f97355ae541454bc68fe05a35ba4f001e34dfa9c/src/types/common.ts#L6)
+Defined in: [src/types/common.ts:6](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/common.ts#L6)
 
 #### Inherited from
 
@@ -42,7 +42,7 @@ Defined in: [src/types/common.ts:6](https://github.com/Dastari/unifi-access-api/
 
 > **msg**: `string`
 
-Defined in: [src/types/common.ts:5](https://github.com/Dastari/unifi-access-api/blob/f97355ae541454bc68fe05a35ba4f001e34dfa9c/src/types/common.ts#L5)
+Defined in: [src/types/common.ts:5](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/common.ts#L5)
 
 #### Inherited from
 
@@ -54,7 +54,7 @@ Defined in: [src/types/common.ts:5](https://github.com/Dastari/unifi-access-api/
 
 > `optional` **pagination**: `object`
 
-Defined in: [src/types/credentials.ts:97](https://github.com/Dastari/unifi-access-api/blob/f97355ae541454bc68fe05a35ba4f001e34dfa9c/src/types/credentials.ts#L97)
+Defined in: [src/types/credentials.ts:97](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/credentials.ts#L97)
 
 #### page\_num
 

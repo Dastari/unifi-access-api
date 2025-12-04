@@ -71,6 +71,30 @@ await notifications.connect();
 
 Handlers exist for `open`, `close`, `error`, `message`, `raw`, and `reconnect`. The client automatically retries connections unless `autoReconnect` is disabled.
 
+#### Using the API client to attach events
+
+If you already instantiated `UnifiAccessApi`, reuse the same configuration without re-entering credentials:
+
+```ts
+import { UnifiAccessApi } from 'unifi-access-api';
+
+const api = new UnifiAccessApi({ baseUrl, apiKey });
+const notifications = api.createNotificationClient({ autoReconnect: true });
+
+notifications.on('message', ({ event, payload }) => {
+  // `event` enumerates UniFi Access event names, payload is strongly typed.
+  console.log(`[${event}]`, payload);
+});
+
+notifications.on('error', (err) => {
+  console.error('WebSocket error', err);
+});
+
+await notifications.connect();
+```
+
+The event signatures are typed via [`NotificationClientEvents`](docs/api/type-aliases/NotificationClientEvents.md), so `notifications.on('message', handler)` automatically infers the `{ event, payload }` structure. For lower-level access (or to hydrate from saved options) you can also call [`createNotificationClientFromApiOptions`](docs/api/functions/createNotificationClientFromApiOptions.md) with an `UnifiAccessApi` configuration object.
+
 Every endpoint defined in the official *unifi_access_api_reference.pdf* is mapped to a method on `UnifiAccessApi`. Refer to the exported TypeScript types (e.g. `src/types/**/*.ts`) for request/response shapes. All response types extend the base `ApiResponse<T>` type, and list endpoints include pagination metadata when present in the API.
 
 ## TLS and Fetch Configuration

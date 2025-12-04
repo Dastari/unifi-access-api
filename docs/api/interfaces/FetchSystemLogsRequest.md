@@ -2,7 +2,7 @@
 
 ***
 
-Defined in: [src/types/system.ts:17](https://github.com/Dastari/unifi-access-api/blob/f97355ae541454bc68fe05a35ba4f001e34dfa9c/src/types/system.ts#L17)
+Defined in: [src/types/system.ts:17](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/system.ts#L17)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [src/types/system.ts:17](https://github.com/Dastari/unifi-access-api
 
 > `optional` **actor\_id**: `string`
 
-Defined in: [src/types/system.ts:21](https://github.com/Dastari/unifi-access-api/blob/f97355ae541454bc68fe05a35ba4f001e34dfa9c/src/types/system.ts#L21)
+Defined in: [src/types/system.ts:21](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/system.ts#L21)
 
 ***
 
@@ -18,7 +18,7 @@ Defined in: [src/types/system.ts:21](https://github.com/Dastari/unifi-access-api
 
 > `optional` **since**: `number`
 
-Defined in: [src/types/system.ts:19](https://github.com/Dastari/unifi-access-api/blob/f97355ae541454bc68fe05a35ba4f001e34dfa9c/src/types/system.ts#L19)
+Defined in: [src/types/system.ts:19](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/system.ts#L19)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [src/types/system.ts:19](https://github.com/Dastari/unifi-access-api
 
 > `optional` **timezone**: `string`
 
-Defined in: [src/types/system.ts:22](https://github.com/Dastari/unifi-access-api/blob/f97355ae541454bc68fe05a35ba4f001e34dfa9c/src/types/system.ts#L22)
+Defined in: [src/types/system.ts:22](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/system.ts#L22)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [src/types/system.ts:22](https://github.com/Dastari/unifi-access-api
 
 > **topic**: `string`
 
-Defined in: [src/types/system.ts:18](https://github.com/Dastari/unifi-access-api/blob/f97355ae541454bc68fe05a35ba4f001e34dfa9c/src/types/system.ts#L18)
+Defined in: [src/types/system.ts:18](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/system.ts#L18)
 
 ***
 
@@ -42,4 +42,4 @@ Defined in: [src/types/system.ts:18](https://github.com/Dastari/unifi-access-api
 
 > `optional` **until**: `number`
 
-Defined in: [src/types/system.ts:20](https://github.com/Dastari/unifi-access-api/blob/f97355ae541454bc68fe05a35ba4f001e34dfa9c/src/types/system.ts#L20)
+Defined in: [src/types/system.ts:20](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/system.ts#L20)

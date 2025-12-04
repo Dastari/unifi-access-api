@@ -2,7 +2,7 @@
 
 ***
 
-Defined in: [src/types/devices.ts:17](https://github.com/Dastari/unifi-access-api/blob/f97355ae541454bc68fe05a35ba4f001e34dfa9c/src/types/devices.ts#L17)
+Defined in: [src/types/devices.ts:17](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/devices.ts#L17)
 
 ## Indexable
 
@@ -14,7 +14,7 @@ Defined in: [src/types/devices.ts:17](https://github.com/Dastari/unifi-access-ap
 
 > `optional` **bt\_button**: [`AccessMethodSwitch`](AccessMethodSwitch.md)
 
-Defined in: [src/types/devices.ts:20](https://github.com/Dastari/unifi-access-api/blob/f97355ae541454bc68fe05a35ba4f001e34dfa9c/src/types/devices.ts#L20)
+Defined in: [src/types/devices.ts:20](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/devices.ts#L20)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [src/types/devices.ts:20](https://github.com/Dastari/unifi-access-ap
 
 > `optional` **bt\_shake**: [`AccessMethodSwitch`](AccessMethodSwitch.md)
 
-Defined in: [src/types/devices.ts:21](https://github.com/Dastari/unifi-access-api/blob/f97355ae541454bc68fe05a35ba4f001e34dfa9c/src/types/devices.ts#L21)
+Defined in: [src/types/devices.ts:21](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/devices.ts#L21)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [src/types/devices.ts:21](https://github.com/Dastari/unifi-access-ap
 
 > `optional` **bt\_tap**: [`AccessMethodSwitch`](AccessMethodSwitch.md)
 
-Defined in: [src/types/devices.ts:19](https://github.com/Dastari/unifi-access-api/blob/f97355ae541454bc68fe05a35ba4f001e34dfa9c/src/types/devices.ts#L19)
+Defined in: [src/types/devices.ts:19](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/devices.ts#L19)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [src/types/devices.ts:19](https://github.com/Dastari/unifi-access-ap
 
 > `optional` **face**: [`AccessMethodSwitch`](AccessMethodSwitch.md) & `object`
 
-Defined in: [src/types/devices.ts:26](https://github.com/Dastari/unifi-access-api/blob/f97355ae541454bc68fe05a35ba4f001e34dfa9c/src/types/devices.ts#L26)
+Defined in: [src/types/devices.ts:26](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/devices.ts#L26)
 
 #### Type Declaration
 
@@ -56,7 +56,7 @@ Defined in: [src/types/devices.ts:26](https://github.com/Dastari/unifi-access-ap
 
 > `optional` **mobile\_wave**: [`AccessMethodSwitch`](AccessMethodSwitch.md)
 
-Defined in: [src/types/devices.ts:22](https://github.com/Dastari/unifi-access-api/blob/f97355ae541454bc68fe05a35ba4f001e34dfa9c/src/types/devices.ts#L22)
+Defined in: [src/types/devices.ts:22](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/devices.ts#L22)
 
 ***
 
@@ -64,7 +64,7 @@ Defined in: [src/types/devices.ts:22](https://github.com/Dastari/unifi-access-ap
 
 > `optional` **nfc**: [`AccessMethodSwitch`](AccessMethodSwitch.md)
 
-Defined in: [src/types/devices.ts:18](https://github.com/Dastari/unifi-access-api/blob/f97355ae541454bc68fe05a35ba4f001e34dfa9c/src/types/devices.ts#L18)
+Defined in: [src/types/devices.ts:18](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/devices.ts#L18)
 
 ***
 
@@ -72,7 +72,7 @@ Defined in: [src/types/devices.ts:18](https://github.com/Dastari/unifi-access-ap
 
 > `optional` **pin\_code**: [`AccessMethodSwitch`](AccessMethodSwitch.md) & `object`
 
-Defined in: [src/types/devices.ts:23](https://github.com/Dastari/unifi-access-api/blob/f97355ae541454bc68fe05a35ba4f001e34dfa9c/src/types/devices.ts#L23)
+Defined in: [src/types/devices.ts:23](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/devices.ts#L23)
 
 #### Type Declaration
 
@@ -86,7 +86,7 @@ Defined in: [src/types/devices.ts:23](https://github.com/Dastari/unifi-access-ap
 
 > `optional` **qr\_code**: [`AccessMethodSwitch`](AccessMethodSwitch.md)
 
-Defined in: [src/types/devices.ts:31](https://github.com/Dastari/unifi-access-api/blob/f97355ae541454bc68fe05a35ba4f001e34dfa9c/src/types/devices.ts#L31)
+Defined in: [src/types/devices.ts:31](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/devices.ts#L31)
 
 ***
 
@@ -94,7 +94,7 @@ Defined in: [src/types/devices.ts:31](https://github.com/Dastari/unifi-access-ap
 
 > `optional` **touch\_pass**: [`AccessMethodSwitch`](AccessMethodSwitch.md)
 
-Defined in: [src/types/devices.ts:32](https://github.com/Dastari/unifi-access-api/blob/f97355ae541454bc68fe05a35ba4f001e34dfa9c/src/types/devices.ts#L32)
+Defined in: [src/types/devices.ts:32](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/devices.ts#L32)
 
 ***
 
@@ -102,4 +102,4 @@ Defined in: [src/types/devices.ts:32](https://github.com/Dastari/unifi-access-ap
 
 > `optional` **wave**: [`AccessMethodSwitch`](AccessMethodSwitch.md)
 
-Defined in: [src/types/devices.ts:30](https://github.com/Dastari/unifi-access-api/blob/f97355ae541454bc68fe05a35ba4f001e34dfa9c/src/types/devices.ts#L30)
+Defined in: [src/types/devices.ts:30](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/devices.ts#L30)

@@ -2,7 +2,7 @@
 
 ***
 
-Defined in: [src/types/visitors.ts:26](https://github.com/Dastari/unifi-access-api/blob/f97355ae541454bc68fe05a35ba4f001e34dfa9c/src/types/visitors.ts#L26)
+Defined in: [src/types/visitors.ts:26](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/visitors.ts#L26)
 
 ## Extends
 
@@ -14,7 +14,7 @@ Defined in: [src/types/visitors.ts:26](https://github.com/Dastari/unifi-access-a
 
 > **display\_id**: `string`
 
-Defined in: [src/types/credentials.ts:17](https://github.com/Dastari/unifi-access-api/blob/f97355ae541454bc68fe05a35ba4f001e34dfa9c/src/types/credentials.ts#L17)
+Defined in: [src/types/credentials.ts:17](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/credentials.ts#L17)
 
 #### Inherited from
 
@@ -26,7 +26,7 @@ Defined in: [src/types/credentials.ts:17](https://github.com/Dastari/unifi-acces
 
 > **id**: `string`
 
-Defined in: [src/types/visitors.ts:27](https://github.com/Dastari/unifi-access-api/blob/f97355ae541454bc68fe05a35ba4f001e34dfa9c/src/types/visitors.ts#L27)
+Defined in: [src/types/visitors.ts:27](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/visitors.ts#L27)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [src/types/visitors.ts:27](https://github.com/Dastari/unifi-access-a
 
 > **token**: `string`
 
-Defined in: [src/types/credentials.ts:16](https://github.com/Dastari/unifi-access-api/blob/f97355ae541454bc68fe05a35ba4f001e34dfa9c/src/types/credentials.ts#L16)
+Defined in: [src/types/credentials.ts:16](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/credentials.ts#L16)
 
 #### Inherited from
 

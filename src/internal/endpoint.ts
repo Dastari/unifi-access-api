@@ -62,8 +62,14 @@ export type EndpointInvoker<Def extends EndpointDefinition<any, any, any, any, a
 
 export type EndpointMap = Record<string, EndpointDefinition<any, any, any, any, any>>;
 
+type RewrapEndpoint<
+  Def extends EndpointDefinition<any, any, any, any, any>
+> = Def extends EndpointDefinition<infer P, infer Q, infer B, infer R, infer F>
+  ? EndpointDefinition<P, Q, B, R, F>
+  : never;
+
 export type EndpointMethodMap<M extends EndpointMap> = {
-  [K in keyof M]: EndpointInvoker<M[K]>;
+  [K in keyof M]: EndpointInvoker<RewrapEndpoint<M[K]>>;
 };
 
 export const JSON_CONTENT_TYPE = 'application/json';
