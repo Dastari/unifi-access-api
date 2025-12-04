@@ -1,8 +1,8 @@
-[**unifi-access-api v0.1.0**](../README.md)
+[**unifi-access-api v1.0.1**](../README.md)
 
 ***
 
-Defined in: src/types/spaces.ts:53
+Defined in: [src/types/spaces.ts:53](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/spaces.ts#L53)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: src/types/spaces.ts:53
 
 > `optional` **evacuation**: `boolean`
 
-Defined in: src/types/spaces.ts:55
+Defined in: [src/types/spaces.ts:55](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/spaces.ts#L55)
 
 ***
 
@@ -18,4 +18,4 @@ Defined in: src/types/spaces.ts:55
 
 > `optional` **lockdown**: `boolean`
 
-Defined in: src/types/spaces.ts:54
+Defined in: [src/types/spaces.ts:54](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/spaces.ts#L54)

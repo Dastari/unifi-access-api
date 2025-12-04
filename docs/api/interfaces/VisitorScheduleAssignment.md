@@ -1,8 +1,8 @@
-[**unifi-access-api v0.1.0**](../README.md)
+[**unifi-access-api v1.0.1**](../README.md)
 
 ***
 
-Defined in: src/types/visitors.ts:15
+Defined in: [src/types/visitors.ts:15](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/visitors.ts#L15)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: src/types/visitors.ts:15
 
 > `optional` **id**: `string`
 
-Defined in: src/types/visitors.ts:16
+Defined in: [src/types/visitors.ts:16](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/visitors.ts#L16)
 
 ***
 
@@ -18,7 +18,7 @@ Defined in: src/types/visitors.ts:16
 
 > `optional` **name**: `string`
 
-Defined in: src/types/visitors.ts:18
+Defined in: [src/types/visitors.ts:18](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/visitors.ts#L18)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: src/types/visitors.ts:18
 
 > `optional` **type**: `string`
 
-Defined in: src/types/visitors.ts:17
+Defined in: [src/types/visitors.ts:17](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/visitors.ts#L17)
 
 ***
 
@@ -34,4 +34,4 @@ Defined in: src/types/visitors.ts:17
 
 > `optional` **week\_schedule**: [`ScheduleWeeklySlots`](ScheduleWeeklySlots.md)
 
-Defined in: src/types/visitors.ts:19
+Defined in: [src/types/visitors.ts:19](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/visitors.ts#L19)

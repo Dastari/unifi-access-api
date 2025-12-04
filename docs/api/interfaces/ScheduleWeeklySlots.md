@@ -1,8 +1,8 @@
-[**unifi-access-api v0.1.0**](../README.md)
+[**unifi-access-api v1.0.1**](../README.md)
 
 ***
 
-Defined in: src/types/access-control.ts:52
+Defined in: [src/types/access-control.ts:52](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/access-control.ts#L52)
 
 ## Indexable
 
@@ -14,7 +14,7 @@ Defined in: src/types/access-control.ts:52
 
 > `optional` **friday**: [`SchedulePeriod`](SchedulePeriod.md)[]
 
-Defined in: src/types/access-control.ts:58
+Defined in: [src/types/access-control.ts:58](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/access-control.ts#L58)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: src/types/access-control.ts:58
 
 > `optional` **monday**: [`SchedulePeriod`](SchedulePeriod.md)[]
 
-Defined in: src/types/access-control.ts:54
+Defined in: [src/types/access-control.ts:54](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/access-control.ts#L54)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: src/types/access-control.ts:54
 
 > `optional` **saturday**: [`SchedulePeriod`](SchedulePeriod.md)[]
 
-Defined in: src/types/access-control.ts:59
+Defined in: [src/types/access-control.ts:59](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/access-control.ts#L59)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: src/types/access-control.ts:59
 
 > `optional` **sunday**: [`SchedulePeriod`](SchedulePeriod.md)[]
 
-Defined in: src/types/access-control.ts:53
+Defined in: [src/types/access-control.ts:53](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/access-control.ts#L53)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: src/types/access-control.ts:53
 
 > `optional` **thursday**: [`SchedulePeriod`](SchedulePeriod.md)[]
 
-Defined in: src/types/access-control.ts:57
+Defined in: [src/types/access-control.ts:57](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/access-control.ts#L57)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: src/types/access-control.ts:57
 
 > `optional` **tuesday**: [`SchedulePeriod`](SchedulePeriod.md)[]
 
-Defined in: src/types/access-control.ts:55
+Defined in: [src/types/access-control.ts:55](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/access-control.ts#L55)
 
 ***
 
@@ -62,4 +62,4 @@ Defined in: src/types/access-control.ts:55
 
 > `optional` **wednesday**: [`SchedulePeriod`](SchedulePeriod.md)[]
 
-Defined in: src/types/access-control.ts:56
+Defined in: [src/types/access-control.ts:56](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/access-control.ts#L56)

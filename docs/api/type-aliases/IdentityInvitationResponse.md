@@ -1,7 +1,7 @@
-[**unifi-access-api v0.1.0**](../README.md)
+[**unifi-access-api v1.0.1**](../README.md)
 
 ***
 
 > **IdentityInvitationResponse** = [`ApiResponse`](../interfaces/ApiResponse.md)\<[`IdentityInvitationError`](../interfaces/IdentityInvitationError.md)[]\>
 
-Defined in: src/types/identity.ts:32
+Defined in: [src/types/identity.ts:32](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/identity.ts#L32)

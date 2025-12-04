@@ -1,8 +1,8 @@
-[**unifi-access-api v0.1.0**](../README.md)
+[**unifi-access-api v1.0.1**](../README.md)
 
 ***
 
-Defined in: src/types/spaces.ts:6
+Defined in: [src/types/spaces.ts:6](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/spaces.ts#L6)
 
 ## Extends
 
@@ -14,7 +14,7 @@ Defined in: src/types/spaces.ts:6
 
 > **id**: `string`
 
-Defined in: src/types/access-control.ts:6
+Defined in: [src/types/access-control.ts:6](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/access-control.ts#L6)
 
 #### Inherited from
 
@@ -26,7 +26,7 @@ Defined in: src/types/access-control.ts:6
 
 > `optional` **name**: `string`
 
-Defined in: src/types/spaces.ts:7
+Defined in: [src/types/spaces.ts:7](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/spaces.ts#L7)
 
 #### Overrides
 
@@ -38,7 +38,7 @@ Defined in: src/types/spaces.ts:7
 
 > **type**: [`AccessResourceType`](../type-aliases/AccessResourceType.md)
 
-Defined in: src/types/access-control.ts:7
+Defined in: [src/types/access-control.ts:7](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/access-control.ts#L7)
 
 #### Inherited from
 

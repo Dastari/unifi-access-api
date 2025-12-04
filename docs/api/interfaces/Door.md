@@ -1,8 +1,8 @@
-[**unifi-access-api v0.1.0**](../README.md)
+[**unifi-access-api v1.0.1**](../README.md)
 
 ***
 
-Defined in: src/types/spaces.ts:27
+Defined in: [src/types/spaces.ts:27](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/spaces.ts#L27)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: src/types/spaces.ts:27
 
 > `optional` **door\_lock\_relay\_status**: `"lock"` \| `"unlock"`
 
-Defined in: src/types/spaces.ts:34
+Defined in: [src/types/spaces.ts:34](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/spaces.ts#L34)
 
 ***
 
@@ -18,7 +18,7 @@ Defined in: src/types/spaces.ts:34
 
 > `optional` **door\_position\_status**: `"open"` \| `"close"` \| `null`
 
-Defined in: src/types/spaces.ts:35
+Defined in: [src/types/spaces.ts:35](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/spaces.ts#L35)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: src/types/spaces.ts:35
 
 > `optional` **floor\_id**: `string`
 
-Defined in: src/types/spaces.ts:31
+Defined in: [src/types/spaces.ts:31](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/spaces.ts#L31)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: src/types/spaces.ts:31
 
 > `optional` **full\_name**: `string`
 
-Defined in: src/types/spaces.ts:30
+Defined in: [src/types/spaces.ts:30](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/spaces.ts#L30)
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: src/types/spaces.ts:30
 
 > **id**: `string`
 
-Defined in: src/types/spaces.ts:28
+Defined in: [src/types/spaces.ts:28](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/spaces.ts#L28)
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: src/types/spaces.ts:28
 
 > `optional` **is\_bind\_hub**: `boolean`
 
-Defined in: src/types/spaces.ts:33
+Defined in: [src/types/spaces.ts:33](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/spaces.ts#L33)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: src/types/spaces.ts:33
 
 > **name**: `string`
 
-Defined in: src/types/spaces.ts:29
+Defined in: [src/types/spaces.ts:29](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/spaces.ts#L29)
 
 ***
 
@@ -66,4 +66,4 @@ Defined in: src/types/spaces.ts:29
 
 > `optional` **type**: `string`
 
-Defined in: src/types/spaces.ts:32
+Defined in: [src/types/spaces.ts:32](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/spaces.ts#L32)

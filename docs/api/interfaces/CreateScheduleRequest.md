@@ -1,8 +1,8 @@
-[**unifi-access-api v0.1.0**](../README.md)
+[**unifi-access-api v1.0.1**](../README.md)
 
 ***
 
-Defined in: src/types/access-control.ts:105
+Defined in: [src/types/access-control.ts:105](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/access-control.ts#L105)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: src/types/access-control.ts:105
 
 > `optional` **holiday\_group\_id**: `string`
 
-Defined in: src/types/access-control.ts:110
+Defined in: [src/types/access-control.ts:110](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/access-control.ts#L110)
 
 ***
 
@@ -18,7 +18,7 @@ Defined in: src/types/access-control.ts:110
 
 > `optional` **holiday\_schedule**: [`ScheduleHolidayPeriod`](ScheduleHolidayPeriod.md)[]
 
-Defined in: src/types/access-control.ts:109
+Defined in: [src/types/access-control.ts:109](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/access-control.ts#L109)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: src/types/access-control.ts:109
 
 > **name**: `string`
 
-Defined in: src/types/access-control.ts:106
+Defined in: [src/types/access-control.ts:106](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/access-control.ts#L106)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: src/types/access-control.ts:106
 
 > **type**: `string`
 
-Defined in: src/types/access-control.ts:107
+Defined in: [src/types/access-control.ts:107](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/access-control.ts#L107)
 
 ***
 
@@ -42,4 +42,4 @@ Defined in: src/types/access-control.ts:107
 
 > `optional` **weekly**: [`ScheduleWeeklySlots`](ScheduleWeeklySlots.md)
 
-Defined in: src/types/access-control.ts:108
+Defined in: [src/types/access-control.ts:108](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/access-control.ts#L108)

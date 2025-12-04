@@ -1,8 +1,8 @@
-[**unifi-access-api v0.1.0**](../README.md)
+[**unifi-access-api v1.0.1**](../README.md)
 
 ***
 
-Defined in: src/client.ts:53
+Defined in: [src/client.ts:53](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/client.ts#L53)
 
 ## Extends
 
@@ -14,7 +14,7 @@ Defined in: src/client.ts:53
 
 > **new UnifiAccessHttpError**(`message`, `status`, `body?`): `UnifiAccessHttpError`
 
-Defined in: src/client.ts:54
+Defined in: [src/client.ts:54](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/client.ts#L54)
 
 #### Parameters
 
@@ -44,7 +44,7 @@ Defined in: src/client.ts:54
 
 > `readonly` `optional` **body**: `string`
 
-Defined in: src/client.ts:57
+Defined in: [src/client.ts:57](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/client.ts#L57)
 
 ***
 
@@ -100,4 +100,4 @@ Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1078
 
 > `readonly` **status**: `number`
 
-Defined in: src/client.ts:56
+Defined in: [src/client.ts:56](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/client.ts#L56)

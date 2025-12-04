@@ -1,8 +1,8 @@
-[**unifi-access-api v0.1.0**](../README.md)
+[**unifi-access-api v1.0.1**](../README.md)
 
 ***
 
-Defined in: src/client.ts:97
+Defined in: [src/client.ts:97](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/client.ts#L97)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: src/client.ts:97
 
 > **new UnifiAccessApi**(`options`): `UnifiAccessApi`
 
-Defined in: src/client.ts:104
+Defined in: [src/client.ts:104](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/client.ts#L104)
 
 #### Parameters
 
@@ -34,9 +34,17 @@ Defined in: src/client.ts:104
 
 ### assignIdentityResourcesToUser
 
-> `readonly` **assignIdentityResourcesToUser**: `EndpointInvoker`\<\{ `method`: `"POST"`; `path`: `string`; \}\>
+> `readonly` **assignIdentityResourcesToUser**: `EndpointFor`\<`"assignIdentityResourcesToUser"`\>
 
-Defined in: src/endpoints/identity.ts:23
+Defined in: src/unifi-access-api.docs.ts:874
+
+Assign Identity Resources To User.
+
+Performs a POST request to `/api/v1/developer/users/:id/identity/assignments`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -46,9 +54,17 @@ Defined in: src/endpoints/identity.ts:23
 
 ### assignIdentityResourcesToUserGroup
 
-> `readonly` **assignIdentityResourcesToUserGroup**: `EndpointInvoker`\<\{ `method`: `"POST"`; `path`: `string`; \}\>
+> `readonly` **assignIdentityResourcesToUserGroup**: `EndpointFor`\<`"assignIdentityResourcesToUserGroup"`\>
 
-Defined in: src/endpoints/identity.ts:33
+Defined in: src/unifi-access-api.docs.ts:892
+
+Assign Identity Resources To User Group.
+
+Performs a POST request to `/api/v1/developer/user_groups/:id/identity/assignments`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -58,9 +74,17 @@ Defined in: src/endpoints/identity.ts:33
 
 ### assignLicensePlatesToUser
 
-> `readonly` **assignLicensePlatesToUser**: `EndpointInvoker`\<\{ `method`: `"PUT"`; `path`: `string`; \}\>
+> `readonly` **assignLicensePlatesToUser**: `EndpointFor`\<`"assignLicensePlatesToUser"`\>
 
-Defined in: src/endpoints/users.ts:165
+Defined in: src/unifi-access-api.docs.ts:253
+
+Assign License Plates To User.
+
+Performs a PUT request to `/api/v1/developer/users/:id/license_plates`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -70,9 +94,17 @@ Defined in: src/endpoints/users.ts:165
 
 ### assignTouchPassToUser
 
-> `readonly` **assignTouchPassToUser**: `EndpointInvoker`\<\{ `method`: `"PUT"`; `path`: `string`; \}\>
+> `readonly` **assignTouchPassToUser**: `EndpointFor`\<`"assignTouchPassToUser"`\>
 
-Defined in: src/endpoints/users.ts:150
+Defined in: src/unifi-access-api.docs.ts:226
+
+Assign Touch Pass To User.
+
+Performs a PUT request to `/api/v1/developer/users/:user_id/touch_passes/:touch_pass_id`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -82,9 +114,17 @@ Defined in: src/endpoints/users.ts:150
 
 ### assignUserNfcCard
 
-> `readonly` **assignUserNfcCard**: `EndpointInvoker`\<\{ `method`: `"PUT"`; `path`: `string`; \}\>
+> `readonly` **assignUserNfcCard**: `EndpointFor`\<`"assignUserNfcCard"`\>
 
-Defined in: src/endpoints/users.ts:60
+Defined in: src/unifi-access-api.docs.ts:64
+
+Assign User Nfc Card.
+
+Performs a PUT request to `/api/v1/developer/users/:id/nfc_cards`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -94,9 +134,17 @@ Defined in: src/endpoints/users.ts:60
 
 ### assignUserPinCode
 
-> `readonly` **assignUserPinCode**: `EndpointInvoker`\<\{ `method`: `"PUT"`; `path`: `string`; \}\>
+> `readonly` **assignUserPinCode**: `EndpointFor`\<`"assignUserPinCode"`\>
 
-Defined in: src/endpoints/users.ts:70
+Defined in: src/unifi-access-api.docs.ts:82
+
+Assign User Pin Code.
+
+Performs a PUT request to `/api/v1/developer/users/:id/pin_codes`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -106,9 +154,17 @@ Defined in: src/endpoints/users.ts:70
 
 ### assignUsersToGroup
 
-> `readonly` **assignUsersToGroup**: `EndpointInvoker`\<\{ `method`: `"POST"`; `path`: `string`; \}\>
+> `readonly` **assignUsersToGroup**: `EndpointFor`\<`"assignUsersToGroup"`\>
 
-Defined in: src/endpoints/users.ts:105
+Defined in: src/unifi-access-api.docs.ts:145
+
+Assign Users To Group.
+
+Performs a POST request to `/api/v1/developer/user_groups/:id/users`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -118,9 +174,17 @@ Defined in: src/endpoints/users.ts:105
 
 ### assignVisitorLicensePlates
 
-> `readonly` **assignVisitorLicensePlates**: `EndpointInvoker`\<\{ `method`: `"PUT"`; `path`: `string`; \}\>
+> `readonly` **assignVisitorLicensePlates**: `EndpointFor`\<`"assignVisitorLicensePlates"`\>
 
-Defined in: src/endpoints/visitors.ts:80
+Defined in: src/unifi-access-api.docs.ts:379
+
+Assign Visitor License Plates.
+
+Performs a PUT request to `/api/v1/developer/visitors/:id/license_plates`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -130,9 +194,17 @@ Defined in: src/endpoints/visitors.ts:80
 
 ### assignVisitorNfcCard
 
-> `readonly` **assignVisitorNfcCard**: `EndpointInvoker`\<\{ `method`: `"PUT"`; `path`: `string`; \}\>
+> `readonly` **assignVisitorNfcCard**: `EndpointFor`\<`"assignVisitorNfcCard"`\>
 
-Defined in: src/endpoints/visitors.ts:50
+Defined in: src/unifi-access-api.docs.ts:325
+
+Assign Visitor Nfc Card.
+
+Performs a PUT request to `/api/v1/developer/visitors/:id/nfc_cards`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -142,9 +214,17 @@ Defined in: src/endpoints/visitors.ts:50
 
 ### assignVisitorPinCode
 
-> `readonly` **assignVisitorPinCode**: `EndpointInvoker`\<\{ `method`: `"PUT"`; `path`: `string`; \}\>
+> `readonly` **assignVisitorPinCode**: `EndpointFor`\<`"assignVisitorPinCode"`\>
 
-Defined in: src/endpoints/visitors.ts:60
+Defined in: src/unifi-access-api.docs.ts:343
+
+Assign Visitor Pin Code.
+
+Performs a PUT request to `/api/v1/developer/visitors/:id/pin_codes`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -154,9 +234,17 @@ Defined in: src/endpoints/visitors.ts:60
 
 ### assignVisitorQrCode
 
-> `readonly` **assignVisitorQrCode**: `EndpointInvoker`\<\{ `method`: `"PUT"`; `path`: `string`; \}\>
+> `readonly` **assignVisitorQrCode**: `EndpointFor`\<`"assignVisitorQrCode"`\>
 
-Defined in: src/endpoints/visitors.ts:70
+Defined in: src/unifi-access-api.docs.ts:361
+
+Assign Visitor Qr Code.
+
+Performs a PUT request to `/api/v1/developer/visitors/:id/qr_codes`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -166,9 +254,17 @@ Defined in: src/endpoints/visitors.ts:70
 
 ### batchAssignTouchPasses
 
-> `readonly` **batchAssignTouchPasses**: `EndpointInvoker`\<\{ `method`: `"PUT"`; `path`: `string`; \}\>
+> `readonly` **batchAssignTouchPasses**: `EndpointFor`\<`"batchAssignTouchPasses"`\>
 
-Defined in: src/endpoints/users.ts:160
+Defined in: src/unifi-access-api.docs.ts:244
+
+Batch Assign Touch Passes.
+
+Performs a PUT request to `/api/v1/developer/users/touch_passes/assign`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -178,9 +274,17 @@ Defined in: src/endpoints/users.ts:160
 
 ### createAccessPolicy
 
-> `readonly` **createAccessPolicy**: `EndpointInvoker`\<\{ `method`: `"POST"`; `path`: `string`; \}\>
+> `readonly` **createAccessPolicy**: `EndpointFor`\<`"createAccessPolicy"`\>
 
-Defined in: src/endpoints/access-policies.ts:21
+Defined in: src/unifi-access-api.docs.ts:397
+
+Create Access Policy.
+
+Performs a POST request to `/api/v1/developer/access_policies`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -190,9 +294,17 @@ Defined in: src/endpoints/access-policies.ts:21
 
 ### createDoorGroup
 
-> `readonly` **createDoorGroup**: `EndpointInvoker`\<\{ `method`: `"POST"`; `path`: `string`; \}\>
+> `readonly` **createDoorGroup**: `EndpointFor`\<`"createDoorGroup"`\>
 
-Defined in: src/endpoints/spaces.ts:26
+Defined in: src/unifi-access-api.docs.ts:685
+
+Create Door Group.
+
+Performs a POST request to `/api/v1/developer/door_groups`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -202,9 +314,17 @@ Defined in: src/endpoints/spaces.ts:26
 
 ### createHolidayGroup
 
-> `readonly` **createHolidayGroup**: `EndpointInvoker`\<\{ `method`: `"POST"`; `path`: `string`; \}\>
+> `readonly` **createHolidayGroup**: `EndpointFor`\<`"createHolidayGroup"`\>
 
-Defined in: src/endpoints/access-policies.ts:50
+Defined in: src/unifi-access-api.docs.ts:442
+
+Create Holiday Group.
+
+Performs a POST request to `/api/v1/developer/access_policies/holiday_groups`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -214,9 +334,17 @@ Defined in: src/endpoints/access-policies.ts:50
 
 ### createNfcEnrollmentSession
 
-> `readonly` **createNfcEnrollmentSession**: `EndpointInvoker`\<\{ `method`: `"POST"`; `path`: `string`; \}\>
+> `readonly` **createNfcEnrollmentSession**: `EndpointFor`\<`"createNfcEnrollmentSession"`\>
 
-Defined in: src/endpoints/credentials.ts:31
+Defined in: src/unifi-access-api.docs.ts:541
+
+Create Nfc Enrollment Session.
+
+Performs a POST request to `/api/v1/developer/credentials/nfc_cards/sessions`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -226,9 +354,17 @@ Defined in: src/endpoints/credentials.ts:31
 
 ### createSchedule
 
-> `readonly` **createSchedule**: `EndpointInvoker`\<\{ `method`: `"POST"`; `path`: `string`; \}\>
+> `readonly` **createSchedule**: `EndpointFor`\<`"createSchedule"`\>
 
-Defined in: src/endpoints/access-policies.ts:75
+Defined in: src/unifi-access-api.docs.ts:487
+
+Create Schedule.
+
+Performs a POST request to `/api/v1/developer/access_policies/schedules`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -238,9 +374,17 @@ Defined in: src/endpoints/access-policies.ts:75
 
 ### createUser
 
-> `readonly` **createUser**: `EndpointInvoker`\<\{ `method`: `"POST"`; `path`: `string`; \}\>
+> `readonly` **createUser**: `EndpointFor`\<`"createUser"`\>
 
-Defined in: src/endpoints/users.ts:35
+Defined in: src/unifi-access-api.docs.ts:19
+
+Create User.
+
+Performs a POST request to `/api/v1/developer/users`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -250,9 +394,17 @@ Defined in: src/endpoints/users.ts:35
 
 ### createUserGroup
 
-> `readonly` **createUserGroup**: `EndpointInvoker`\<\{ `method`: `"POST"`; `path`: `string`; \}\>
+> `readonly` **createUserGroup**: `EndpointFor`\<`"createUserGroup"`\>
 
-Defined in: src/endpoints/users.ts:80
+Defined in: src/unifi-access-api.docs.ts:100
+
+Create User Group.
+
+Performs a POST request to `/api/v1/developer/user_groups`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -262,9 +414,17 @@ Defined in: src/endpoints/users.ts:80
 
 ### createVisitor
 
-> `readonly` **createVisitor**: `EndpointInvoker`\<\{ `method`: `"POST"`; `path`: `string`; \}\>
+> `readonly` **createVisitor**: `EndpointFor`\<`"createVisitor"`\>
 
-Defined in: src/endpoints/visitors.ts:19
+Defined in: src/unifi-access-api.docs.ts:280
+
+Create Visitor.
+
+Performs a POST request to `/api/v1/developer/visitors`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -274,9 +434,17 @@ Defined in: src/endpoints/visitors.ts:19
 
 ### createWebhookEndpoint
 
-> `readonly` **createWebhookEndpoint**: `EndpointInvoker`\<\{ `method`: `"POST"`; `path`: `string`; \}\>
+> `readonly` **createWebhookEndpoint**: `EndpointFor`\<`"createWebhookEndpoint"`\>
 
-Defined in: src/endpoints/webhooks.ts:17
+Defined in: src/unifi-access-api.docs.ts:919
+
+Create Webhook Endpoint.
+
+Performs a POST request to `/api/v1/developer/webhooks/endpoints`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -286,9 +454,17 @@ Defined in: src/endpoints/webhooks.ts:17
 
 ### deleteAccessPolicy
 
-> `readonly` **deleteAccessPolicy**: `EndpointInvoker`\<\{ `method`: `"DELETE"`; `path`: `string`; \}\>
+> `readonly` **deleteAccessPolicy**: `EndpointFor`\<`"deleteAccessPolicy"`\>
 
-Defined in: src/endpoints/access-policies.ts:31
+Defined in: src/unifi-access-api.docs.ts:415
+
+Delete Access Policy.
+
+Performs a DELETE request to `/api/v1/developer/access_policies/:id`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -298,9 +474,17 @@ Defined in: src/endpoints/access-policies.ts:31
 
 ### deleteApiServerCertificate
 
-> `readonly` **deleteApiServerCertificate**: `EndpointInvoker`\<\{ `method`: `"DELETE"`; `path`: `string`; \}\>
+> `readonly` **deleteApiServerCertificate**: `EndpointFor`\<`"deleteApiServerCertificate"`\>
 
-Defined in: src/endpoints/api-server.ts:13
+Defined in: src/unifi-access-api.docs.ts:955
+
+Delete Api Server Certificate.
+
+Performs a DELETE request to `/api/v1/developer/api_server/certificates`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -310,9 +494,17 @@ Defined in: src/endpoints/api-server.ts:13
 
 ### deleteDoorGroupById
 
-> `readonly` **deleteDoorGroupById**: `EndpointInvoker`\<\{ `method`: `"DELETE"`; `path`: `string`; \}\>
+> `readonly` **deleteDoorGroupById**: `EndpointFor`\<`"deleteDoorGroupById"`\>
 
-Defined in: src/endpoints/spaces.ts:46
+Defined in: src/unifi-access-api.docs.ts:721
+
+Delete Door Group By Id.
+
+Performs a DELETE request to `/api/v1/developer/door_groups/:id`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -322,9 +514,17 @@ Defined in: src/endpoints/spaces.ts:46
 
 ### deleteHolidayGroup
 
-> `readonly` **deleteHolidayGroup**: `EndpointInvoker`\<\{ `method`: `"DELETE"`; `path`: `string`; \}\>
+> `readonly` **deleteHolidayGroup**: `EndpointFor`\<`"deleteHolidayGroup"`\>
 
-Defined in: src/endpoints/access-policies.ts:60
+Defined in: src/unifi-access-api.docs.ts:460
+
+Delete Holiday Group.
+
+Performs a DELETE request to `/api/v1/developer/access_policies/holiday_groups/:id`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -334,9 +534,17 @@ Defined in: src/endpoints/access-policies.ts:60
 
 ### deleteNfcCard
 
-> `readonly` **deleteNfcCard**: `EndpointInvoker`\<\{ `method`: `"DELETE"`; `path`: `string`; \}\>
+> `readonly` **deleteNfcCard**: `EndpointFor`\<`"deleteNfcCard"`\>
 
-Defined in: src/endpoints/credentials.ts:56
+Defined in: src/unifi-access-api.docs.ts:586
+
+Delete Nfc Card.
+
+Performs a DELETE request to `/api/v1/developer/credentials/nfc_cards/tokens/:token`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -346,9 +554,17 @@ Defined in: src/endpoints/credentials.ts:56
 
 ### deleteNfcEnrollmentSession
 
-> `readonly` **deleteNfcEnrollmentSession**: `EndpointInvoker`\<\{ `method`: `"DELETE"`; `path`: `string`; \}\>
+> `readonly` **deleteNfcEnrollmentSession**: `EndpointFor`\<`"deleteNfcEnrollmentSession"`\>
 
-Defined in: src/endpoints/credentials.ts:41
+Defined in: src/unifi-access-api.docs.ts:559
+
+Delete Nfc Enrollment Session.
+
+Performs a DELETE request to `/api/v1/developer/credentials/nfc_cards/sessions/:id`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -358,9 +574,17 @@ Defined in: src/endpoints/credentials.ts:41
 
 ### deleteSchedule
 
-> `readonly` **deleteSchedule**: `EndpointInvoker`\<\{ `method`: `"DELETE"`; `path`: `string`; \}\>
+> `readonly` **deleteSchedule**: `EndpointFor`\<`"deleteSchedule"`\>
 
-Defined in: src/endpoints/access-policies.ts:95
+Defined in: src/unifi-access-api.docs.ts:523
+
+Delete Schedule.
+
+Performs a DELETE request to `/api/v1/developer/access_policies/schedules/:id`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -370,9 +594,17 @@ Defined in: src/endpoints/access-policies.ts:95
 
 ### deleteUser
 
-> `readonly` **deleteUser**: `EndpointInvoker`\<\{ `method`: `"DELETE"`; `path`: `string`; \}\>
+> `readonly` **deleteUser**: `EndpointFor`\<`"deleteUser"`\>
 
-Defined in: src/endpoints/users.ts:140
+Defined in: src/unifi-access-api.docs.ts:208
+
+Delete User.
+
+Performs a DELETE request to `/api/v1/developer/users/:id`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -382,9 +614,17 @@ Defined in: src/endpoints/users.ts:140
 
 ### deleteUserGroup
 
-> `readonly` **deleteUserGroup**: `EndpointInvoker`\<\{ `method`: `"DELETE"`; `path`: `string`; \}\>
+> `readonly` **deleteUserGroup**: `EndpointFor`\<`"deleteUserGroup"`\>
 
-Defined in: src/endpoints/users.ts:100
+Defined in: src/unifi-access-api.docs.ts:136
+
+Delete User Group.
+
+Performs a DELETE request to `/api/v1/developer/user_groups/:id`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -394,9 +634,17 @@ Defined in: src/endpoints/users.ts:100
 
 ### deleteVisitor
 
-> `readonly` **deleteVisitor**: `EndpointInvoker`\<\{ `method`: `"DELETE"`; `path`: `string`; \}\>
+> `readonly` **deleteVisitor**: `EndpointFor`\<`"deleteVisitor"`\>
 
-Defined in: src/endpoints/visitors.ts:45
+Defined in: src/unifi-access-api.docs.ts:316
+
+Delete Visitor.
+
+Performs a DELETE request to `/api/v1/developer/visitors/:id`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -406,9 +654,17 @@ Defined in: src/endpoints/visitors.ts:45
 
 ### deleteWebhookEndpoint
 
-> `readonly` **deleteWebhookEndpoint**: `EndpointInvoker`\<\{ `method`: `"DELETE"`; `path`: `string`; \}\>
+> `readonly` **deleteWebhookEndpoint**: `EndpointFor`\<`"deleteWebhookEndpoint"`\>
 
-Defined in: src/endpoints/webhooks.ts:27
+Defined in: src/unifi-access-api.docs.ts:937
+
+Delete Webhook Endpoint.
+
+Performs a DELETE request to `/api/v1/developer/webhooks/endpoints/:id`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -418,9 +674,17 @@ Defined in: src/endpoints/webhooks.ts:27
 
 ### downloadTouchPassQrCode
 
-> `readonly` **downloadTouchPassQrCode**: `EndpointInvoker`\<\{ `method`: `"GET"`; `path`: `string`; `responseType`: `"arrayBuffer"`; \}\>
+> `readonly` **downloadTouchPassQrCode**: `EndpointFor`\<`"downloadTouchPassQrCode"`\>
 
-Defined in: src/endpoints/credentials.ts:101
+Defined in: src/unifi-access-api.docs.ts:658
+
+Download Touch Pass Qr Code.
+
+Performs a GET request to `/api/v1/developer/credentials/qr_codes/download/:id`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -430,9 +694,17 @@ Defined in: src/endpoints/credentials.ts:101
 
 ### exportSystemLogs
 
-> `readonly` **exportSystemLogs**: `EndpointInvoker`\<\{ `method`: `"POST"`; `path`: `string`; `responseType`: `"arrayBuffer"`; \}\>
+> `readonly` **exportSystemLogs**: `EndpointFor`\<`"exportSystemLogs"`\>
 
-Defined in: src/endpoints/system.ts:18
+Defined in: src/unifi-access-api.docs.ts:829
+
+Export System Logs.
+
+Performs a POST request to `/api/v1/developer/system/logs/export`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -442,9 +714,17 @@ Defined in: src/endpoints/system.ts:18
 
 ### fetchAccessPolicy
 
-> `readonly` **fetchAccessPolicy**: `EndpointInvoker`\<\{ `method`: `"GET"`; `path`: `string`; \}\>
+> `readonly` **fetchAccessPolicy**: `EndpointFor`\<`"fetchAccessPolicy"`\>
 
-Defined in: src/endpoints/access-policies.ts:36
+Defined in: src/unifi-access-api.docs.ts:424
+
+Fetch Access Policy.
+
+Performs a GET request to `/api/v1/developer/access_policies/:id`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -454,9 +734,17 @@ Defined in: src/endpoints/access-policies.ts:36
 
 ### fetchAllAccessPolicies
 
-> `readonly` **fetchAllAccessPolicies**: `EndpointInvoker`\<\{ `method`: `"GET"`; `path`: `string`; \}\>
+> `readonly` **fetchAllAccessPolicies**: `EndpointFor`\<`"fetchAllAccessPolicies"`\>
 
-Defined in: src/endpoints/access-policies.ts:41
+Defined in: src/unifi-access-api.docs.ts:433
+
+Fetch All Access Policies.
+
+Performs a GET request to `/api/v1/developer/access_policies`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -466,9 +754,17 @@ Defined in: src/endpoints/access-policies.ts:41
 
 ### fetchAllDoorGroups
 
-> `readonly` **fetchAllDoorGroups**: `EndpointInvoker`\<\{ `method`: `"GET"`; `path`: `string`; \}\>
+> `readonly` **fetchAllDoorGroups**: `EndpointFor`\<`"fetchAllDoorGroups"`\>
 
-Defined in: src/endpoints/spaces.ts:41
+Defined in: src/unifi-access-api.docs.ts:712
+
+Fetch All Door Groups.
+
+Performs a GET request to `/api/v1/developer/door_groups`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -478,9 +774,17 @@ Defined in: src/endpoints/spaces.ts:41
 
 ### fetchAllDoors
 
-> `readonly` **fetchAllDoors**: `EndpointInvoker`\<\{ `method`: `"GET"`; `path`: `string`; \}\>
+> `readonly` **fetchAllDoors**: `EndpointFor`\<`"fetchAllDoors"`\>
 
-Defined in: src/endpoints/spaces.ts:56
+Defined in: src/unifi-access-api.docs.ts:739
+
+Fetch All Doors.
+
+Performs a GET request to `/api/v1/developer/doors`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -490,9 +794,17 @@ Defined in: src/endpoints/spaces.ts:56
 
 ### fetchAllHolidayGroups
 
-> `readonly` **fetchAllHolidayGroups**: `EndpointInvoker`\<\{ `method`: `"GET"`; `path`: `string`; \}\>
+> `readonly` **fetchAllHolidayGroups**: `EndpointFor`\<`"fetchAllHolidayGroups"`\>
 
-Defined in: src/endpoints/access-policies.ts:70
+Defined in: src/unifi-access-api.docs.ts:478
+
+Fetch All Holiday Groups.
+
+Performs a GET request to `/api/v1/developer/access_policies/holiday_groups`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -502,9 +814,17 @@ Defined in: src/endpoints/access-policies.ts:70
 
 ### fetchAllNfcCards
 
-> `readonly` **fetchAllNfcCards**: `EndpointInvoker`\<\{ `method`: `"GET"`; `path`: `string`; \}\>
+> `readonly` **fetchAllNfcCards**: `EndpointFor`\<`"fetchAllNfcCards"`\>
 
-Defined in: src/endpoints/credentials.ts:51
+Defined in: src/unifi-access-api.docs.ts:577
+
+Fetch All Nfc Cards.
+
+Performs a GET request to `/api/v1/developer/credentials/nfc_cards/tokens`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -514,9 +834,17 @@ Defined in: src/endpoints/credentials.ts:51
 
 ### fetchAllSchedules
 
-> `readonly` **fetchAllSchedules**: `EndpointInvoker`\<\{ `method`: `"GET"`; `path`: `string`; \}\>
+> `readonly` **fetchAllSchedules**: `EndpointFor`\<`"fetchAllSchedules"`\>
 
-Defined in: src/endpoints/access-policies.ts:90
+Defined in: src/unifi-access-api.docs.ts:514
+
+Fetch All Schedules.
+
+Performs a GET request to `/api/v1/developer/access_policies/schedules`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -526,9 +854,17 @@ Defined in: src/endpoints/access-policies.ts:90
 
 ### fetchAllUserGroups
 
-> `readonly` **fetchAllUserGroups**: `EndpointInvoker`\<\{ `method`: `"GET"`; `path`: `string`; \}\>
+> `readonly` **fetchAllUserGroups**: `EndpointFor`\<`"fetchAllUserGroups"`\>
 
-Defined in: src/endpoints/users.ts:85
+Defined in: src/unifi-access-api.docs.ts:109
+
+Fetch All User Groups.
+
+Performs a GET request to `/api/v1/developer/user_groups`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -538,9 +874,17 @@ Defined in: src/endpoints/users.ts:85
 
 ### fetchAllUsers
 
-> `readonly` **fetchAllUsers**: `EndpointInvoker`\<\{ `method`: `"GET"`; `path`: `string`; \}\>
+> `readonly` **fetchAllUsers**: `EndpointFor`\<`"fetchAllUsers"`\>
 
-Defined in: src/endpoints/users.ts:50
+Defined in: src/unifi-access-api.docs.ts:46
+
+Fetch All Users.
+
+Performs a GET request to `/api/v1/developer/users`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -550,9 +894,17 @@ Defined in: src/endpoints/users.ts:50
 
 ### fetchAllUsersInGroup
 
-> `readonly` **fetchAllUsersInGroup**: `EndpointInvoker`\<\{ `method`: `"GET"`; `path`: `string`; \}\>
+> `readonly` **fetchAllUsersInGroup**: `EndpointFor`\<`"fetchAllUsersInGroup"`\>
 
-Defined in: src/endpoints/users.ts:120
+Defined in: src/unifi-access-api.docs.ts:172
+
+Fetch All Users In Group.
+
+Performs a GET request to `/api/v1/developer/user_groups/:id/users/all`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -562,9 +914,17 @@ Defined in: src/endpoints/users.ts:120
 
 ### fetchAllVisitors
 
-> `readonly` **fetchAllVisitors**: `EndpointInvoker`\<\{ `method`: `"GET"`; `path`: `string`; \}\>
+> `readonly` **fetchAllVisitors**: `EndpointFor`\<`"fetchAllVisitors"`\>
 
-Defined in: src/endpoints/visitors.ts:29
+Defined in: src/unifi-access-api.docs.ts:298
+
+Fetch All Visitors.
+
+Performs a GET request to `/api/v1/developer/visitors`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -574,9 +934,17 @@ Defined in: src/endpoints/visitors.ts:29
 
 ### fetchAssignableTouchPasses
 
-> `readonly` **fetchAssignableTouchPasses**: `EndpointInvoker`\<\{ `method`: `"GET"`; `path`: `string`; \}\>
+> `readonly` **fetchAssignableTouchPasses**: `EndpointFor`\<`"fetchAssignableTouchPasses"`\>
 
-Defined in: src/endpoints/credentials.ts:81
+Defined in: src/unifi-access-api.docs.ts:622
+
+Fetch Assignable Touch Passes.
+
+Performs a GET request to `/api/v1/developer/credentials/touch_passes/assignable`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -586,9 +954,17 @@ Defined in: src/endpoints/credentials.ts:81
 
 ### fetchAvailableIdentityResources
 
-> `readonly` **fetchAvailableIdentityResources**: `EndpointInvoker`\<\{ `method`: `"GET"`; `path`: `string`; \}\>
+> `readonly` **fetchAvailableIdentityResources**: `EndpointFor`\<`"fetchAvailableIdentityResources"`\>
 
-Defined in: src/endpoints/identity.ts:18
+Defined in: src/unifi-access-api.docs.ts:865
+
+Fetch Available Identity Resources.
+
+Performs a GET request to `/api/v1/developer/users/identity/assignments`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -598,9 +974,17 @@ Defined in: src/endpoints/identity.ts:18
 
 ### fetchDeviceAccessSettings
 
-> `readonly` **fetchDeviceAccessSettings**: `EndpointInvoker`\<\{ `method`: `"GET"`; `path`: `string`; \}\>
+> `readonly` **fetchDeviceAccessSettings**: `EndpointFor`\<`"fetchDeviceAccessSettings"`\>
 
-Defined in: src/endpoints/devices.ts:13
+Defined in: src/unifi-access-api.docs.ts:802
+
+Fetch Device Access Settings.
+
+Performs a GET request to `/api/v1/developer/devices/:device_id/settings`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -610,9 +994,17 @@ Defined in: src/endpoints/devices.ts:13
 
 ### fetchDevices
 
-> `readonly` **fetchDevices**: `EndpointInvoker`\<\{ `method`: `"GET"`; `path`: `string`; \}\>
+> `readonly` **fetchDevices**: `EndpointFor`\<`"fetchDevices"`\>
 
-Defined in: src/endpoints/devices.ts:8
+Defined in: src/unifi-access-api.docs.ts:793
+
+Fetch Devices.
+
+Performs a GET request to `/api/v1/developer/devices`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -622,9 +1014,17 @@ Defined in: src/endpoints/devices.ts:8
 
 ### fetchDoorById
 
-> `readonly` **fetchDoorById**: `EndpointInvoker`\<\{ `method`: `"GET"`; `path`: `string`; \}\>
+> `readonly` **fetchDoorById**: `EndpointFor`\<`"fetchDoorById"`\>
 
-Defined in: src/endpoints/spaces.ts:51
+Defined in: src/unifi-access-api.docs.ts:730
+
+Fetch Door By Id.
+
+Performs a GET request to `/api/v1/developer/doors/:id`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -634,9 +1034,17 @@ Defined in: src/endpoints/spaces.ts:51
 
 ### fetchDoorEmergencyStatus
 
-> `readonly` **fetchDoorEmergencyStatus**: `EndpointInvoker`\<\{ `method`: `"GET"`; `path`: `string`; \}\>
+> `readonly` **fetchDoorEmergencyStatus**: `EndpointFor`\<`"fetchDoorEmergencyStatus"`\>
 
-Defined in: src/endpoints/spaces.ts:81
+Defined in: src/unifi-access-api.docs.ts:784
+
+Fetch Door Emergency Status.
+
+Performs a GET request to `/api/v1/developer/doors/settings/emergency`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -646,9 +1054,17 @@ Defined in: src/endpoints/spaces.ts:81
 
 ### fetchDoorGroupById
 
-> `readonly` **fetchDoorGroupById**: `EndpointInvoker`\<\{ `method`: `"GET"`; `path`: `string`; \}\>
+> `readonly` **fetchDoorGroupById**: `EndpointFor`\<`"fetchDoorGroupById"`\>
 
-Defined in: src/endpoints/spaces.ts:31
+Defined in: src/unifi-access-api.docs.ts:694
+
+Fetch Door Group By Id.
+
+Performs a GET request to `/api/v1/developer/door_groups/:id`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -658,9 +1074,17 @@ Defined in: src/endpoints/spaces.ts:31
 
 ### fetchDoorGroupTopology
 
-> `readonly` **fetchDoorGroupTopology**: `EndpointInvoker`\<\{ `method`: `"GET"`; `path`: `string`; \}\>
+> `readonly` **fetchDoorGroupTopology**: `EndpointFor`\<`"fetchDoorGroupTopology"`\>
 
-Defined in: src/endpoints/spaces.ts:21
+Defined in: src/unifi-access-api.docs.ts:676
+
+Fetch Door Group Topology.
+
+Performs a GET request to `/api/v1/developer/door_groups/topology`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -670,9 +1094,17 @@ Defined in: src/endpoints/spaces.ts:21
 
 ### fetchDoorLockRule
 
-> `readonly` **fetchDoorLockRule**: `EndpointInvoker`\<\{ `method`: `"GET"`; `path`: `string`; \}\>
+> `readonly` **fetchDoorLockRule**: `EndpointFor`\<`"fetchDoorLockRule"`\>
 
-Defined in: src/endpoints/spaces.ts:71
+Defined in: src/unifi-access-api.docs.ts:766
+
+Fetch Door Lock Rule.
+
+Performs a GET request to `/api/v1/developer/doors/:id/lock_rule`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -682,9 +1114,17 @@ Defined in: src/endpoints/spaces.ts:71
 
 ### fetchHolidayGroup
 
-> `readonly` **fetchHolidayGroup**: `EndpointInvoker`\<\{ `method`: `"GET"`; `path`: `string`; \}\>
+> `readonly` **fetchHolidayGroup**: `EndpointFor`\<`"fetchHolidayGroup"`\>
 
-Defined in: src/endpoints/access-policies.ts:65
+Defined in: src/unifi-access-api.docs.ts:469
+
+Fetch Holiday Group.
+
+Performs a GET request to `/api/v1/developer/access_policies/holiday_groups/:id`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -694,9 +1134,17 @@ Defined in: src/endpoints/access-policies.ts:65
 
 ### fetchIdentityResourcesForUser
 
-> `readonly` **fetchIdentityResourcesForUser**: `EndpointInvoker`\<\{ `method`: `"GET"`; `path`: `string`; \}\>
+> `readonly` **fetchIdentityResourcesForUser**: `EndpointFor`\<`"fetchIdentityResourcesForUser"`\>
 
-Defined in: src/endpoints/identity.ts:28
+Defined in: src/unifi-access-api.docs.ts:883
+
+Fetch Identity Resources For User.
+
+Performs a GET request to `/api/v1/developer/users/:id/identity/assignments`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -706,9 +1154,17 @@ Defined in: src/endpoints/identity.ts:28
 
 ### fetchIdentityResourcesForUserGroup
 
-> `readonly` **fetchIdentityResourcesForUserGroup**: `EndpointInvoker`\<\{ `method`: `"GET"`; `path`: `string`; \}\>
+> `readonly` **fetchIdentityResourcesForUserGroup**: `EndpointFor`\<`"fetchIdentityResourcesForUserGroup"`\>
 
-Defined in: src/endpoints/identity.ts:38
+Defined in: src/unifi-access-api.docs.ts:901
+
+Fetch Identity Resources For User Group.
+
+Performs a GET request to `/api/v1/developer/user_groups/:id/identity/assignments`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -718,9 +1174,17 @@ Defined in: src/endpoints/identity.ts:38
 
 ### fetchNfcCard
 
-> `readonly` **fetchNfcCard**: `EndpointInvoker`\<\{ `method`: `"GET"`; `path`: `string`; \}\>
+> `readonly` **fetchNfcCard**: `EndpointFor`\<`"fetchNfcCard"`\>
 
-Defined in: src/endpoints/credentials.ts:46
+Defined in: src/unifi-access-api.docs.ts:568
+
+Fetch Nfc Card.
+
+Performs a GET request to `/api/v1/developer/credentials/nfc_cards/tokens/:token`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -730,9 +1194,17 @@ Defined in: src/endpoints/credentials.ts:46
 
 ### fetchNfcEnrollmentStatus
 
-> `readonly` **fetchNfcEnrollmentStatus**: `EndpointInvoker`\<\{ `method`: `"GET"`; `path`: `string`; \}\>
+> `readonly` **fetchNfcEnrollmentStatus**: `EndpointFor`\<`"fetchNfcEnrollmentStatus"`\>
 
-Defined in: src/endpoints/credentials.ts:36
+Defined in: src/unifi-access-api.docs.ts:550
+
+Fetch Nfc Enrollment Status.
+
+Performs a GET request to `/api/v1/developer/credentials/nfc_cards/sessions/:id`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -742,9 +1214,17 @@ Defined in: src/endpoints/credentials.ts:36
 
 ### fetchSchedule
 
-> `readonly` **fetchSchedule**: `EndpointInvoker`\<\{ `method`: `"GET"`; `path`: `string`; \}\>
+> `readonly` **fetchSchedule**: `EndpointFor`\<`"fetchSchedule"`\>
 
-Defined in: src/endpoints/access-policies.ts:85
+Defined in: src/unifi-access-api.docs.ts:505
+
+Fetch Schedule.
+
+Performs a GET request to `/api/v1/developer/access_policies/schedules/:id`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -754,9 +1234,17 @@ Defined in: src/endpoints/access-policies.ts:85
 
 ### fetchSystemLogResource
 
-> `readonly` **fetchSystemLogResource**: `EndpointInvoker`\<\{ `method`: `"GET"`; `path`: `string`; \}\>
+> `readonly` **fetchSystemLogResource**: `EndpointFor`\<`"fetchSystemLogResource"`\>
 
-Defined in: src/endpoints/system.ts:24
+Defined in: src/unifi-access-api.docs.ts:838
+
+Fetch System Log Resource.
+
+Performs a GET request to `/api/v1/developer/system/logs/resource/:id`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -766,9 +1254,17 @@ Defined in: src/endpoints/system.ts:24
 
 ### fetchSystemLogs
 
-> `readonly` **fetchSystemLogs**: `EndpointInvoker`\<\{ `method`: `"POST"`; `path`: `string`; \}\>
+> `readonly` **fetchSystemLogs**: `EndpointFor`\<`"fetchSystemLogs"`\>
 
-Defined in: src/endpoints/system.ts:13
+Defined in: src/unifi-access-api.docs.ts:820
+
+Fetch System Logs.
+
+Performs a POST request to `/api/v1/developer/system/logs`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -778,9 +1274,17 @@ Defined in: src/endpoints/system.ts:13
 
 ### fetchSystemStaticResource
 
-> `readonly` **fetchSystemStaticResource**: `EndpointInvoker`\<\{ `method`: `"GET"`; `path`: `string`; `responseType`: `"arrayBuffer"`; \}\>
+> `readonly` **fetchSystemStaticResource**: `EndpointFor`\<`"fetchSystemStaticResource"`\>
 
-Defined in: src/endpoints/system.ts:29
+Defined in: src/unifi-access-api.docs.ts:847
+
+Fetch System Static Resource.
+
+Performs a GET request to `/api/v1/developer/system/static/:path`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -790,9 +1294,17 @@ Defined in: src/endpoints/system.ts:29
 
 ### fetchTouchPassDetails
 
-> `readonly` **fetchTouchPassDetails**: `EndpointInvoker`\<\{ `method`: `"GET"`; `path`: `string`; \}\>
+> `readonly` **fetchTouchPassDetails**: `EndpointFor`\<`"fetchTouchPassDetails"`\>
 
-Defined in: src/endpoints/credentials.ts:91
+Defined in: src/unifi-access-api.docs.ts:640
+
+Fetch Touch Pass Details.
+
+Performs a GET request to `/api/v1/developer/credentials/touch_passes/:id`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -802,9 +1314,17 @@ Defined in: src/endpoints/credentials.ts:91
 
 ### fetchTouchPassList
 
-> `readonly` **fetchTouchPassList**: `EndpointInvoker`\<\{ `method`: `"GET"`; `path`: `string`; \}\>
+> `readonly` **fetchTouchPassList**: `EndpointFor`\<`"fetchTouchPassList"`\>
 
-Defined in: src/endpoints/credentials.ts:66
+Defined in: src/unifi-access-api.docs.ts:604
+
+Fetch Touch Pass List.
+
+Performs a GET request to `/api/v1/developer/credentials/touch_passes`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -814,9 +1334,17 @@ Defined in: src/endpoints/credentials.ts:66
 
 ### fetchUser
 
-> `readonly` **fetchUser**: `EndpointInvoker`\<\{ `method`: `"GET"`; `path`: `string`; \}\>
+> `readonly` **fetchUser**: `EndpointFor`\<`"fetchUser"`\>
 
-Defined in: src/endpoints/users.ts:45
+Defined in: src/unifi-access-api.docs.ts:37
+
+Fetch User.
+
+Performs a GET request to `/api/v1/developer/users/:id`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -826,9 +1354,17 @@ Defined in: src/endpoints/users.ts:45
 
 ### fetchUserAccessPolicies
 
-> `readonly` **fetchUserAccessPolicies**: `EndpointInvoker`\<\{ `method`: `"GET"`; `path`: `string`; \}\>
+> `readonly` **fetchUserAccessPolicies**: `EndpointFor`\<`"fetchUserAccessPolicies"`\>
 
-Defined in: src/endpoints/users.ts:125
+Defined in: src/unifi-access-api.docs.ts:181
+
+Fetch User Access Policies.
+
+Performs a GET request to `/api/v1/developer/users/:id/access_policies`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -838,9 +1374,17 @@ Defined in: src/endpoints/users.ts:125
 
 ### fetchUserGroup
 
-> `readonly` **fetchUserGroup**: `EndpointInvoker`\<\{ `method`: `"GET"`; `path`: `string`; \}\>
+> `readonly` **fetchUserGroup**: `EndpointFor`\<`"fetchUserGroup"`\>
 
-Defined in: src/endpoints/users.ts:90
+Defined in: src/unifi-access-api.docs.ts:118
+
+Fetch User Group.
+
+Performs a GET request to `/api/v1/developer/user_groups/:id`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -850,9 +1394,17 @@ Defined in: src/endpoints/users.ts:90
 
 ### fetchUserGroupAccessPolicies
 
-> `readonly` **fetchUserGroupAccessPolicies**: `EndpointInvoker`\<\{ `method`: `"GET"`; `path`: `string`; \}\>
+> `readonly` **fetchUserGroupAccessPolicies**: `EndpointFor`\<`"fetchUserGroupAccessPolicies"`\>
 
-Defined in: src/endpoints/users.ts:135
+Defined in: src/unifi-access-api.docs.ts:199
+
+Fetch User Group Access Policies.
+
+Performs a GET request to `/api/v1/developer/user_groups/:id/access_policies`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -862,9 +1414,17 @@ Defined in: src/endpoints/users.ts:135
 
 ### fetchUsersInGroup
 
-> `readonly` **fetchUsersInGroup**: `EndpointInvoker`\<\{ `method`: `"GET"`; `path`: `string`; \}\>
+> `readonly` **fetchUsersInGroup**: `EndpointFor`\<`"fetchUsersInGroup"`\>
 
-Defined in: src/endpoints/users.ts:115
+Defined in: src/unifi-access-api.docs.ts:163
+
+Fetch Users In Group.
+
+Performs a GET request to `/api/v1/developer/user_groups/:id/users`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -874,9 +1434,17 @@ Defined in: src/endpoints/users.ts:115
 
 ### fetchVisitor
 
-> `readonly` **fetchVisitor**: `EndpointInvoker`\<\{ `method`: `"GET"`; `path`: `string`; \}\>
+> `readonly` **fetchVisitor**: `EndpointFor`\<`"fetchVisitor"`\>
 
-Defined in: src/endpoints/visitors.ts:24
+Defined in: src/unifi-access-api.docs.ts:289
+
+Fetch Visitor.
+
+Performs a GET request to `/api/v1/developer/visitors/:id`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -886,9 +1454,17 @@ Defined in: src/endpoints/visitors.ts:24
 
 ### fetchWebhookEndpoints
 
-> `readonly` **fetchWebhookEndpoints**: `EndpointInvoker`\<\{ `method`: `"GET"`; `path`: `string`; \}\>
+> `readonly` **fetchWebhookEndpoints**: `EndpointFor`\<`"fetchWebhookEndpoints"`\>
 
-Defined in: src/endpoints/webhooks.ts:12
+Defined in: src/unifi-access-api.docs.ts:910
+
+Fetch Webhook Endpoints.
+
+Performs a GET request to `/api/v1/developer/webhooks/endpoints`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -898,9 +1474,17 @@ Defined in: src/endpoints/webhooks.ts:12
 
 ### generatePinCode
 
-> `readonly` **generatePinCode**: `EndpointInvoker`\<\{ `method`: `"POST"`; `path`: `string`; \}\>
+> `readonly` **generatePinCode**: `EndpointFor`\<`"generatePinCode"`\>
 
-Defined in: src/endpoints/credentials.ts:26
+Defined in: src/unifi-access-api.docs.ts:532
+
+Generate Pin Code.
+
+Performs a POST request to `/api/v1/developer/credentials/pin_codes`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -910,9 +1494,17 @@ Defined in: src/endpoints/credentials.ts:26
 
 ### importThirdPartyNfcCards
 
-> `readonly` **importThirdPartyNfcCards**: `EndpointInvoker`\<\{ `method`: `"POST"`; `path`: `string`; `rawBody`: `true`; \}\>
+> `readonly` **importThirdPartyNfcCards**: `EndpointFor`\<`"importThirdPartyNfcCards"`\>
 
-Defined in: src/endpoints/credentials.ts:107
+Defined in: src/unifi-access-api.docs.ts:667
+
+Import Third Party Nfc Cards.
+
+Performs a POST request to `/api/v1/developer/credentials/nfc_cards/import`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -922,9 +1514,17 @@ Defined in: src/endpoints/credentials.ts:107
 
 ### purchaseTouchPasses
 
-> `readonly` **purchaseTouchPasses**: `EndpointInvoker`\<\{ `method`: `"POST"`; `path`: `string`; \}\>
+> `readonly` **purchaseTouchPasses**: `EndpointFor`\<`"purchaseTouchPasses"`\>
 
-Defined in: src/endpoints/credentials.ts:96
+Defined in: src/unifi-access-api.docs.ts:649
+
+Purchase Touch Passes.
+
+Performs a POST request to `/api/v1/developer/credentials/touch_passes`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -934,9 +1534,17 @@ Defined in: src/endpoints/credentials.ts:96
 
 ### searchTouchPasses
 
-> `readonly` **searchTouchPasses**: `EndpointInvoker`\<\{ `method`: `"GET"`; `path`: `string`; \}\>
+> `readonly` **searchTouchPasses**: `EndpointFor`\<`"searchTouchPasses"`\>
 
-Defined in: src/endpoints/credentials.ts:76
+Defined in: src/unifi-access-api.docs.ts:613
+
+Search Touch Passes.
+
+Performs a GET request to `/api/v1/developer/credentials/touch_passes/search`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -946,9 +1554,17 @@ Defined in: src/endpoints/credentials.ts:76
 
 ### searchUsers
 
-> `readonly` **searchUsers**: `EndpointInvoker`\<\{ `method`: `"GET"`; `path`: `string`; \}\>
+> `readonly` **searchUsers**: `EndpointFor`\<`"searchUsers"`\>
 
-Defined in: src/endpoints/users.ts:145
+Defined in: src/unifi-access-api.docs.ts:217
+
+Search Users.
+
+Performs a GET request to `/api/v1/developer/users/search`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -958,9 +1574,17 @@ Defined in: src/endpoints/users.ts:145
 
 ### sendIdentityInvitations
 
-> `readonly` **sendIdentityInvitations**: `EndpointInvoker`\<\{ `method`: `"POST"`; `path`: `string`; \}\>
+> `readonly` **sendIdentityInvitations**: `EndpointFor`\<`"sendIdentityInvitations"`\>
 
-Defined in: src/endpoints/identity.ts:13
+Defined in: src/unifi-access-api.docs.ts:856
+
+Send Identity Invitations.
+
+Performs a POST request to `/api/v1/developer/users/identity/invitations`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -970,9 +1594,17 @@ Defined in: src/endpoints/identity.ts:13
 
 ### setDoorEmergencyStatus
 
-> `readonly` **setDoorEmergencyStatus**: `EndpointInvoker`\<\{ `method`: `"PUT"`; `path`: `string`; \}\>
+> `readonly` **setDoorEmergencyStatus**: `EndpointFor`\<`"setDoorEmergencyStatus"`\>
 
-Defined in: src/endpoints/spaces.ts:76
+Defined in: src/unifi-access-api.docs.ts:775
+
+Set Door Emergency Status.
+
+Performs a PUT request to `/api/v1/developer/doors/settings/emergency`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -982,9 +1614,17 @@ Defined in: src/endpoints/spaces.ts:76
 
 ### setDoorLockRule
 
-> `readonly` **setDoorLockRule**: `EndpointInvoker`\<\{ `method`: `"PUT"`; `path`: `string`; \}\>
+> `readonly` **setDoorLockRule**: `EndpointFor`\<`"setDoorLockRule"`\>
 
-Defined in: src/endpoints/spaces.ts:66
+Defined in: src/unifi-access-api.docs.ts:757
+
+Set Door Lock Rule.
+
+Performs a PUT request to `/api/v1/developer/doors/:id/lock_rule`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -994,9 +1634,17 @@ Defined in: src/endpoints/spaces.ts:66
 
 ### unassignLicensePlateFromUser
 
-> `readonly` **unassignLicensePlateFromUser**: `EndpointInvoker`\<\{ `method`: `"DELETE"`; `path`: `string`; \}\>
+> `readonly` **unassignLicensePlateFromUser**: `EndpointFor`\<`"unassignLicensePlateFromUser"`\>
 
-Defined in: src/endpoints/users.ts:170
+Defined in: src/unifi-access-api.docs.ts:262
+
+Unassign License Plate From User.
+
+Performs a DELETE request to `/api/v1/developer/users/:user_id/license_plates/:license_plate_id`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -1006,9 +1654,17 @@ Defined in: src/endpoints/users.ts:170
 
 ### unassignTouchPassFromUser
 
-> `readonly` **unassignTouchPassFromUser**: `EndpointInvoker`\<\{ `method`: `"DELETE"`; `path`: `string`; \}\>
+> `readonly` **unassignTouchPassFromUser**: `EndpointFor`\<`"unassignTouchPassFromUser"`\>
 
-Defined in: src/endpoints/users.ts:155
+Defined in: src/unifi-access-api.docs.ts:235
+
+Unassign Touch Pass From User.
+
+Performs a DELETE request to `/api/v1/developer/users/:user_id/touch_passes/:touch_pass_id`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -1018,9 +1674,17 @@ Defined in: src/endpoints/users.ts:155
 
 ### unassignUserNfcCard
 
-> `readonly` **unassignUserNfcCard**: `EndpointInvoker`\<\{ `method`: `"PUT"`; `path`: `string`; \}\>
+> `readonly` **unassignUserNfcCard**: `EndpointFor`\<`"unassignUserNfcCard"`\>
 
-Defined in: src/endpoints/users.ts:65
+Defined in: src/unifi-access-api.docs.ts:73
+
+Unassign User Nfc Card.
+
+Performs a PUT request to `/api/v1/developer/users/:id/nfc_cards/delete`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -1030,9 +1694,17 @@ Defined in: src/endpoints/users.ts:65
 
 ### unassignUserPinCode
 
-> `readonly` **unassignUserPinCode**: `EndpointInvoker`\<\{ `method`: `"DELETE"`; `path`: `string`; \}\>
+> `readonly` **unassignUserPinCode**: `EndpointFor`\<`"unassignUserPinCode"`\>
 
-Defined in: src/endpoints/users.ts:75
+Defined in: src/unifi-access-api.docs.ts:91
+
+Unassign User Pin Code.
+
+Performs a DELETE request to `/api/v1/developer/users/:id/pin_codes`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -1042,9 +1714,17 @@ Defined in: src/endpoints/users.ts:75
 
 ### unassignUsersFromGroup
 
-> `readonly` **unassignUsersFromGroup**: `EndpointInvoker`\<\{ `method`: `"POST"`; `path`: `string`; \}\>
+> `readonly` **unassignUsersFromGroup**: `EndpointFor`\<`"unassignUsersFromGroup"`\>
 
-Defined in: src/endpoints/users.ts:110
+Defined in: src/unifi-access-api.docs.ts:154
+
+Unassign Users From Group.
+
+Performs a POST request to `/api/v1/developer/user_groups/:id/users/delete`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -1054,9 +1734,17 @@ Defined in: src/endpoints/users.ts:110
 
 ### unassignVisitorLicensePlate
 
-> `readonly` **unassignVisitorLicensePlate**: `EndpointInvoker`\<\{ `method`: `"DELETE"`; `path`: `string`; \}\>
+> `readonly` **unassignVisitorLicensePlate**: `EndpointFor`\<`"unassignVisitorLicensePlate"`\>
 
-Defined in: src/endpoints/visitors.ts:85
+Defined in: src/unifi-access-api.docs.ts:388
+
+Unassign Visitor License Plate.
+
+Performs a DELETE request to `/api/v1/developer/visitors/:visitor_id/license_plates/:license_plate_id`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -1066,9 +1754,17 @@ Defined in: src/endpoints/visitors.ts:85
 
 ### unassignVisitorNfcCard
 
-> `readonly` **unassignVisitorNfcCard**: `EndpointInvoker`\<\{ `method`: `"PUT"`; `path`: `string`; \}\>
+> `readonly` **unassignVisitorNfcCard**: `EndpointFor`\<`"unassignVisitorNfcCard"`\>
 
-Defined in: src/endpoints/visitors.ts:55
+Defined in: src/unifi-access-api.docs.ts:334
+
+Unassign Visitor Nfc Card.
+
+Performs a PUT request to `/api/v1/developer/visitors/:id/nfc_cards/delete`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -1078,9 +1774,17 @@ Defined in: src/endpoints/visitors.ts:55
 
 ### unassignVisitorPinCode
 
-> `readonly` **unassignVisitorPinCode**: `EndpointInvoker`\<\{ `method`: `"DELETE"`; `path`: `string`; \}\>
+> `readonly` **unassignVisitorPinCode**: `EndpointFor`\<`"unassignVisitorPinCode"`\>
 
-Defined in: src/endpoints/visitors.ts:65
+Defined in: src/unifi-access-api.docs.ts:352
+
+Unassign Visitor Pin Code.
+
+Performs a DELETE request to `/api/v1/developer/visitors/:id/pin_codes`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -1090,9 +1794,17 @@ Defined in: src/endpoints/visitors.ts:65
 
 ### unassignVisitorQrCode
 
-> `readonly` **unassignVisitorQrCode**: `EndpointInvoker`\<\{ `method`: `"DELETE"`; `path`: `string`; \}\>
+> `readonly` **unassignVisitorQrCode**: `EndpointFor`\<`"unassignVisitorQrCode"`\>
 
-Defined in: src/endpoints/visitors.ts:75
+Defined in: src/unifi-access-api.docs.ts:370
+
+Unassign Visitor Qr Code.
+
+Performs a DELETE request to `/api/v1/developer/visitors/:id/qr_codes`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -1102,9 +1814,17 @@ Defined in: src/endpoints/visitors.ts:75
 
 ### unlockDoor
 
-> `readonly` **unlockDoor**: `EndpointInvoker`\<\{ `method`: `"PUT"`; `path`: `string`; \}\>
+> `readonly` **unlockDoor**: `EndpointFor`\<`"unlockDoor"`\>
 
-Defined in: src/endpoints/spaces.ts:61
+Defined in: src/unifi-access-api.docs.ts:748
+
+Unlock Door.
+
+Performs a PUT request to `/api/v1/developer/doors/:id/unlock`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -1114,9 +1834,17 @@ Defined in: src/endpoints/spaces.ts:61
 
 ### updateAccessPolicy
 
-> `readonly` **updateAccessPolicy**: `EndpointInvoker`\<\{ `method`: `"PUT"`; `path`: `string`; \}\>
+> `readonly` **updateAccessPolicy**: `EndpointFor`\<`"updateAccessPolicy"`\>
 
-Defined in: src/endpoints/access-policies.ts:26
+Defined in: src/unifi-access-api.docs.ts:406
+
+Update Access Policy.
+
+Performs a PUT request to `/api/v1/developer/access_policies/:id`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -1126,9 +1854,17 @@ Defined in: src/endpoints/access-policies.ts:26
 
 ### updateDeviceAccessSettings
 
-> `readonly` **updateDeviceAccessSettings**: `EndpointInvoker`\<\{ `method`: `"PUT"`; `path`: `string`; \}\>
+> `readonly` **updateDeviceAccessSettings**: `EndpointFor`\<`"updateDeviceAccessSettings"`\>
 
-Defined in: src/endpoints/devices.ts:18
+Defined in: src/unifi-access-api.docs.ts:811
+
+Update Device Access Settings.
+
+Performs a PUT request to `/api/v1/developer/devices/:device_id/settings`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -1138,9 +1874,17 @@ Defined in: src/endpoints/devices.ts:18
 
 ### updateDoorGroupById
 
-> `readonly` **updateDoorGroupById**: `EndpointInvoker`\<\{ `method`: `"PUT"`; `path`: `string`; \}\>
+> `readonly` **updateDoorGroupById**: `EndpointFor`\<`"updateDoorGroupById"`\>
 
-Defined in: src/endpoints/spaces.ts:36
+Defined in: src/unifi-access-api.docs.ts:703
+
+Update Door Group By Id.
+
+Performs a PUT request to `/api/v1/developer/door_groups/:id`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -1150,9 +1894,17 @@ Defined in: src/endpoints/spaces.ts:36
 
 ### updateHolidayGroup
 
-> `readonly` **updateHolidayGroup**: `EndpointInvoker`\<\{ `method`: `"PUT"`; `path`: `string`; \}\>
+> `readonly` **updateHolidayGroup**: `EndpointFor`\<`"updateHolidayGroup"`\>
 
-Defined in: src/endpoints/access-policies.ts:55
+Defined in: src/unifi-access-api.docs.ts:451
+
+Update Holiday Group.
+
+Performs a PUT request to `/api/v1/developer/access_policies/holiday_groups/:id`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -1162,9 +1914,17 @@ Defined in: src/endpoints/access-policies.ts:55
 
 ### updateNfcCard
 
-> `readonly` **updateNfcCard**: `EndpointInvoker`\<\{ `method`: `"PUT"`; `path`: `string`; \}\>
+> `readonly` **updateNfcCard**: `EndpointFor`\<`"updateNfcCard"`\>
 
-Defined in: src/endpoints/credentials.ts:61
+Defined in: src/unifi-access-api.docs.ts:595
+
+Update Nfc Card.
+
+Performs a PUT request to `/api/v1/developer/credentials/nfc_cards/tokens/:token`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -1174,9 +1934,17 @@ Defined in: src/endpoints/credentials.ts:61
 
 ### updateSchedule
 
-> `readonly` **updateSchedule**: `EndpointInvoker`\<\{ `method`: `"PUT"`; `path`: `string`; \}\>
+> `readonly` **updateSchedule**: `EndpointFor`\<`"updateSchedule"`\>
 
-Defined in: src/endpoints/access-policies.ts:80
+Defined in: src/unifi-access-api.docs.ts:496
+
+Update Schedule.
+
+Performs a PUT request to `/api/v1/developer/access_policies/schedules/:id`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -1186,9 +1954,17 @@ Defined in: src/endpoints/access-policies.ts:80
 
 ### updateTouchPass
 
-> `readonly` **updateTouchPass**: `EndpointInvoker`\<\{ `method`: `"PUT"`; `path`: `string`; \}\>
+> `readonly` **updateTouchPass**: `EndpointFor`\<`"updateTouchPass"`\>
 
-Defined in: src/endpoints/credentials.ts:86
+Defined in: src/unifi-access-api.docs.ts:631
+
+Update Touch Pass.
+
+Performs a PUT request to `/api/v1/developer/credentials/touch_passes/:id`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -1198,9 +1974,17 @@ Defined in: src/endpoints/credentials.ts:86
 
 ### updateUser
 
-> `readonly` **updateUser**: `EndpointInvoker`\<\{ `method`: `"PUT"`; `path`: `string`; \}\>
+> `readonly` **updateUser**: `EndpointFor`\<`"updateUser"`\>
 
-Defined in: src/endpoints/users.ts:40
+Defined in: src/unifi-access-api.docs.ts:28
+
+Update User.
+
+Performs a PUT request to `/api/v1/developer/users/:id`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -1210,9 +1994,17 @@ Defined in: src/endpoints/users.ts:40
 
 ### updateUserAccessPolicies
 
-> `readonly` **updateUserAccessPolicies**: `EndpointInvoker`\<\{ `method`: `"PUT"`; `path`: `string`; \}\>
+> `readonly` **updateUserAccessPolicies**: `EndpointFor`\<`"updateUserAccessPolicies"`\>
 
-Defined in: src/endpoints/users.ts:55
+Defined in: src/unifi-access-api.docs.ts:55
+
+Update User Access Policies.
+
+Performs a PUT request to `/api/v1/developer/users/:id/access_policies`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -1222,9 +2014,17 @@ Defined in: src/endpoints/users.ts:55
 
 ### updateUserGroup
 
-> `readonly` **updateUserGroup**: `EndpointInvoker`\<\{ `method`: `"PUT"`; `path`: `string`; \}\>
+> `readonly` **updateUserGroup**: `EndpointFor`\<`"updateUserGroup"`\>
 
-Defined in: src/endpoints/users.ts:95
+Defined in: src/unifi-access-api.docs.ts:127
+
+Update User Group.
+
+Performs a PUT request to `/api/v1/developer/user_groups/:id`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -1234,9 +2034,17 @@ Defined in: src/endpoints/users.ts:95
 
 ### updateUserGroupAccessPolicies
 
-> `readonly` **updateUserGroupAccessPolicies**: `EndpointInvoker`\<\{ `method`: `"PUT"`; `path`: `string`; \}\>
+> `readonly` **updateUserGroupAccessPolicies**: `EndpointFor`\<`"updateUserGroupAccessPolicies"`\>
 
-Defined in: src/endpoints/users.ts:130
+Defined in: src/unifi-access-api.docs.ts:190
+
+Update User Group Access Policies.
+
+Performs a PUT request to `/api/v1/developer/user_groups/:id/access_policies`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -1246,9 +2054,17 @@ Defined in: src/endpoints/users.ts:130
 
 ### updateVisitor
 
-> `readonly` **updateVisitor**: `EndpointInvoker`\<\{ `method`: `"PUT"`; `path`: `string`; \}\>
+> `readonly` **updateVisitor**: `EndpointFor`\<`"updateVisitor"`\>
 
-Defined in: src/endpoints/visitors.ts:40
+Defined in: src/unifi-access-api.docs.ts:307
+
+Update Visitor.
+
+Performs a PUT request to `/api/v1/developer/visitors/:id`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -1258,9 +2074,17 @@ Defined in: src/endpoints/visitors.ts:40
 
 ### updateWebhookEndpoint
 
-> `readonly` **updateWebhookEndpoint**: `EndpointInvoker`\<\{ `method`: `"PUT"`; `path`: `string`; \}\>
+> `readonly` **updateWebhookEndpoint**: `EndpointFor`\<`"updateWebhookEndpoint"`\>
 
-Defined in: src/endpoints/webhooks.ts:22
+Defined in: src/unifi-access-api.docs.ts:928
+
+Update Webhook Endpoint.
+
+Performs a PUT request to `/api/v1/developer/webhooks/endpoints/:id`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -1270,9 +2094,17 @@ Defined in: src/endpoints/webhooks.ts:22
 
 ### uploadApiServerCertificate
 
-> `readonly` **uploadApiServerCertificate**: `EndpointInvoker`\<\{ `method`: `"POST"`; `path`: `string`; `rawBody`: `true`; \}\>
+> `readonly` **uploadApiServerCertificate**: `EndpointFor`\<`"uploadApiServerCertificate"`\>
 
-Defined in: src/endpoints/api-server.ts:7
+Defined in: src/unifi-access-api.docs.ts:946
+
+Upload Api Server Certificate.
+
+Performs a POST request to `/api/v1/developer/api_server/certificates`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 
@@ -1282,9 +2114,17 @@ Defined in: src/endpoints/api-server.ts:7
 
 ### uploadUserAvatar
 
-> `readonly` **uploadUserAvatar**: `EndpointInvoker`\<\{ `method`: `"POST"`; `path`: `string`; `rawBody`: `true`; \}\>
+> `readonly` **uploadUserAvatar**: `EndpointFor`\<`"uploadUserAvatar"`\>
 
-Defined in: src/endpoints/users.ts:175
+Defined in: src/unifi-access-api.docs.ts:271
+
+Upload User Avatar.
+
+Performs a POST request to `/api/v1/developer/users/:id/avatar`.
+
+#### Returns
+
+Promise resolving with the typed API response.
 
 #### Implementation of
 

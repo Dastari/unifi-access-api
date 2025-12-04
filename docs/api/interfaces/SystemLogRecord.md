@@ -1,8 +1,8 @@
-[**unifi-access-api v0.1.0**](../README.md)
+[**unifi-access-api v1.0.1**](../README.md)
 
 ***
 
-Defined in: src/types/system.ts:49
+Defined in: [src/types/system.ts:49](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/system.ts#L49)
 
 ## Indexable
 
@@ -14,7 +14,7 @@ Defined in: src/types/system.ts:49
 
 > `optional` **\_id**: `string`
 
-Defined in: src/types/system.ts:51
+Defined in: [src/types/system.ts:51](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/system.ts#L51)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: src/types/system.ts:51
 
 > `optional` **\_source**: `object`
 
-Defined in: src/types/system.ts:52
+Defined in: [src/types/system.ts:52](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/system.ts#L52)
 
 #### Index Signature
 
@@ -50,7 +50,7 @@ Defined in: src/types/system.ts:52
 
 > **@timestamp**: `string`
 
-Defined in: src/types/system.ts:50
+Defined in: [src/types/system.ts:50](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/system.ts#L50)
 
 ***
 
@@ -58,4 +58,4 @@ Defined in: src/types/system.ts:50
 
 > `optional` **tag**: `string`
 
-Defined in: src/types/system.ts:59
+Defined in: [src/types/system.ts:59](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/system.ts#L59)

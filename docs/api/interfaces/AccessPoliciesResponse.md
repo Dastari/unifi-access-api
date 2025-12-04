@@ -1,8 +1,8 @@
-[**unifi-access-api v0.1.0**](../README.md)
+[**unifi-access-api v1.0.1**](../README.md)
 
 ***
 
-Defined in: src/types/access-control.ts:116
+Defined in: [src/types/access-control.ts:116](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/access-control.ts#L116)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: src/types/access-control.ts:116
 
 > **code**: `string`
 
-Defined in: src/types/common.ts:4
+Defined in: [src/types/common.ts:4](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/common.ts#L4)
 
 #### Inherited from
 
@@ -30,7 +30,7 @@ Defined in: src/types/common.ts:4
 
 > **data**: [`AccessPolicy`](AccessPolicy.md)[]
 
-Defined in: src/types/common.ts:6
+Defined in: [src/types/common.ts:6](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/common.ts#L6)
 
 #### Inherited from
 
@@ -42,7 +42,7 @@ Defined in: src/types/common.ts:6
 
 > **msg**: `string`
 
-Defined in: src/types/common.ts:5
+Defined in: [src/types/common.ts:5](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/common.ts#L5)
 
 #### Inherited from
 
@@ -54,7 +54,7 @@ Defined in: src/types/common.ts:5
 
 > `optional` **pagination**: `object`
 
-Defined in: src/types/access-control.ts:117
+Defined in: [src/types/access-control.ts:117](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/access-control.ts#L117)
 
 #### page\_num
 

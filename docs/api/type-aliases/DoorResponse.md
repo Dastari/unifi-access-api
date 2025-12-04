@@ -1,7 +1,7 @@
-[**unifi-access-api v0.1.0**](../README.md)
+[**unifi-access-api v1.0.1**](../README.md)
 
 ***
 
 > **DoorResponse** = [`ApiResponse`](../interfaces/ApiResponse.md)\<[`Door`](../interfaces/Door.md)\>
 
-Defined in: src/types/spaces.ts:68
+Defined in: [src/types/spaces.ts:68](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/spaces.ts#L68)

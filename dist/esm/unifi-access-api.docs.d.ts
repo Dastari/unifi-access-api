@@ -1,0 +1,849 @@
+import type { EndpointInvoker } from './internal/endpoint.js';
+import type { endpointDefinitions } from './endpoints/index.js';
+type EndpointFor<K extends keyof typeof endpointDefinitions> = EndpointInvoker<typeof endpointDefinitions[K]>;
+declare module './client.js' {
+    interface UnifiAccessApi {
+        /**
+         * Create User.
+         *
+         * Performs a POST request to `/api/v1/developer/users`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly createUser: EndpointFor<'createUser'>;
+        /**
+         * Update User.
+         *
+         * Performs a PUT request to `/api/v1/developer/users/:id`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly updateUser: EndpointFor<'updateUser'>;
+        /**
+         * Fetch User.
+         *
+         * Performs a GET request to `/api/v1/developer/users/:id`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly fetchUser: EndpointFor<'fetchUser'>;
+        /**
+         * Fetch All Users.
+         *
+         * Performs a GET request to `/api/v1/developer/users`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly fetchAllUsers: EndpointFor<'fetchAllUsers'>;
+        /**
+         * Update User Access Policies.
+         *
+         * Performs a PUT request to `/api/v1/developer/users/:id/access_policies`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly updateUserAccessPolicies: EndpointFor<'updateUserAccessPolicies'>;
+        /**
+         * Assign User Nfc Card.
+         *
+         * Performs a PUT request to `/api/v1/developer/users/:id/nfc_cards`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly assignUserNfcCard: EndpointFor<'assignUserNfcCard'>;
+        /**
+         * Unassign User Nfc Card.
+         *
+         * Performs a PUT request to `/api/v1/developer/users/:id/nfc_cards/delete`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly unassignUserNfcCard: EndpointFor<'unassignUserNfcCard'>;
+        /**
+         * Assign User Pin Code.
+         *
+         * Performs a PUT request to `/api/v1/developer/users/:id/pin_codes`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly assignUserPinCode: EndpointFor<'assignUserPinCode'>;
+        /**
+         * Unassign User Pin Code.
+         *
+         * Performs a DELETE request to `/api/v1/developer/users/:id/pin_codes`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly unassignUserPinCode: EndpointFor<'unassignUserPinCode'>;
+        /**
+         * Create User Group.
+         *
+         * Performs a POST request to `/api/v1/developer/user_groups`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly createUserGroup: EndpointFor<'createUserGroup'>;
+        /**
+         * Fetch All User Groups.
+         *
+         * Performs a GET request to `/api/v1/developer/user_groups`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly fetchAllUserGroups: EndpointFor<'fetchAllUserGroups'>;
+        /**
+         * Fetch User Group.
+         *
+         * Performs a GET request to `/api/v1/developer/user_groups/:id`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly fetchUserGroup: EndpointFor<'fetchUserGroup'>;
+        /**
+         * Update User Group.
+         *
+         * Performs a PUT request to `/api/v1/developer/user_groups/:id`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly updateUserGroup: EndpointFor<'updateUserGroup'>;
+        /**
+         * Delete User Group.
+         *
+         * Performs a DELETE request to `/api/v1/developer/user_groups/:id`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly deleteUserGroup: EndpointFor<'deleteUserGroup'>;
+        /**
+         * Assign Users To Group.
+         *
+         * Performs a POST request to `/api/v1/developer/user_groups/:id/users`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly assignUsersToGroup: EndpointFor<'assignUsersToGroup'>;
+        /**
+         * Unassign Users From Group.
+         *
+         * Performs a POST request to `/api/v1/developer/user_groups/:id/users/delete`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly unassignUsersFromGroup: EndpointFor<'unassignUsersFromGroup'>;
+        /**
+         * Fetch Users In Group.
+         *
+         * Performs a GET request to `/api/v1/developer/user_groups/:id/users`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly fetchUsersInGroup: EndpointFor<'fetchUsersInGroup'>;
+        /**
+         * Fetch All Users In Group.
+         *
+         * Performs a GET request to `/api/v1/developer/user_groups/:id/users/all`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly fetchAllUsersInGroup: EndpointFor<'fetchAllUsersInGroup'>;
+        /**
+         * Fetch User Access Policies.
+         *
+         * Performs a GET request to `/api/v1/developer/users/:id/access_policies`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly fetchUserAccessPolicies: EndpointFor<'fetchUserAccessPolicies'>;
+        /**
+         * Update User Group Access Policies.
+         *
+         * Performs a PUT request to `/api/v1/developer/user_groups/:id/access_policies`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly updateUserGroupAccessPolicies: EndpointFor<'updateUserGroupAccessPolicies'>;
+        /**
+         * Fetch User Group Access Policies.
+         *
+         * Performs a GET request to `/api/v1/developer/user_groups/:id/access_policies`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly fetchUserGroupAccessPolicies: EndpointFor<'fetchUserGroupAccessPolicies'>;
+        /**
+         * Delete User.
+         *
+         * Performs a DELETE request to `/api/v1/developer/users/:id`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly deleteUser: EndpointFor<'deleteUser'>;
+        /**
+         * Search Users.
+         *
+         * Performs a GET request to `/api/v1/developer/users/search`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly searchUsers: EndpointFor<'searchUsers'>;
+        /**
+         * Assign Touch Pass To User.
+         *
+         * Performs a PUT request to `/api/v1/developer/users/:user_id/touch_passes/:touch_pass_id`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly assignTouchPassToUser: EndpointFor<'assignTouchPassToUser'>;
+        /**
+         * Unassign Touch Pass From User.
+         *
+         * Performs a DELETE request to `/api/v1/developer/users/:user_id/touch_passes/:touch_pass_id`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly unassignTouchPassFromUser: EndpointFor<'unassignTouchPassFromUser'>;
+        /**
+         * Batch Assign Touch Passes.
+         *
+         * Performs a PUT request to `/api/v1/developer/users/touch_passes/assign`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly batchAssignTouchPasses: EndpointFor<'batchAssignTouchPasses'>;
+        /**
+         * Assign License Plates To User.
+         *
+         * Performs a PUT request to `/api/v1/developer/users/:id/license_plates`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly assignLicensePlatesToUser: EndpointFor<'assignLicensePlatesToUser'>;
+        /**
+         * Unassign License Plate From User.
+         *
+         * Performs a DELETE request to `/api/v1/developer/users/:user_id/license_plates/:license_plate_id`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly unassignLicensePlateFromUser: EndpointFor<'unassignLicensePlateFromUser'>;
+        /**
+         * Upload User Avatar.
+         *
+         * Performs a POST request to `/api/v1/developer/users/:id/avatar`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly uploadUserAvatar: EndpointFor<'uploadUserAvatar'>;
+        /**
+         * Create Visitor.
+         *
+         * Performs a POST request to `/api/v1/developer/visitors`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly createVisitor: EndpointFor<'createVisitor'>;
+        /**
+         * Fetch Visitor.
+         *
+         * Performs a GET request to `/api/v1/developer/visitors/:id`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly fetchVisitor: EndpointFor<'fetchVisitor'>;
+        /**
+         * Fetch All Visitors.
+         *
+         * Performs a GET request to `/api/v1/developer/visitors`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly fetchAllVisitors: EndpointFor<'fetchAllVisitors'>;
+        /**
+         * Update Visitor.
+         *
+         * Performs a PUT request to `/api/v1/developer/visitors/:id`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly updateVisitor: EndpointFor<'updateVisitor'>;
+        /**
+         * Delete Visitor.
+         *
+         * Performs a DELETE request to `/api/v1/developer/visitors/:id`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly deleteVisitor: EndpointFor<'deleteVisitor'>;
+        /**
+         * Assign Visitor Nfc Card.
+         *
+         * Performs a PUT request to `/api/v1/developer/visitors/:id/nfc_cards`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly assignVisitorNfcCard: EndpointFor<'assignVisitorNfcCard'>;
+        /**
+         * Unassign Visitor Nfc Card.
+         *
+         * Performs a PUT request to `/api/v1/developer/visitors/:id/nfc_cards/delete`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly unassignVisitorNfcCard: EndpointFor<'unassignVisitorNfcCard'>;
+        /**
+         * Assign Visitor Pin Code.
+         *
+         * Performs a PUT request to `/api/v1/developer/visitors/:id/pin_codes`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly assignVisitorPinCode: EndpointFor<'assignVisitorPinCode'>;
+        /**
+         * Unassign Visitor Pin Code.
+         *
+         * Performs a DELETE request to `/api/v1/developer/visitors/:id/pin_codes`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly unassignVisitorPinCode: EndpointFor<'unassignVisitorPinCode'>;
+        /**
+         * Assign Visitor Qr Code.
+         *
+         * Performs a PUT request to `/api/v1/developer/visitors/:id/qr_codes`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly assignVisitorQrCode: EndpointFor<'assignVisitorQrCode'>;
+        /**
+         * Unassign Visitor Qr Code.
+         *
+         * Performs a DELETE request to `/api/v1/developer/visitors/:id/qr_codes`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly unassignVisitorQrCode: EndpointFor<'unassignVisitorQrCode'>;
+        /**
+         * Assign Visitor License Plates.
+         *
+         * Performs a PUT request to `/api/v1/developer/visitors/:id/license_plates`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly assignVisitorLicensePlates: EndpointFor<'assignVisitorLicensePlates'>;
+        /**
+         * Unassign Visitor License Plate.
+         *
+         * Performs a DELETE request to `/api/v1/developer/visitors/:visitor_id/license_plates/:license_plate_id`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly unassignVisitorLicensePlate: EndpointFor<'unassignVisitorLicensePlate'>;
+        /**
+         * Create Access Policy.
+         *
+         * Performs a POST request to `/api/v1/developer/access_policies`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly createAccessPolicy: EndpointFor<'createAccessPolicy'>;
+        /**
+         * Update Access Policy.
+         *
+         * Performs a PUT request to `/api/v1/developer/access_policies/:id`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly updateAccessPolicy: EndpointFor<'updateAccessPolicy'>;
+        /**
+         * Delete Access Policy.
+         *
+         * Performs a DELETE request to `/api/v1/developer/access_policies/:id`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly deleteAccessPolicy: EndpointFor<'deleteAccessPolicy'>;
+        /**
+         * Fetch Access Policy.
+         *
+         * Performs a GET request to `/api/v1/developer/access_policies/:id`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly fetchAccessPolicy: EndpointFor<'fetchAccessPolicy'>;
+        /**
+         * Fetch All Access Policies.
+         *
+         * Performs a GET request to `/api/v1/developer/access_policies`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly fetchAllAccessPolicies: EndpointFor<'fetchAllAccessPolicies'>;
+        /**
+         * Create Holiday Group.
+         *
+         * Performs a POST request to `/api/v1/developer/access_policies/holiday_groups`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly createHolidayGroup: EndpointFor<'createHolidayGroup'>;
+        /**
+         * Update Holiday Group.
+         *
+         * Performs a PUT request to `/api/v1/developer/access_policies/holiday_groups/:id`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly updateHolidayGroup: EndpointFor<'updateHolidayGroup'>;
+        /**
+         * Delete Holiday Group.
+         *
+         * Performs a DELETE request to `/api/v1/developer/access_policies/holiday_groups/:id`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly deleteHolidayGroup: EndpointFor<'deleteHolidayGroup'>;
+        /**
+         * Fetch Holiday Group.
+         *
+         * Performs a GET request to `/api/v1/developer/access_policies/holiday_groups/:id`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly fetchHolidayGroup: EndpointFor<'fetchHolidayGroup'>;
+        /**
+         * Fetch All Holiday Groups.
+         *
+         * Performs a GET request to `/api/v1/developer/access_policies/holiday_groups`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly fetchAllHolidayGroups: EndpointFor<'fetchAllHolidayGroups'>;
+        /**
+         * Create Schedule.
+         *
+         * Performs a POST request to `/api/v1/developer/access_policies/schedules`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly createSchedule: EndpointFor<'createSchedule'>;
+        /**
+         * Update Schedule.
+         *
+         * Performs a PUT request to `/api/v1/developer/access_policies/schedules/:id`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly updateSchedule: EndpointFor<'updateSchedule'>;
+        /**
+         * Fetch Schedule.
+         *
+         * Performs a GET request to `/api/v1/developer/access_policies/schedules/:id`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly fetchSchedule: EndpointFor<'fetchSchedule'>;
+        /**
+         * Fetch All Schedules.
+         *
+         * Performs a GET request to `/api/v1/developer/access_policies/schedules`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly fetchAllSchedules: EndpointFor<'fetchAllSchedules'>;
+        /**
+         * Delete Schedule.
+         *
+         * Performs a DELETE request to `/api/v1/developer/access_policies/schedules/:id`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly deleteSchedule: EndpointFor<'deleteSchedule'>;
+        /**
+         * Generate Pin Code.
+         *
+         * Performs a POST request to `/api/v1/developer/credentials/pin_codes`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly generatePinCode: EndpointFor<'generatePinCode'>;
+        /**
+         * Create Nfc Enrollment Session.
+         *
+         * Performs a POST request to `/api/v1/developer/credentials/nfc_cards/sessions`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly createNfcEnrollmentSession: EndpointFor<'createNfcEnrollmentSession'>;
+        /**
+         * Fetch Nfc Enrollment Status.
+         *
+         * Performs a GET request to `/api/v1/developer/credentials/nfc_cards/sessions/:id`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly fetchNfcEnrollmentStatus: EndpointFor<'fetchNfcEnrollmentStatus'>;
+        /**
+         * Delete Nfc Enrollment Session.
+         *
+         * Performs a DELETE request to `/api/v1/developer/credentials/nfc_cards/sessions/:id`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly deleteNfcEnrollmentSession: EndpointFor<'deleteNfcEnrollmentSession'>;
+        /**
+         * Fetch Nfc Card.
+         *
+         * Performs a GET request to `/api/v1/developer/credentials/nfc_cards/tokens/:token`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly fetchNfcCard: EndpointFor<'fetchNfcCard'>;
+        /**
+         * Fetch All Nfc Cards.
+         *
+         * Performs a GET request to `/api/v1/developer/credentials/nfc_cards/tokens`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly fetchAllNfcCards: EndpointFor<'fetchAllNfcCards'>;
+        /**
+         * Delete Nfc Card.
+         *
+         * Performs a DELETE request to `/api/v1/developer/credentials/nfc_cards/tokens/:token`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly deleteNfcCard: EndpointFor<'deleteNfcCard'>;
+        /**
+         * Update Nfc Card.
+         *
+         * Performs a PUT request to `/api/v1/developer/credentials/nfc_cards/tokens/:token`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly updateNfcCard: EndpointFor<'updateNfcCard'>;
+        /**
+         * Fetch Touch Pass List.
+         *
+         * Performs a GET request to `/api/v1/developer/credentials/touch_passes`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly fetchTouchPassList: EndpointFor<'fetchTouchPassList'>;
+        /**
+         * Search Touch Passes.
+         *
+         * Performs a GET request to `/api/v1/developer/credentials/touch_passes/search`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly searchTouchPasses: EndpointFor<'searchTouchPasses'>;
+        /**
+         * Fetch Assignable Touch Passes.
+         *
+         * Performs a GET request to `/api/v1/developer/credentials/touch_passes/assignable`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly fetchAssignableTouchPasses: EndpointFor<'fetchAssignableTouchPasses'>;
+        /**
+         * Update Touch Pass.
+         *
+         * Performs a PUT request to `/api/v1/developer/credentials/touch_passes/:id`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly updateTouchPass: EndpointFor<'updateTouchPass'>;
+        /**
+         * Fetch Touch Pass Details.
+         *
+         * Performs a GET request to `/api/v1/developer/credentials/touch_passes/:id`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly fetchTouchPassDetails: EndpointFor<'fetchTouchPassDetails'>;
+        /**
+         * Purchase Touch Passes.
+         *
+         * Performs a POST request to `/api/v1/developer/credentials/touch_passes`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly purchaseTouchPasses: EndpointFor<'purchaseTouchPasses'>;
+        /**
+         * Download Touch Pass Qr Code.
+         *
+         * Performs a GET request to `/api/v1/developer/credentials/qr_codes/download/:id`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly downloadTouchPassQrCode: EndpointFor<'downloadTouchPassQrCode'>;
+        /**
+         * Import Third Party Nfc Cards.
+         *
+         * Performs a POST request to `/api/v1/developer/credentials/nfc_cards/import`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly importThirdPartyNfcCards: EndpointFor<'importThirdPartyNfcCards'>;
+        /**
+         * Fetch Door Group Topology.
+         *
+         * Performs a GET request to `/api/v1/developer/door_groups/topology`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly fetchDoorGroupTopology: EndpointFor<'fetchDoorGroupTopology'>;
+        /**
+         * Create Door Group.
+         *
+         * Performs a POST request to `/api/v1/developer/door_groups`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly createDoorGroup: EndpointFor<'createDoorGroup'>;
+        /**
+         * Fetch Door Group By Id.
+         *
+         * Performs a GET request to `/api/v1/developer/door_groups/:id`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly fetchDoorGroupById: EndpointFor<'fetchDoorGroupById'>;
+        /**
+         * Update Door Group By Id.
+         *
+         * Performs a PUT request to `/api/v1/developer/door_groups/:id`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly updateDoorGroupById: EndpointFor<'updateDoorGroupById'>;
+        /**
+         * Fetch All Door Groups.
+         *
+         * Performs a GET request to `/api/v1/developer/door_groups`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly fetchAllDoorGroups: EndpointFor<'fetchAllDoorGroups'>;
+        /**
+         * Delete Door Group By Id.
+         *
+         * Performs a DELETE request to `/api/v1/developer/door_groups/:id`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly deleteDoorGroupById: EndpointFor<'deleteDoorGroupById'>;
+        /**
+         * Fetch Door By Id.
+         *
+         * Performs a GET request to `/api/v1/developer/doors/:id`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly fetchDoorById: EndpointFor<'fetchDoorById'>;
+        /**
+         * Fetch All Doors.
+         *
+         * Performs a GET request to `/api/v1/developer/doors`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly fetchAllDoors: EndpointFor<'fetchAllDoors'>;
+        /**
+         * Unlock Door.
+         *
+         * Performs a PUT request to `/api/v1/developer/doors/:id/unlock`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly unlockDoor: EndpointFor<'unlockDoor'>;
+        /**
+         * Set Door Lock Rule.
+         *
+         * Performs a PUT request to `/api/v1/developer/doors/:id/lock_rule`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly setDoorLockRule: EndpointFor<'setDoorLockRule'>;
+        /**
+         * Fetch Door Lock Rule.
+         *
+         * Performs a GET request to `/api/v1/developer/doors/:id/lock_rule`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly fetchDoorLockRule: EndpointFor<'fetchDoorLockRule'>;
+        /**
+         * Set Door Emergency Status.
+         *
+         * Performs a PUT request to `/api/v1/developer/doors/settings/emergency`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly setDoorEmergencyStatus: EndpointFor<'setDoorEmergencyStatus'>;
+        /**
+         * Fetch Door Emergency Status.
+         *
+         * Performs a GET request to `/api/v1/developer/doors/settings/emergency`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly fetchDoorEmergencyStatus: EndpointFor<'fetchDoorEmergencyStatus'>;
+        /**
+         * Fetch Devices.
+         *
+         * Performs a GET request to `/api/v1/developer/devices`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly fetchDevices: EndpointFor<'fetchDevices'>;
+        /**
+         * Fetch Device Access Settings.
+         *
+         * Performs a GET request to `/api/v1/developer/devices/:device_id/settings`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly fetchDeviceAccessSettings: EndpointFor<'fetchDeviceAccessSettings'>;
+        /**
+         * Update Device Access Settings.
+         *
+         * Performs a PUT request to `/api/v1/developer/devices/:device_id/settings`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly updateDeviceAccessSettings: EndpointFor<'updateDeviceAccessSettings'>;
+        /**
+         * Fetch System Logs.
+         *
+         * Performs a POST request to `/api/v1/developer/system/logs`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly fetchSystemLogs: EndpointFor<'fetchSystemLogs'>;
+        /**
+         * Export System Logs.
+         *
+         * Performs a POST request to `/api/v1/developer/system/logs/export`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly exportSystemLogs: EndpointFor<'exportSystemLogs'>;
+        /**
+         * Fetch System Log Resource.
+         *
+         * Performs a GET request to `/api/v1/developer/system/logs/resource/:id`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly fetchSystemLogResource: EndpointFor<'fetchSystemLogResource'>;
+        /**
+         * Fetch System Static Resource.
+         *
+         * Performs a GET request to `/api/v1/developer/system/static/:path`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly fetchSystemStaticResource: EndpointFor<'fetchSystemStaticResource'>;
+        /**
+         * Send Identity Invitations.
+         *
+         * Performs a POST request to `/api/v1/developer/users/identity/invitations`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly sendIdentityInvitations: EndpointFor<'sendIdentityInvitations'>;
+        /**
+         * Fetch Available Identity Resources.
+         *
+         * Performs a GET request to `/api/v1/developer/users/identity/assignments`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly fetchAvailableIdentityResources: EndpointFor<'fetchAvailableIdentityResources'>;
+        /**
+         * Assign Identity Resources To User.
+         *
+         * Performs a POST request to `/api/v1/developer/users/:id/identity/assignments`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly assignIdentityResourcesToUser: EndpointFor<'assignIdentityResourcesToUser'>;
+        /**
+         * Fetch Identity Resources For User.
+         *
+         * Performs a GET request to `/api/v1/developer/users/:id/identity/assignments`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly fetchIdentityResourcesForUser: EndpointFor<'fetchIdentityResourcesForUser'>;
+        /**
+         * Assign Identity Resources To User Group.
+         *
+         * Performs a POST request to `/api/v1/developer/user_groups/:id/identity/assignments`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly assignIdentityResourcesToUserGroup: EndpointFor<'assignIdentityResourcesToUserGroup'>;
+        /**
+         * Fetch Identity Resources For User Group.
+         *
+         * Performs a GET request to `/api/v1/developer/user_groups/:id/identity/assignments`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly fetchIdentityResourcesForUserGroup: EndpointFor<'fetchIdentityResourcesForUserGroup'>;
+        /**
+         * Fetch Webhook Endpoints.
+         *
+         * Performs a GET request to `/api/v1/developer/webhooks/endpoints`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly fetchWebhookEndpoints: EndpointFor<'fetchWebhookEndpoints'>;
+        /**
+         * Create Webhook Endpoint.
+         *
+         * Performs a POST request to `/api/v1/developer/webhooks/endpoints`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly createWebhookEndpoint: EndpointFor<'createWebhookEndpoint'>;
+        /**
+         * Update Webhook Endpoint.
+         *
+         * Performs a PUT request to `/api/v1/developer/webhooks/endpoints/:id`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly updateWebhookEndpoint: EndpointFor<'updateWebhookEndpoint'>;
+        /**
+         * Delete Webhook Endpoint.
+         *
+         * Performs a DELETE request to `/api/v1/developer/webhooks/endpoints/:id`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly deleteWebhookEndpoint: EndpointFor<'deleteWebhookEndpoint'>;
+        /**
+         * Upload Api Server Certificate.
+         *
+         * Performs a POST request to `/api/v1/developer/api_server/certificates`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly uploadApiServerCertificate: EndpointFor<'uploadApiServerCertificate'>;
+        /**
+         * Delete Api Server Certificate.
+         *
+         * Performs a DELETE request to `/api/v1/developer/api_server/certificates`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly deleteApiServerCertificate: EndpointFor<'deleteApiServerCertificate'>;
+    }
+}
+export {};
+//# sourceMappingURL=unifi-access-api.docs.d.ts.map

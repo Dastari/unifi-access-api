@@ -1,8 +1,8 @@
-[**unifi-access-api v0.1.0**](../README.md)
+[**unifi-access-api v1.0.1**](../README.md)
 
 ***
 
-Defined in: src/types/users.ts:16
+Defined in: [src/types/users.ts:16](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/users.ts#L16)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: src/types/users.ts:16
 
 > `optional` **access\_policies**: [`UserAccessPolicyAssignment`](UserAccessPolicyAssignment.md)[]
 
-Defined in: src/types/users.ts:31
+Defined in: [src/types/users.ts:31](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/users.ts#L31)
 
 ***
 
@@ -18,7 +18,7 @@ Defined in: src/types/users.ts:31
 
 > `optional` **access\_policy\_ids**: `string`[]
 
-Defined in: src/types/users.ts:30
+Defined in: [src/types/users.ts:30](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/users.ts#L30)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: src/types/users.ts:30
 
 > `optional` **alias**: `string`
 
-Defined in: src/types/users.ts:21
+Defined in: [src/types/users.ts:21](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/users.ts#L21)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: src/types/users.ts:21
 
 > `optional` **email\_status**: `string`
 
-Defined in: src/types/users.ts:23
+Defined in: [src/types/users.ts:23](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/users.ts#L23)
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: src/types/users.ts:23
 
 > `optional` **employee\_number**: `string`
 
-Defined in: src/types/users.ts:25
+Defined in: [src/types/users.ts:25](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/users.ts#L25)
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: src/types/users.ts:25
 
 > **first\_name**: `string`
 
-Defined in: src/types/users.ts:18
+Defined in: [src/types/users.ts:18](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/users.ts#L18)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: src/types/users.ts:18
 
 > `optional` **full\_name**: `string`
 
-Defined in: src/types/users.ts:20
+Defined in: [src/types/users.ts:20](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/users.ts#L20)
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: src/types/users.ts:20
 
 > **id**: `string`
 
-Defined in: src/types/users.ts:17
+Defined in: [src/types/users.ts:17](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/users.ts#L17)
 
 ***
 
@@ -74,7 +74,7 @@ Defined in: src/types/users.ts:17
 
 > **last\_name**: `string`
 
-Defined in: src/types/users.ts:19
+Defined in: [src/types/users.ts:19](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/users.ts#L19)
 
 ***
 
@@ -82,7 +82,7 @@ Defined in: src/types/users.ts:19
 
 > `optional` **license\_plates**: [`LicensePlateCredential`](LicensePlateCredential.md)[]
 
-Defined in: src/types/users.ts:28
+Defined in: [src/types/users.ts:28](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/users.ts#L28)
 
 ***
 
@@ -90,7 +90,7 @@ Defined in: src/types/users.ts:28
 
 > `optional` **nfc\_cards**: [`UserNfcCard`](UserNfcCard.md)[]
 
-Defined in: src/types/users.ts:27
+Defined in: [src/types/users.ts:27](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/users.ts#L27)
 
 ***
 
@@ -98,7 +98,7 @@ Defined in: src/types/users.ts:27
 
 > `optional` **onboard\_time**: `number`
 
-Defined in: src/types/users.ts:26
+Defined in: [src/types/users.ts:26](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/users.ts#L26)
 
 ***
 
@@ -106,7 +106,7 @@ Defined in: src/types/users.ts:26
 
 > `optional` **phone**: `string`
 
-Defined in: src/types/users.ts:24
+Defined in: [src/types/users.ts:24](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/users.ts#L24)
 
 ***
 
@@ -114,7 +114,7 @@ Defined in: src/types/users.ts:24
 
 > `optional` **pin\_code**: [`UserPinCode`](UserPinCode.md) \| `null`
 
-Defined in: src/types/users.ts:29
+Defined in: [src/types/users.ts:29](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/users.ts#L29)
 
 ***
 
@@ -122,7 +122,7 @@ Defined in: src/types/users.ts:29
 
 > **status**: [`UnifiAccessUserStatus`](../type-aliases/UnifiAccessUserStatus.md)
 
-Defined in: src/types/users.ts:32
+Defined in: [src/types/users.ts:32](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/users.ts#L32)
 
 ***
 
@@ -130,7 +130,7 @@ Defined in: src/types/users.ts:32
 
 > `optional` **touch\_pass**: [`TouchPass`](TouchPass.md) \| `null`
 
-Defined in: src/types/users.ts:33
+Defined in: [src/types/users.ts:33](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/users.ts#L33)
 
 ***
 
@@ -138,4 +138,4 @@ Defined in: src/types/users.ts:33
 
 > `optional` **user\_email**: `string`
 
-Defined in: src/types/users.ts:22
+Defined in: [src/types/users.ts:22](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/users.ts#L22)

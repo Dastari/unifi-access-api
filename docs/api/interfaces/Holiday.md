@@ -1,8 +1,8 @@
-[**unifi-access-api v0.1.0**](../README.md)
+[**unifi-access-api v1.0.1**](../README.md)
 
 ***
 
-Defined in: src/types/access-control.ts:19
+Defined in: [src/types/access-control.ts:19](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/access-control.ts#L19)
 
 ## Indexable
 
@@ -14,7 +14,7 @@ Defined in: src/types/access-control.ts:19
 
 > `optional` **description**: `string`
 
-Defined in: src/types/access-control.ts:22
+Defined in: [src/types/access-control.ts:22](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/access-control.ts#L22)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: src/types/access-control.ts:22
 
 > **end\_time**: `string`
 
-Defined in: src/types/access-control.ts:25
+Defined in: [src/types/access-control.ts:25](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/access-control.ts#L25)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: src/types/access-control.ts:25
 
 > **id**: `string`
 
-Defined in: src/types/access-control.ts:20
+Defined in: [src/types/access-control.ts:20](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/access-control.ts#L20)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: src/types/access-control.ts:20
 
 > **name**: `string`
 
-Defined in: src/types/access-control.ts:21
+Defined in: [src/types/access-control.ts:21](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/access-control.ts#L21)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: src/types/access-control.ts:21
 
 > **repeat**: `boolean`
 
-Defined in: src/types/access-control.ts:23
+Defined in: [src/types/access-control.ts:23](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/access-control.ts#L23)
 
 ***
 
@@ -54,4 +54,4 @@ Defined in: src/types/access-control.ts:23
 
 > **start\_time**: `string`
 
-Defined in: src/types/access-control.ts:24
+Defined in: [src/types/access-control.ts:24](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/access-control.ts#L24)

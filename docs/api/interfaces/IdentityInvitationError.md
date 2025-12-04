@@ -1,8 +1,8 @@
-[**unifi-access-api v0.1.0**](../README.md)
+[**unifi-access-api v1.0.1**](../README.md)
 
 ***
 
-Defined in: src/types/identity.ts:25
+Defined in: [src/types/identity.ts:25](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/identity.ts#L25)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: src/types/identity.ts:25
 
 > **error\_code**: `string`
 
-Defined in: src/types/identity.ts:26
+Defined in: [src/types/identity.ts:26](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/identity.ts#L26)
 
 ***
 
@@ -18,7 +18,7 @@ Defined in: src/types/identity.ts:26
 
 > **error\_msg**: `string`
 
-Defined in: src/types/identity.ts:27
+Defined in: [src/types/identity.ts:27](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/identity.ts#L27)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: src/types/identity.ts:27
 
 > **user\_email**: `string`
 
-Defined in: src/types/identity.ts:28
+Defined in: [src/types/identity.ts:28](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/identity.ts#L28)
 
 ***
 
@@ -34,4 +34,4 @@ Defined in: src/types/identity.ts:28
 
 > **user\_id**: `string`
 
-Defined in: src/types/identity.ts:29
+Defined in: [src/types/identity.ts:29](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/identity.ts#L29)

@@ -1,8 +1,8 @@
-[**unifi-access-api v0.1.0**](../README.md)
+[**unifi-access-api v1.0.1**](../README.md)
 
 ***
 
-Defined in: src/types/credentials.ts:15
+Defined in: [src/types/credentials.ts:15](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/credentials.ts#L15)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: src/types/credentials.ts:15
 
 > `optional` **alias**: `string`
 
-Defined in: src/types/credentials.ts:19
+Defined in: [src/types/credentials.ts:19](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/credentials.ts#L19)
 
 ***
 
@@ -18,7 +18,7 @@ Defined in: src/types/credentials.ts:19
 
 > `optional` **card\_type**: `string`
 
-Defined in: src/types/credentials.ts:20
+Defined in: [src/types/credentials.ts:20](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/credentials.ts#L20)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: src/types/credentials.ts:20
 
 > **display\_id**: `string`
 
-Defined in: src/types/credentials.ts:17
+Defined in: [src/types/credentials.ts:17](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/credentials.ts#L17)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: src/types/credentials.ts:17
 
 > **status**: [`NfcCardStatus`](../type-aliases/NfcCardStatus.md)
 
-Defined in: src/types/credentials.ts:18
+Defined in: [src/types/credentials.ts:18](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/credentials.ts#L18)
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: src/types/credentials.ts:18
 
 > **token**: `string`
 
-Defined in: src/types/credentials.ts:16
+Defined in: [src/types/credentials.ts:16](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/credentials.ts#L16)
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: src/types/credentials.ts:16
 
 > `optional` **user**: [`NfcCardOwner`](NfcCardOwner.md)
 
-Defined in: src/types/credentials.ts:23
+Defined in: [src/types/credentials.ts:23](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/credentials.ts#L23)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: src/types/credentials.ts:23
 
 > `optional` **user\_id**: `string`
 
-Defined in: src/types/credentials.ts:21
+Defined in: [src/types/credentials.ts:21](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/credentials.ts#L21)
 
 ***
 
@@ -66,4 +66,4 @@ Defined in: src/types/credentials.ts:21
 
 > `optional` **user\_type**: [`NfcCardOwnerType`](../type-aliases/NfcCardOwnerType.md)
 
-Defined in: src/types/credentials.ts:22
+Defined in: [src/types/credentials.ts:22](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/credentials.ts#L22)

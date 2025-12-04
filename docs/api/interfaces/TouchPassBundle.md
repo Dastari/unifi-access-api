@@ -1,8 +1,8 @@
-[**unifi-access-api v0.1.0**](../README.md)
+[**unifi-access-api v1.0.1**](../README.md)
 
 ***
 
-Defined in: src/types/credentials.ts:42
+Defined in: [src/types/credentials.ts:42](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/credentials.ts#L42)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: src/types/credentials.ts:42
 
 > **bundle\_id**: `string`
 
-Defined in: src/types/credentials.ts:43
+Defined in: [src/types/credentials.ts:43](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/credentials.ts#L43)
 
 ***
 
@@ -18,7 +18,7 @@ Defined in: src/types/credentials.ts:43
 
 > **bundle\_status**: [`TouchPassBundleStatus`](../type-aliases/TouchPassBundleStatus.md)
 
-Defined in: src/types/credentials.ts:44
+Defined in: [src/types/credentials.ts:44](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/credentials.ts#L44)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: src/types/credentials.ts:44
 
 > `optional` **device\_id**: `string`
 
-Defined in: src/types/credentials.ts:45
+Defined in: [src/types/credentials.ts:45](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/credentials.ts#L45)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: src/types/credentials.ts:45
 
 > `optional` **device\_name**: `string`
 
-Defined in: src/types/credentials.ts:46
+Defined in: [src/types/credentials.ts:46](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/credentials.ts#L46)
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: src/types/credentials.ts:46
 
 > `optional` **device\_type**: `number`
 
-Defined in: src/types/credentials.ts:47
+Defined in: [src/types/credentials.ts:47](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/credentials.ts#L47)
 
 ***
 
@@ -50,4 +50,4 @@ Defined in: src/types/credentials.ts:47
 
 > `optional` **source**: [`TouchPassBundleSource`](../type-aliases/TouchPassBundleSource.md)
 
-Defined in: src/types/credentials.ts:48
+Defined in: [src/types/credentials.ts:48](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/credentials.ts#L48)

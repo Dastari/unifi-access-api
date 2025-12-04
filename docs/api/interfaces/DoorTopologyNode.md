@@ -1,8 +1,8 @@
-[**unifi-access-api v0.1.0**](../README.md)
+[**unifi-access-api v1.0.1**](../README.md)
 
 ***
 
-Defined in: src/types/spaces.ts:78
+Defined in: [src/types/spaces.ts:78](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/spaces.ts#L78)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: src/types/spaces.ts:78
 
 > **id**: `string`
 
-Defined in: src/types/spaces.ts:79
+Defined in: [src/types/spaces.ts:79](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/spaces.ts#L79)
 
 ***
 
@@ -18,7 +18,7 @@ Defined in: src/types/spaces.ts:79
 
 > **name**: `string`
 
-Defined in: src/types/spaces.ts:80
+Defined in: [src/types/spaces.ts:80](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/spaces.ts#L80)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: src/types/spaces.ts:80
 
 > **resources**: [`DoorTopologyResource`](DoorTopologyResource.md)[]
 
-Defined in: src/types/spaces.ts:82
+Defined in: [src/types/spaces.ts:82](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/spaces.ts#L82)
 
 ***
 
@@ -34,4 +34,4 @@ Defined in: src/types/spaces.ts:82
 
 > **type**: `string`
 
-Defined in: src/types/spaces.ts:81
+Defined in: [src/types/spaces.ts:81](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/spaces.ts#L81)

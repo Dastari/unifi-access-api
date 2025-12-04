@@ -1,8 +1,8 @@
-[**unifi-access-api v0.1.0**](../README.md)
+[**unifi-access-api v1.0.1**](../README.md)
 
 ***
 
-Defined in: src/types/visitors.ts:30
+Defined in: [src/types/visitors.ts:30](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/visitors.ts#L30)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: src/types/visitors.ts:30
 
 > `optional` **email**: `string`
 
-Defined in: src/types/visitors.ts:39
+Defined in: [src/types/visitors.ts:39](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/visitors.ts#L39)
 
 ***
 
@@ -18,7 +18,7 @@ Defined in: src/types/visitors.ts:39
 
 > `optional` **end\_time**: `number`
 
-Defined in: src/types/visitors.ts:43
+Defined in: [src/types/visitors.ts:43](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/visitors.ts#L43)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: src/types/visitors.ts:43
 
 > **first\_name**: `string`
 
-Defined in: src/types/visitors.ts:32
+Defined in: [src/types/visitors.ts:32](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/visitors.ts#L32)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: src/types/visitors.ts:32
 
 > **id**: `string`
 
-Defined in: src/types/visitors.ts:31
+Defined in: [src/types/visitors.ts:31](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/visitors.ts#L31)
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: src/types/visitors.ts:31
 
 > `optional` **inviter\_id**: `string`
 
-Defined in: src/types/visitors.ts:35
+Defined in: [src/types/visitors.ts:35](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/visitors.ts#L35)
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: src/types/visitors.ts:35
 
 > `optional` **inviter\_name**: `string`
 
-Defined in: src/types/visitors.ts:36
+Defined in: [src/types/visitors.ts:36](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/visitors.ts#L36)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: src/types/visitors.ts:36
 
 > **last\_name**: `string`
 
-Defined in: src/types/visitors.ts:33
+Defined in: [src/types/visitors.ts:33](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/visitors.ts#L33)
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: src/types/visitors.ts:33
 
 > `optional` **license\_plates**: [`LicensePlateCredential`](LicensePlateCredential.md)[]
 
-Defined in: src/types/visitors.ts:49
+Defined in: [src/types/visitors.ts:49](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/visitors.ts#L49)
 
 ***
 
@@ -74,7 +74,7 @@ Defined in: src/types/visitors.ts:49
 
 > `optional` **mobile\_phone**: `string`
 
-Defined in: src/types/visitors.ts:37
+Defined in: [src/types/visitors.ts:37](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/visitors.ts#L37)
 
 ***
 
@@ -82,7 +82,7 @@ Defined in: src/types/visitors.ts:37
 
 > `optional` **nfc\_cards**: [`VisitorNfcCard`](VisitorNfcCard.md)[]
 
-Defined in: src/types/visitors.ts:44
+Defined in: [src/types/visitors.ts:44](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/visitors.ts#L44)
 
 ***
 
@@ -90,7 +90,7 @@ Defined in: src/types/visitors.ts:44
 
 > `optional` **pin\_code**: [`PinCode`](PinCode.md) \| `null`
 
-Defined in: src/types/visitors.ts:45
+Defined in: [src/types/visitors.ts:45](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/visitors.ts#L45)
 
 ***
 
@@ -98,7 +98,7 @@ Defined in: src/types/visitors.ts:45
 
 > `optional` **remarks**: `string`
 
-Defined in: src/types/visitors.ts:38
+Defined in: [src/types/visitors.ts:38](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/visitors.ts#L38)
 
 ***
 
@@ -106,7 +106,7 @@ Defined in: src/types/visitors.ts:38
 
 > `optional` **resources**: [`VisitorResource`](VisitorResource.md)[]
 
-Defined in: src/types/visitors.ts:48
+Defined in: [src/types/visitors.ts:48](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/visitors.ts#L48)
 
 ***
 
@@ -114,7 +114,7 @@ Defined in: src/types/visitors.ts:48
 
 > `optional` **schedule**: [`VisitorScheduleAssignment`](VisitorScheduleAssignment.md) \| `null`
 
-Defined in: src/types/visitors.ts:47
+Defined in: [src/types/visitors.ts:47](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/visitors.ts#L47)
 
 ***
 
@@ -122,7 +122,7 @@ Defined in: src/types/visitors.ts:47
 
 > `optional` **schedule\_id**: `string`
 
-Defined in: src/types/visitors.ts:46
+Defined in: [src/types/visitors.ts:46](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/visitors.ts#L46)
 
 ***
 
@@ -130,7 +130,7 @@ Defined in: src/types/visitors.ts:46
 
 > `optional` **start\_time**: `number`
 
-Defined in: src/types/visitors.ts:42
+Defined in: [src/types/visitors.ts:42](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/visitors.ts#L42)
 
 ***
 
@@ -138,7 +138,7 @@ Defined in: src/types/visitors.ts:42
 
 > **status**: [`VisitorStatus`](../type-aliases/VisitorStatus.md)
 
-Defined in: src/types/visitors.ts:34
+Defined in: [src/types/visitors.ts:34](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/visitors.ts#L34)
 
 ***
 
@@ -146,7 +146,7 @@ Defined in: src/types/visitors.ts:34
 
 > `optional` **visit\_reason**: `string`
 
-Defined in: src/types/visitors.ts:41
+Defined in: [src/types/visitors.ts:41](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/visitors.ts#L41)
 
 ***
 
@@ -154,4 +154,4 @@ Defined in: src/types/visitors.ts:41
 
 > `optional` **visitor\_company**: `string`
 
-Defined in: src/types/visitors.ts:40
+Defined in: [src/types/visitors.ts:40](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/visitors.ts#L40)

@@ -1,8 +1,8 @@
-[**unifi-access-api v0.1.0**](../README.md)
+[**unifi-access-api v1.0.1**](../README.md)
 
 ***
 
-Defined in: src/types/access-control.ts:65
+Defined in: [src/types/access-control.ts:65](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/access-control.ts#L65)
 
 ## Indexable
 
@@ -14,7 +14,7 @@ Defined in: src/types/access-control.ts:65
 
 > `optional` **holiday\_group**: [`HolidayGroup`](HolidayGroup.md)
 
-Defined in: src/types/access-control.ts:73
+Defined in: [src/types/access-control.ts:73](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/access-control.ts#L73)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: src/types/access-control.ts:73
 
 > `optional` **holiday\_group\_id**: `string` \| `null`
 
-Defined in: src/types/access-control.ts:72
+Defined in: [src/types/access-control.ts:72](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/access-control.ts#L72)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: src/types/access-control.ts:72
 
 > `optional` **holiday\_schedule**: [`ScheduleHolidayPeriod`](ScheduleHolidayPeriod.md)[]
 
-Defined in: src/types/access-control.ts:71
+Defined in: [src/types/access-control.ts:71](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/access-control.ts#L71)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: src/types/access-control.ts:71
 
 > **id**: `string`
 
-Defined in: src/types/access-control.ts:66
+Defined in: [src/types/access-control.ts:66](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/access-control.ts#L66)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: src/types/access-control.ts:66
 
 > **is\_default**: `boolean`
 
-Defined in: src/types/access-control.ts:68
+Defined in: [src/types/access-control.ts:68](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/access-control.ts#L68)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: src/types/access-control.ts:68
 
 > **name**: `string`
 
-Defined in: src/types/access-control.ts:67
+Defined in: [src/types/access-control.ts:67](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/access-control.ts#L67)
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: src/types/access-control.ts:67
 
 > **type**: `string`
 
-Defined in: src/types/access-control.ts:69
+Defined in: [src/types/access-control.ts:69](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/access-control.ts#L69)
 
 ***
 
@@ -70,4 +70,4 @@ Defined in: src/types/access-control.ts:69
 
 > `optional` **weekly**: [`ScheduleWeeklySlots`](ScheduleWeeklySlots.md)
 
-Defined in: src/types/access-control.ts:70
+Defined in: [src/types/access-control.ts:70](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/access-control.ts#L70)
