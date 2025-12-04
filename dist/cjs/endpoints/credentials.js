@@ -1,72 +1,73 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.credentialEndpoints = void 0;
+const endpoint_js_1 = require("../internal/endpoint.js");
 exports.credentialEndpoints = {
-    generatePinCode: {
+    generatePinCode: (0, endpoint_js_1.defineEndpoint)({
         method: 'POST',
         path: '/api/v1/developer/credentials/pin_codes',
-    },
-    createNfcEnrollmentSession: {
+    }),
+    createNfcEnrollmentSession: (0, endpoint_js_1.defineEndpoint)({
         method: 'POST',
         path: '/api/v1/developer/credentials/nfc_cards/sessions',
-    },
-    fetchNfcEnrollmentStatus: {
+    }),
+    fetchNfcEnrollmentStatus: (0, endpoint_js_1.defineEndpoint)({
         method: 'GET',
         path: '/api/v1/developer/credentials/nfc_cards/sessions/:id',
-    },
-    deleteNfcEnrollmentSession: {
+    }),
+    deleteNfcEnrollmentSession: (0, endpoint_js_1.defineEndpoint)({
         method: 'DELETE',
         path: '/api/v1/developer/credentials/nfc_cards/sessions/:id',
-    },
-    fetchNfcCard: {
+    }),
+    fetchNfcCard: (0, endpoint_js_1.defineEndpoint)({
         method: 'GET',
         path: '/api/v1/developer/credentials/nfc_cards/tokens/:token',
-    },
-    fetchAllNfcCards: {
+    }),
+    fetchAllNfcCards: (0, endpoint_js_1.defineEndpoint)({
         method: 'GET',
         path: '/api/v1/developer/credentials/nfc_cards/tokens',
-    },
-    deleteNfcCard: {
+    }),
+    deleteNfcCard: (0, endpoint_js_1.defineEndpoint)({
         method: 'DELETE',
         path: '/api/v1/developer/credentials/nfc_cards/tokens/:token',
-    },
-    updateNfcCard: {
+    }),
+    updateNfcCard: (0, endpoint_js_1.defineEndpoint)({
         method: 'PUT',
         path: '/api/v1/developer/credentials/nfc_cards/tokens/:token',
-    },
-    fetchTouchPassList: {
+    }),
+    fetchTouchPassList: (0, endpoint_js_1.defineEndpoint)({
         method: 'GET',
         path: '/api/v1/developer/credentials/touch_passes',
-    },
-    searchTouchPasses: {
+    }),
+    searchTouchPasses: (0, endpoint_js_1.defineEndpoint)({
         method: 'GET',
         path: '/api/v1/developer/credentials/touch_passes/search',
-    },
-    fetchAssignableTouchPasses: {
+    }),
+    fetchAssignableTouchPasses: (0, endpoint_js_1.defineEndpoint)({
         method: 'GET',
         path: '/api/v1/developer/credentials/touch_passes/assignable',
-    },
-    updateTouchPass: {
+    }),
+    updateTouchPass: (0, endpoint_js_1.defineEndpoint)({
         method: 'PUT',
         path: '/api/v1/developer/credentials/touch_passes/:id',
-    },
-    fetchTouchPassDetails: {
+    }),
+    fetchTouchPassDetails: (0, endpoint_js_1.defineEndpoint)({
         method: 'GET',
         path: '/api/v1/developer/credentials/touch_passes/:id',
-    },
-    purchaseTouchPasses: {
+    }),
+    purchaseTouchPasses: (0, endpoint_js_1.defineEndpoint)({
         method: 'POST',
         path: '/api/v1/developer/credentials/touch_passes',
-    },
-    downloadTouchPassQrCode: {
+    }),
+    downloadTouchPassQrCode: (0, endpoint_js_1.defineEndpoint)({
         method: 'GET',
         path: '/api/v1/developer/credentials/qr_codes/download/:id',
         responseType: 'arrayBuffer',
-    },
-    importThirdPartyNfcCards: {
+    }),
+    importThirdPartyNfcCards: (0, endpoint_js_1.defineEndpoint)({
         method: 'POST',
         path: '/api/v1/developer/credentials/nfc_cards/import',
         rawBody: true,
-    },
+    }),
 };
 //# sourceMappingURL=credentials.js.map

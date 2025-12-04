@@ -4,7 +4,7 @@
 
 > **ExpandQuery** = `object`
 
-Defined in: [src/types/common.ts:25](https://github.com/Dastari/unifi-access-api/blob/209acc2c0627374a52853b95a3f160a5ece1685d/src/types/common.ts#L25)
+Defined in: [src/types/common.ts:25](https://github.com/Dastari/unifi-access-api/blob/9117c1b472d15dc0296096b049a1848ccba9da3b/src/types/common.ts#L25)
 
 ## Properties
 
@@ -12,4 +12,4 @@ Defined in: [src/types/common.ts:25](https://github.com/Dastari/unifi-access-api
 
 > `optional` **expand\[\]**: `string` \| `string`[]
 
-Defined in: [src/types/common.ts:25](https://github.com/Dastari/unifi-access-api/blob/209acc2c0627374a52853b95a3f160a5ece1685d/src/types/common.ts#L25)
+Defined in: [src/types/common.ts:25](https://github.com/Dastari/unifi-access-api/blob/9117c1b472d15dc0296096b049a1848ccba9da3b/src/types/common.ts#L25)

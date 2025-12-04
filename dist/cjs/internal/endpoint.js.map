@@ -1,1 +1,1 @@
-{"version":3,"file":"endpoint.js","sourceRoot":"","sources":["../../../src/internal/endpoint.ts"],"names":[],"mappings":";;;AAoEa,QAAA,iBAAiB,GAAG,kBAAkB,CAAC"}
+{"version":3,"file":"endpoint.js","sourceRoot":"","sources":["../../../src/internal/endpoint.ts"],"names":[],"mappings":";;;AAoEa,QAAA,iBAAiB,GAAG,kBAAkB,CAAC;AAI7C,MAAM,cAAc,GAAG,CAO5B,UAAsF,EACV,EAAE,CAAC,UAAU,CAAC;AAR/E,QAAA,cAAc,kBAQiE"}

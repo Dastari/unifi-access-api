@@ -2,7 +2,7 @@
 
 ***
 
-Defined in: [src/types/users.ts:83](https://github.com/Dastari/unifi-access-api/blob/209acc2c0627374a52853b95a3f160a5ece1685d/src/types/users.ts#L83)
+Defined in: [src/types/users.ts:83](https://github.com/Dastari/unifi-access-api/blob/9117c1b472d15dc0296096b049a1848ccba9da3b/src/types/users.ts#L83)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [src/types/users.ts:83](https://github.com/Dastari/unifi-access-api/
 
 > **body**: [`BodyLike`](../type-aliases/BodyLike.md)
 
-Defined in: [src/types/users.ts:85](https://github.com/Dastari/unifi-access-api/blob/209acc2c0627374a52853b95a3f160a5ece1685d/src/types/users.ts#L85)
+Defined in: [src/types/users.ts:85](https://github.com/Dastari/unifi-access-api/blob/9117c1b472d15dc0296096b049a1848ccba9da3b/src/types/users.ts#L85)
 
 Raw body payload prepared by the caller (typically multipart/form-data).
 
@@ -20,6 +20,6 @@ Raw body payload prepared by the caller (typically multipart/form-data).
 
 > `optional` **headers**: `Record`\<`string`, `string`\>
 
-Defined in: [src/types/users.ts:87](https://github.com/Dastari/unifi-access-api/blob/209acc2c0627374a52853b95a3f160a5ece1685d/src/types/users.ts#L87)
+Defined in: [src/types/users.ts:87](https://github.com/Dastari/unifi-access-api/blob/9117c1b472d15dc0296096b049a1848ccba9da3b/src/types/users.ts#L87)
 
 Optional override headers; Content-Type must match the provided body.

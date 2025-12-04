@@ -4,7 +4,7 @@
 
 > **createNotificationClientFromApiOptions**(`options`, `overrides`): [`UnifiAccessNotificationClient`](../classes/UnifiAccessNotificationClient.md)
 
-Defined in: src/events/notification-client.ts:262
+Defined in: [src/events/notification-client.ts:262](https://github.com/Dastari/unifi-access-api/blob/9117c1b472d15dc0296096b049a1848ccba9da3b/src/events/notification-client.ts#L262)
 
 Convenience wrapper that copies base URL and API key from an existing REST
 client configuration.

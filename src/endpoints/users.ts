@@ -25,158 +25,158 @@ import type {
   UpdateUserRequest,
   UploadUserAvatarRequest,
 } from '../types/users.js';
-import type { EndpointDefinition } from '../internal/endpoint.js';
+import { defineEndpoint } from '../internal/endpoint.js';
 import type { SuccessOnlyResponse } from '../types/common.js';
 import type { UserAccessPoliciesResponse } from '../types/users.js';
 
 type NoQuery = undefined;
 
 export const userEndpoints = {
-  createUser: {
+  createUser: defineEndpoint<undefined, NoQuery, CreateUserRequest, CreateUserResponse>({
     method: 'POST',
     path: '/api/v1/developer/users',
-  } satisfies EndpointDefinition<undefined, NoQuery, CreateUserRequest, CreateUserResponse>,
+  }),
 
-  updateUser: {
+  updateUser: defineEndpoint<{ id: string }, NoQuery, UpdateUserRequest, SuccessOnlyResponse>({
     method: 'PUT',
     path: '/api/v1/developer/users/:id',
-  } satisfies EndpointDefinition<{ id: string }, NoQuery, UpdateUserRequest, SuccessOnlyResponse>,
+  }),
 
-  fetchUser: {
+  fetchUser: defineEndpoint<{ id: string }, FetchUserQuery, undefined, FetchUserResponse>({
     method: 'GET',
     path: '/api/v1/developer/users/:id',
-  } satisfies EndpointDefinition<{ id: string }, FetchUserQuery, undefined, FetchUserResponse>,
+  }),
 
-  fetchAllUsers: {
+  fetchAllUsers: defineEndpoint<undefined, FetchUsersQuery, undefined, FetchAllUsersResponse>({
     method: 'GET',
     path: '/api/v1/developer/users',
-  } satisfies EndpointDefinition<undefined, FetchUsersQuery, undefined, FetchAllUsersResponse>,
+  }),
 
-  updateUserAccessPolicies: {
+  updateUserAccessPolicies: defineEndpoint<{ id: string }, NoQuery, UpdateUserAccessPoliciesRequest, SuccessOnlyResponse>({
     method: 'PUT',
     path: '/api/v1/developer/users/:id/access_policies',
-  } satisfies EndpointDefinition<{ id: string }, NoQuery, UpdateUserAccessPoliciesRequest, SuccessOnlyResponse>,
+  }),
 
-  assignUserNfcCard: {
+  assignUserNfcCard: defineEndpoint<{ id: string }, NoQuery, AssignNfcCardRequest, SuccessOnlyResponse>({
     method: 'PUT',
     path: '/api/v1/developer/users/:id/nfc_cards',
-  } satisfies EndpointDefinition<{ id: string }, NoQuery, AssignNfcCardRequest, SuccessOnlyResponse>,
+  }),
 
-  unassignUserNfcCard: {
+  unassignUserNfcCard: defineEndpoint<{ id: string }, NoQuery, UnassignNfcCardRequest, SuccessOnlyResponse>({
     method: 'PUT',
     path: '/api/v1/developer/users/:id/nfc_cards/delete',
-  } satisfies EndpointDefinition<{ id: string }, NoQuery, UnassignNfcCardRequest, SuccessOnlyResponse>,
+  }),
 
-  assignUserPinCode: {
+  assignUserPinCode: defineEndpoint<{ id: string }, NoQuery, AssignPinCodeRequest, SuccessOnlyResponse>({
     method: 'PUT',
     path: '/api/v1/developer/users/:id/pin_codes',
-  } satisfies EndpointDefinition<{ id: string }, NoQuery, AssignPinCodeRequest, SuccessOnlyResponse>,
+  }),
 
-  unassignUserPinCode: {
+  unassignUserPinCode: defineEndpoint<{ id: string }, NoQuery, undefined, SuccessOnlyResponse>({
     method: 'DELETE',
     path: '/api/v1/developer/users/:id/pin_codes',
-  } satisfies EndpointDefinition<{ id: string }, NoQuery, undefined, SuccessOnlyResponse>,
+  }),
 
-  createUserGroup: {
+  createUserGroup: defineEndpoint<undefined, NoQuery, CreateUserGroupRequest, SuccessOnlyResponse>({
     method: 'POST',
     path: '/api/v1/developer/user_groups',
-  } satisfies EndpointDefinition<undefined, NoQuery, CreateUserGroupRequest, SuccessOnlyResponse>,
+  }),
 
-  fetchAllUserGroups: {
+  fetchAllUserGroups: defineEndpoint<undefined, NoQuery, undefined, FetchAllUserGroupsResponse>({
     method: 'GET',
     path: '/api/v1/developer/user_groups',
-  } satisfies EndpointDefinition<undefined, NoQuery, undefined, FetchAllUserGroupsResponse>,
+  }),
 
-  fetchUserGroup: {
+  fetchUserGroup: defineEndpoint<{ id: string }, NoQuery, undefined, FetchUserGroupResponse>({
     method: 'GET',
     path: '/api/v1/developer/user_groups/:id',
-  } satisfies EndpointDefinition<{ id: string }, NoQuery, undefined, FetchUserGroupResponse>,
+  }),
 
-  updateUserGroup: {
+  updateUserGroup: defineEndpoint<{ id: string }, NoQuery, UpdateUserGroupRequest, SuccessOnlyResponse>({
     method: 'PUT',
     path: '/api/v1/developer/user_groups/:id',
-  } satisfies EndpointDefinition<{ id: string }, NoQuery, UpdateUserGroupRequest, SuccessOnlyResponse>,
+  }),
 
-  deleteUserGroup: {
+  deleteUserGroup: defineEndpoint<{ id: string }, NoQuery, undefined, SuccessOnlyResponse>({
     method: 'DELETE',
     path: '/api/v1/developer/user_groups/:id',
-  } satisfies EndpointDefinition<{ id: string }, NoQuery, undefined, SuccessOnlyResponse>,
+  }),
 
-  assignUsersToGroup: {
+  assignUsersToGroup: defineEndpoint<{ id: string }, NoQuery, string[], SuccessOnlyResponse>({
     method: 'POST',
     path: '/api/v1/developer/user_groups/:id/users',
-  } satisfies EndpointDefinition<{ id: string }, NoQuery, string[], SuccessOnlyResponse>,
+  }),
 
-  unassignUsersFromGroup: {
+  unassignUsersFromGroup: defineEndpoint<{ id: string }, NoQuery, string[], SuccessOnlyResponse>({
     method: 'POST',
     path: '/api/v1/developer/user_groups/:id/users/delete',
-  } satisfies EndpointDefinition<{ id: string }, NoQuery, string[], SuccessOnlyResponse>,
+  }),
 
-  fetchUsersInGroup: {
+  fetchUsersInGroup: defineEndpoint<{ id: string }, NoQuery, undefined, FetchGroupUsersResponse>({
     method: 'GET',
     path: '/api/v1/developer/user_groups/:id/users',
-  } satisfies EndpointDefinition<{ id: string }, NoQuery, undefined, FetchGroupUsersResponse>,
+  }),
 
-  fetchAllUsersInGroup: {
+  fetchAllUsersInGroup: defineEndpoint<{ id: string }, NoQuery, undefined, FetchGroupUsersResponse>({
     method: 'GET',
     path: '/api/v1/developer/user_groups/:id/users/all',
-  } satisfies EndpointDefinition<{ id: string }, NoQuery, undefined, FetchGroupUsersResponse>,
+  }),
 
-  fetchUserAccessPolicies: {
+  fetchUserAccessPolicies: defineEndpoint<{ id: string }, FetchUserAccessPoliciesQuery, undefined, UserAccessPoliciesResponse>({
     method: 'GET',
     path: '/api/v1/developer/users/:id/access_policies',
-  } satisfies EndpointDefinition<{ id: string }, FetchUserAccessPoliciesQuery, undefined, UserAccessPoliciesResponse>,
+  }),
 
-  updateUserGroupAccessPolicies: {
+  updateUserGroupAccessPolicies: defineEndpoint<{ id: string }, NoQuery, UpdateGroupAccessPoliciesRequest, SuccessOnlyResponse>({
     method: 'PUT',
     path: '/api/v1/developer/user_groups/:id/access_policies',
-  } satisfies EndpointDefinition<{ id: string }, NoQuery, UpdateGroupAccessPoliciesRequest, SuccessOnlyResponse>,
+  }),
 
-  fetchUserGroupAccessPolicies: {
+  fetchUserGroupAccessPolicies: defineEndpoint<{ id: string }, NoQuery, undefined, UserAccessPoliciesResponse>({
     method: 'GET',
     path: '/api/v1/developer/user_groups/:id/access_policies',
-  } satisfies EndpointDefinition<{ id: string }, NoQuery, undefined, UserAccessPoliciesResponse>,
+  }),
 
-  deleteUser: {
+  deleteUser: defineEndpoint<{ id: string }, NoQuery, undefined, SuccessOnlyResponse>({
     method: 'DELETE',
     path: '/api/v1/developer/users/:id',
-  } satisfies EndpointDefinition<{ id: string }, NoQuery, undefined, SuccessOnlyResponse>,
+  }),
 
-  searchUsers: {
+  searchUsers: defineEndpoint<undefined, SearchUsersQuery, undefined, SearchUsersResponse>({
     method: 'GET',
     path: '/api/v1/developer/users/search',
-  } satisfies EndpointDefinition<undefined, SearchUsersQuery, undefined, SearchUsersResponse>,
+  }),
 
-  assignTouchPassToUser: {
+  assignTouchPassToUser: defineEndpoint<{ user_id: string; touch_pass_id: string }, NoQuery, undefined, TouchPassAssignmentResponse>({
     method: 'PUT',
     path: '/api/v1/developer/users/:user_id/touch_passes/:touch_pass_id',
-  } satisfies EndpointDefinition<{ user_id: string; touch_pass_id: string }, NoQuery, undefined, TouchPassAssignmentResponse>,
+  }),
 
-  unassignTouchPassFromUser: {
+  unassignTouchPassFromUser: defineEndpoint<{ user_id: string; touch_pass_id: string }, NoQuery, undefined, SuccessOnlyResponse>({
     method: 'DELETE',
     path: '/api/v1/developer/users/:user_id/touch_passes/:touch_pass_id',
-  } satisfies EndpointDefinition<{ user_id: string; touch_pass_id: string }, NoQuery, undefined, SuccessOnlyResponse>,
+  }),
 
-  batchAssignTouchPasses: {
+  batchAssignTouchPasses: defineEndpoint<undefined, NoQuery, BatchAssignTouchPassRequest, BatchAssignTouchPassResponse>({
     method: 'PUT',
     path: '/api/v1/developer/users/touch_passes/assign',
-  } satisfies EndpointDefinition<undefined, NoQuery, BatchAssignTouchPassRequest, BatchAssignTouchPassResponse>,
+  }),
 
-  assignLicensePlatesToUser: {
+  assignLicensePlatesToUser: defineEndpoint<{ id: string }, NoQuery, AssignLicensePlatesRequest, SuccessOnlyResponse>({
     method: 'PUT',
     path: '/api/v1/developer/users/:id/license_plates',
-  } satisfies EndpointDefinition<{ id: string }, NoQuery, AssignLicensePlatesRequest, SuccessOnlyResponse>,
+  }),
 
-  unassignLicensePlateFromUser: {
+  unassignLicensePlateFromUser: defineEndpoint<{ user_id: string; license_plate_id: string }, NoQuery, undefined, SuccessOnlyResponse>({
     method: 'DELETE',
     path: '/api/v1/developer/users/:user_id/license_plates/:license_plate_id',
-  } satisfies EndpointDefinition<{ user_id: string; license_plate_id: string }, NoQuery, undefined, SuccessOnlyResponse>,
+  }),
 
-  uploadUserAvatar: {
+  uploadUserAvatar: defineEndpoint<{ id: string }, NoQuery, UploadUserAvatarRequest['body'], SuccessOnlyResponse>({
     method: 'POST',
     path: '/api/v1/developer/users/:id/avatar',
     rawBody: true,
-  } satisfies EndpointDefinition<{ id: string }, NoQuery, UploadUserAvatarRequest['body'], SuccessOnlyResponse>,
+  }),
 } as const;
 
 export type UserEndpoints = typeof userEndpoints;

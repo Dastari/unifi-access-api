@@ -1,66 +1,67 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.accessPolicyEndpoints = void 0;
+const endpoint_js_1 = require("../internal/endpoint.js");
 exports.accessPolicyEndpoints = {
-    createAccessPolicy: {
+    createAccessPolicy: (0, endpoint_js_1.defineEndpoint)({
         method: 'POST',
         path: '/api/v1/developer/access_policies',
-    },
-    updateAccessPolicy: {
+    }),
+    updateAccessPolicy: (0, endpoint_js_1.defineEndpoint)({
         method: 'PUT',
         path: '/api/v1/developer/access_policies/:id',
-    },
-    deleteAccessPolicy: {
+    }),
+    deleteAccessPolicy: (0, endpoint_js_1.defineEndpoint)({
         method: 'DELETE',
         path: '/api/v1/developer/access_policies/:id',
-    },
-    fetchAccessPolicy: {
+    }),
+    fetchAccessPolicy: (0, endpoint_js_1.defineEndpoint)({
         method: 'GET',
         path: '/api/v1/developer/access_policies/:id',
-    },
-    fetchAllAccessPolicies: {
+    }),
+    fetchAllAccessPolicies: (0, endpoint_js_1.defineEndpoint)({
         method: 'GET',
         path: '/api/v1/developer/access_policies',
-    },
-    createHolidayGroup: {
+    }),
+    createHolidayGroup: (0, endpoint_js_1.defineEndpoint)({
         method: 'POST',
         path: '/api/v1/developer/access_policies/holiday_groups',
-    },
-    updateHolidayGroup: {
+    }),
+    updateHolidayGroup: (0, endpoint_js_1.defineEndpoint)({
         method: 'PUT',
         path: '/api/v1/developer/access_policies/holiday_groups/:id',
-    },
-    deleteHolidayGroup: {
+    }),
+    deleteHolidayGroup: (0, endpoint_js_1.defineEndpoint)({
         method: 'DELETE',
         path: '/api/v1/developer/access_policies/holiday_groups/:id',
-    },
-    fetchHolidayGroup: {
+    }),
+    fetchHolidayGroup: (0, endpoint_js_1.defineEndpoint)({
         method: 'GET',
         path: '/api/v1/developer/access_policies/holiday_groups/:id',
-    },
-    fetchAllHolidayGroups: {
+    }),
+    fetchAllHolidayGroups: (0, endpoint_js_1.defineEndpoint)({
         method: 'GET',
         path: '/api/v1/developer/access_policies/holiday_groups',
-    },
-    createSchedule: {
+    }),
+    createSchedule: (0, endpoint_js_1.defineEndpoint)({
         method: 'POST',
         path: '/api/v1/developer/access_policies/schedules',
-    },
-    updateSchedule: {
+    }),
+    updateSchedule: (0, endpoint_js_1.defineEndpoint)({
         method: 'PUT',
         path: '/api/v1/developer/access_policies/schedules/:id',
-    },
-    fetchSchedule: {
+    }),
+    fetchSchedule: (0, endpoint_js_1.defineEndpoint)({
         method: 'GET',
         path: '/api/v1/developer/access_policies/schedules/:id',
-    },
-    fetchAllSchedules: {
+    }),
+    fetchAllSchedules: (0, endpoint_js_1.defineEndpoint)({
         method: 'GET',
         path: '/api/v1/developer/access_policies/schedules',
-    },
-    deleteSchedule: {
+    }),
+    deleteSchedule: (0, endpoint_js_1.defineEndpoint)({
         method: 'DELETE',
         path: '/api/v1/developer/access_policies/schedules/:id',
-    },
+    }),
 };
 //# sourceMappingURL=access-policies.js.map

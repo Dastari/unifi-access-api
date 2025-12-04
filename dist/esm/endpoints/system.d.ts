@@ -1,22 +1,13 @@
+import type { FetchSystemLogsRequest, SystemLogQuery, SystemLogResourceResponse, SystemLogsResponse } from '../types/system.js';
 export declare const systemEndpoints: {
-    readonly fetchSystemLogs: {
-        method: "POST";
+    readonly fetchSystemLogs: import("../internal/endpoint.js").EndpointDefinition<undefined, SystemLogQuery, FetchSystemLogsRequest, SystemLogsResponse, "json">;
+    readonly exportSystemLogs: import("../internal/endpoint.js").EndpointDefinition<undefined, undefined, FetchSystemLogsRequest, import("../index.js").FileResponse, "arrayBuffer">;
+    readonly fetchSystemLogResource: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, undefined, SystemLogResourceResponse, "json">;
+    readonly fetchSystemStaticResource: import("../internal/endpoint.js").EndpointDefinition<{
         path: string;
-    };
-    readonly exportSystemLogs: {
-        method: "POST";
-        path: string;
-        responseType: "arrayBuffer";
-    };
-    readonly fetchSystemLogResource: {
-        method: "GET";
-        path: string;
-    };
-    readonly fetchSystemStaticResource: {
-        method: "GET";
-        path: string;
-        responseType: "arrayBuffer";
-    };
+    }, undefined, undefined, import("../index.js").FileResponse, "arrayBuffer">;
 };
 export type SystemEndpoints = typeof systemEndpoints;
 //# sourceMappingURL=system.d.ts.map

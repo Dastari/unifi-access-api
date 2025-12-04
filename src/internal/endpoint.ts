@@ -69,3 +69,13 @@ export type EndpointMethodMap<M extends EndpointMap> = {
 export const JSON_CONTENT_TYPE = 'application/json';
 
 export type RequestBodyValue = BodyLike | Record<string, unknown> | Array<unknown> | string | number | boolean | null;
+
+export const defineEndpoint = <
+  PathParams,
+  QueryParams,
+  RequestBody,
+  Response,
+  Format extends ResponseType = 'json'
+>(
+  definition: EndpointDefinition<PathParams, QueryParams, RequestBody, Response, Format>,
+): EndpointDefinition<PathParams, QueryParams, RequestBody, Response, Format> => definition;

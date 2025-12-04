@@ -2,7 +2,7 @@
 
 ***
 
-Defined in: src/events/notification-client.ts:12
+Defined in: [src/events/notification-client.ts:12](https://github.com/Dastari/unifi-access-api/blob/9117c1b472d15dc0296096b049a1848ccba9da3b/src/events/notification-client.ts#L12)
 
 Notification payload shape emitted by the UniFi Access WebSocket endpoint.
 The payload varies by event type, therefore the interface keeps most fields
@@ -19,7 +19,7 @@ reference.
 
 > **event**: `string`
 
-Defined in: src/events/notification-client.ts:13
+Defined in: [src/events/notification-client.ts:13](https://github.com/Dastari/unifi-access-api/blob/9117c1b472d15dc0296096b049a1848ccba9da3b/src/events/notification-client.ts#L13)
 
 ***
 
@@ -27,7 +27,7 @@ Defined in: src/events/notification-client.ts:13
 
 > `optional` **event\_object\_id**: `string`
 
-Defined in: src/events/notification-client.ts:15
+Defined in: [src/events/notification-client.ts:15](https://github.com/Dastari/unifi-access-api/blob/9117c1b472d15dc0296096b049a1848ccba9da3b/src/events/notification-client.ts#L15)
 
 ***
 
@@ -35,7 +35,7 @@ Defined in: src/events/notification-client.ts:15
 
 > `optional` **receiver\_id**: `string`
 
-Defined in: src/events/notification-client.ts:14
+Defined in: [src/events/notification-client.ts:14](https://github.com/Dastari/unifi-access-api/blob/9117c1b472d15dc0296096b049a1848ccba9da3b/src/events/notification-client.ts#L14)
 
 ***
 
@@ -43,4 +43,4 @@ Defined in: src/events/notification-client.ts:14
 
 > `optional` **save\_to\_history**: `boolean`
 
-Defined in: src/events/notification-client.ts:16
+Defined in: [src/events/notification-client.ts:16](https://github.com/Dastari/unifi-access-api/blob/9117c1b472d15dc0296096b049a1848ccba9da3b/src/events/notification-client.ts#L16)

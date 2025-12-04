@@ -2,7 +2,7 @@
 
 ***
 
-Defined in: [src/types/system.ts:49](https://github.com/Dastari/unifi-access-api/blob/209acc2c0627374a52853b95a3f160a5ece1685d/src/types/system.ts#L49)
+Defined in: [src/types/system.ts:49](https://github.com/Dastari/unifi-access-api/blob/9117c1b472d15dc0296096b049a1848ccba9da3b/src/types/system.ts#L49)
 
 ## Indexable
 
@@ -14,7 +14,7 @@ Defined in: [src/types/system.ts:49](https://github.com/Dastari/unifi-access-api
 
 > `optional` **\_id**: `string`
 
-Defined in: [src/types/system.ts:51](https://github.com/Dastari/unifi-access-api/blob/209acc2c0627374a52853b95a3f160a5ece1685d/src/types/system.ts#L51)
+Defined in: [src/types/system.ts:51](https://github.com/Dastari/unifi-access-api/blob/9117c1b472d15dc0296096b049a1848ccba9da3b/src/types/system.ts#L51)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [src/types/system.ts:51](https://github.com/Dastari/unifi-access-api
 
 > `optional` **\_source**: `object`
 
-Defined in: [src/types/system.ts:52](https://github.com/Dastari/unifi-access-api/blob/209acc2c0627374a52853b95a3f160a5ece1685d/src/types/system.ts#L52)
+Defined in: [src/types/system.ts:52](https://github.com/Dastari/unifi-access-api/blob/9117c1b472d15dc0296096b049a1848ccba9da3b/src/types/system.ts#L52)
 
 #### Index Signature
 
@@ -50,7 +50,7 @@ Defined in: [src/types/system.ts:52](https://github.com/Dastari/unifi-access-api
 
 > **@timestamp**: `string`
 
-Defined in: [src/types/system.ts:50](https://github.com/Dastari/unifi-access-api/blob/209acc2c0627374a52853b95a3f160a5ece1685d/src/types/system.ts#L50)
+Defined in: [src/types/system.ts:50](https://github.com/Dastari/unifi-access-api/blob/9117c1b472d15dc0296096b049a1848ccba9da3b/src/types/system.ts#L50)
 
 ***
 
@@ -58,4 +58,4 @@ Defined in: [src/types/system.ts:50](https://github.com/Dastari/unifi-access-api
 
 > `optional` **tag**: `string`
 
-Defined in: [src/types/system.ts:59](https://github.com/Dastari/unifi-access-api/blob/209acc2c0627374a52853b95a3f160a5ece1685d/src/types/system.ts#L59)
+Defined in: [src/types/system.ts:59](https://github.com/Dastari/unifi-access-api/blob/9117c1b472d15dc0296096b049a1848ccba9da3b/src/types/system.ts#L59)

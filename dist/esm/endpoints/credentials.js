@@ -1,69 +1,70 @@
+import { defineEndpoint } from '../internal/endpoint.js';
 export const credentialEndpoints = {
-    generatePinCode: {
+    generatePinCode: defineEndpoint({
         method: 'POST',
         path: '/api/v1/developer/credentials/pin_codes',
-    },
-    createNfcEnrollmentSession: {
+    }),
+    createNfcEnrollmentSession: defineEndpoint({
         method: 'POST',
         path: '/api/v1/developer/credentials/nfc_cards/sessions',
-    },
-    fetchNfcEnrollmentStatus: {
+    }),
+    fetchNfcEnrollmentStatus: defineEndpoint({
         method: 'GET',
         path: '/api/v1/developer/credentials/nfc_cards/sessions/:id',
-    },
-    deleteNfcEnrollmentSession: {
+    }),
+    deleteNfcEnrollmentSession: defineEndpoint({
         method: 'DELETE',
         path: '/api/v1/developer/credentials/nfc_cards/sessions/:id',
-    },
-    fetchNfcCard: {
+    }),
+    fetchNfcCard: defineEndpoint({
         method: 'GET',
         path: '/api/v1/developer/credentials/nfc_cards/tokens/:token',
-    },
-    fetchAllNfcCards: {
+    }),
+    fetchAllNfcCards: defineEndpoint({
         method: 'GET',
         path: '/api/v1/developer/credentials/nfc_cards/tokens',
-    },
-    deleteNfcCard: {
+    }),
+    deleteNfcCard: defineEndpoint({
         method: 'DELETE',
         path: '/api/v1/developer/credentials/nfc_cards/tokens/:token',
-    },
-    updateNfcCard: {
+    }),
+    updateNfcCard: defineEndpoint({
         method: 'PUT',
         path: '/api/v1/developer/credentials/nfc_cards/tokens/:token',
-    },
-    fetchTouchPassList: {
+    }),
+    fetchTouchPassList: defineEndpoint({
         method: 'GET',
         path: '/api/v1/developer/credentials/touch_passes',
-    },
-    searchTouchPasses: {
+    }),
+    searchTouchPasses: defineEndpoint({
         method: 'GET',
         path: '/api/v1/developer/credentials/touch_passes/search',
-    },
-    fetchAssignableTouchPasses: {
+    }),
+    fetchAssignableTouchPasses: defineEndpoint({
         method: 'GET',
         path: '/api/v1/developer/credentials/touch_passes/assignable',
-    },
-    updateTouchPass: {
+    }),
+    updateTouchPass: defineEndpoint({
         method: 'PUT',
         path: '/api/v1/developer/credentials/touch_passes/:id',
-    },
-    fetchTouchPassDetails: {
+    }),
+    fetchTouchPassDetails: defineEndpoint({
         method: 'GET',
         path: '/api/v1/developer/credentials/touch_passes/:id',
-    },
-    purchaseTouchPasses: {
+    }),
+    purchaseTouchPasses: defineEndpoint({
         method: 'POST',
         path: '/api/v1/developer/credentials/touch_passes',
-    },
-    downloadTouchPassQrCode: {
+    }),
+    downloadTouchPassQrCode: defineEndpoint({
         method: 'GET',
         path: '/api/v1/developer/credentials/qr_codes/download/:id',
         responseType: 'arrayBuffer',
-    },
-    importThirdPartyNfcCards: {
+    }),
+    importThirdPartyNfcCards: defineEndpoint({
         method: 'POST',
         path: '/api/v1/developer/credentials/nfc_cards/import',
         rawBody: true,
-    },
+    }),
 };
 //# sourceMappingURL=credentials.js.map

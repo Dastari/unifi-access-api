@@ -1,58 +1,59 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.spaceEndpoints = void 0;
+const endpoint_js_1 = require("../internal/endpoint.js");
 exports.spaceEndpoints = {
-    fetchDoorGroupTopology: {
+    fetchDoorGroupTopology: (0, endpoint_js_1.defineEndpoint)({
         method: 'GET',
         path: '/api/v1/developer/door_groups/topology',
-    },
-    createDoorGroup: {
+    }),
+    createDoorGroup: (0, endpoint_js_1.defineEndpoint)({
         method: 'POST',
         path: '/api/v1/developer/door_groups',
-    },
-    fetchDoorGroupById: {
+    }),
+    fetchDoorGroupById: (0, endpoint_js_1.defineEndpoint)({
         method: 'GET',
         path: '/api/v1/developer/door_groups/:id',
-    },
-    updateDoorGroupById: {
+    }),
+    updateDoorGroupById: (0, endpoint_js_1.defineEndpoint)({
         method: 'PUT',
         path: '/api/v1/developer/door_groups/:id',
-    },
-    fetchAllDoorGroups: {
+    }),
+    fetchAllDoorGroups: (0, endpoint_js_1.defineEndpoint)({
         method: 'GET',
         path: '/api/v1/developer/door_groups',
-    },
-    deleteDoorGroupById: {
+    }),
+    deleteDoorGroupById: (0, endpoint_js_1.defineEndpoint)({
         method: 'DELETE',
         path: '/api/v1/developer/door_groups/:id',
-    },
-    fetchDoorById: {
+    }),
+    fetchDoorById: (0, endpoint_js_1.defineEndpoint)({
         method: 'GET',
         path: '/api/v1/developer/doors/:id',
-    },
-    fetchAllDoors: {
+    }),
+    fetchAllDoors: (0, endpoint_js_1.defineEndpoint)({
         method: 'GET',
         path: '/api/v1/developer/doors',
-    },
-    unlockDoor: {
+    }),
+    unlockDoor: (0, endpoint_js_1.defineEndpoint)({
         method: 'PUT',
         path: '/api/v1/developer/doors/:id/unlock',
-    },
-    setDoorLockRule: {
+    }),
+    setDoorLockRule: (0, endpoint_js_1.defineEndpoint)({
         method: 'PUT',
         path: '/api/v1/developer/doors/:id/lock_rule',
-    },
-    fetchDoorLockRule: {
+    }),
+    fetchDoorLockRule: (0, endpoint_js_1.defineEndpoint)({
         method: 'GET',
         path: '/api/v1/developer/doors/:id/lock_rule',
-    },
-    setDoorEmergencyStatus: {
+    }),
+    setDoorEmergencyStatus: (0, endpoint_js_1.defineEndpoint)({
         method: 'PUT',
         path: '/api/v1/developer/doors/settings/emergency',
-    },
-    fetchDoorEmergencyStatus: {
+    }),
+    fetchDoorEmergencyStatus: (0, endpoint_js_1.defineEndpoint)({
         method: 'GET',
         path: '/api/v1/developer/doors/settings/emergency',
-    },
+    }),
 };
 //# sourceMappingURL=spaces.js.map

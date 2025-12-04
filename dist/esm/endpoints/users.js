@@ -1,120 +1,121 @@
+import { defineEndpoint } from '../internal/endpoint.js';
 export const userEndpoints = {
-    createUser: {
+    createUser: defineEndpoint({
         method: 'POST',
         path: '/api/v1/developer/users',
-    },
-    updateUser: {
+    }),
+    updateUser: defineEndpoint({
         method: 'PUT',
         path: '/api/v1/developer/users/:id',
-    },
-    fetchUser: {
+    }),
+    fetchUser: defineEndpoint({
         method: 'GET',
         path: '/api/v1/developer/users/:id',
-    },
-    fetchAllUsers: {
+    }),
+    fetchAllUsers: defineEndpoint({
         method: 'GET',
         path: '/api/v1/developer/users',
-    },
-    updateUserAccessPolicies: {
+    }),
+    updateUserAccessPolicies: defineEndpoint({
         method: 'PUT',
         path: '/api/v1/developer/users/:id/access_policies',
-    },
-    assignUserNfcCard: {
+    }),
+    assignUserNfcCard: defineEndpoint({
         method: 'PUT',
         path: '/api/v1/developer/users/:id/nfc_cards',
-    },
-    unassignUserNfcCard: {
+    }),
+    unassignUserNfcCard: defineEndpoint({
         method: 'PUT',
         path: '/api/v1/developer/users/:id/nfc_cards/delete',
-    },
-    assignUserPinCode: {
+    }),
+    assignUserPinCode: defineEndpoint({
         method: 'PUT',
         path: '/api/v1/developer/users/:id/pin_codes',
-    },
-    unassignUserPinCode: {
+    }),
+    unassignUserPinCode: defineEndpoint({
         method: 'DELETE',
         path: '/api/v1/developer/users/:id/pin_codes',
-    },
-    createUserGroup: {
+    }),
+    createUserGroup: defineEndpoint({
         method: 'POST',
         path: '/api/v1/developer/user_groups',
-    },
-    fetchAllUserGroups: {
+    }),
+    fetchAllUserGroups: defineEndpoint({
         method: 'GET',
         path: '/api/v1/developer/user_groups',
-    },
-    fetchUserGroup: {
+    }),
+    fetchUserGroup: defineEndpoint({
         method: 'GET',
         path: '/api/v1/developer/user_groups/:id',
-    },
-    updateUserGroup: {
+    }),
+    updateUserGroup: defineEndpoint({
         method: 'PUT',
         path: '/api/v1/developer/user_groups/:id',
-    },
-    deleteUserGroup: {
+    }),
+    deleteUserGroup: defineEndpoint({
         method: 'DELETE',
         path: '/api/v1/developer/user_groups/:id',
-    },
-    assignUsersToGroup: {
+    }),
+    assignUsersToGroup: defineEndpoint({
         method: 'POST',
         path: '/api/v1/developer/user_groups/:id/users',
-    },
-    unassignUsersFromGroup: {
+    }),
+    unassignUsersFromGroup: defineEndpoint({
         method: 'POST',
         path: '/api/v1/developer/user_groups/:id/users/delete',
-    },
-    fetchUsersInGroup: {
+    }),
+    fetchUsersInGroup: defineEndpoint({
         method: 'GET',
         path: '/api/v1/developer/user_groups/:id/users',
-    },
-    fetchAllUsersInGroup: {
+    }),
+    fetchAllUsersInGroup: defineEndpoint({
         method: 'GET',
         path: '/api/v1/developer/user_groups/:id/users/all',
-    },
-    fetchUserAccessPolicies: {
+    }),
+    fetchUserAccessPolicies: defineEndpoint({
         method: 'GET',
         path: '/api/v1/developer/users/:id/access_policies',
-    },
-    updateUserGroupAccessPolicies: {
+    }),
+    updateUserGroupAccessPolicies: defineEndpoint({
         method: 'PUT',
         path: '/api/v1/developer/user_groups/:id/access_policies',
-    },
-    fetchUserGroupAccessPolicies: {
+    }),
+    fetchUserGroupAccessPolicies: defineEndpoint({
         method: 'GET',
         path: '/api/v1/developer/user_groups/:id/access_policies',
-    },
-    deleteUser: {
+    }),
+    deleteUser: defineEndpoint({
         method: 'DELETE',
         path: '/api/v1/developer/users/:id',
-    },
-    searchUsers: {
+    }),
+    searchUsers: defineEndpoint({
         method: 'GET',
         path: '/api/v1/developer/users/search',
-    },
-    assignTouchPassToUser: {
+    }),
+    assignTouchPassToUser: defineEndpoint({
         method: 'PUT',
         path: '/api/v1/developer/users/:user_id/touch_passes/:touch_pass_id',
-    },
-    unassignTouchPassFromUser: {
+    }),
+    unassignTouchPassFromUser: defineEndpoint({
         method: 'DELETE',
         path: '/api/v1/developer/users/:user_id/touch_passes/:touch_pass_id',
-    },
-    batchAssignTouchPasses: {
+    }),
+    batchAssignTouchPasses: defineEndpoint({
         method: 'PUT',
         path: '/api/v1/developer/users/touch_passes/assign',
-    },
-    assignLicensePlatesToUser: {
+    }),
+    assignLicensePlatesToUser: defineEndpoint({
         method: 'PUT',
         path: '/api/v1/developer/users/:id/license_plates',
-    },
-    unassignLicensePlateFromUser: {
+    }),
+    unassignLicensePlateFromUser: defineEndpoint({
         method: 'DELETE',
         path: '/api/v1/developer/users/:user_id/license_plates/:license_plate_id',
-    },
-    uploadUserAvatar: {
+    }),
+    uploadUserAvatar: defineEndpoint({
         method: 'POST',
         path: '/api/v1/developer/users/:id/avatar',
         rawBody: true,
-    },
+    }),
 };
 //# sourceMappingURL=users.js.map

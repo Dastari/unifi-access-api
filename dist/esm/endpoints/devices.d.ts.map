@@ -1,1 +1,1 @@
-{"version":3,"file":"devices.d.ts","sourceRoot":"","sources":["../../../src/endpoints/devices.ts"],"names":[],"mappings":"AAMA,eAAO,MAAM,eAAe;;;;;;;;;;;;;CAelB,CAAC;AAEX,MAAM,MAAM,eAAe,GAAG,OAAO,eAAe,CAAC"}
+{"version":3,"file":"devices.d.ts","sourceRoot":"","sources":["../../../src/endpoints/devices.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,oBAAoB,EAAE,kCAAkC,EAAE,eAAe,EAAE,MAAM,qBAAqB,CAAC;AAErH,OAAO,KAAK,EAAE,mBAAmB,EAAE,MAAM,oBAAoB,CAAC;AAI9D,eAAO,MAAM,eAAe;;;mBAM6B,MAAM;;;mBAKL,MAAM;;CAItD,CAAC;AAEX,MAAM,MAAM,eAAe,GAAG,OAAO,eAAe,CAAC"}

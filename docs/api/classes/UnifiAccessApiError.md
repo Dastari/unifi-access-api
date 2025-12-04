@@ -2,7 +2,7 @@
 
 ***
 
-Defined in: [src/client.ts:46](https://github.com/Dastari/unifi-access-api/blob/209acc2c0627374a52853b95a3f160a5ece1685d/src/client.ts#L46)
+Defined in: [src/client.ts:46](https://github.com/Dastari/unifi-access-api/blob/9117c1b472d15dc0296096b049a1848ccba9da3b/src/client.ts#L46)
 
 ## Extends
 
@@ -20,7 +20,7 @@ Defined in: [src/client.ts:46](https://github.com/Dastari/unifi-access-api/blob/
 
 > **new UnifiAccessApiError**\<`T`\>(`message`, `status`, `code`, `response`): `UnifiAccessApiError`\<`T`\>
 
-Defined in: [src/client.ts:47](https://github.com/Dastari/unifi-access-api/blob/209acc2c0627374a52853b95a3f160a5ece1685d/src/client.ts#L47)
+Defined in: [src/client.ts:47](https://github.com/Dastari/unifi-access-api/blob/9117c1b472d15dc0296096b049a1848ccba9da3b/src/client.ts#L47)
 
 #### Parameters
 
@@ -66,7 +66,7 @@ Defined in: node\_modules/typescript/lib/lib.es2022.error.d.ts:26
 
 > `readonly` **code**: `string`
 
-Defined in: [src/client.ts:50](https://github.com/Dastari/unifi-access-api/blob/209acc2c0627374a52853b95a3f160a5ece1685d/src/client.ts#L50)
+Defined in: [src/client.ts:50](https://github.com/Dastari/unifi-access-api/blob/9117c1b472d15dc0296096b049a1848ccba9da3b/src/client.ts#L50)
 
 ***
 
@@ -98,7 +98,7 @@ Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1076
 
 > `readonly` **response**: `T`
 
-Defined in: [src/client.ts:51](https://github.com/Dastari/unifi-access-api/blob/209acc2c0627374a52853b95a3f160a5ece1685d/src/client.ts#L51)
+Defined in: [src/client.ts:51](https://github.com/Dastari/unifi-access-api/blob/9117c1b472d15dc0296096b049a1848ccba9da3b/src/client.ts#L51)
 
 ***
 
@@ -118,7 +118,7 @@ Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1078
 
 > `readonly` **status**: `number`
 
-Defined in: [src/client.ts:49](https://github.com/Dastari/unifi-access-api/blob/209acc2c0627374a52853b95a3f160a5ece1685d/src/client.ts#L49)
+Defined in: [src/client.ts:49](https://github.com/Dastari/unifi-access-api/blob/9117c1b472d15dc0296096b049a1848ccba9da3b/src/client.ts#L49)
 
 ***
 

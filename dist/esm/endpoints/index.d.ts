@@ -1,430 +1,270 @@
 export declare const endpointDefinitions: {
-    readonly uploadApiServerCertificate: {
-        method: "POST";
-        path: string;
-        rawBody: true;
-    };
-    readonly deleteApiServerCertificate: {
-        method: "DELETE";
-        path: string;
-    };
-    readonly fetchWebhookEndpoints: {
-        method: "GET";
-        path: string;
-    };
-    readonly createWebhookEndpoint: {
-        method: "POST";
-        path: string;
-    };
-    readonly updateWebhookEndpoint: {
-        method: "PUT";
-        path: string;
-    };
-    readonly deleteWebhookEndpoint: {
-        method: "DELETE";
-        path: string;
-    };
-    readonly sendIdentityInvitations: {
-        method: "POST";
-        path: string;
-    };
-    readonly fetchAvailableIdentityResources: {
-        method: "GET";
-        path: string;
-    };
-    readonly assignIdentityResourcesToUser: {
-        method: "POST";
-        path: string;
-    };
-    readonly fetchIdentityResourcesForUser: {
-        method: "GET";
-        path: string;
-    };
-    readonly assignIdentityResourcesToUserGroup: {
-        method: "POST";
-        path: string;
-    };
-    readonly fetchIdentityResourcesForUserGroup: {
-        method: "GET";
-        path: string;
-    };
-    readonly fetchSystemLogs: {
-        method: "POST";
-        path: string;
-    };
-    readonly exportSystemLogs: {
-        method: "POST";
-        path: string;
-        responseType: "arrayBuffer";
-    };
-    readonly fetchSystemLogResource: {
-        method: "GET";
-        path: string;
-    };
-    readonly fetchSystemStaticResource: {
-        method: "GET";
-        path: string;
-        responseType: "arrayBuffer";
-    };
-    readonly fetchDevices: {
-        method: "GET";
-        path: string;
-    };
-    readonly fetchDeviceAccessSettings: {
-        method: "GET";
-        path: string;
-    };
-    readonly updateDeviceAccessSettings: {
-        method: "PUT";
-        path: string;
-    };
-    readonly fetchDoorGroupTopology: {
-        method: "GET";
-        path: string;
-    };
-    readonly createDoorGroup: {
-        method: "POST";
-        path: string;
-    };
-    readonly fetchDoorGroupById: {
-        method: "GET";
-        path: string;
-    };
-    readonly updateDoorGroupById: {
-        method: "PUT";
-        path: string;
-    };
-    readonly fetchAllDoorGroups: {
-        method: "GET";
-        path: string;
-    };
-    readonly deleteDoorGroupById: {
-        method: "DELETE";
-        path: string;
-    };
-    readonly fetchDoorById: {
-        method: "GET";
-        path: string;
-    };
-    readonly fetchAllDoors: {
-        method: "GET";
-        path: string;
-    };
-    readonly unlockDoor: {
-        method: "PUT";
-        path: string;
-    };
-    readonly setDoorLockRule: {
-        method: "PUT";
-        path: string;
-    };
-    readonly fetchDoorLockRule: {
-        method: "GET";
-        path: string;
-    };
-    readonly setDoorEmergencyStatus: {
-        method: "PUT";
-        path: string;
-    };
-    readonly fetchDoorEmergencyStatus: {
-        method: "GET";
-        path: string;
-    };
-    readonly generatePinCode: {
-        method: "POST";
-        path: string;
-    };
-    readonly createNfcEnrollmentSession: {
-        method: "POST";
-        path: string;
-    };
-    readonly fetchNfcEnrollmentStatus: {
-        method: "GET";
-        path: string;
-    };
-    readonly deleteNfcEnrollmentSession: {
-        method: "DELETE";
-        path: string;
-    };
-    readonly fetchNfcCard: {
-        method: "GET";
-        path: string;
-    };
-    readonly fetchAllNfcCards: {
-        method: "GET";
-        path: string;
-    };
-    readonly deleteNfcCard: {
-        method: "DELETE";
-        path: string;
-    };
-    readonly updateNfcCard: {
-        method: "PUT";
-        path: string;
-    };
-    readonly fetchTouchPassList: {
-        method: "GET";
-        path: string;
-    };
-    readonly searchTouchPasses: {
-        method: "GET";
-        path: string;
-    };
-    readonly fetchAssignableTouchPasses: {
-        method: "GET";
-        path: string;
-    };
-    readonly updateTouchPass: {
-        method: "PUT";
-        path: string;
-    };
-    readonly fetchTouchPassDetails: {
-        method: "GET";
-        path: string;
-    };
-    readonly purchaseTouchPasses: {
-        method: "POST";
-        path: string;
-    };
-    readonly downloadTouchPassQrCode: {
-        method: "GET";
-        path: string;
-        responseType: "arrayBuffer";
-    };
-    readonly importThirdPartyNfcCards: {
-        method: "POST";
-        path: string;
-        rawBody: true;
-    };
-    readonly createAccessPolicy: {
-        method: "POST";
-        path: string;
-    };
-    readonly updateAccessPolicy: {
-        method: "PUT";
-        path: string;
-    };
-    readonly deleteAccessPolicy: {
-        method: "DELETE";
-        path: string;
-    };
-    readonly fetchAccessPolicy: {
-        method: "GET";
-        path: string;
-    };
-    readonly fetchAllAccessPolicies: {
-        method: "GET";
-        path: string;
-    };
-    readonly createHolidayGroup: {
-        method: "POST";
-        path: string;
-    };
-    readonly updateHolidayGroup: {
-        method: "PUT";
-        path: string;
-    };
-    readonly deleteHolidayGroup: {
-        method: "DELETE";
-        path: string;
-    };
-    readonly fetchHolidayGroup: {
-        method: "GET";
-        path: string;
-    };
-    readonly fetchAllHolidayGroups: {
-        method: "GET";
-        path: string;
-    };
-    readonly createSchedule: {
-        method: "POST";
-        path: string;
-    };
-    readonly updateSchedule: {
-        method: "PUT";
-        path: string;
-    };
-    readonly fetchSchedule: {
-        method: "GET";
-        path: string;
-    };
-    readonly fetchAllSchedules: {
-        method: "GET";
-        path: string;
-    };
-    readonly deleteSchedule: {
-        method: "DELETE";
-        path: string;
-    };
-    readonly createVisitor: {
-        method: "POST";
-        path: string;
-    };
-    readonly fetchVisitor: {
-        method: "GET";
-        path: string;
-    };
-    readonly fetchAllVisitors: {
-        method: "GET";
-        path: string;
-    };
-    readonly updateVisitor: {
-        method: "PUT";
-        path: string;
-    };
-    readonly deleteVisitor: {
-        method: "DELETE";
-        path: string;
-    };
-    readonly assignVisitorNfcCard: {
-        method: "PUT";
-        path: string;
-    };
-    readonly unassignVisitorNfcCard: {
-        method: "PUT";
-        path: string;
-    };
-    readonly assignVisitorPinCode: {
-        method: "PUT";
-        path: string;
-    };
-    readonly unassignVisitorPinCode: {
-        method: "DELETE";
-        path: string;
-    };
-    readonly assignVisitorQrCode: {
-        method: "PUT";
-        path: string;
-    };
-    readonly unassignVisitorQrCode: {
-        method: "DELETE";
-        path: string;
-    };
-    readonly assignVisitorLicensePlates: {
-        method: "PUT";
-        path: string;
-    };
-    readonly unassignVisitorLicensePlate: {
-        method: "DELETE";
-        path: string;
-    };
-    readonly createUser: {
-        method: "POST";
-        path: string;
-    };
-    readonly updateUser: {
-        method: "PUT";
-        path: string;
-    };
-    readonly fetchUser: {
-        method: "GET";
-        path: string;
-    };
-    readonly fetchAllUsers: {
-        method: "GET";
-        path: string;
-    };
-    readonly updateUserAccessPolicies: {
-        method: "PUT";
-        path: string;
-    };
-    readonly assignUserNfcCard: {
-        method: "PUT";
-        path: string;
-    };
-    readonly unassignUserNfcCard: {
-        method: "PUT";
-        path: string;
-    };
-    readonly assignUserPinCode: {
-        method: "PUT";
-        path: string;
-    };
-    readonly unassignUserPinCode: {
-        method: "DELETE";
-        path: string;
-    };
-    readonly createUserGroup: {
-        method: "POST";
-        path: string;
-    };
-    readonly fetchAllUserGroups: {
-        method: "GET";
-        path: string;
-    };
-    readonly fetchUserGroup: {
-        method: "GET";
-        path: string;
-    };
-    readonly updateUserGroup: {
-        method: "PUT";
-        path: string;
-    };
-    readonly deleteUserGroup: {
-        method: "DELETE";
-        path: string;
-    };
-    readonly assignUsersToGroup: {
-        method: "POST";
-        path: string;
-    };
-    readonly unassignUsersFromGroup: {
-        method: "POST";
-        path: string;
-    };
-    readonly fetchUsersInGroup: {
-        method: "GET";
-        path: string;
-    };
-    readonly fetchAllUsersInGroup: {
-        method: "GET";
-        path: string;
-    };
-    readonly fetchUserAccessPolicies: {
-        method: "GET";
-        path: string;
-    };
-    readonly updateUserGroupAccessPolicies: {
-        method: "PUT";
-        path: string;
-    };
-    readonly fetchUserGroupAccessPolicies: {
-        method: "GET";
-        path: string;
-    };
-    readonly deleteUser: {
-        method: "DELETE";
-        path: string;
-    };
-    readonly searchUsers: {
-        method: "GET";
-        path: string;
-    };
-    readonly assignTouchPassToUser: {
-        method: "PUT";
-        path: string;
-    };
-    readonly unassignTouchPassFromUser: {
-        method: "DELETE";
-        path: string;
-    };
-    readonly batchAssignTouchPasses: {
-        method: "PUT";
-        path: string;
-    };
-    readonly assignLicensePlatesToUser: {
-        method: "PUT";
-        path: string;
-    };
-    readonly unassignLicensePlateFromUser: {
-        method: "DELETE";
-        path: string;
-    };
-    readonly uploadUserAvatar: {
-        method: "POST";
-        path: string;
-        rawBody: true;
-    };
+    readonly uploadApiServerCertificate: import("../internal/endpoint.js").EndpointDefinition<undefined, undefined, import("../index.js").BodyLike, import("../index.js").UploadCertificateResponse, "json">;
+    readonly deleteApiServerCertificate: import("../internal/endpoint.js").EndpointDefinition<undefined, undefined, undefined, import("../index.js").UploadCertificateResponse, "json">;
+    readonly fetchWebhookEndpoints: import("../internal/endpoint.js").EndpointDefinition<undefined, undefined, undefined, import("../index.js").WebhookEndpointsResponse, "json">;
+    readonly createWebhookEndpoint: import("../internal/endpoint.js").EndpointDefinition<undefined, undefined, import("../index.js").WebhookEndpointRequest, import("../index.js").WebhookEndpointResponse, "json">;
+    readonly updateWebhookEndpoint: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, import("../index.js").WebhookEndpointRequest, import("../index.js").WebhookEndpointResponse, "json">;
+    readonly deleteWebhookEndpoint: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, undefined, import("../index.js").SuccessOnlyResponse, "json">;
+    readonly sendIdentityInvitations: import("../internal/endpoint.js").EndpointDefinition<undefined, undefined, import("../index.js").IdentityInvitationRequestItem[], import("../index.js").IdentityInvitationResponse, "json">;
+    readonly fetchAvailableIdentityResources: import("../internal/endpoint.js").EndpointDefinition<undefined, {
+        resource_type?: string;
+    }, undefined, import("../index.js").IdentityAvailableResourcesResponse, "json">;
+    readonly assignIdentityResourcesToUser: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, import("../index.js").IdentityAssignmentRequest, import("../index.js").SuccessOnlyResponse, "json">;
+    readonly fetchIdentityResourcesForUser: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, undefined, import("../index.js").IdentityAvailableResourcesResponse, "json">;
+    readonly assignIdentityResourcesToUserGroup: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, import("../index.js").IdentityAssignmentRequest, import("../index.js").SuccessOnlyResponse, "json">;
+    readonly fetchIdentityResourcesForUserGroup: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, undefined, import("../index.js").IdentityAvailableResourcesResponse, "json">;
+    readonly fetchSystemLogs: import("../internal/endpoint.js").EndpointDefinition<undefined, import("../index.js").SystemLogQuery, import("../index.js").FetchSystemLogsRequest, import("../index.js").SystemLogsResponse, "json">;
+    readonly exportSystemLogs: import("../internal/endpoint.js").EndpointDefinition<undefined, undefined, import("../index.js").FetchSystemLogsRequest, import("../index.js").FileResponse, "arrayBuffer">;
+    readonly fetchSystemLogResource: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, undefined, import("../index.js").SystemLogResourceResponse, "json">;
+    readonly fetchSystemStaticResource: import("../internal/endpoint.js").EndpointDefinition<{
+        path: string;
+    }, undefined, undefined, import("../index.js").FileResponse, "arrayBuffer">;
+    readonly fetchDevices: import("../internal/endpoint.js").EndpointDefinition<undefined, undefined, undefined, import("../index.js").DevicesResponse, "json">;
+    readonly fetchDeviceAccessSettings: import("../internal/endpoint.js").EndpointDefinition<{
+        device_id: string;
+    }, undefined, undefined, import("../index.js").DeviceAccessMethodSettingsResponse, "json">;
+    readonly updateDeviceAccessSettings: import("../internal/endpoint.js").EndpointDefinition<{
+        device_id: string;
+    }, undefined, import("../index.js").AccessMethodSettings, import("../index.js").SuccessOnlyResponse, "json">;
+    readonly fetchDoorGroupTopology: import("../internal/endpoint.js").EndpointDefinition<undefined, undefined, undefined, import("../index.js").DoorTopologyResponse, "json">;
+    readonly createDoorGroup: import("../internal/endpoint.js").EndpointDefinition<undefined, undefined, import("../index.js").CreateDoorGroupRequest, import("../index.js").DoorGroupResponse, "json">;
+    readonly fetchDoorGroupById: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, undefined, import("../index.js").DoorGroupResponse, "json">;
+    readonly updateDoorGroupById: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, import("../index.js").UpdateDoorGroupRequest, import("../index.js").SuccessOnlyResponse, "json">;
+    readonly fetchAllDoorGroups: import("../internal/endpoint.js").EndpointDefinition<undefined, undefined, undefined, import("../index.js").DoorGroupsResponse, "json">;
+    readonly deleteDoorGroupById: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, undefined, import("../index.js").SuccessOnlyResponse, "json">;
+    readonly fetchDoorById: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, undefined, import("../index.js").DoorResponse, "json">;
+    readonly fetchAllDoors: import("../internal/endpoint.js").EndpointDefinition<undefined, undefined, undefined, import("../index.js").DoorsResponse, "json">;
+    readonly unlockDoor: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, import("../index.js").UnlockDoorRequest, import("../index.js").SuccessOnlyResponse, "json">;
+    readonly setDoorLockRule: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, import("../index.js").DoorLockRuleRequest, import("../index.js").SuccessOnlyResponse, "json">;
+    readonly fetchDoorLockRule: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, undefined, import("../index.js").DoorLockRuleResponse, "json">;
+    readonly setDoorEmergencyStatus: import("../internal/endpoint.js").EndpointDefinition<undefined, undefined, import("../index.js").DoorEmergencyStatusRequest, import("../index.js").SuccessOnlyResponse, "json">;
+    readonly fetchDoorEmergencyStatus: import("../internal/endpoint.js").EndpointDefinition<undefined, undefined, undefined, import("../index.js").DoorEmergencyStatusResponse, "json">;
+    readonly generatePinCode: import("../internal/endpoint.js").EndpointDefinition<undefined, undefined, undefined, import("../index.js").GeneratePinCodeResponse, "json">;
+    readonly createNfcEnrollmentSession: import("../internal/endpoint.js").EndpointDefinition<undefined, undefined, import("../index.js").CreateNfcEnrollmentSessionRequest, import("../index.js").CreateNfcEnrollmentSessionResponse, "json">;
+    readonly fetchNfcEnrollmentStatus: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, undefined, import("../index.js").NfcEnrollmentStatusResponse, "json">;
+    readonly deleteNfcEnrollmentSession: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, undefined, import("../index.js").SuccessOnlyResponse, "json">;
+    readonly fetchNfcCard: import("../internal/endpoint.js").EndpointDefinition<{
+        token: string;
+    }, undefined, undefined, import("../index.js").NfcCardResponse, "json">;
+    readonly fetchAllNfcCards: import("../internal/endpoint.js").EndpointDefinition<undefined, {
+        page_num?: number;
+        page_size?: number;
+    }, undefined, import("../index.js").NfcCardsResponse, "json">;
+    readonly deleteNfcCard: import("../internal/endpoint.js").EndpointDefinition<{
+        token: string;
+    }, undefined, undefined, import("../index.js").SuccessOnlyResponse, "json">;
+    readonly updateNfcCard: import("../internal/endpoint.js").EndpointDefinition<{
+        token: string;
+    }, undefined, import("../index.js").UpdateNfcCardRequest, import("../index.js").SuccessOnlyResponse, "json">;
+    readonly fetchTouchPassList: import("../internal/endpoint.js").EndpointDefinition<undefined, {
+        page_num?: number;
+        page_size?: number;
+        status?: string;
+    }, undefined, import("../index.js").TouchPassListResponse, "json">;
+    readonly searchTouchPasses: import("../internal/endpoint.js").EndpointDefinition<undefined, {
+        condition: string;
+    }, undefined, import("../index.js").TouchPassListResponse, "json">;
+    readonly fetchAssignableTouchPasses: import("../internal/endpoint.js").EndpointDefinition<undefined, undefined, undefined, import("../index.js").AssignableTouchPassesResponse, "json">;
+    readonly updateTouchPass: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, import("../index.js").UpdateTouchPassRequest, import("../index.js").TouchPassDetailsResponse, "json">;
+    readonly fetchTouchPassDetails: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, undefined, import("../index.js").TouchPassDetailsResponse, "json">;
+    readonly purchaseTouchPasses: import("../internal/endpoint.js").EndpointDefinition<undefined, undefined, import("../index.js").PurchaseTouchPassesRequest, import("../index.js").PurchaseTouchPassResponse, "json">;
+    readonly downloadTouchPassQrCode: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, undefined, import("../index.js").FileResponse, "arrayBuffer">;
+    readonly importThirdPartyNfcCards: import("../internal/endpoint.js").EndpointDefinition<undefined, undefined, import("../index.js").BodyLike, import("../index.js").ImportThirdPartyNfcCardsResponse, "json">;
+    readonly createAccessPolicy: import("../internal/endpoint.js").EndpointDefinition<undefined, undefined, import("../index.js").CreateAccessPolicyRequest, import("../index.js").AccessPolicyResponse, "json">;
+    readonly updateAccessPolicy: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, import("../index.js").UpdateAccessPolicyRequest, import("../index.js").SuccessOnlyResponse, "json">;
+    readonly deleteAccessPolicy: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, undefined, import("../index.js").SuccessOnlyResponse, "json">;
+    readonly fetchAccessPolicy: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, undefined, import("../index.js").AccessPolicyResponse, "json">;
+    readonly fetchAllAccessPolicies: import("../internal/endpoint.js").EndpointDefinition<undefined, {
+        page_num?: number;
+        page_size?: number;
+        keyword?: string;
+    }, undefined, import("../index.js").AccessPoliciesResponse, "json">;
+    readonly createHolidayGroup: import("../internal/endpoint.js").EndpointDefinition<undefined, undefined, import("../index.js").CreateHolidayGroupRequest, import("../index.js").HolidayGroupResponse, "json">;
+    readonly updateHolidayGroup: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, import("../index.js").UpdateHolidayGroupRequest, import("../index.js").SuccessOnlyResponse, "json">;
+    readonly deleteHolidayGroup: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, undefined, import("../index.js").SuccessOnlyResponse, "json">;
+    readonly fetchHolidayGroup: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, undefined, import("../index.js").HolidayGroupResponse, "json">;
+    readonly fetchAllHolidayGroups: import("../internal/endpoint.js").EndpointDefinition<undefined, undefined, undefined, import("../index.js").HolidayGroupsResponse, "json">;
+    readonly createSchedule: import("../internal/endpoint.js").EndpointDefinition<undefined, undefined, import("../index.js").CreateScheduleRequest, import("../index.js").ScheduleResponse, "json">;
+    readonly updateSchedule: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, import("../index.js").UpdateScheduleRequest, import("../index.js").SuccessOnlyResponse, "json">;
+    readonly fetchSchedule: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, undefined, import("../index.js").ScheduleResponse, "json">;
+    readonly fetchAllSchedules: import("../internal/endpoint.js").EndpointDefinition<undefined, undefined, undefined, import("../index.js").SchedulesResponse, "json">;
+    readonly deleteSchedule: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, undefined, import("../index.js").SuccessOnlyResponse, "json">;
+    readonly createVisitor: import("../internal/endpoint.js").EndpointDefinition<undefined, undefined, import("../index.js").CreateVisitorRequest, import("../index.js").CreateVisitorResponse, "json">;
+    readonly fetchVisitor: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, undefined, import("../index.js").FetchVisitorResponse, "json">;
+    readonly fetchAllVisitors: import("../internal/endpoint.js").EndpointDefinition<undefined, {
+        status?: number;
+        keyword?: string;
+        page_num?: number;
+        page_size?: number;
+        'expand[]'?: string | string[];
+    }, undefined, import("../index.js").FetchVisitorsResponse, "json">;
+    readonly updateVisitor: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, import("../index.js").UpdateVisitorRequest, import("../index.js").SuccessOnlyResponse, "json">;
+    readonly deleteVisitor: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, undefined, import("../index.js").SuccessOnlyResponse, "json">;
+    readonly assignVisitorNfcCard: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, import("../index.js").AssignVisitorNfcCardRequest, import("../index.js").SuccessOnlyResponse, "json">;
+    readonly unassignVisitorNfcCard: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, import("../index.js").UnassignVisitorNfcCardRequest, import("../index.js").SuccessOnlyResponse, "json">;
+    readonly assignVisitorPinCode: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, import("../index.js").AssignVisitorPinCodeRequest, import("../index.js").SuccessOnlyResponse, "json">;
+    readonly unassignVisitorPinCode: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, undefined, import("../index.js").SuccessOnlyResponse, "json">;
+    readonly assignVisitorQrCode: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, undefined, import("../index.js").SuccessOnlyResponse, "json">;
+    readonly unassignVisitorQrCode: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, undefined, import("../index.js").SuccessOnlyResponse, "json">;
+    readonly assignVisitorLicensePlates: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, import("../index.js").AssignVisitorLicensePlatesRequest, import("../index.js").SuccessOnlyResponse, "json">;
+    readonly unassignVisitorLicensePlate: import("../internal/endpoint.js").EndpointDefinition<{
+        visitor_id: string;
+        license_plate_id: string;
+    }, undefined, undefined, import("../index.js").SuccessOnlyResponse, "json">;
+    readonly createUser: import("../internal/endpoint.js").EndpointDefinition<undefined, undefined, import("../index.js").CreateUserRequest, import("../index.js").CreateUserResponse, "json">;
+    readonly updateUser: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, import("../index.js").UpdateUserRequest, import("../index.js").SuccessOnlyResponse, "json">;
+    readonly fetchUser: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, import("../index.js").FetchUserQuery, undefined, import("../index.js").FetchUserResponse, "json">;
+    readonly fetchAllUsers: import("../internal/endpoint.js").EndpointDefinition<undefined, import("../index.js").FetchUsersQuery, undefined, import("../index.js").FetchAllUsersResponse, "json">;
+    readonly updateUserAccessPolicies: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, import("../index.js").UpdateUserAccessPoliciesRequest, import("../index.js").SuccessOnlyResponse, "json">;
+    readonly assignUserNfcCard: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, import("../index.js").AssignNfcCardRequest, import("../index.js").SuccessOnlyResponse, "json">;
+    readonly unassignUserNfcCard: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, import("../index.js").UnassignNfcCardRequest, import("../index.js").SuccessOnlyResponse, "json">;
+    readonly assignUserPinCode: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, import("../index.js").AssignPinCodeRequest, import("../index.js").SuccessOnlyResponse, "json">;
+    readonly unassignUserPinCode: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, undefined, import("../index.js").SuccessOnlyResponse, "json">;
+    readonly createUserGroup: import("../internal/endpoint.js").EndpointDefinition<undefined, undefined, import("../index.js").CreateUserGroupRequest, import("../index.js").SuccessOnlyResponse, "json">;
+    readonly fetchAllUserGroups: import("../internal/endpoint.js").EndpointDefinition<undefined, undefined, undefined, import("../index.js").FetchAllUserGroupsResponse, "json">;
+    readonly fetchUserGroup: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, undefined, import("../index.js").FetchUserGroupResponse, "json">;
+    readonly updateUserGroup: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, import("../index.js").UpdateUserGroupRequest, import("../index.js").SuccessOnlyResponse, "json">;
+    readonly deleteUserGroup: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, undefined, import("../index.js").SuccessOnlyResponse, "json">;
+    readonly assignUsersToGroup: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, string[], import("../index.js").SuccessOnlyResponse, "json">;
+    readonly unassignUsersFromGroup: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, string[], import("../index.js").SuccessOnlyResponse, "json">;
+    readonly fetchUsersInGroup: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, undefined, import("../index.js").FetchGroupUsersResponse, "json">;
+    readonly fetchAllUsersInGroup: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, undefined, import("../index.js").FetchGroupUsersResponse, "json">;
+    readonly fetchUserAccessPolicies: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, import("../index.js").FetchUserAccessPoliciesQuery, undefined, import("../index.js").UserAccessPoliciesResponse, "json">;
+    readonly updateUserGroupAccessPolicies: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, import("../index.js").UpdateGroupAccessPoliciesRequest, import("../index.js").SuccessOnlyResponse, "json">;
+    readonly fetchUserGroupAccessPolicies: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, undefined, import("../index.js").UserAccessPoliciesResponse, "json">;
+    readonly deleteUser: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, undefined, import("../index.js").SuccessOnlyResponse, "json">;
+    readonly searchUsers: import("../internal/endpoint.js").EndpointDefinition<undefined, import("../index.js").SearchUsersQuery, undefined, import("../index.js").SearchUsersResponse, "json">;
+    readonly assignTouchPassToUser: import("../internal/endpoint.js").EndpointDefinition<{
+        user_id: string;
+        touch_pass_id: string;
+    }, undefined, undefined, import("../index.js").TouchPassAssignmentResponse, "json">;
+    readonly unassignTouchPassFromUser: import("../internal/endpoint.js").EndpointDefinition<{
+        user_id: string;
+        touch_pass_id: string;
+    }, undefined, undefined, import("../index.js").SuccessOnlyResponse, "json">;
+    readonly batchAssignTouchPasses: import("../internal/endpoint.js").EndpointDefinition<undefined, undefined, import("../index.js").BatchAssignTouchPassRequest, import("../index.js").BatchAssignTouchPassResponse, "json">;
+    readonly assignLicensePlatesToUser: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, import("../index.js").AssignLicensePlatesRequest, import("../index.js").SuccessOnlyResponse, "json">;
+    readonly unassignLicensePlateFromUser: import("../internal/endpoint.js").EndpointDefinition<{
+        user_id: string;
+        license_plate_id: string;
+    }, undefined, undefined, import("../index.js").SuccessOnlyResponse, "json">;
+    readonly uploadUserAvatar: import("../internal/endpoint.js").EndpointDefinition<{
+        id: string;
+    }, undefined, import("../index.js").BodyLike, import("../index.js").SuccessOnlyResponse, "json">;
 };
 export type EndpointDefinitions = typeof endpointDefinitions;
 //# sourceMappingURL=index.d.ts.map

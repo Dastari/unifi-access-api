@@ -4,4 +4,4 @@
 
 > **GeneratePinCodeResponse** = [`ApiResponse`](../interfaces/ApiResponse.md)\<`string`\>
 
-Defined in: [src/types/credentials.ts:71](https://github.com/Dastari/unifi-access-api/blob/209acc2c0627374a52853b95a3f160a5ece1685d/src/types/credentials.ts#L71)
+Defined in: [src/types/credentials.ts:71](https://github.com/Dastari/unifi-access-api/blob/9117c1b472d15dc0296096b049a1848ccba9da3b/src/types/credentials.ts#L71)

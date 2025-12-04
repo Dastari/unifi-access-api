@@ -1,63 +1,64 @@
+import { defineEndpoint } from '../internal/endpoint.js';
 export const accessPolicyEndpoints = {
-    createAccessPolicy: {
+    createAccessPolicy: defineEndpoint({
         method: 'POST',
         path: '/api/v1/developer/access_policies',
-    },
-    updateAccessPolicy: {
+    }),
+    updateAccessPolicy: defineEndpoint({
         method: 'PUT',
         path: '/api/v1/developer/access_policies/:id',
-    },
-    deleteAccessPolicy: {
+    }),
+    deleteAccessPolicy: defineEndpoint({
         method: 'DELETE',
         path: '/api/v1/developer/access_policies/:id',
-    },
-    fetchAccessPolicy: {
+    }),
+    fetchAccessPolicy: defineEndpoint({
         method: 'GET',
         path: '/api/v1/developer/access_policies/:id',
-    },
-    fetchAllAccessPolicies: {
+    }),
+    fetchAllAccessPolicies: defineEndpoint({
         method: 'GET',
         path: '/api/v1/developer/access_policies',
-    },
-    createHolidayGroup: {
+    }),
+    createHolidayGroup: defineEndpoint({
         method: 'POST',
         path: '/api/v1/developer/access_policies/holiday_groups',
-    },
-    updateHolidayGroup: {
+    }),
+    updateHolidayGroup: defineEndpoint({
         method: 'PUT',
         path: '/api/v1/developer/access_policies/holiday_groups/:id',
-    },
-    deleteHolidayGroup: {
+    }),
+    deleteHolidayGroup: defineEndpoint({
         method: 'DELETE',
         path: '/api/v1/developer/access_policies/holiday_groups/:id',
-    },
-    fetchHolidayGroup: {
+    }),
+    fetchHolidayGroup: defineEndpoint({
         method: 'GET',
         path: '/api/v1/developer/access_policies/holiday_groups/:id',
-    },
-    fetchAllHolidayGroups: {
+    }),
+    fetchAllHolidayGroups: defineEndpoint({
         method: 'GET',
         path: '/api/v1/developer/access_policies/holiday_groups',
-    },
-    createSchedule: {
+    }),
+    createSchedule: defineEndpoint({
         method: 'POST',
         path: '/api/v1/developer/access_policies/schedules',
-    },
-    updateSchedule: {
+    }),
+    updateSchedule: defineEndpoint({
         method: 'PUT',
         path: '/api/v1/developer/access_policies/schedules/:id',
-    },
-    fetchSchedule: {
+    }),
+    fetchSchedule: defineEndpoint({
         method: 'GET',
         path: '/api/v1/developer/access_policies/schedules/:id',
-    },
-    fetchAllSchedules: {
+    }),
+    fetchAllSchedules: defineEndpoint({
         method: 'GET',
         path: '/api/v1/developer/access_policies/schedules',
-    },
-    deleteSchedule: {
+    }),
+    deleteSchedule: defineEndpoint({
         method: 'DELETE',
         path: '/api/v1/developer/access_policies/schedules/:id',
-    },
+    }),
 };
 //# sourceMappingURL=access-policies.js.map

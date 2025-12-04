@@ -17,98 +17,98 @@ import type {
   UpdateNfcCardRequest,
   UpdateTouchPassRequest,
 } from '../types/credentials.js';
-import type { EndpointDefinition } from '../internal/endpoint.js';
+import { defineEndpoint } from '../internal/endpoint.js';
 import type { SuccessOnlyResponse } from '../types/common.js';
 
 type NoQuery = undefined;
 
 export const credentialEndpoints = {
-  generatePinCode: {
+  generatePinCode: defineEndpoint<undefined, NoQuery, undefined, GeneratePinCodeResponse>({
     method: 'POST',
     path: '/api/v1/developer/credentials/pin_codes',
-  } satisfies EndpointDefinition<undefined, NoQuery, undefined, GeneratePinCodeResponse>,
+  }),
 
-  createNfcEnrollmentSession: {
+  createNfcEnrollmentSession: defineEndpoint<undefined, NoQuery, CreateNfcEnrollmentSessionRequest, CreateNfcEnrollmentSessionResponse>({
     method: 'POST',
     path: '/api/v1/developer/credentials/nfc_cards/sessions',
-  } satisfies EndpointDefinition<undefined, NoQuery, CreateNfcEnrollmentSessionRequest, CreateNfcEnrollmentSessionResponse>,
+  }),
 
-  fetchNfcEnrollmentStatus: {
+  fetchNfcEnrollmentStatus: defineEndpoint<{ id: string }, NoQuery, undefined, NfcEnrollmentStatusResponse>({
     method: 'GET',
     path: '/api/v1/developer/credentials/nfc_cards/sessions/:id',
-  } satisfies EndpointDefinition<{ id: string }, NoQuery, undefined, NfcEnrollmentStatusResponse>,
+  }),
 
-  deleteNfcEnrollmentSession: {
+  deleteNfcEnrollmentSession: defineEndpoint<{ id: string }, NoQuery, undefined, SuccessOnlyResponse>({
     method: 'DELETE',
     path: '/api/v1/developer/credentials/nfc_cards/sessions/:id',
-  } satisfies EndpointDefinition<{ id: string }, NoQuery, undefined, SuccessOnlyResponse>,
+  }),
 
-  fetchNfcCard: {
+  fetchNfcCard: defineEndpoint<{ token: string }, NoQuery, undefined, NfcCardResponse>({
     method: 'GET',
     path: '/api/v1/developer/credentials/nfc_cards/tokens/:token',
-  } satisfies EndpointDefinition<{ token: string }, NoQuery, undefined, NfcCardResponse>,
+  }),
 
-  fetchAllNfcCards: {
+  fetchAllNfcCards: defineEndpoint<undefined, { page_num?: number; page_size?: number }, undefined, NfcCardsResponse>({
     method: 'GET',
     path: '/api/v1/developer/credentials/nfc_cards/tokens',
-  } satisfies EndpointDefinition<undefined, { page_num?: number; page_size?: number }, undefined, NfcCardsResponse>,
+  }),
 
-  deleteNfcCard: {
+  deleteNfcCard: defineEndpoint<{ token: string }, NoQuery, undefined, SuccessOnlyResponse>({
     method: 'DELETE',
     path: '/api/v1/developer/credentials/nfc_cards/tokens/:token',
-  } satisfies EndpointDefinition<{ token: string }, NoQuery, undefined, SuccessOnlyResponse>,
+  }),
 
-  updateNfcCard: {
+  updateNfcCard: defineEndpoint<{ token: string }, NoQuery, UpdateNfcCardRequest, SuccessOnlyResponse>({
     method: 'PUT',
     path: '/api/v1/developer/credentials/nfc_cards/tokens/:token',
-  } satisfies EndpointDefinition<{ token: string }, NoQuery, UpdateNfcCardRequest, SuccessOnlyResponse>,
+  }),
 
-  fetchTouchPassList: {
-    method: 'GET',
-    path: '/api/v1/developer/credentials/touch_passes',
-  } satisfies EndpointDefinition<
+  fetchTouchPassList: defineEndpoint<
     undefined,
     { page_num?: number; page_size?: number; status?: string },
     undefined,
     TouchPassListResponse
-  >,
+  >({
+    method: 'GET',
+    path: '/api/v1/developer/credentials/touch_passes',
+  }),
 
-  searchTouchPasses: {
+  searchTouchPasses: defineEndpoint<undefined, { condition: string }, undefined, SearchTouchPassResponse>({
     method: 'GET',
     path: '/api/v1/developer/credentials/touch_passes/search',
-  } satisfies EndpointDefinition<undefined, { condition: string }, undefined, SearchTouchPassResponse>,
+  }),
 
-  fetchAssignableTouchPasses: {
+  fetchAssignableTouchPasses: defineEndpoint<undefined, NoQuery, undefined, AssignableTouchPassesResponse>({
     method: 'GET',
     path: '/api/v1/developer/credentials/touch_passes/assignable',
-  } satisfies EndpointDefinition<undefined, NoQuery, undefined, AssignableTouchPassesResponse>,
+  }),
 
-  updateTouchPass: {
+  updateTouchPass: defineEndpoint<{ id: string }, NoQuery, UpdateTouchPassRequest, TouchPassDetailsResponse>({
     method: 'PUT',
     path: '/api/v1/developer/credentials/touch_passes/:id',
-  } satisfies EndpointDefinition<{ id: string }, NoQuery, UpdateTouchPassRequest, TouchPassDetailsResponse>,
+  }),
 
-  fetchTouchPassDetails: {
+  fetchTouchPassDetails: defineEndpoint<{ id: string }, NoQuery, undefined, TouchPassDetailsResponse>({
     method: 'GET',
     path: '/api/v1/developer/credentials/touch_passes/:id',
-  } satisfies EndpointDefinition<{ id: string }, NoQuery, undefined, TouchPassDetailsResponse>,
+  }),
 
-  purchaseTouchPasses: {
+  purchaseTouchPasses: defineEndpoint<undefined, NoQuery, PurchaseTouchPassesRequest, PurchaseTouchPassResponse>({
     method: 'POST',
     path: '/api/v1/developer/credentials/touch_passes',
-  } satisfies EndpointDefinition<undefined, NoQuery, PurchaseTouchPassesRequest, PurchaseTouchPassResponse>,
+  }),
 
-  downloadTouchPassQrCode: {
+  downloadTouchPassQrCode: defineEndpoint<{ id: string }, NoQuery, undefined, DownloadQRCodeImageResponse, 'arrayBuffer'>({
     method: 'GET',
     path: '/api/v1/developer/credentials/qr_codes/download/:id',
     responseType: 'arrayBuffer',
-  } satisfies EndpointDefinition<{ id: string }, NoQuery, undefined, DownloadQRCodeImageResponse, 'arrayBuffer'>,
+  }),
 
-  importThirdPartyNfcCards: {
+  importThirdPartyNfcCards: defineEndpoint<undefined, NoQuery, ImportThirdPartyNfcCardsRequest, ImportThirdPartyNfcCardsResponse>({
     method: 'POST',
     path: '/api/v1/developer/credentials/nfc_cards/import',
     rawBody: true,
-  } satisfies EndpointDefinition<undefined, NoQuery, ImportThirdPartyNfcCardsRequest, ImportThirdPartyNfcCardsResponse>,
+  }),
 } as const;
 
 export type CredentialEndpoints = typeof credentialEndpoints;

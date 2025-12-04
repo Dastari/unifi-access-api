@@ -1,15 +1,16 @@
+import { defineEndpoint } from '../internal/endpoint.js';
 export const deviceEndpoints = {
-    fetchDevices: {
+    fetchDevices: defineEndpoint({
         method: 'GET',
         path: '/api/v1/developer/devices',
-    },
-    fetchDeviceAccessSettings: {
+    }),
+    fetchDeviceAccessSettings: defineEndpoint({
         method: 'GET',
         path: '/api/v1/developer/devices/:device_id/settings',
-    },
-    updateDeviceAccessSettings: {
+    }),
+    updateDeviceAccessSettings: defineEndpoint({
         method: 'PUT',
         path: '/api/v1/developer/devices/:device_id/settings',
-    },
+    }),
 };
 //# sourceMappingURL=devices.js.map

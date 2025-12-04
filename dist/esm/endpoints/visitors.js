@@ -1,55 +1,56 @@
+import { defineEndpoint } from '../internal/endpoint.js';
 export const visitorEndpoints = {
-    createVisitor: {
+    createVisitor: defineEndpoint({
         method: 'POST',
         path: '/api/v1/developer/visitors',
-    },
-    fetchVisitor: {
+    }),
+    fetchVisitor: defineEndpoint({
         method: 'GET',
         path: '/api/v1/developer/visitors/:id',
-    },
-    fetchAllVisitors: {
+    }),
+    fetchAllVisitors: defineEndpoint({
         method: 'GET',
         path: '/api/v1/developer/visitors',
-    },
-    updateVisitor: {
+    }),
+    updateVisitor: defineEndpoint({
         method: 'PUT',
         path: '/api/v1/developer/visitors/:id',
-    },
-    deleteVisitor: {
+    }),
+    deleteVisitor: defineEndpoint({
         method: 'DELETE',
         path: '/api/v1/developer/visitors/:id',
-    },
-    assignVisitorNfcCard: {
+    }),
+    assignVisitorNfcCard: defineEndpoint({
         method: 'PUT',
         path: '/api/v1/developer/visitors/:id/nfc_cards',
-    },
-    unassignVisitorNfcCard: {
+    }),
+    unassignVisitorNfcCard: defineEndpoint({
         method: 'PUT',
         path: '/api/v1/developer/visitors/:id/nfc_cards/delete',
-    },
-    assignVisitorPinCode: {
+    }),
+    assignVisitorPinCode: defineEndpoint({
         method: 'PUT',
         path: '/api/v1/developer/visitors/:id/pin_codes',
-    },
-    unassignVisitorPinCode: {
+    }),
+    unassignVisitorPinCode: defineEndpoint({
         method: 'DELETE',
         path: '/api/v1/developer/visitors/:id/pin_codes',
-    },
-    assignVisitorQrCode: {
+    }),
+    assignVisitorQrCode: defineEndpoint({
         method: 'PUT',
         path: '/api/v1/developer/visitors/:id/qr_codes',
-    },
-    unassignVisitorQrCode: {
+    }),
+    unassignVisitorQrCode: defineEndpoint({
         method: 'DELETE',
         path: '/api/v1/developer/visitors/:id/qr_codes',
-    },
-    assignVisitorLicensePlates: {
+    }),
+    assignVisitorLicensePlates: defineEndpoint({
         method: 'PUT',
         path: '/api/v1/developer/visitors/:id/license_plates',
-    },
-    unassignVisitorLicensePlate: {
+    }),
+    unassignVisitorLicensePlate: defineEndpoint({
         method: 'DELETE',
         path: '/api/v1/developer/visitors/:visitor_id/license_plates/:license_plate_id',
-    },
+    }),
 };
 //# sourceMappingURL=visitors.js.map

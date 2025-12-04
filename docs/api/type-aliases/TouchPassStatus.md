@@ -4,4 +4,4 @@
 
 > **TouchPassStatus** = `"ACTIVE"` \| `"PENDING"` \| `"SUSPENDED"` \| `"INACTIVE"` \| `"EXPIRED"`
 
-Defined in: [src/types/credentials.ts:37](https://github.com/Dastari/unifi-access-api/blob/209acc2c0627374a52853b95a3f160a5ece1685d/src/types/credentials.ts#L37)
+Defined in: [src/types/credentials.ts:37](https://github.com/Dastari/unifi-access-api/blob/9117c1b472d15dc0296096b049a1848ccba9da3b/src/types/credentials.ts#L37)

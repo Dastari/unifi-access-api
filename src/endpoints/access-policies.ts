@@ -12,90 +12,90 @@ import type {
   UpdateHolidayGroupRequest,
   UpdateScheduleRequest,
 } from '../types/access-control.js';
-import type { EndpointDefinition } from '../internal/endpoint.js';
+import { defineEndpoint } from '../internal/endpoint.js';
 import type { SuccessOnlyResponse } from '../types/common.js';
 
 type NoQuery = undefined;
 
 export const accessPolicyEndpoints = {
-  createAccessPolicy: {
+  createAccessPolicy: defineEndpoint<undefined, NoQuery, CreateAccessPolicyRequest, AccessPolicyResponse>({
     method: 'POST',
     path: '/api/v1/developer/access_policies',
-  } satisfies EndpointDefinition<undefined, NoQuery, CreateAccessPolicyRequest, AccessPolicyResponse>,
+  }),
 
-  updateAccessPolicy: {
+  updateAccessPolicy: defineEndpoint<{ id: string }, NoQuery, UpdateAccessPolicyRequest, SuccessOnlyResponse>({
     method: 'PUT',
     path: '/api/v1/developer/access_policies/:id',
-  } satisfies EndpointDefinition<{ id: string }, NoQuery, UpdateAccessPolicyRequest, SuccessOnlyResponse>,
+  }),
 
-  deleteAccessPolicy: {
+  deleteAccessPolicy: defineEndpoint<{ id: string }, NoQuery, undefined, SuccessOnlyResponse>({
     method: 'DELETE',
     path: '/api/v1/developer/access_policies/:id',
-  } satisfies EndpointDefinition<{ id: string }, NoQuery, undefined, SuccessOnlyResponse>,
+  }),
 
-  fetchAccessPolicy: {
+  fetchAccessPolicy: defineEndpoint<{ id: string }, NoQuery, undefined, AccessPolicyResponse>({
     method: 'GET',
     path: '/api/v1/developer/access_policies/:id',
-  } satisfies EndpointDefinition<{ id: string }, NoQuery, undefined, AccessPolicyResponse>,
+  }),
 
-  fetchAllAccessPolicies: {
-    method: 'GET',
-    path: '/api/v1/developer/access_policies',
-  } satisfies EndpointDefinition<undefined, {
+  fetchAllAccessPolicies: defineEndpoint<undefined, {
     page_num?: number;
     page_size?: number;
     keyword?: string;
-  }, undefined, AccessPoliciesResponse>,
+  }, undefined, AccessPoliciesResponse>({
+    method: 'GET',
+    path: '/api/v1/developer/access_policies',
+  }),
 
-  createHolidayGroup: {
+  createHolidayGroup: defineEndpoint<undefined, NoQuery, CreateHolidayGroupRequest, HolidayGroupResponse>({
     method: 'POST',
     path: '/api/v1/developer/access_policies/holiday_groups',
-  } satisfies EndpointDefinition<undefined, NoQuery, CreateHolidayGroupRequest, HolidayGroupResponse>,
+  }),
 
-  updateHolidayGroup: {
+  updateHolidayGroup: defineEndpoint<{ id: string }, NoQuery, UpdateHolidayGroupRequest, SuccessOnlyResponse>({
     method: 'PUT',
     path: '/api/v1/developer/access_policies/holiday_groups/:id',
-  } satisfies EndpointDefinition<{ id: string }, NoQuery, UpdateHolidayGroupRequest, SuccessOnlyResponse>,
+  }),
 
-  deleteHolidayGroup: {
+  deleteHolidayGroup: defineEndpoint<{ id: string }, NoQuery, undefined, SuccessOnlyResponse>({
     method: 'DELETE',
     path: '/api/v1/developer/access_policies/holiday_groups/:id',
-  } satisfies EndpointDefinition<{ id: string }, NoQuery, undefined, SuccessOnlyResponse>,
+  }),
 
-  fetchHolidayGroup: {
+  fetchHolidayGroup: defineEndpoint<{ id: string }, NoQuery, undefined, HolidayGroupResponse>({
     method: 'GET',
     path: '/api/v1/developer/access_policies/holiday_groups/:id',
-  } satisfies EndpointDefinition<{ id: string }, NoQuery, undefined, HolidayGroupResponse>,
+  }),
 
-  fetchAllHolidayGroups: {
+  fetchAllHolidayGroups: defineEndpoint<undefined, NoQuery, undefined, HolidayGroupsResponse>({
     method: 'GET',
     path: '/api/v1/developer/access_policies/holiday_groups',
-  } satisfies EndpointDefinition<undefined, NoQuery, undefined, HolidayGroupsResponse>,
+  }),
 
-  createSchedule: {
+  createSchedule: defineEndpoint<undefined, NoQuery, CreateScheduleRequest, ScheduleResponse>({
     method: 'POST',
     path: '/api/v1/developer/access_policies/schedules',
-  } satisfies EndpointDefinition<undefined, NoQuery, CreateScheduleRequest, ScheduleResponse>,
+  }),
 
-  updateSchedule: {
+  updateSchedule: defineEndpoint<{ id: string }, NoQuery, UpdateScheduleRequest, SuccessOnlyResponse>({
     method: 'PUT',
     path: '/api/v1/developer/access_policies/schedules/:id',
-  } satisfies EndpointDefinition<{ id: string }, NoQuery, UpdateScheduleRequest, SuccessOnlyResponse>,
+  }),
 
-  fetchSchedule: {
+  fetchSchedule: defineEndpoint<{ id: string }, NoQuery, undefined, ScheduleResponse>({
     method: 'GET',
     path: '/api/v1/developer/access_policies/schedules/:id',
-  } satisfies EndpointDefinition<{ id: string }, NoQuery, undefined, ScheduleResponse>,
+  }),
 
-  fetchAllSchedules: {
+  fetchAllSchedules: defineEndpoint<undefined, NoQuery, undefined, SchedulesResponse>({
     method: 'GET',
     path: '/api/v1/developer/access_policies/schedules',
-  } satisfies EndpointDefinition<undefined, NoQuery, undefined, SchedulesResponse>,
+  }),
 
-  deleteSchedule: {
+  deleteSchedule: defineEndpoint<{ id: string }, NoQuery, undefined, SuccessOnlyResponse>({
     method: 'DELETE',
     path: '/api/v1/developer/access_policies/schedules/:id',
-  } satisfies EndpointDefinition<{ id: string }, NoQuery, undefined, SuccessOnlyResponse>,
+  }),
 } as const;
 
 export type AccessPolicyEndpoints = typeof accessPolicyEndpoints;

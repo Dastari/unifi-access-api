@@ -1,24 +1,24 @@
 import type { AccessMethodSettings, DeviceAccessMethodSettingsResponse, DevicesResponse } from '../types/devices.js';
-import type { EndpointDefinition } from '../internal/endpoint.js';
+import { defineEndpoint } from '../internal/endpoint.js';
 import type { SuccessOnlyResponse } from '../types/common.js';
 
 type NoQuery = undefined;
 
 export const deviceEndpoints = {
-  fetchDevices: {
+  fetchDevices: defineEndpoint<undefined, NoQuery, undefined, DevicesResponse>({
     method: 'GET',
     path: '/api/v1/developer/devices',
-  } satisfies EndpointDefinition<undefined, NoQuery, undefined, DevicesResponse>,
+  }),
 
-  fetchDeviceAccessSettings: {
+  fetchDeviceAccessSettings: defineEndpoint<{ device_id: string }, NoQuery, undefined, DeviceAccessMethodSettingsResponse>({
     method: 'GET',
     path: '/api/v1/developer/devices/:device_id/settings',
-  } satisfies EndpointDefinition<{ device_id: string }, NoQuery, undefined, DeviceAccessMethodSettingsResponse>,
+  }),
 
-  updateDeviceAccessSettings: {
+  updateDeviceAccessSettings: defineEndpoint<{ device_id: string }, NoQuery, AccessMethodSettings, SuccessOnlyResponse>({
     method: 'PUT',
     path: '/api/v1/developer/devices/:device_id/settings',
-  } satisfies EndpointDefinition<{ device_id: string }, NoQuery, AccessMethodSettings, SuccessOnlyResponse>,
+  }),
 } as const;
 
 export type DeviceEndpoints = typeof deviceEndpoints;
