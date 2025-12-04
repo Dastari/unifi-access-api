@@ -61,7 +61,8 @@ class UnifiAccessApi {
         this.attachEndpoints();
     }
     attachEndpoints() {
-        for (const [key, definition] of Object.entries(index_js_1.endpointDefinitions)) {
+        for (const key of Object.keys(index_js_1.endpointDefinitions)) {
+            const definition = index_js_1.endpointDefinitions[key];
             Object.defineProperty(this, key, {
                 value: (options) => this.invoke(definition, options ?? {}),
                 enumerable: false,

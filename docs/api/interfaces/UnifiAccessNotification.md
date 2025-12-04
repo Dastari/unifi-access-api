@@ -2,7 +2,7 @@
 
 ***
 
-Defined in: [src/events/notification-client.ts:12](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/events/notification-client.ts#L12)
+Defined in: [src/events/notification-client.ts:12](https://github.com/Dastari/unifi-access-api/blob/f97355ae541454bc68fe05a35ba4f001e34dfa9c/src/events/notification-client.ts#L12)
 
 Notification payload shape emitted by the UniFi Access WebSocket endpoint.
 The payload varies by event type, therefore the interface keeps most fields
@@ -19,7 +19,7 @@ reference.
 
 > **event**: `string`
 
-Defined in: [src/events/notification-client.ts:13](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/events/notification-client.ts#L13)
+Defined in: [src/events/notification-client.ts:13](https://github.com/Dastari/unifi-access-api/blob/f97355ae541454bc68fe05a35ba4f001e34dfa9c/src/events/notification-client.ts#L13)
 
 ***
 
@@ -27,7 +27,7 @@ Defined in: [src/events/notification-client.ts:13](https://github.com/Dastari/un
 
 > `optional` **event\_object\_id**: `string`
 
-Defined in: [src/events/notification-client.ts:15](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/events/notification-client.ts#L15)
+Defined in: [src/events/notification-client.ts:15](https://github.com/Dastari/unifi-access-api/blob/f97355ae541454bc68fe05a35ba4f001e34dfa9c/src/events/notification-client.ts#L15)
 
 ***
 
@@ -35,7 +35,7 @@ Defined in: [src/events/notification-client.ts:15](https://github.com/Dastari/un
 
 > `optional` **receiver\_id**: `string`
 
-Defined in: [src/events/notification-client.ts:14](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/events/notification-client.ts#L14)
+Defined in: [src/events/notification-client.ts:14](https://github.com/Dastari/unifi-access-api/blob/f97355ae541454bc68fe05a35ba4f001e34dfa9c/src/events/notification-client.ts#L14)
 
 ***
 
@@ -43,4 +43,4 @@ Defined in: [src/events/notification-client.ts:14](https://github.com/Dastari/un
 
 > `optional` **save\_to\_history**: `boolean`
 
-Defined in: [src/events/notification-client.ts:16](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/events/notification-client.ts#L16)
+Defined in: [src/events/notification-client.ts:16](https://github.com/Dastari/unifi-access-api/blob/f97355ae541454bc68fe05a35ba4f001e34dfa9c/src/events/notification-client.ts#L16)

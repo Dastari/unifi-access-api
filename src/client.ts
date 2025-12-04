@@ -127,7 +127,8 @@ export class UnifiAccessApi implements ApiMethods {
   }
 
   private attachEndpoints() {
-    for (const [key, definition] of Object.entries(endpointDefinitions)) {
+    for (const key of Object.keys(endpointDefinitions) as Array<keyof typeof endpointDefinitions>) {
+      const definition = endpointDefinitions[key];
       Object.defineProperty(this, key, {
         value: (options?: EndpointCallOptions<typeof definition>) =>
           this.invoke(definition, options ?? ({} as EndpointCallOptions<typeof definition>)),

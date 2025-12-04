@@ -2,7 +2,7 @@
 
 ***
 
-Defined in: [src/types/spaces.ts:22](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/types/spaces.ts#L22)
+Defined in: [src/types/spaces.ts:22](https://github.com/Dastari/unifi-access-api/blob/f97355ae541454bc68fe05a35ba4f001e34dfa9c/src/types/spaces.ts#L22)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [src/types/spaces.ts:22](https://github.com/Dastari/unifi-access-api
 
 > `optional` **group\_name**: `string`
 
-Defined in: [src/types/spaces.ts:23](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/types/spaces.ts#L23)
+Defined in: [src/types/spaces.ts:23](https://github.com/Dastari/unifi-access-api/blob/f97355ae541454bc68fe05a35ba4f001e34dfa9c/src/types/spaces.ts#L23)
 
 ***
 
@@ -18,4 +18,4 @@ Defined in: [src/types/spaces.ts:23](https://github.com/Dastari/unifi-access-api
 
 > `optional` **resources**: `string`[]
 
-Defined in: [src/types/spaces.ts:24](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/types/spaces.ts#L24)
+Defined in: [src/types/spaces.ts:24](https://github.com/Dastari/unifi-access-api/blob/f97355ae541454bc68fe05a35ba4f001e34dfa9c/src/types/spaces.ts#L24)

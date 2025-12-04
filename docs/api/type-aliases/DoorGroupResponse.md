@@ -4,4 +4,4 @@
 
 > **DoorGroupResponse** = [`ApiResponse`](../interfaces/ApiResponse.md)\<[`DoorGroup`](../interfaces/DoorGroup.md)\>
 
-Defined in: [src/types/spaces.ts:66](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/types/spaces.ts#L66)
+Defined in: [src/types/spaces.ts:66](https://github.com/Dastari/unifi-access-api/blob/f97355ae541454bc68fe05a35ba4f001e34dfa9c/src/types/spaces.ts#L66)

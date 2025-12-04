@@ -2,7 +2,7 @@
 
 ***
 
-Defined in: [src/types/spaces.ts:71](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/types/spaces.ts#L71)
+Defined in: [src/types/spaces.ts:71](https://github.com/Dastari/unifi-access-api/blob/f97355ae541454bc68fe05a35ba4f001e34dfa9c/src/types/spaces.ts#L71)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [src/types/spaces.ts:71](https://github.com/Dastari/unifi-access-api
 
 > **id**: `string`
 
-Defined in: [src/types/spaces.ts:72](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/types/spaces.ts#L72)
+Defined in: [src/types/spaces.ts:72](https://github.com/Dastari/unifi-access-api/blob/f97355ae541454bc68fe05a35ba4f001e34dfa9c/src/types/spaces.ts#L72)
 
 ***
 
@@ -18,7 +18,7 @@ Defined in: [src/types/spaces.ts:72](https://github.com/Dastari/unifi-access-api
 
 > `optional` **is\_bind\_hub**: `boolean`
 
-Defined in: [src/types/spaces.ts:75](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/types/spaces.ts#L75)
+Defined in: [src/types/spaces.ts:75](https://github.com/Dastari/unifi-access-api/blob/f97355ae541454bc68fe05a35ba4f001e34dfa9c/src/types/spaces.ts#L75)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [src/types/spaces.ts:75](https://github.com/Dastari/unifi-access-api
 
 > **name**: `string`
 
-Defined in: [src/types/spaces.ts:73](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/types/spaces.ts#L73)
+Defined in: [src/types/spaces.ts:73](https://github.com/Dastari/unifi-access-api/blob/f97355ae541454bc68fe05a35ba4f001e34dfa9c/src/types/spaces.ts#L73)
 
 ***
 
@@ -34,4 +34,4 @@ Defined in: [src/types/spaces.ts:73](https://github.com/Dastari/unifi-access-api
 
 > **type**: `string`
 
-Defined in: [src/types/spaces.ts:74](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/types/spaces.ts#L74)
+Defined in: [src/types/spaces.ts:74](https://github.com/Dastari/unifi-access-api/blob/f97355ae541454bc68fe05a35ba4f001e34dfa9c/src/types/spaces.ts#L74)

@@ -2,7 +2,7 @@
 
 ***
 
-Defined in: [src/types/spaces.ts:53](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/types/spaces.ts#L53)
+Defined in: [src/types/spaces.ts:53](https://github.com/Dastari/unifi-access-api/blob/f97355ae541454bc68fe05a35ba4f001e34dfa9c/src/types/spaces.ts#L53)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [src/types/spaces.ts:53](https://github.com/Dastari/unifi-access-api
 
 > `optional` **evacuation**: `boolean`
 
-Defined in: [src/types/spaces.ts:55](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/types/spaces.ts#L55)
+Defined in: [src/types/spaces.ts:55](https://github.com/Dastari/unifi-access-api/blob/f97355ae541454bc68fe05a35ba4f001e34dfa9c/src/types/spaces.ts#L55)
 
 ***
 
@@ -18,4 +18,4 @@ Defined in: [src/types/spaces.ts:55](https://github.com/Dastari/unifi-access-api
 
 > `optional` **lockdown**: `boolean`
 
-Defined in: [src/types/spaces.ts:54](https://github.com/Dastari/unifi-access-api/blob/20feef88f20a8bb7e88de7ec43ef00551080f508/src/types/spaces.ts#L54)
+Defined in: [src/types/spaces.ts:54](https://github.com/Dastari/unifi-access-api/blob/f97355ae541454bc68fe05a35ba4f001e34dfa9c/src/types/spaces.ts#L54)
