@@ -4,4 +4,4 @@
 
 > **FetchVisitorResponse** = [`ApiResponse`](../interfaces/ApiResponse.md)\<[`UnifiAccessVisitor`](../interfaces/UnifiAccessVisitor.md)\>
 
-Defined in: [src/types/visitors.ts:93](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/visitors.ts#L93)
+Defined in: [src/types/visitors.ts:93](https://github.com/Dastari/unifi-access-api/blob/209acc2c0627374a52853b95a3f160a5ece1685d/src/types/visitors.ts#L93)

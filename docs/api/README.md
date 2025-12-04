@@ -7,6 +7,7 @@
 - [UnifiAccessApi](classes/UnifiAccessApi.md)
 - [UnifiAccessApiError](classes/UnifiAccessApiError.md)
 - [UnifiAccessHttpError](classes/UnifiAccessHttpError.md)
+- [UnifiAccessNotificationClient](classes/UnifiAccessNotificationClient.md)
 
 ## Interfaces
 
@@ -85,6 +86,8 @@
 - [UnassignLicensePlateRequest](interfaces/UnassignLicensePlateRequest.md)
 - [UnassignNfcCardRequest](interfaces/UnassignNfcCardRequest.md)
 - [UnassignVisitorNfcCardRequest](interfaces/UnassignVisitorNfcCardRequest.md)
+- [UnifiAccessNotification](interfaces/UnifiAccessNotification.md)
+- [UnifiAccessNotificationClientOptions](interfaces/UnifiAccessNotificationClientOptions.md)
 - [UnifiAccessUser](interfaces/UnifiAccessUser.md)
 - [UnifiAccessUserGroup](interfaces/UnifiAccessUserGroup.md)
 - [UnifiAccessVisitor](interfaces/UnifiAccessVisitor.md)
@@ -160,6 +163,7 @@
 - [NfcCardResponse](type-aliases/NfcCardResponse.md)
 - [NfcCardStatus](type-aliases/NfcCardStatus.md)
 - [NfcEnrollmentStatusResponse](type-aliases/NfcEnrollmentStatusResponse.md)
+- [NotificationClientEvents](type-aliases/NotificationClientEvents.md)
 - [PurchaseTouchPassResponse](type-aliases/PurchaseTouchPassResponse.md)
 - [ScheduleResponse](type-aliases/ScheduleResponse.md)
 - [SchedulesResponse](type-aliases/SchedulesResponse.md)
@@ -182,3 +186,7 @@
 - [VisitorStatus](type-aliases/VisitorStatus.md)
 - [WebhookEndpointResponse](type-aliases/WebhookEndpointResponse.md)
 - [WebhookEndpointsResponse](type-aliases/WebhookEndpointsResponse.md)
+
+## Functions
+
+- [createNotificationClientFromApiOptions](functions/createNotificationClientFromApiOptions.md)

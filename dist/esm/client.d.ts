@@ -1,4 +1,5 @@
 import { endpointDefinitions } from './endpoints/index.js';
+import { type UnifiAccessNotificationClient, type UnifiAccessNotificationClientOptions } from './events/notification-client.js';
 import { EndpointMethodMap } from './internal/endpoint.js';
 export interface UnifiAccessApiOptions {
     /**
@@ -52,6 +53,13 @@ export declare class UnifiAccessApi implements ApiMethods {
     private buildUrl;
     private buildHeaders;
     private prepareBody;
+    /**
+     * Creates a {@link UnifiAccessNotificationClient} configured with the same
+     * credentials as this REST client. Useful for consuming real-time device
+     * notifications over WebSocket without manually supplying connection
+     * parameters.
+     */
+    createNotificationClient(overrides?: Partial<Omit<UnifiAccessNotificationClientOptions, 'baseUrl' | 'apiKey'>>): UnifiAccessNotificationClient;
     private parseResponse;
     private interpolatePath;
     private buildSignal;

@@ -2,7 +2,7 @@
 
 ***
 
-Defined in: [src/types/access-control.ts:83](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/access-control.ts#L83)
+Defined in: [src/types/access-control.ts:83](https://github.com/Dastari/unifi-access-api/blob/209acc2c0627374a52853b95a3f160a5ece1685d/src/types/access-control.ts#L83)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [src/types/access-control.ts:83](https://github.com/Dastari/unifi-ac
 
 > `optional` **name**: `string`
 
-Defined in: [src/types/access-control.ts:84](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/access-control.ts#L84)
+Defined in: [src/types/access-control.ts:84](https://github.com/Dastari/unifi-access-api/blob/209acc2c0627374a52853b95a3f160a5ece1685d/src/types/access-control.ts#L84)
 
 ***
 
@@ -18,7 +18,7 @@ Defined in: [src/types/access-control.ts:84](https://github.com/Dastari/unifi-ac
 
 > `optional` **resources**: [`AccessPolicyResource`](AccessPolicyResource.md)[]
 
-Defined in: [src/types/access-control.ts:85](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/access-control.ts#L85)
+Defined in: [src/types/access-control.ts:85](https://github.com/Dastari/unifi-access-api/blob/209acc2c0627374a52853b95a3f160a5ece1685d/src/types/access-control.ts#L85)
 
 ***
 
@@ -26,4 +26,4 @@ Defined in: [src/types/access-control.ts:85](https://github.com/Dastari/unifi-ac
 
 > `optional` **schedule\_id**: `string` \| `null`
 
-Defined in: [src/types/access-control.ts:86](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/access-control.ts#L86)
+Defined in: [src/types/access-control.ts:86](https://github.com/Dastari/unifi-access-api/blob/209acc2c0627374a52853b95a3f160a5ece1685d/src/types/access-control.ts#L86)

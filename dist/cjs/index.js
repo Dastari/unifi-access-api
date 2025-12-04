@@ -30,4 +30,5 @@ __exportStar(require("./types/system.js"), exports);
 __exportStar(require("./types/identity.js"), exports);
 __exportStar(require("./types/webhooks.js"), exports);
 __exportStar(require("./types/api-server.js"), exports);
+__exportStar(require("./events/notification-client.js"), exports);
 //# sourceMappingURL=index.js.map

@@ -47,8 +47,29 @@ A complete, type-safe API reference (classes, functions, interfaces, and type al
 - **UniFi Identity** – [sendIdentityInvitations](docs/api/classes/UnifiAccessApi.md#sendidentityinvitations), [assignIdentityResourcesToUser](docs/api/classes/UnifiAccessApi.md#assignidentityresourcestouser).
 - **Webhooks** – [fetchWebhookEndpoints](docs/api/classes/UnifiAccessApi.md#fetchwebhookendpoints), [createWebhookEndpoint](docs/api/classes/UnifiAccessApi.md#createwebhookendpoint), [deleteWebhookEndpoint](docs/api/classes/UnifiAccessApi.md#deletewebhookendpoint).
 - **API Server** – [uploadApiServerCertificate](docs/api/classes/UnifiAccessApi.md#uploadapiservercertificate), [deleteApiServerCertificate](docs/api/classes/UnifiAccessApi.md#deleteapiservercertificate).
+- **Notifications** – [UnifiAccessNotificationClient](docs/api/classes/UnifiAccessNotificationClient.md) and [createNotificationClientFromApiOptions](docs/api/functions/createNotificationClientFromApiOptions.md) for WebSocket-based events.
 
 Every exported interface or type (e.g. `CreateUserRequest`, `TouchPass`, `PaginatedResponse`) is documented under [docs/api/interfaces](docs/api/interfaces) and [docs/api/type-aliases](docs/api/type-aliases).
+
+### Real-time Notifications
+
+```ts
+import { UnifiAccessNotificationClient } from 'unifi-access-api';
+
+const notifications = new UnifiAccessNotificationClient({
+  baseUrl: 'https://10.0.1.1:12445/',
+  apiKey: process.env.ACCESS_API_TOKEN!,
+  autoReconnect: true,
+});
+
+notifications.on('message', (payload) => {
+  console.log('Notification:', payload.event, payload);
+});
+
+await notifications.connect();
+```
+
+Handlers exist for `open`, `close`, `error`, `message`, `raw`, and `reconnect`. The client automatically retries connections unless `autoReconnect` is disabled.
 
 Every endpoint defined in the official *unifi_access_api_reference.pdf* is mapped to a method on `UnifiAccessApi`. Refer to the exported TypeScript types (e.g. `src/types/**/*.ts`) for request/response shapes. All response types extend the base `ApiResponse<T>` type, and list endpoints include pagination metadata when present in the API.
 

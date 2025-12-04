@@ -1,4 +1,5 @@
 import { endpointDefinitions } from './endpoints/index.js';
+import { createNotificationClientFromApiOptions, } from './events/notification-client.js';
 import { JSON_CONTENT_TYPE, } from './internal/endpoint.js';
 export class UnifiAccessApiError extends Error {
     status;
@@ -161,6 +162,15 @@ export class UnifiAccessApi {
             return JSON.stringify(body);
         }
         return body;
+    }
+    /**
+     * Creates a {@link UnifiAccessNotificationClient} configured with the same
+     * credentials as this REST client. Useful for consuming real-time device
+     * notifications over WebSocket without manually supplying connection
+     * parameters.
+     */
+    createNotificationClient(overrides = {}) {
+        return createNotificationClientFromApiOptions(this.options, overrides);
     }
     async parseResponse(response, responseType) {
         switch (responseType) {

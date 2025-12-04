@@ -10,4 +10,5 @@ export * from './types/system.js';
 export * from './types/identity.js';
 export * from './types/webhooks.js';
 export * from './types/api-server.js';
+export * from './events/notification-client.js';
 //# sourceMappingURL=index.js.map

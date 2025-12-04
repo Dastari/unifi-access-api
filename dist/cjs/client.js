@@ -2,6 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.UnifiAccessApi = exports.UnifiAccessHttpError = exports.UnifiAccessApiError = void 0;
 const index_js_1 = require("./endpoints/index.js");
+const notification_client_js_1 = require("./events/notification-client.js");
 const endpoint_js_1 = require("./internal/endpoint.js");
 class UnifiAccessApiError extends Error {
     constructor(message, status, code, response) {
@@ -155,6 +156,15 @@ class UnifiAccessApi {
             return JSON.stringify(body);
         }
         return body;
+    }
+    /**
+     * Creates a {@link UnifiAccessNotificationClient} configured with the same
+     * credentials as this REST client. Useful for consuming real-time device
+     * notifications over WebSocket without manually supplying connection
+     * parameters.
+     */
+    createNotificationClient(overrides = {}) {
+        return (0, notification_client_js_1.createNotificationClientFromApiOptions)(this.options, overrides);
     }
     async parseResponse(response, responseType) {
         switch (responseType) {

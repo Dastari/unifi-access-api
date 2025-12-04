@@ -2,7 +2,7 @@
 
 ***
 
-Defined in: [src/types/webhooks.ts:3](https://github.com/Dastari/unifi-access-api/blob/03a586f2e4974a2b2af1c30c64b43392ec8fd167/src/types/webhooks.ts#L3)
+Defined in: [src/types/webhooks.ts:3](https://github.com/Dastari/unifi-access-api/blob/209acc2c0627374a52853b95a3f160a5ece1685d/src/types/webhooks.ts#L3)
 
 ## Indexable
 
