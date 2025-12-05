@@ -1,4 +1,4 @@
-**unifi-access-api v1.0.4**
+**unifi-access-api v1.0.6**
 
 ***
 
@@ -72,6 +72,7 @@
 - [SchedulePeriod](interfaces/SchedulePeriod.md)
 - [ScheduleWeeklySlots](interfaces/ScheduleWeeklySlots.md)
 - [SearchUsersQuery](interfaces/SearchUsersQuery.md)
+- [StaticResourceResponse](interfaces/StaticResourceResponse.md)
 - [SystemLogActor](interfaces/SystemLogActor.md)
 - [SystemLogAuthentication](interfaces/SystemLogAuthentication.md)
 - [SystemLogEventDetail](interfaces/SystemLogEventDetail.md)
@@ -169,7 +170,6 @@
 - [SchedulesResponse](type-aliases/SchedulesResponse.md)
 - [SearchTouchPassResponse](type-aliases/SearchTouchPassResponse.md)
 - [SearchUsersResponse](type-aliases/SearchUsersResponse.md)
-- [StaticResourceResponse](type-aliases/StaticResourceResponse.md)
 - [SuccessOnlyResponse](type-aliases/SuccessOnlyResponse.md)
 - [SystemLogTopic](type-aliases/SystemLogTopic.md)
 - [TouchPassAssignmentResponse](type-aliases/TouchPassAssignmentResponse.md)

@@ -1,8 +1,8 @@
-[**unifi-access-api v1.0.4**](../README.md)
+[**unifi-access-api v1.0.6**](../README.md)
 
 ***
 
-Defined in: [src/types/users.ts:79](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/types/users.ts#L79)
+Defined in: [src/types/users.ts:79](https://github.com/Dastari/unifi-access-api/blob/ebc68332f7cf5ab24ce978ac63770c578a9abdcb/src/types/users.ts#L79)
 
 ## Properties
 
@@ -10,4 +10,4 @@ Defined in: [src/types/users.ts:79](https://github.com/Dastari/unifi-access-api/
 
 > **license\_plate\_id**: `string`
 
-Defined in: [src/types/users.ts:80](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/types/users.ts#L80)
+Defined in: [src/types/users.ts:80](https://github.com/Dastari/unifi-access-api/blob/ebc68332f7cf5ab24ce978ac63770c578a9abdcb/src/types/users.ts#L80)

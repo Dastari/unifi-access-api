@@ -748,6 +748,38 @@ declare module './client.js' {
          */
         readonly fetchSystemStaticResource: EndpointFor<'fetchSystemStaticResource'>;
         /**
+         * Get Avatar Resource.
+         *
+         * Performs a GET request to `/api/v1/developer/system/static/avatar/:resourceId`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly getAvatarResource: EndpointFor<'getAvatarResource'>;
+        /**
+         * Get Preview Resource.
+         *
+         * Performs a GET request to `/api/v1/developer/system/static/preview/:resourceName`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly getPreviewResource: EndpointFor<'getPreviewResource'>;
+        /**
+         * Get Video Resource.
+         *
+         * Performs a GET request to `/api/v1/developer/system/static/activities_resource/video/:resourceName`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly getVideoResource: EndpointFor<'getVideoResource'>;
+        /**
+         * Get Thumbnail Resource.
+         *
+         * Performs a GET request to `/api/v1/developer/system/static/activities_resource/thumbnail/:resourceName`.
+         *
+         * @returns Promise resolving with the typed API response.
+         */
+        readonly getThumbnailResource: EndpointFor<'getThumbnailResource'>;
+        /**
          * Send Identity Invitations.
          *
          * Performs a POST request to `/api/v1/developer/users/identity/invitations`.

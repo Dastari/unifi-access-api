@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.6] - 2025-12-05
+### Fixed
+- Static resource endpoints now surface the documented `StaticResourceResponse` type in emitted declaration files, ensuring downstream projects see the semantic alias instead of the generic `FileResponse`.
+
 ## [1.0.5] - 2025-12-05
 ### Added
 - Binary helper endpoints `getAvatarResource`, `getPreviewResource`, `getVideoResource`, and `getThumbnailResource` for static UniFi Access resources, all returning the typed `StaticResourceResponse`.

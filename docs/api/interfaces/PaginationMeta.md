@@ -1,8 +1,8 @@
-[**unifi-access-api v1.0.4**](../README.md)
+[**unifi-access-api v1.0.6**](../README.md)
 
 ***
 
-Defined in: [src/types/common.ts:14](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/types/common.ts#L14)
+Defined in: [src/types/common.ts:14](https://github.com/Dastari/unifi-access-api/blob/ebc68332f7cf5ab24ce978ac63770c578a9abdcb/src/types/common.ts#L14)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [src/types/common.ts:14](https://github.com/Dastari/unifi-access-api
 
 > **page\_num**: `number`
 
-Defined in: [src/types/common.ts:15](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/types/common.ts#L15)
+Defined in: [src/types/common.ts:15](https://github.com/Dastari/unifi-access-api/blob/ebc68332f7cf5ab24ce978ac63770c578a9abdcb/src/types/common.ts#L15)
 
 ***
 
@@ -18,7 +18,7 @@ Defined in: [src/types/common.ts:15](https://github.com/Dastari/unifi-access-api
 
 > **page\_size**: `number`
 
-Defined in: [src/types/common.ts:16](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/types/common.ts#L16)
+Defined in: [src/types/common.ts:16](https://github.com/Dastari/unifi-access-api/blob/ebc68332f7cf5ab24ce978ac63770c578a9abdcb/src/types/common.ts#L16)
 
 ***
 
@@ -26,4 +26,4 @@ Defined in: [src/types/common.ts:16](https://github.com/Dastari/unifi-access-api
 
 > **total**: `number`
 
-Defined in: [src/types/common.ts:17](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/types/common.ts#L17)
+Defined in: [src/types/common.ts:17](https://github.com/Dastari/unifi-access-api/blob/ebc68332f7cf5ab24ce978ac63770c578a9abdcb/src/types/common.ts#L17)

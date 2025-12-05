@@ -1,8 +1,8 @@
-[**unifi-access-api v1.0.4**](../README.md)
+[**unifi-access-api v1.0.6**](../README.md)
 
 ***
 
-Defined in: [src/types/devices.ts:12](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/types/devices.ts#L12)
+Defined in: [src/types/devices.ts:12](https://github.com/Dastari/unifi-access-api/blob/ebc68332f7cf5ab24ce978ac63770c578a9abdcb/src/types/devices.ts#L12)
 
 ## Indexable
 
@@ -14,4 +14,4 @@ Defined in: [src/types/devices.ts:12](https://github.com/Dastari/unifi-access-ap
 
 > `optional` **enabled**: `boolean` \| `"true"` \| `"false"`
 
-Defined in: [src/types/devices.ts:13](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/types/devices.ts#L13)
+Defined in: [src/types/devices.ts:13](https://github.com/Dastari/unifi-access-api/blob/ebc68332f7cf5ab24ce978ac63770c578a9abdcb/src/types/devices.ts#L13)
