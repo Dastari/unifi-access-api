@@ -66,5 +66,6 @@ export interface SystemLogsResponse extends ApiResponse<{ hits: SystemLogRecord[
 }
 
 export type ExportSystemLogsResponse = FileResponse;
+export type StaticResourceResponse = FileResponse;
 
 export interface SystemLogResourceResponse extends ApiResponse<Record<string, unknown>> {}

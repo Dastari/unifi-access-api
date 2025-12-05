@@ -2,7 +2,7 @@
 
 ***
 
-Defined in: [src/types/users.ts:64](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/users.ts#L64)
+Defined in: [src/types/users.ts:64](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/types/users.ts#L64)
 
 ## Properties
 
@@ -10,4 +10,4 @@ Defined in: [src/types/users.ts:64](https://github.com/Dastari/unifi-access-api/
 
 > **token**: `string`
 
-Defined in: [src/types/users.ts:65](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/users.ts#L65)
+Defined in: [src/types/users.ts:65](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/types/users.ts#L65)

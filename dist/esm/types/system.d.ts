@@ -52,6 +52,7 @@ export interface SystemLogsResponse extends ApiResponse<{
     total?: number;
 }
 export type ExportSystemLogsResponse = FileResponse;
+export type StaticResourceResponse = FileResponse;
 export interface SystemLogResourceResponse extends ApiResponse<Record<string, unknown>> {
 }
 //# sourceMappingURL=system.d.ts.map

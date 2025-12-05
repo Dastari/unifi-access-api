@@ -2,7 +2,7 @@
 
 ***
 
-Defined in: [src/types/credentials.ts:73](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/credentials.ts#L73)
+Defined in: [src/types/credentials.ts:73](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/types/credentials.ts#L73)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [src/types/credentials.ts:73](https://github.com/Dastari/unifi-acces
 
 > **device\_id**: `string`
 
-Defined in: [src/types/credentials.ts:74](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/credentials.ts#L74)
+Defined in: [src/types/credentials.ts:74](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/types/credentials.ts#L74)
 
 ***
 
@@ -18,4 +18,4 @@ Defined in: [src/types/credentials.ts:74](https://github.com/Dastari/unifi-acces
 
 > `optional` **reset\_ua\_card**: `boolean`
 
-Defined in: [src/types/credentials.ts:75](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/credentials.ts#L75)
+Defined in: [src/types/credentials.ts:75](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/types/credentials.ts#L75)

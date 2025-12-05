@@ -2,7 +2,7 @@
 
 ***
 
-Defined in: [src/types/credentials.ts:122](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/credentials.ts#L122)
+Defined in: [src/types/credentials.ts:122](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/types/credentials.ts#L122)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [src/types/credentials.ts:122](https://github.com/Dastari/unifi-acce
 
 > **alias**: `string`
 
-Defined in: [src/types/credentials.ts:123](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/credentials.ts#L123)
+Defined in: [src/types/credentials.ts:123](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/types/credentials.ts#L123)
 
 ***
 
@@ -18,7 +18,7 @@ Defined in: [src/types/credentials.ts:123](https://github.com/Dastari/unifi-acce
 
 > **nfc\_id**: `string`
 
-Defined in: [src/types/credentials.ts:124](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/credentials.ts#L124)
+Defined in: [src/types/credentials.ts:124](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/types/credentials.ts#L124)
 
 ***
 
@@ -26,4 +26,4 @@ Defined in: [src/types/credentials.ts:124](https://github.com/Dastari/unifi-acce
 
 > **token**: `string`
 
-Defined in: [src/types/credentials.ts:125](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/credentials.ts#L125)
+Defined in: [src/types/credentials.ts:125](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/types/credentials.ts#L125)

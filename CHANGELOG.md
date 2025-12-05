@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.5] - 2025-12-05
+### Added
+- Binary helper endpoints `getAvatarResource`, `getPreviewResource`, `getVideoResource`, and `getThumbnailResource` for static UniFi Access resources, all returning the typed `StaticResourceResponse`.
+- `StaticResourceResponse` alias covering file downloads exposed through the new helpers and other static endpoints.
+
+### Changed
+- README real-time notification section expanded with guidance for wiring the event client via `UnifiAccessApi`.
+- Documentation generator script now mirrors the current endpoint typing model to keep IDE hovers and TypeDoc output accurate.
+- Regenerated build artifacts and API docs so the new endpoints and types are available to consumers.
+
 ## [1.0.4] - 2025-12-04
 ### Fixed
 - Preserve endpoint generic parameters when deriving client method signatures so top-level consumers no longer need `path` placeholders for endpoints without path params.

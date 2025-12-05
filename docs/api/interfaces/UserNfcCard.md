@@ -2,7 +2,7 @@
 
 ***
 
-Defined in: [src/types/users.ts:7](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/users.ts#L7)
+Defined in: [src/types/users.ts:7](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/types/users.ts#L7)
 
 ## Extends
 
@@ -14,7 +14,7 @@ Defined in: [src/types/users.ts:7](https://github.com/Dastari/unifi-access-api/b
 
 > **id**: `string`
 
-Defined in: [src/types/users.ts:8](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/users.ts#L8)
+Defined in: [src/types/users.ts:8](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/types/users.ts#L8)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [src/types/users.ts:8](https://github.com/Dastari/unifi-access-api/b
 
 > **token**: `string`
 
-Defined in: [src/types/credentials.ts:16](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/credentials.ts#L16)
+Defined in: [src/types/credentials.ts:16](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/types/credentials.ts#L16)
 
 #### Inherited from
 
@@ -34,4 +34,4 @@ Defined in: [src/types/credentials.ts:16](https://github.com/Dastari/unifi-acces
 
 > `optional` **type**: `string`
 
-Defined in: [src/types/users.ts:9](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/users.ts#L9)
+Defined in: [src/types/users.ts:9](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/types/users.ts#L9)

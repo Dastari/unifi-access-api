@@ -4,4 +4,4 @@
 
 > **DoorEmergencyStatusResponse** = [`ApiResponse`](../interfaces/ApiResponse.md)\<[`DoorEmergencyStatus`](../interfaces/DoorEmergencyStatus.md)\>
 
-Defined in: [src/types/spaces.ts:58](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/spaces.ts#L58)
+Defined in: [src/types/spaces.ts:58](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/types/spaces.ts#L58)

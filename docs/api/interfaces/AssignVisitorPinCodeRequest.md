@@ -2,7 +2,7 @@
 
 ***
 
-Defined in: [src/types/visitors.ts:80](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/visitors.ts#L80)
+Defined in: [src/types/visitors.ts:80](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/types/visitors.ts#L80)
 
 ## Properties
 
@@ -10,4 +10,4 @@ Defined in: [src/types/visitors.ts:80](https://github.com/Dastari/unifi-access-a
 
 > **pin\_code**: `string`
 
-Defined in: [src/types/visitors.ts:81](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/visitors.ts#L81)
+Defined in: [src/types/visitors.ts:81](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/types/visitors.ts#L81)

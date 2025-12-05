@@ -2,7 +2,7 @@
 
 ***
 
-Defined in: [src/types/visitors.ts:88](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/visitors.ts#L88)
+Defined in: [src/types/visitors.ts:88](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/types/visitors.ts#L88)
 
 ## Properties
 
@@ -10,4 +10,4 @@ Defined in: [src/types/visitors.ts:88](https://github.com/Dastari/unifi-access-a
 
 > **license\_plate\_numbers**: `string`[]
 
-Defined in: [src/types/visitors.ts:89](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/visitors.ts#L89)
+Defined in: [src/types/visitors.ts:89](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/types/visitors.ts#L89)

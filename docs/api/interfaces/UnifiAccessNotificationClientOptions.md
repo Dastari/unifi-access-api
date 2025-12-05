@@ -2,7 +2,7 @@
 
 ***
 
-Defined in: [src/events/notification-client.ts:23](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/events/notification-client.ts#L23)
+Defined in: [src/events/notification-client.ts:23](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/events/notification-client.ts#L23)
 
 Options for [UnifiAccessNotificationClient](../classes/UnifiAccessNotificationClient.md).
 
@@ -12,7 +12,7 @@ Options for [UnifiAccessNotificationClient](../classes/UnifiAccessNotificationCl
 
 > `optional` **agent**: `Agent`
 
-Defined in: [src/events/notification-client.ts:35](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/events/notification-client.ts#L35)
+Defined in: [src/events/notification-client.ts:35](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/events/notification-client.ts#L35)
 
 Optional HTTPS agent passed to the underlying WebSocket client.
 
@@ -22,7 +22,7 @@ Optional HTTPS agent passed to the underlying WebSocket client.
 
 > **apiKey**: `string`
 
-Defined in: [src/events/notification-client.ts:31](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/events/notification-client.ts#L31)
+Defined in: [src/events/notification-client.ts:31](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/events/notification-client.ts#L31)
 
 API token with `view:device` permission.
 
@@ -32,7 +32,7 @@ API token with `view:device` permission.
 
 > `optional` **autoReconnect**: `boolean`
 
-Defined in: [src/events/notification-client.ts:44](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/events/notification-client.ts#L44)
+Defined in: [src/events/notification-client.ts:44](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/events/notification-client.ts#L44)
 
 Automatically attempt to reconnect when the socket closes unexpectedly.
 Defaults to `true`.
@@ -43,7 +43,7 @@ Defaults to `true`.
 
 > **baseUrl**: `string`
 
-Defined in: [src/events/notification-client.ts:27](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/events/notification-client.ts#L27)
+Defined in: [src/events/notification-client.ts:27](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/events/notification-client.ts#L27)
 
 Base URL of the UniFi Access API (e.g. `https://console-ip:12445/`).
 
@@ -53,7 +53,7 @@ Base URL of the UniFi Access API (e.g. `https://console-ip:12445/`).
 
 > `optional` **reconnectIntervalMs**: `number`
 
-Defined in: [src/events/notification-client.ts:48](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/events/notification-client.ts#L48)
+Defined in: [src/events/notification-client.ts:48](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/events/notification-client.ts#L48)
 
 Delay before attempting to reconnect (milliseconds). Defaults to 5000 ms.
 
@@ -63,6 +63,6 @@ Delay before attempting to reconnect (milliseconds). Defaults to 5000 ms.
 
 > `optional` **WebSocketImpl**: *typeof* `WebSocket`
 
-Defined in: [src/events/notification-client.ts:39](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/events/notification-client.ts#L39)
+Defined in: [src/events/notification-client.ts:39](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/events/notification-client.ts#L39)
 
 Custom WebSocket implementation. Defaults to the `ws` package.

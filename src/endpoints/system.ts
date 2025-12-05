@@ -1,6 +1,7 @@
 import type {
   ExportSystemLogsResponse,
   FetchSystemLogsRequest,
+  StaticResourceResponse,
   SystemLogQuery,
   SystemLogResourceResponse,
   SystemLogsResponse,
@@ -26,9 +27,33 @@ export const systemEndpoints = {
     path: '/api/v1/developer/system/logs/resource/:id',
   }),
 
-  fetchSystemStaticResource: defineEndpoint<{ path: string }, NoQuery, undefined, ExportSystemLogsResponse, 'arrayBuffer'>({
+  fetchSystemStaticResource: defineEndpoint<{ path: string }, NoQuery, undefined, StaticResourceResponse, 'arrayBuffer'>({
     method: 'GET',
     path: '/api/v1/developer/system/static/:path',
+    responseType: 'arrayBuffer',
+  }),
+
+  getAvatarResource: defineEndpoint<{ resourceId: string }, NoQuery, undefined, StaticResourceResponse, 'arrayBuffer'>({
+    method: 'GET',
+    path: '/api/v1/developer/system/static/avatar/:resourceId',
+    responseType: 'arrayBuffer',
+  }),
+
+  getPreviewResource: defineEndpoint<{ resourceName: string }, NoQuery, undefined, StaticResourceResponse, 'arrayBuffer'>({
+    method: 'GET',
+    path: '/api/v1/developer/system/static/preview/:resourceName',
+    responseType: 'arrayBuffer',
+  }),
+
+  getVideoResource: defineEndpoint<{ resourceName: string }, NoQuery, undefined, StaticResourceResponse, 'arrayBuffer'>({
+    method: 'GET',
+    path: '/api/v1/developer/system/static/activities_resource/video/:resourceName',
+    responseType: 'arrayBuffer',
+  }),
+
+  getThumbnailResource: defineEndpoint<{ resourceName: string }, NoQuery, undefined, StaticResourceResponse, 'arrayBuffer'>({
+    method: 'GET',
+    path: '/api/v1/developer/system/static/activities_resource/thumbnail/:resourceName',
     responseType: 'arrayBuffer',
   }),
 } as const;

@@ -169,6 +169,7 @@
 - [SchedulesResponse](type-aliases/SchedulesResponse.md)
 - [SearchTouchPassResponse](type-aliases/SearchTouchPassResponse.md)
 - [SearchUsersResponse](type-aliases/SearchUsersResponse.md)
+- [StaticResourceResponse](type-aliases/StaticResourceResponse.md)
 - [SuccessOnlyResponse](type-aliases/SuccessOnlyResponse.md)
 - [SystemLogTopic](type-aliases/SystemLogTopic.md)
 - [TouchPassAssignmentResponse](type-aliases/TouchPassAssignmentResponse.md)

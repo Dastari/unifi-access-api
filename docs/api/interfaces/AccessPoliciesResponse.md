@@ -2,7 +2,7 @@
 
 ***
 
-Defined in: [src/types/access-control.ts:116](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/access-control.ts#L116)
+Defined in: [src/types/access-control.ts:116](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/types/access-control.ts#L116)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [src/types/access-control.ts:116](https://github.com/Dastari/unifi-a
 
 > **code**: `string`
 
-Defined in: [src/types/common.ts:4](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/common.ts#L4)
+Defined in: [src/types/common.ts:4](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/types/common.ts#L4)
 
 #### Inherited from
 
@@ -30,7 +30,7 @@ Defined in: [src/types/common.ts:4](https://github.com/Dastari/unifi-access-api/
 
 > **data**: [`AccessPolicy`](AccessPolicy.md)[]
 
-Defined in: [src/types/common.ts:6](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/common.ts#L6)
+Defined in: [src/types/common.ts:6](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/types/common.ts#L6)
 
 #### Inherited from
 
@@ -42,7 +42,7 @@ Defined in: [src/types/common.ts:6](https://github.com/Dastari/unifi-access-api/
 
 > **msg**: `string`
 
-Defined in: [src/types/common.ts:5](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/common.ts#L5)
+Defined in: [src/types/common.ts:5](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/types/common.ts#L5)
 
 #### Inherited from
 
@@ -54,7 +54,7 @@ Defined in: [src/types/common.ts:5](https://github.com/Dastari/unifi-access-api/
 
 > `optional` **pagination**: `object`
 
-Defined in: [src/types/access-control.ts:117](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/access-control.ts#L117)
+Defined in: [src/types/access-control.ts:117](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/types/access-control.ts#L117)
 
 #### page\_num
 

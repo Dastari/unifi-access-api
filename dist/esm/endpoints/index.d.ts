@@ -33,6 +33,18 @@ export declare const endpointDefinitions: {
     readonly fetchSystemStaticResource: import("../internal/endpoint.js").EndpointDefinition<{
         path: string;
     }, undefined, undefined, import("../index.js").FileResponse, "arrayBuffer">;
+    readonly getAvatarResource: import("../internal/endpoint.js").EndpointDefinition<{
+        resourceId: string;
+    }, undefined, undefined, import("../index.js").FileResponse, "arrayBuffer">;
+    readonly getPreviewResource: import("../internal/endpoint.js").EndpointDefinition<{
+        resourceName: string;
+    }, undefined, undefined, import("../index.js").FileResponse, "arrayBuffer">;
+    readonly getVideoResource: import("../internal/endpoint.js").EndpointDefinition<{
+        resourceName: string;
+    }, undefined, undefined, import("../index.js").FileResponse, "arrayBuffer">;
+    readonly getThumbnailResource: import("../internal/endpoint.js").EndpointDefinition<{
+        resourceName: string;
+    }, undefined, undefined, import("../index.js").FileResponse, "arrayBuffer">;
     readonly fetchDevices: import("../internal/endpoint.js").EndpointDefinition<undefined, undefined, undefined, import("../index.js").DevicesResponse, "json">;
     readonly fetchDeviceAccessSettings: import("../internal/endpoint.js").EndpointDefinition<{
         device_id: string;

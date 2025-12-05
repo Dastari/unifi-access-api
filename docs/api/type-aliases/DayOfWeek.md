@@ -4,4 +4,4 @@
 
 > **DayOfWeek** = `"sunday"` \| `"monday"` \| `"tuesday"` \| `"wednesday"` \| `"thursday"` \| `"friday"` \| `"saturday"`
 
-Defined in: [src/types/access-control.ts:38](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/access-control.ts#L38)
+Defined in: [src/types/access-control.ts:38](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/types/access-control.ts#L38)

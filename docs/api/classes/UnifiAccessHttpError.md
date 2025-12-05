@@ -2,7 +2,7 @@
 
 ***
 
-Defined in: [src/client.ts:58](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/client.ts#L58)
+Defined in: [src/client.ts:58](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/client.ts#L58)
 
 ## Extends
 
@@ -14,7 +14,7 @@ Defined in: [src/client.ts:58](https://github.com/Dastari/unifi-access-api/blob/
 
 > **new UnifiAccessHttpError**(`message`, `status`, `body?`): `UnifiAccessHttpError`
 
-Defined in: [src/client.ts:59](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/client.ts#L59)
+Defined in: [src/client.ts:59](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/client.ts#L59)
 
 #### Parameters
 
@@ -44,7 +44,7 @@ Defined in: [src/client.ts:59](https://github.com/Dastari/unifi-access-api/blob/
 
 > `readonly` `optional` **body**: `string`
 
-Defined in: [src/client.ts:62](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/client.ts#L62)
+Defined in: [src/client.ts:62](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/client.ts#L62)
 
 ***
 
@@ -100,7 +100,7 @@ Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1078
 
 > `readonly` **status**: `number`
 
-Defined in: [src/client.ts:61](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/client.ts#L61)
+Defined in: [src/client.ts:61](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/client.ts#L61)
 
 ***
 

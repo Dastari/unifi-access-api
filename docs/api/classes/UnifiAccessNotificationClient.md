@@ -2,7 +2,7 @@
 
 ***
 
-Defined in: [src/events/notification-client.ts:72](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/events/notification-client.ts#L72)
+Defined in: [src/events/notification-client.ts:72](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/events/notification-client.ts#L72)
 
 Minimal event client around the UniFi Access WebSocket endpoint
 (`/api/v1/developer/devices/notifications`). Emits typed helper events for
@@ -18,7 +18,7 @@ connection lifecycle and for the parsed notification payloads.
 
 > **new UnifiAccessNotificationClient**(`options`): `UnifiAccessNotificationClient`
 
-Defined in: [src/events/notification-client.ts:85](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/events/notification-client.ts#L85)
+Defined in: [src/events/notification-client.ts:85](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/events/notification-client.ts#L85)
 
 #### Parameters
 
@@ -155,7 +155,7 @@ v13.6.0, v12.17.0
 
 > **get** **isConnected**(): `boolean`
 
-Defined in: [src/events/notification-client.ts:146](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/events/notification-client.ts#L146)
+Defined in: [src/events/notification-client.ts:146](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/events/notification-client.ts#L146)
 
 Indicates whether the underlying socket is currently open.
 
@@ -243,7 +243,7 @@ v0.1.26
 
 > **connect**(): `Promise`\<`void`\>
 
-Defined in: [src/events/notification-client.ts:153](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/events/notification-client.ts#L153)
+Defined in: [src/events/notification-client.ts:153](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/events/notification-client.ts#L153)
 
 Establishes the WebSocket connection. Resolves once the socket is open.
 
@@ -257,7 +257,7 @@ Establishes the WebSocket connection. Resolves once the socket is open.
 
 > **disconnect**(`code?`, `reason?`): `void`
 
-Defined in: [src/events/notification-client.ts:195](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/events/notification-client.ts#L195)
+Defined in: [src/events/notification-client.ts:195](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/events/notification-client.ts#L195)
 
 Gracefully closes the WebSocket connection.
 
@@ -505,7 +505,7 @@ Typed overload for `EventEmitter.off`.
 
 > **off**(`event`, `listener`): `this`
 
-Defined in: [src/events/notification-client.ts:129](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/events/notification-client.ts#L129)
+Defined in: [src/events/notification-client.ts:129](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/events/notification-client.ts#L129)
 
 Alias for `emitter.removeListener()`.
 
@@ -535,7 +535,7 @@ v10.0.0
 
 > **off**(`event`, `listener`): `this`
 
-Defined in: [src/events/notification-client.ts:130](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/events/notification-client.ts#L130)
+Defined in: [src/events/notification-client.ts:130](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/events/notification-client.ts#L130)
 
 ##### Parameters
 
@@ -559,7 +559,7 @@ Defined in: [src/events/notification-client.ts:130](https://github.com/Dastari/u
 
 > **off**(`event`, `listener`): `this`
 
-Defined in: [src/events/notification-client.ts:131](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/events/notification-client.ts#L131)
+Defined in: [src/events/notification-client.ts:131](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/events/notification-client.ts#L131)
 
 ##### Parameters
 
@@ -583,7 +583,7 @@ Defined in: [src/events/notification-client.ts:131](https://github.com/Dastari/u
 
 > **off**(`event`, `listener`): `this`
 
-Defined in: [src/events/notification-client.ts:132](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/events/notification-client.ts#L132)
+Defined in: [src/events/notification-client.ts:132](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/events/notification-client.ts#L132)
 
 ##### Parameters
 
@@ -607,7 +607,7 @@ Defined in: [src/events/notification-client.ts:132](https://github.com/Dastari/u
 
 > **off**(`event`, `listener`): `this`
 
-Defined in: [src/events/notification-client.ts:133](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/events/notification-client.ts#L133)
+Defined in: [src/events/notification-client.ts:133](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/events/notification-client.ts#L133)
 
 ##### Parameters
 
@@ -631,7 +631,7 @@ Defined in: [src/events/notification-client.ts:133](https://github.com/Dastari/u
 
 > **off**(`event`, `listener`): `this`
 
-Defined in: [src/events/notification-client.ts:134](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/events/notification-client.ts#L134)
+Defined in: [src/events/notification-client.ts:134](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/events/notification-client.ts#L134)
 
 ##### Parameters
 
@@ -661,7 +661,7 @@ Typed overload for `EventEmitter.on`.
 
 > **on**(`event`, `listener`): `this`
 
-Defined in: [src/events/notification-client.ts:103](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/events/notification-client.ts#L103)
+Defined in: [src/events/notification-client.ts:103](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/events/notification-client.ts#L103)
 
 Adds the `listener` function to the end of the listeners array for the event
 named `eventName`. No checks are made to see if the `listener` has already
@@ -718,7 +718,7 @@ v0.1.101
 
 > **on**(`event`, `listener`): `this`
 
-Defined in: [src/events/notification-client.ts:104](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/events/notification-client.ts#L104)
+Defined in: [src/events/notification-client.ts:104](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/events/notification-client.ts#L104)
 
 ##### Parameters
 
@@ -742,7 +742,7 @@ Defined in: [src/events/notification-client.ts:104](https://github.com/Dastari/u
 
 > **on**(`event`, `listener`): `this`
 
-Defined in: [src/events/notification-client.ts:105](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/events/notification-client.ts#L105)
+Defined in: [src/events/notification-client.ts:105](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/events/notification-client.ts#L105)
 
 ##### Parameters
 
@@ -766,7 +766,7 @@ Defined in: [src/events/notification-client.ts:105](https://github.com/Dastari/u
 
 > **on**(`event`, `listener`): `this`
 
-Defined in: [src/events/notification-client.ts:106](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/events/notification-client.ts#L106)
+Defined in: [src/events/notification-client.ts:106](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/events/notification-client.ts#L106)
 
 ##### Parameters
 
@@ -790,7 +790,7 @@ Defined in: [src/events/notification-client.ts:106](https://github.com/Dastari/u
 
 > **on**(`event`, `listener`): `this`
 
-Defined in: [src/events/notification-client.ts:107](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/events/notification-client.ts#L107)
+Defined in: [src/events/notification-client.ts:107](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/events/notification-client.ts#L107)
 
 ##### Parameters
 
@@ -814,7 +814,7 @@ Defined in: [src/events/notification-client.ts:107](https://github.com/Dastari/u
 
 > **on**(`event`, `listener`): `this`
 
-Defined in: [src/events/notification-client.ts:108](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/events/notification-client.ts#L108)
+Defined in: [src/events/notification-client.ts:108](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/events/notification-client.ts#L108)
 
 ##### Parameters
 
@@ -844,7 +844,7 @@ Typed overload for `EventEmitter.once`.
 
 > **once**(`event`, `listener`): `this`
 
-Defined in: [src/events/notification-client.ts:116](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/events/notification-client.ts#L116)
+Defined in: [src/events/notification-client.ts:116](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/events/notification-client.ts#L116)
 
 Adds a **one-time** `listener` function for the event named `eventName`. The
 next time `eventName` is triggered, this listener is removed and then invoked.
@@ -899,7 +899,7 @@ v0.3.0
 
 > **once**(`event`, `listener`): `this`
 
-Defined in: [src/events/notification-client.ts:117](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/events/notification-client.ts#L117)
+Defined in: [src/events/notification-client.ts:117](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/events/notification-client.ts#L117)
 
 ##### Parameters
 
@@ -923,7 +923,7 @@ Defined in: [src/events/notification-client.ts:117](https://github.com/Dastari/u
 
 > **once**(`event`, `listener`): `this`
 
-Defined in: [src/events/notification-client.ts:118](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/events/notification-client.ts#L118)
+Defined in: [src/events/notification-client.ts:118](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/events/notification-client.ts#L118)
 
 ##### Parameters
 
@@ -947,7 +947,7 @@ Defined in: [src/events/notification-client.ts:118](https://github.com/Dastari/u
 
 > **once**(`event`, `listener`): `this`
 
-Defined in: [src/events/notification-client.ts:119](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/events/notification-client.ts#L119)
+Defined in: [src/events/notification-client.ts:119](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/events/notification-client.ts#L119)
 
 ##### Parameters
 
@@ -971,7 +971,7 @@ Defined in: [src/events/notification-client.ts:119](https://github.com/Dastari/u
 
 > **once**(`event`, `listener`): `this`
 
-Defined in: [src/events/notification-client.ts:120](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/events/notification-client.ts#L120)
+Defined in: [src/events/notification-client.ts:120](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/events/notification-client.ts#L120)
 
 ##### Parameters
 
@@ -995,7 +995,7 @@ Defined in: [src/events/notification-client.ts:120](https://github.com/Dastari/u
 
 > **once**(`event`, `listener`): `this`
 
-Defined in: [src/events/notification-client.ts:121](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/events/notification-client.ts#L121)
+Defined in: [src/events/notification-client.ts:121](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/events/notification-client.ts#L121)
 
 ##### Parameters
 

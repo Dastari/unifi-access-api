@@ -2,7 +2,7 @@
 
 ***
 
-Defined in: [src/types/users.ts:51](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/users.ts#L51)
+Defined in: [src/types/users.ts:51](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/types/users.ts#L51)
 
 ## Extends
 
@@ -14,7 +14,7 @@ Defined in: [src/types/users.ts:51](https://github.com/Dastari/unifi-access-api/
 
 > `optional` **employee\_number**: `string`
 
-Defined in: [src/types/users.ts:47](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/users.ts#L47)
+Defined in: [src/types/users.ts:47](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/types/users.ts#L47)
 
 #### Inherited from
 
@@ -26,7 +26,7 @@ Defined in: [src/types/users.ts:47](https://github.com/Dastari/unifi-access-api/
 
 > `optional` **first\_name**: `string`
 
-Defined in: [src/types/users.ts:44](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/users.ts#L44)
+Defined in: [src/types/users.ts:44](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/types/users.ts#L44)
 
 #### Inherited from
 
@@ -38,7 +38,7 @@ Defined in: [src/types/users.ts:44](https://github.com/Dastari/unifi-access-api/
 
 > `optional` **last\_name**: `string`
 
-Defined in: [src/types/users.ts:45](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/users.ts#L45)
+Defined in: [src/types/users.ts:45](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/types/users.ts#L45)
 
 #### Inherited from
 
@@ -50,7 +50,7 @@ Defined in: [src/types/users.ts:45](https://github.com/Dastari/unifi-access-api/
 
 > `optional` **onboard\_time**: `number`
 
-Defined in: [src/types/users.ts:48](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/users.ts#L48)
+Defined in: [src/types/users.ts:48](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/types/users.ts#L48)
 
 #### Inherited from
 
@@ -62,7 +62,7 @@ Defined in: [src/types/users.ts:48](https://github.com/Dastari/unifi-access-api/
 
 > `optional` **status**: [`UnifiAccessUserStatus`](../type-aliases/UnifiAccessUserStatus.md)
 
-Defined in: [src/types/users.ts:52](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/users.ts#L52)
+Defined in: [src/types/users.ts:52](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/types/users.ts#L52)
 
 ***
 
@@ -70,7 +70,7 @@ Defined in: [src/types/users.ts:52](https://github.com/Dastari/unifi-access-api/
 
 > `optional` **user\_email**: `string`
 
-Defined in: [src/types/users.ts:46](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/users.ts#L46)
+Defined in: [src/types/users.ts:46](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/types/users.ts#L46)
 
 #### Inherited from
 

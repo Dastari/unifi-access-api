@@ -21,5 +21,25 @@ exports.systemEndpoints = {
         path: '/api/v1/developer/system/static/:path',
         responseType: 'arrayBuffer',
     }),
+    getAvatarResource: (0, endpoint_js_1.defineEndpoint)({
+        method: 'GET',
+        path: '/api/v1/developer/system/static/avatar/:resourceId',
+        responseType: 'arrayBuffer',
+    }),
+    getPreviewResource: (0, endpoint_js_1.defineEndpoint)({
+        method: 'GET',
+        path: '/api/v1/developer/system/static/preview/:resourceName',
+        responseType: 'arrayBuffer',
+    }),
+    getVideoResource: (0, endpoint_js_1.defineEndpoint)({
+        method: 'GET',
+        path: '/api/v1/developer/system/static/activities_resource/video/:resourceName',
+        responseType: 'arrayBuffer',
+    }),
+    getThumbnailResource: (0, endpoint_js_1.defineEndpoint)({
+        method: 'GET',
+        path: '/api/v1/developer/system/static/activities_resource/thumbnail/:resourceName',
+        responseType: 'arrayBuffer',
+    }),
 };
 //# sourceMappingURL=system.js.map

@@ -2,7 +2,7 @@
 
 ***
 
-Defined in: [src/types/credentials.ts:108](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/credentials.ts#L108)
+Defined in: [src/types/credentials.ts:108](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/types/credentials.ts#L108)
 
 ## Properties
 
@@ -10,4 +10,4 @@ Defined in: [src/types/credentials.ts:108](https://github.com/Dastari/unifi-acce
 
 > **count**: `number`
 
-Defined in: [src/types/credentials.ts:109](https://github.com/Dastari/unifi-access-api/blob/4147818a266ec0504f2066897ec0dcee0bff30e8/src/types/credentials.ts#L109)
+Defined in: [src/types/credentials.ts:109](https://github.com/Dastari/unifi-access-api/blob/fec89a512171dd436c68a0ea2a4f6eb66d711eef/src/types/credentials.ts#L109)
