@@ -56,9 +56,25 @@ type InferResponse<Def extends EndpointDefinition<any, any, any, any, any>> =
         : R
     : never;
 
-export type EndpointInvoker<Def extends EndpointDefinition<any, any, any, any, any>> = (
-  options: EndpointCallOptions<Def>
-) => Promise<InferResponse<Def>>;
+type RequiredKeys<T> = {
+  [K in keyof T]-?: {} extends Pick<T, K> ? never : K;
+}[keyof T];
+
+export type EndpointResponse<Def extends EndpointDefinition<any, any, any, any, any>> = InferResponse<Def>;
+
+export type EndpointPathParams<Def extends EndpointDefinition<any, any, any, any, any>> =
+  Def extends EndpointDefinition<infer P, any, any, any, any> ? P : never;
+
+export type EndpointQueryParams<Def extends EndpointDefinition<any, any, any, any, any>> =
+  Def extends EndpointDefinition<any, infer Q, any, any, any> ? Q : never;
+
+export type EndpointRequestBody<Def extends EndpointDefinition<any, any, any, any, any>> =
+  Def extends EndpointDefinition<any, any, infer B, any, any> ? B : never;
+
+export type EndpointInvoker<Def extends EndpointDefinition<any, any, any, any, any>> =
+  RequiredKeys<EndpointCallOptions<Def>> extends never
+    ? (options?: EndpointCallOptions<Def>) => Promise<InferResponse<Def>>
+    : (options: EndpointCallOptions<Def>) => Promise<InferResponse<Def>>;
 
 export type EndpointMap = Record<string, EndpointDefinition<any, any, any, any, any>>;
 

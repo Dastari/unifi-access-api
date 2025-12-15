@@ -1,4 +1,5 @@
 export { UnifiAccessApi, UnifiAccessApiError, UnifiAccessHttpError } from './client.js';
+export { endpointDefinitions } from './endpoints/index.js';
 export * from './types/common.js';
 export * from './types/users.js';
 export * from './types/visitors.js';

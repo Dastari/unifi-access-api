@@ -1,8 +1,8 @@
-[**unifi-access-api v1.0.6**](../README.md)
+[**unifi-access-api v1.1.0**](../README.md)
 
 ***
 
-Defined in: [src/types/webhooks.ts:7](https://github.com/Dastari/unifi-access-api/blob/ebc68332f7cf5ab24ce978ac63770c578a9abdcb/src/types/webhooks.ts#L7)
+Defined in: [src/types/webhooks.ts:7](https://github.com/Dastari/unifi-access-api/blob/c46fde22b8dd006c45b0d11709f3a55a97c21715/src/types/webhooks.ts#L7)
 
 ## Properties
 
@@ -10,7 +10,7 @@ Defined in: [src/types/webhooks.ts:7](https://github.com/Dastari/unifi-access-ap
 
 > **endpoint**: `string`
 
-Defined in: [src/types/webhooks.ts:9](https://github.com/Dastari/unifi-access-api/blob/ebc68332f7cf5ab24ce978ac63770c578a9abdcb/src/types/webhooks.ts#L9)
+Defined in: [src/types/webhooks.ts:9](https://github.com/Dastari/unifi-access-api/blob/c46fde22b8dd006c45b0d11709f3a55a97c21715/src/types/webhooks.ts#L9)
 
 ***
 
@@ -18,7 +18,7 @@ Defined in: [src/types/webhooks.ts:9](https://github.com/Dastari/unifi-access-ap
 
 > **events**: `string`[]
 
-Defined in: [src/types/webhooks.ts:12](https://github.com/Dastari/unifi-access-api/blob/ebc68332f7cf5ab24ce978ac63770c578a9abdcb/src/types/webhooks.ts#L12)
+Defined in: [src/types/webhooks.ts:12](https://github.com/Dastari/unifi-access-api/blob/c46fde22b8dd006c45b0d11709f3a55a97c21715/src/types/webhooks.ts#L12)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [src/types/webhooks.ts:12](https://github.com/Dastari/unifi-access-a
 
 > `optional` **headers**: [`WebhookHeaders`](WebhookHeaders.md)
 
-Defined in: [src/types/webhooks.ts:13](https://github.com/Dastari/unifi-access-api/blob/ebc68332f7cf5ab24ce978ac63770c578a9abdcb/src/types/webhooks.ts#L13)
+Defined in: [src/types/webhooks.ts:13](https://github.com/Dastari/unifi-access-api/blob/c46fde22b8dd006c45b0d11709f3a55a97c21715/src/types/webhooks.ts#L13)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [src/types/webhooks.ts:13](https://github.com/Dastari/unifi-access-a
 
 > **id**: `string`
 
-Defined in: [src/types/webhooks.ts:8](https://github.com/Dastari/unifi-access-api/blob/ebc68332f7cf5ab24ce978ac63770c578a9abdcb/src/types/webhooks.ts#L8)
+Defined in: [src/types/webhooks.ts:8](https://github.com/Dastari/unifi-access-api/blob/c46fde22b8dd006c45b0d11709f3a55a97c21715/src/types/webhooks.ts#L8)
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: [src/types/webhooks.ts:8](https://github.com/Dastari/unifi-access-ap
 
 > **name**: `string`
 
-Defined in: [src/types/webhooks.ts:10](https://github.com/Dastari/unifi-access-api/blob/ebc68332f7cf5ab24ce978ac63770c578a9abdcb/src/types/webhooks.ts#L10)
+Defined in: [src/types/webhooks.ts:10](https://github.com/Dastari/unifi-access-api/blob/c46fde22b8dd006c45b0d11709f3a55a97c21715/src/types/webhooks.ts#L10)
 
 ***
 
@@ -50,4 +50,4 @@ Defined in: [src/types/webhooks.ts:10](https://github.com/Dastari/unifi-access-a
 
 > **secret**: `string`
 
-Defined in: [src/types/webhooks.ts:11](https://github.com/Dastari/unifi-access-api/blob/ebc68332f7cf5ab24ce978ac63770c578a9abdcb/src/types/webhooks.ts#L11)
+Defined in: [src/types/webhooks.ts:11](https://github.com/Dastari/unifi-access-api/blob/c46fde22b8dd006c45b0d11709f3a55a97c21715/src/types/webhooks.ts#L11)

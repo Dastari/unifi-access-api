@@ -14,11 +14,13 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
     for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.UnifiAccessHttpError = exports.UnifiAccessApiError = exports.UnifiAccessApi = void 0;
+exports.endpointDefinitions = exports.UnifiAccessHttpError = exports.UnifiAccessApiError = exports.UnifiAccessApi = void 0;
 var client_js_1 = require("./client.js");
 Object.defineProperty(exports, "UnifiAccessApi", { enumerable: true, get: function () { return client_js_1.UnifiAccessApi; } });
 Object.defineProperty(exports, "UnifiAccessApiError", { enumerable: true, get: function () { return client_js_1.UnifiAccessApiError; } });
 Object.defineProperty(exports, "UnifiAccessHttpError", { enumerable: true, get: function () { return client_js_1.UnifiAccessHttpError; } });
+var index_js_1 = require("./endpoints/index.js");
+Object.defineProperty(exports, "endpointDefinitions", { enumerable: true, get: function () { return index_js_1.endpointDefinitions; } });
 __exportStar(require("./types/common.js"), exports);
 __exportStar(require("./types/users.js"), exports);
 __exportStar(require("./types/visitors.js"), exports);

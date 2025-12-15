@@ -1,8 +1,8 @@
-[**unifi-access-api v1.0.6**](../README.md)
+[**unifi-access-api v1.1.0**](../README.md)
 
 ***
 
-Defined in: [src/types/access-control.ts:5](https://github.com/Dastari/unifi-access-api/blob/ebc68332f7cf5ab24ce978ac63770c578a9abdcb/src/types/access-control.ts#L5)
+Defined in: [src/types/access-control.ts:5](https://github.com/Dastari/unifi-access-api/blob/c46fde22b8dd006c45b0d11709f3a55a97c21715/src/types/access-control.ts#L5)
 
 ## Extended by
 
@@ -15,7 +15,7 @@ Defined in: [src/types/access-control.ts:5](https://github.com/Dastari/unifi-acc
 
 > **id**: `string`
 
-Defined in: [src/types/access-control.ts:6](https://github.com/Dastari/unifi-access-api/blob/ebc68332f7cf5ab24ce978ac63770c578a9abdcb/src/types/access-control.ts#L6)
+Defined in: [src/types/access-control.ts:6](https://github.com/Dastari/unifi-access-api/blob/c46fde22b8dd006c45b0d11709f3a55a97c21715/src/types/access-control.ts#L6)
 
 ***
 
@@ -23,7 +23,7 @@ Defined in: [src/types/access-control.ts:6](https://github.com/Dastari/unifi-acc
 
 > `optional` **name**: `string`
 
-Defined in: [src/types/access-control.ts:8](https://github.com/Dastari/unifi-access-api/blob/ebc68332f7cf5ab24ce978ac63770c578a9abdcb/src/types/access-control.ts#L8)
+Defined in: [src/types/access-control.ts:8](https://github.com/Dastari/unifi-access-api/blob/c46fde22b8dd006c45b0d11709f3a55a97c21715/src/types/access-control.ts#L8)
 
 ***
 
@@ -31,4 +31,4 @@ Defined in: [src/types/access-control.ts:8](https://github.com/Dastari/unifi-acc
 
 > **type**: [`AccessResourceType`](../type-aliases/AccessResourceType.md)
 
-Defined in: [src/types/access-control.ts:7](https://github.com/Dastari/unifi-access-api/blob/ebc68332f7cf5ab24ce978ac63770c578a9abdcb/src/types/access-control.ts#L7)
+Defined in: [src/types/access-control.ts:7](https://github.com/Dastari/unifi-access-api/blob/c46fde22b8dd006c45b0d11709f3a55a97c21715/src/types/access-control.ts#L7)

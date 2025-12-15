@@ -1,4 +1,7 @@
 export { UnifiAccessApi, UnifiAccessApiError, UnifiAccessHttpError } from './client.js';
+export { endpointDefinitions } from './endpoints/index.js';
+export type { EndpointDefinitions } from './endpoints/index.js';
+export type { EndpointCallOptions, EndpointDefinition, EndpointInvoker, EndpointMap, EndpointMethodMap, EndpointPathParams, EndpointQueryParams, EndpointRequestBody, EndpointResponse, ResponseType, } from './internal/endpoint.js';
 export * from './types/common.js';
 export * from './types/users.js';
 export * from './types/visitors.js';

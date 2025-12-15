@@ -1,6 +1,5 @@
-import type { EndpointDefinition, EndpointInvoker } from './internal/endpoint.js';
+import type { EndpointInvoker } from './internal/endpoint.js';
 import type { endpointDefinitions } from './endpoints/index.js';
-type EndpointFor<K extends keyof typeof endpointDefinitions> = typeof endpointDefinitions[K] extends EndpointDefinition<infer P, infer Q, infer B, infer R, infer F> ? EndpointInvoker<EndpointDefinition<P, Q, B, R, F>> : never;
 declare module './client.js' {
     interface UnifiAccessApi {
         /**
@@ -10,7 +9,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly createUser: EndpointFor<'createUser'>;
+        readonly createUser: EndpointInvoker<(typeof endpointDefinitions)['createUser']>;
         /**
          * Update User.
          *
@@ -18,7 +17,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly updateUser: EndpointFor<'updateUser'>;
+        readonly updateUser: EndpointInvoker<(typeof endpointDefinitions)['updateUser']>;
         /**
          * Fetch User.
          *
@@ -26,7 +25,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly fetchUser: EndpointFor<'fetchUser'>;
+        readonly fetchUser: EndpointInvoker<(typeof endpointDefinitions)['fetchUser']>;
         /**
          * Fetch All Users.
          *
@@ -34,7 +33,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly fetchAllUsers: EndpointFor<'fetchAllUsers'>;
+        readonly fetchAllUsers: EndpointInvoker<(typeof endpointDefinitions)['fetchAllUsers']>;
         /**
          * Update User Access Policies.
          *
@@ -42,7 +41,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly updateUserAccessPolicies: EndpointFor<'updateUserAccessPolicies'>;
+        readonly updateUserAccessPolicies: EndpointInvoker<(typeof endpointDefinitions)['updateUserAccessPolicies']>;
         /**
          * Assign User Nfc Card.
          *
@@ -50,7 +49,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly assignUserNfcCard: EndpointFor<'assignUserNfcCard'>;
+        readonly assignUserNfcCard: EndpointInvoker<(typeof endpointDefinitions)['assignUserNfcCard']>;
         /**
          * Unassign User Nfc Card.
          *
@@ -58,7 +57,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly unassignUserNfcCard: EndpointFor<'unassignUserNfcCard'>;
+        readonly unassignUserNfcCard: EndpointInvoker<(typeof endpointDefinitions)['unassignUserNfcCard']>;
         /**
          * Assign User Pin Code.
          *
@@ -66,7 +65,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly assignUserPinCode: EndpointFor<'assignUserPinCode'>;
+        readonly assignUserPinCode: EndpointInvoker<(typeof endpointDefinitions)['assignUserPinCode']>;
         /**
          * Unassign User Pin Code.
          *
@@ -74,7 +73,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly unassignUserPinCode: EndpointFor<'unassignUserPinCode'>;
+        readonly unassignUserPinCode: EndpointInvoker<(typeof endpointDefinitions)['unassignUserPinCode']>;
         /**
          * Create User Group.
          *
@@ -82,7 +81,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly createUserGroup: EndpointFor<'createUserGroup'>;
+        readonly createUserGroup: EndpointInvoker<(typeof endpointDefinitions)['createUserGroup']>;
         /**
          * Fetch All User Groups.
          *
@@ -90,7 +89,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly fetchAllUserGroups: EndpointFor<'fetchAllUserGroups'>;
+        readonly fetchAllUserGroups: EndpointInvoker<(typeof endpointDefinitions)['fetchAllUserGroups']>;
         /**
          * Fetch User Group.
          *
@@ -98,7 +97,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly fetchUserGroup: EndpointFor<'fetchUserGroup'>;
+        readonly fetchUserGroup: EndpointInvoker<(typeof endpointDefinitions)['fetchUserGroup']>;
         /**
          * Update User Group.
          *
@@ -106,7 +105,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly updateUserGroup: EndpointFor<'updateUserGroup'>;
+        readonly updateUserGroup: EndpointInvoker<(typeof endpointDefinitions)['updateUserGroup']>;
         /**
          * Delete User Group.
          *
@@ -114,7 +113,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly deleteUserGroup: EndpointFor<'deleteUserGroup'>;
+        readonly deleteUserGroup: EndpointInvoker<(typeof endpointDefinitions)['deleteUserGroup']>;
         /**
          * Assign Users To Group.
          *
@@ -122,7 +121,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly assignUsersToGroup: EndpointFor<'assignUsersToGroup'>;
+        readonly assignUsersToGroup: EndpointInvoker<(typeof endpointDefinitions)['assignUsersToGroup']>;
         /**
          * Unassign Users From Group.
          *
@@ -130,7 +129,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly unassignUsersFromGroup: EndpointFor<'unassignUsersFromGroup'>;
+        readonly unassignUsersFromGroup: EndpointInvoker<(typeof endpointDefinitions)['unassignUsersFromGroup']>;
         /**
          * Fetch Users In Group.
          *
@@ -138,7 +137,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly fetchUsersInGroup: EndpointFor<'fetchUsersInGroup'>;
+        readonly fetchUsersInGroup: EndpointInvoker<(typeof endpointDefinitions)['fetchUsersInGroup']>;
         /**
          * Fetch All Users In Group.
          *
@@ -146,7 +145,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly fetchAllUsersInGroup: EndpointFor<'fetchAllUsersInGroup'>;
+        readonly fetchAllUsersInGroup: EndpointInvoker<(typeof endpointDefinitions)['fetchAllUsersInGroup']>;
         /**
          * Fetch User Access Policies.
          *
@@ -154,7 +153,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly fetchUserAccessPolicies: EndpointFor<'fetchUserAccessPolicies'>;
+        readonly fetchUserAccessPolicies: EndpointInvoker<(typeof endpointDefinitions)['fetchUserAccessPolicies']>;
         /**
          * Update User Group Access Policies.
          *
@@ -162,7 +161,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly updateUserGroupAccessPolicies: EndpointFor<'updateUserGroupAccessPolicies'>;
+        readonly updateUserGroupAccessPolicies: EndpointInvoker<(typeof endpointDefinitions)['updateUserGroupAccessPolicies']>;
         /**
          * Fetch User Group Access Policies.
          *
@@ -170,7 +169,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly fetchUserGroupAccessPolicies: EndpointFor<'fetchUserGroupAccessPolicies'>;
+        readonly fetchUserGroupAccessPolicies: EndpointInvoker<(typeof endpointDefinitions)['fetchUserGroupAccessPolicies']>;
         /**
          * Delete User.
          *
@@ -178,7 +177,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly deleteUser: EndpointFor<'deleteUser'>;
+        readonly deleteUser: EndpointInvoker<(typeof endpointDefinitions)['deleteUser']>;
         /**
          * Search Users.
          *
@@ -186,7 +185,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly searchUsers: EndpointFor<'searchUsers'>;
+        readonly searchUsers: EndpointInvoker<(typeof endpointDefinitions)['searchUsers']>;
         /**
          * Assign Touch Pass To User.
          *
@@ -194,7 +193,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly assignTouchPassToUser: EndpointFor<'assignTouchPassToUser'>;
+        readonly assignTouchPassToUser: EndpointInvoker<(typeof endpointDefinitions)['assignTouchPassToUser']>;
         /**
          * Unassign Touch Pass From User.
          *
@@ -202,7 +201,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly unassignTouchPassFromUser: EndpointFor<'unassignTouchPassFromUser'>;
+        readonly unassignTouchPassFromUser: EndpointInvoker<(typeof endpointDefinitions)['unassignTouchPassFromUser']>;
         /**
          * Batch Assign Touch Passes.
          *
@@ -210,7 +209,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly batchAssignTouchPasses: EndpointFor<'batchAssignTouchPasses'>;
+        readonly batchAssignTouchPasses: EndpointInvoker<(typeof endpointDefinitions)['batchAssignTouchPasses']>;
         /**
          * Assign License Plates To User.
          *
@@ -218,7 +217,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly assignLicensePlatesToUser: EndpointFor<'assignLicensePlatesToUser'>;
+        readonly assignLicensePlatesToUser: EndpointInvoker<(typeof endpointDefinitions)['assignLicensePlatesToUser']>;
         /**
          * Unassign License Plate From User.
          *
@@ -226,7 +225,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly unassignLicensePlateFromUser: EndpointFor<'unassignLicensePlateFromUser'>;
+        readonly unassignLicensePlateFromUser: EndpointInvoker<(typeof endpointDefinitions)['unassignLicensePlateFromUser']>;
         /**
          * Upload User Avatar.
          *
@@ -234,7 +233,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly uploadUserAvatar: EndpointFor<'uploadUserAvatar'>;
+        readonly uploadUserAvatar: EndpointInvoker<(typeof endpointDefinitions)['uploadUserAvatar']>;
         /**
          * Create Visitor.
          *
@@ -242,7 +241,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly createVisitor: EndpointFor<'createVisitor'>;
+        readonly createVisitor: EndpointInvoker<(typeof endpointDefinitions)['createVisitor']>;
         /**
          * Fetch Visitor.
          *
@@ -250,7 +249,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly fetchVisitor: EndpointFor<'fetchVisitor'>;
+        readonly fetchVisitor: EndpointInvoker<(typeof endpointDefinitions)['fetchVisitor']>;
         /**
          * Fetch All Visitors.
          *
@@ -258,7 +257,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly fetchAllVisitors: EndpointFor<'fetchAllVisitors'>;
+        readonly fetchAllVisitors: EndpointInvoker<(typeof endpointDefinitions)['fetchAllVisitors']>;
         /**
          * Update Visitor.
          *
@@ -266,7 +265,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly updateVisitor: EndpointFor<'updateVisitor'>;
+        readonly updateVisitor: EndpointInvoker<(typeof endpointDefinitions)['updateVisitor']>;
         /**
          * Delete Visitor.
          *
@@ -274,7 +273,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly deleteVisitor: EndpointFor<'deleteVisitor'>;
+        readonly deleteVisitor: EndpointInvoker<(typeof endpointDefinitions)['deleteVisitor']>;
         /**
          * Assign Visitor Nfc Card.
          *
@@ -282,7 +281,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly assignVisitorNfcCard: EndpointFor<'assignVisitorNfcCard'>;
+        readonly assignVisitorNfcCard: EndpointInvoker<(typeof endpointDefinitions)['assignVisitorNfcCard']>;
         /**
          * Unassign Visitor Nfc Card.
          *
@@ -290,7 +289,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly unassignVisitorNfcCard: EndpointFor<'unassignVisitorNfcCard'>;
+        readonly unassignVisitorNfcCard: EndpointInvoker<(typeof endpointDefinitions)['unassignVisitorNfcCard']>;
         /**
          * Assign Visitor Pin Code.
          *
@@ -298,7 +297,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly assignVisitorPinCode: EndpointFor<'assignVisitorPinCode'>;
+        readonly assignVisitorPinCode: EndpointInvoker<(typeof endpointDefinitions)['assignVisitorPinCode']>;
         /**
          * Unassign Visitor Pin Code.
          *
@@ -306,7 +305,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly unassignVisitorPinCode: EndpointFor<'unassignVisitorPinCode'>;
+        readonly unassignVisitorPinCode: EndpointInvoker<(typeof endpointDefinitions)['unassignVisitorPinCode']>;
         /**
          * Assign Visitor Qr Code.
          *
@@ -314,7 +313,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly assignVisitorQrCode: EndpointFor<'assignVisitorQrCode'>;
+        readonly assignVisitorQrCode: EndpointInvoker<(typeof endpointDefinitions)['assignVisitorQrCode']>;
         /**
          * Unassign Visitor Qr Code.
          *
@@ -322,7 +321,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly unassignVisitorQrCode: EndpointFor<'unassignVisitorQrCode'>;
+        readonly unassignVisitorQrCode: EndpointInvoker<(typeof endpointDefinitions)['unassignVisitorQrCode']>;
         /**
          * Assign Visitor License Plates.
          *
@@ -330,7 +329,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly assignVisitorLicensePlates: EndpointFor<'assignVisitorLicensePlates'>;
+        readonly assignVisitorLicensePlates: EndpointInvoker<(typeof endpointDefinitions)['assignVisitorLicensePlates']>;
         /**
          * Unassign Visitor License Plate.
          *
@@ -338,7 +337,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly unassignVisitorLicensePlate: EndpointFor<'unassignVisitorLicensePlate'>;
+        readonly unassignVisitorLicensePlate: EndpointInvoker<(typeof endpointDefinitions)['unassignVisitorLicensePlate']>;
         /**
          * Create Access Policy.
          *
@@ -346,7 +345,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly createAccessPolicy: EndpointFor<'createAccessPolicy'>;
+        readonly createAccessPolicy: EndpointInvoker<(typeof endpointDefinitions)['createAccessPolicy']>;
         /**
          * Update Access Policy.
          *
@@ -354,7 +353,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly updateAccessPolicy: EndpointFor<'updateAccessPolicy'>;
+        readonly updateAccessPolicy: EndpointInvoker<(typeof endpointDefinitions)['updateAccessPolicy']>;
         /**
          * Delete Access Policy.
          *
@@ -362,7 +361,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly deleteAccessPolicy: EndpointFor<'deleteAccessPolicy'>;
+        readonly deleteAccessPolicy: EndpointInvoker<(typeof endpointDefinitions)['deleteAccessPolicy']>;
         /**
          * Fetch Access Policy.
          *
@@ -370,7 +369,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly fetchAccessPolicy: EndpointFor<'fetchAccessPolicy'>;
+        readonly fetchAccessPolicy: EndpointInvoker<(typeof endpointDefinitions)['fetchAccessPolicy']>;
         /**
          * Fetch All Access Policies.
          *
@@ -378,7 +377,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly fetchAllAccessPolicies: EndpointFor<'fetchAllAccessPolicies'>;
+        readonly fetchAllAccessPolicies: EndpointInvoker<(typeof endpointDefinitions)['fetchAllAccessPolicies']>;
         /**
          * Create Holiday Group.
          *
@@ -386,7 +385,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly createHolidayGroup: EndpointFor<'createHolidayGroup'>;
+        readonly createHolidayGroup: EndpointInvoker<(typeof endpointDefinitions)['createHolidayGroup']>;
         /**
          * Update Holiday Group.
          *
@@ -394,7 +393,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly updateHolidayGroup: EndpointFor<'updateHolidayGroup'>;
+        readonly updateHolidayGroup: EndpointInvoker<(typeof endpointDefinitions)['updateHolidayGroup']>;
         /**
          * Delete Holiday Group.
          *
@@ -402,7 +401,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly deleteHolidayGroup: EndpointFor<'deleteHolidayGroup'>;
+        readonly deleteHolidayGroup: EndpointInvoker<(typeof endpointDefinitions)['deleteHolidayGroup']>;
         /**
          * Fetch Holiday Group.
          *
@@ -410,7 +409,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly fetchHolidayGroup: EndpointFor<'fetchHolidayGroup'>;
+        readonly fetchHolidayGroup: EndpointInvoker<(typeof endpointDefinitions)['fetchHolidayGroup']>;
         /**
          * Fetch All Holiday Groups.
          *
@@ -418,7 +417,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly fetchAllHolidayGroups: EndpointFor<'fetchAllHolidayGroups'>;
+        readonly fetchAllHolidayGroups: EndpointInvoker<(typeof endpointDefinitions)['fetchAllHolidayGroups']>;
         /**
          * Create Schedule.
          *
@@ -426,7 +425,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly createSchedule: EndpointFor<'createSchedule'>;
+        readonly createSchedule: EndpointInvoker<(typeof endpointDefinitions)['createSchedule']>;
         /**
          * Update Schedule.
          *
@@ -434,7 +433,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly updateSchedule: EndpointFor<'updateSchedule'>;
+        readonly updateSchedule: EndpointInvoker<(typeof endpointDefinitions)['updateSchedule']>;
         /**
          * Fetch Schedule.
          *
@@ -442,7 +441,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly fetchSchedule: EndpointFor<'fetchSchedule'>;
+        readonly fetchSchedule: EndpointInvoker<(typeof endpointDefinitions)['fetchSchedule']>;
         /**
          * Fetch All Schedules.
          *
@@ -450,7 +449,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly fetchAllSchedules: EndpointFor<'fetchAllSchedules'>;
+        readonly fetchAllSchedules: EndpointInvoker<(typeof endpointDefinitions)['fetchAllSchedules']>;
         /**
          * Delete Schedule.
          *
@@ -458,7 +457,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly deleteSchedule: EndpointFor<'deleteSchedule'>;
+        readonly deleteSchedule: EndpointInvoker<(typeof endpointDefinitions)['deleteSchedule']>;
         /**
          * Generate Pin Code.
          *
@@ -466,7 +465,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly generatePinCode: EndpointFor<'generatePinCode'>;
+        readonly generatePinCode: EndpointInvoker<(typeof endpointDefinitions)['generatePinCode']>;
         /**
          * Create Nfc Enrollment Session.
          *
@@ -474,7 +473,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly createNfcEnrollmentSession: EndpointFor<'createNfcEnrollmentSession'>;
+        readonly createNfcEnrollmentSession: EndpointInvoker<(typeof endpointDefinitions)['createNfcEnrollmentSession']>;
         /**
          * Fetch Nfc Enrollment Status.
          *
@@ -482,7 +481,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly fetchNfcEnrollmentStatus: EndpointFor<'fetchNfcEnrollmentStatus'>;
+        readonly fetchNfcEnrollmentStatus: EndpointInvoker<(typeof endpointDefinitions)['fetchNfcEnrollmentStatus']>;
         /**
          * Delete Nfc Enrollment Session.
          *
@@ -490,7 +489,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly deleteNfcEnrollmentSession: EndpointFor<'deleteNfcEnrollmentSession'>;
+        readonly deleteNfcEnrollmentSession: EndpointInvoker<(typeof endpointDefinitions)['deleteNfcEnrollmentSession']>;
         /**
          * Fetch Nfc Card.
          *
@@ -498,7 +497,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly fetchNfcCard: EndpointFor<'fetchNfcCard'>;
+        readonly fetchNfcCard: EndpointInvoker<(typeof endpointDefinitions)['fetchNfcCard']>;
         /**
          * Fetch All Nfc Cards.
          *
@@ -506,7 +505,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly fetchAllNfcCards: EndpointFor<'fetchAllNfcCards'>;
+        readonly fetchAllNfcCards: EndpointInvoker<(typeof endpointDefinitions)['fetchAllNfcCards']>;
         /**
          * Delete Nfc Card.
          *
@@ -514,7 +513,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly deleteNfcCard: EndpointFor<'deleteNfcCard'>;
+        readonly deleteNfcCard: EndpointInvoker<(typeof endpointDefinitions)['deleteNfcCard']>;
         /**
          * Update Nfc Card.
          *
@@ -522,7 +521,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly updateNfcCard: EndpointFor<'updateNfcCard'>;
+        readonly updateNfcCard: EndpointInvoker<(typeof endpointDefinitions)['updateNfcCard']>;
         /**
          * Fetch Touch Pass List.
          *
@@ -530,7 +529,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly fetchTouchPassList: EndpointFor<'fetchTouchPassList'>;
+        readonly fetchTouchPassList: EndpointInvoker<(typeof endpointDefinitions)['fetchTouchPassList']>;
         /**
          * Search Touch Passes.
          *
@@ -538,7 +537,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly searchTouchPasses: EndpointFor<'searchTouchPasses'>;
+        readonly searchTouchPasses: EndpointInvoker<(typeof endpointDefinitions)['searchTouchPasses']>;
         /**
          * Fetch Assignable Touch Passes.
          *
@@ -546,7 +545,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly fetchAssignableTouchPasses: EndpointFor<'fetchAssignableTouchPasses'>;
+        readonly fetchAssignableTouchPasses: EndpointInvoker<(typeof endpointDefinitions)['fetchAssignableTouchPasses']>;
         /**
          * Update Touch Pass.
          *
@@ -554,7 +553,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly updateTouchPass: EndpointFor<'updateTouchPass'>;
+        readonly updateTouchPass: EndpointInvoker<(typeof endpointDefinitions)['updateTouchPass']>;
         /**
          * Fetch Touch Pass Details.
          *
@@ -562,7 +561,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly fetchTouchPassDetails: EndpointFor<'fetchTouchPassDetails'>;
+        readonly fetchTouchPassDetails: EndpointInvoker<(typeof endpointDefinitions)['fetchTouchPassDetails']>;
         /**
          * Purchase Touch Passes.
          *
@@ -570,7 +569,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly purchaseTouchPasses: EndpointFor<'purchaseTouchPasses'>;
+        readonly purchaseTouchPasses: EndpointInvoker<(typeof endpointDefinitions)['purchaseTouchPasses']>;
         /**
          * Download Touch Pass Qr Code.
          *
@@ -578,7 +577,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly downloadTouchPassQrCode: EndpointFor<'downloadTouchPassQrCode'>;
+        readonly downloadTouchPassQrCode: EndpointInvoker<(typeof endpointDefinitions)['downloadTouchPassQrCode']>;
         /**
          * Import Third Party Nfc Cards.
          *
@@ -586,7 +585,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly importThirdPartyNfcCards: EndpointFor<'importThirdPartyNfcCards'>;
+        readonly importThirdPartyNfcCards: EndpointInvoker<(typeof endpointDefinitions)['importThirdPartyNfcCards']>;
         /**
          * Fetch Door Group Topology.
          *
@@ -594,7 +593,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly fetchDoorGroupTopology: EndpointFor<'fetchDoorGroupTopology'>;
+        readonly fetchDoorGroupTopology: EndpointInvoker<(typeof endpointDefinitions)['fetchDoorGroupTopology']>;
         /**
          * Create Door Group.
          *
@@ -602,7 +601,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly createDoorGroup: EndpointFor<'createDoorGroup'>;
+        readonly createDoorGroup: EndpointInvoker<(typeof endpointDefinitions)['createDoorGroup']>;
         /**
          * Fetch Door Group By Id.
          *
@@ -610,7 +609,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly fetchDoorGroupById: EndpointFor<'fetchDoorGroupById'>;
+        readonly fetchDoorGroupById: EndpointInvoker<(typeof endpointDefinitions)['fetchDoorGroupById']>;
         /**
          * Update Door Group By Id.
          *
@@ -618,7 +617,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly updateDoorGroupById: EndpointFor<'updateDoorGroupById'>;
+        readonly updateDoorGroupById: EndpointInvoker<(typeof endpointDefinitions)['updateDoorGroupById']>;
         /**
          * Fetch All Door Groups.
          *
@@ -626,7 +625,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly fetchAllDoorGroups: EndpointFor<'fetchAllDoorGroups'>;
+        readonly fetchAllDoorGroups: EndpointInvoker<(typeof endpointDefinitions)['fetchAllDoorGroups']>;
         /**
          * Delete Door Group By Id.
          *
@@ -634,7 +633,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly deleteDoorGroupById: EndpointFor<'deleteDoorGroupById'>;
+        readonly deleteDoorGroupById: EndpointInvoker<(typeof endpointDefinitions)['deleteDoorGroupById']>;
         /**
          * Fetch Door By Id.
          *
@@ -642,7 +641,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly fetchDoorById: EndpointFor<'fetchDoorById'>;
+        readonly fetchDoorById: EndpointInvoker<(typeof endpointDefinitions)['fetchDoorById']>;
         /**
          * Fetch All Doors.
          *
@@ -650,7 +649,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly fetchAllDoors: EndpointFor<'fetchAllDoors'>;
+        readonly fetchAllDoors: EndpointInvoker<(typeof endpointDefinitions)['fetchAllDoors']>;
         /**
          * Unlock Door.
          *
@@ -658,7 +657,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly unlockDoor: EndpointFor<'unlockDoor'>;
+        readonly unlockDoor: EndpointInvoker<(typeof endpointDefinitions)['unlockDoor']>;
         /**
          * Set Door Lock Rule.
          *
@@ -666,7 +665,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly setDoorLockRule: EndpointFor<'setDoorLockRule'>;
+        readonly setDoorLockRule: EndpointInvoker<(typeof endpointDefinitions)['setDoorLockRule']>;
         /**
          * Fetch Door Lock Rule.
          *
@@ -674,7 +673,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly fetchDoorLockRule: EndpointFor<'fetchDoorLockRule'>;
+        readonly fetchDoorLockRule: EndpointInvoker<(typeof endpointDefinitions)['fetchDoorLockRule']>;
         /**
          * Set Door Emergency Status.
          *
@@ -682,7 +681,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly setDoorEmergencyStatus: EndpointFor<'setDoorEmergencyStatus'>;
+        readonly setDoorEmergencyStatus: EndpointInvoker<(typeof endpointDefinitions)['setDoorEmergencyStatus']>;
         /**
          * Fetch Door Emergency Status.
          *
@@ -690,7 +689,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly fetchDoorEmergencyStatus: EndpointFor<'fetchDoorEmergencyStatus'>;
+        readonly fetchDoorEmergencyStatus: EndpointInvoker<(typeof endpointDefinitions)['fetchDoorEmergencyStatus']>;
         /**
          * Fetch Devices.
          *
@@ -698,7 +697,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly fetchDevices: EndpointFor<'fetchDevices'>;
+        readonly fetchDevices: EndpointInvoker<(typeof endpointDefinitions)['fetchDevices']>;
         /**
          * Fetch Device Access Settings.
          *
@@ -706,7 +705,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly fetchDeviceAccessSettings: EndpointFor<'fetchDeviceAccessSettings'>;
+        readonly fetchDeviceAccessSettings: EndpointInvoker<(typeof endpointDefinitions)['fetchDeviceAccessSettings']>;
         /**
          * Update Device Access Settings.
          *
@@ -714,7 +713,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly updateDeviceAccessSettings: EndpointFor<'updateDeviceAccessSettings'>;
+        readonly updateDeviceAccessSettings: EndpointInvoker<(typeof endpointDefinitions)['updateDeviceAccessSettings']>;
         /**
          * Fetch System Logs.
          *
@@ -722,7 +721,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly fetchSystemLogs: EndpointFor<'fetchSystemLogs'>;
+        readonly fetchSystemLogs: EndpointInvoker<(typeof endpointDefinitions)['fetchSystemLogs']>;
         /**
          * Export System Logs.
          *
@@ -730,7 +729,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly exportSystemLogs: EndpointFor<'exportSystemLogs'>;
+        readonly exportSystemLogs: EndpointInvoker<(typeof endpointDefinitions)['exportSystemLogs']>;
         /**
          * Fetch System Log Resource.
          *
@@ -738,7 +737,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly fetchSystemLogResource: EndpointFor<'fetchSystemLogResource'>;
+        readonly fetchSystemLogResource: EndpointInvoker<(typeof endpointDefinitions)['fetchSystemLogResource']>;
         /**
          * Fetch System Static Resource.
          *
@@ -746,7 +745,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly fetchSystemStaticResource: EndpointFor<'fetchSystemStaticResource'>;
+        readonly fetchSystemStaticResource: EndpointInvoker<(typeof endpointDefinitions)['fetchSystemStaticResource']>;
         /**
          * Get Avatar Resource.
          *
@@ -754,7 +753,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly getAvatarResource: EndpointFor<'getAvatarResource'>;
+        readonly getAvatarResource: EndpointInvoker<(typeof endpointDefinitions)['getAvatarResource']>;
         /**
          * Get Preview Resource.
          *
@@ -762,7 +761,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly getPreviewResource: EndpointFor<'getPreviewResource'>;
+        readonly getPreviewResource: EndpointInvoker<(typeof endpointDefinitions)['getPreviewResource']>;
         /**
          * Get Video Resource.
          *
@@ -770,7 +769,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly getVideoResource: EndpointFor<'getVideoResource'>;
+        readonly getVideoResource: EndpointInvoker<(typeof endpointDefinitions)['getVideoResource']>;
         /**
          * Get Thumbnail Resource.
          *
@@ -778,7 +777,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly getThumbnailResource: EndpointFor<'getThumbnailResource'>;
+        readonly getThumbnailResource: EndpointInvoker<(typeof endpointDefinitions)['getThumbnailResource']>;
         /**
          * Send Identity Invitations.
          *
@@ -786,7 +785,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly sendIdentityInvitations: EndpointFor<'sendIdentityInvitations'>;
+        readonly sendIdentityInvitations: EndpointInvoker<(typeof endpointDefinitions)['sendIdentityInvitations']>;
         /**
          * Fetch Available Identity Resources.
          *
@@ -794,7 +793,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly fetchAvailableIdentityResources: EndpointFor<'fetchAvailableIdentityResources'>;
+        readonly fetchAvailableIdentityResources: EndpointInvoker<(typeof endpointDefinitions)['fetchAvailableIdentityResources']>;
         /**
          * Assign Identity Resources To User.
          *
@@ -802,7 +801,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly assignIdentityResourcesToUser: EndpointFor<'assignIdentityResourcesToUser'>;
+        readonly assignIdentityResourcesToUser: EndpointInvoker<(typeof endpointDefinitions)['assignIdentityResourcesToUser']>;
         /**
          * Fetch Identity Resources For User.
          *
@@ -810,7 +809,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly fetchIdentityResourcesForUser: EndpointFor<'fetchIdentityResourcesForUser'>;
+        readonly fetchIdentityResourcesForUser: EndpointInvoker<(typeof endpointDefinitions)['fetchIdentityResourcesForUser']>;
         /**
          * Assign Identity Resources To User Group.
          *
@@ -818,7 +817,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly assignIdentityResourcesToUserGroup: EndpointFor<'assignIdentityResourcesToUserGroup'>;
+        readonly assignIdentityResourcesToUserGroup: EndpointInvoker<(typeof endpointDefinitions)['assignIdentityResourcesToUserGroup']>;
         /**
          * Fetch Identity Resources For User Group.
          *
@@ -826,7 +825,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly fetchIdentityResourcesForUserGroup: EndpointFor<'fetchIdentityResourcesForUserGroup'>;
+        readonly fetchIdentityResourcesForUserGroup: EndpointInvoker<(typeof endpointDefinitions)['fetchIdentityResourcesForUserGroup']>;
         /**
          * Fetch Webhook Endpoints.
          *
@@ -834,7 +833,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly fetchWebhookEndpoints: EndpointFor<'fetchWebhookEndpoints'>;
+        readonly fetchWebhookEndpoints: EndpointInvoker<(typeof endpointDefinitions)['fetchWebhookEndpoints']>;
         /**
          * Create Webhook Endpoint.
          *
@@ -842,7 +841,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly createWebhookEndpoint: EndpointFor<'createWebhookEndpoint'>;
+        readonly createWebhookEndpoint: EndpointInvoker<(typeof endpointDefinitions)['createWebhookEndpoint']>;
         /**
          * Update Webhook Endpoint.
          *
@@ -850,7 +849,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly updateWebhookEndpoint: EndpointFor<'updateWebhookEndpoint'>;
+        readonly updateWebhookEndpoint: EndpointInvoker<(typeof endpointDefinitions)['updateWebhookEndpoint']>;
         /**
          * Delete Webhook Endpoint.
          *
@@ -858,7 +857,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly deleteWebhookEndpoint: EndpointFor<'deleteWebhookEndpoint'>;
+        readonly deleteWebhookEndpoint: EndpointInvoker<(typeof endpointDefinitions)['deleteWebhookEndpoint']>;
         /**
          * Upload Api Server Certificate.
          *
@@ -866,7 +865,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly uploadApiServerCertificate: EndpointFor<'uploadApiServerCertificate'>;
+        readonly uploadApiServerCertificate: EndpointInvoker<(typeof endpointDefinitions)['uploadApiServerCertificate']>;
         /**
          * Delete Api Server Certificate.
          *
@@ -874,8 +873,7 @@ declare module './client.js' {
          *
          * @returns Promise resolving with the typed API response.
          */
-        readonly deleteApiServerCertificate: EndpointFor<'deleteApiServerCertificate'>;
+        readonly deleteApiServerCertificate: EndpointInvoker<(typeof endpointDefinitions)['deleteApiServerCertificate']>;
     }
 }
-export {};
 //# sourceMappingURL=unifi-access-api.docs.d.ts.map

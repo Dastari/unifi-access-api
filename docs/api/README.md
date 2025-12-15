@@ -1,4 +1,4 @@
-**unifi-access-api v1.0.6**
+**unifi-access-api v1.1.0**
 
 ***
 
@@ -45,6 +45,7 @@
 - [DoorLockRuleRequest](interfaces/DoorLockRuleRequest.md)
 - [DoorTopologyNode](interfaces/DoorTopologyNode.md)
 - [DoorTopologyResource](interfaces/DoorTopologyResource.md)
+- [EndpointDefinition](interfaces/EndpointDefinition.md)
 - [FetchSystemLogsRequest](interfaces/FetchSystemLogsRequest.md)
 - [FetchUserAccessPoliciesQuery](interfaces/FetchUserAccessPoliciesQuery.md)
 - [FetchUserQuery](interfaces/FetchUserQuery.md)
@@ -140,6 +141,15 @@
 - [DoorTopologyResponse](type-aliases/DoorTopologyResponse.md)
 - [DownloadQRCodeImageResponse](type-aliases/DownloadQRCodeImageResponse.md)
 - [EmptyObject](type-aliases/EmptyObject.md)
+- [EndpointCallOptions](type-aliases/EndpointCallOptions.md)
+- [EndpointDefinitions](type-aliases/EndpointDefinitions.md)
+- [EndpointInvoker](type-aliases/EndpointInvoker.md)
+- [EndpointMap](type-aliases/EndpointMap.md)
+- [EndpointMethodMap](type-aliases/EndpointMethodMap.md)
+- [EndpointPathParams](type-aliases/EndpointPathParams.md)
+- [EndpointQueryParams](type-aliases/EndpointQueryParams.md)
+- [EndpointRequestBody](type-aliases/EndpointRequestBody.md)
+- [EndpointResponse](type-aliases/EndpointResponse.md)
 - [ExpandQuery](type-aliases/ExpandQuery.md)
 - [ExportSystemLogsResponse](type-aliases/ExportSystemLogsResponse.md)
 - [FetchAllUserGroupsResponse](type-aliases/FetchAllUserGroupsResponse.md)
@@ -166,6 +176,7 @@
 - [NfcEnrollmentStatusResponse](type-aliases/NfcEnrollmentStatusResponse.md)
 - [NotificationClientEvents](type-aliases/NotificationClientEvents.md)
 - [PurchaseTouchPassResponse](type-aliases/PurchaseTouchPassResponse.md)
+- [ResponseType](type-aliases/ResponseType.md)
 - [ScheduleResponse](type-aliases/ScheduleResponse.md)
 - [SchedulesResponse](type-aliases/SchedulesResponse.md)
 - [SearchTouchPassResponse](type-aliases/SearchTouchPassResponse.md)
@@ -187,6 +198,10 @@
 - [VisitorStatus](type-aliases/VisitorStatus.md)
 - [WebhookEndpointResponse](type-aliases/WebhookEndpointResponse.md)
 - [WebhookEndpointsResponse](type-aliases/WebhookEndpointsResponse.md)
+
+## Variables
+
+- [endpointDefinitions](variables/endpointDefinitions.md)
 
 ## Functions
 

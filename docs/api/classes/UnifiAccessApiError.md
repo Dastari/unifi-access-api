@@ -1,8 +1,8 @@
-[**unifi-access-api v1.0.6**](../README.md)
+[**unifi-access-api v1.1.0**](../README.md)
 
 ***
 
-Defined in: [src/client.ts:46](https://github.com/Dastari/unifi-access-api/blob/ebc68332f7cf5ab24ce978ac63770c578a9abdcb/src/client.ts#L46)
+Defined in: [src/client.ts:46](https://github.com/Dastari/unifi-access-api/blob/c46fde22b8dd006c45b0d11709f3a55a97c21715/src/client.ts#L46)
 
 ## Extends
 
@@ -20,7 +20,7 @@ Defined in: [src/client.ts:46](https://github.com/Dastari/unifi-access-api/blob/
 
 > **new UnifiAccessApiError**\<`T`\>(`message`, `status`, `code`, `response`): `UnifiAccessApiError`\<`T`\>
 
-Defined in: [src/client.ts:47](https://github.com/Dastari/unifi-access-api/blob/ebc68332f7cf5ab24ce978ac63770c578a9abdcb/src/client.ts#L47)
+Defined in: [src/client.ts:47](https://github.com/Dastari/unifi-access-api/blob/c46fde22b8dd006c45b0d11709f3a55a97c21715/src/client.ts#L47)
 
 #### Parameters
 
@@ -66,7 +66,7 @@ Defined in: node\_modules/typescript/lib/lib.es2022.error.d.ts:26
 
 > `readonly` **code**: `string`
 
-Defined in: [src/client.ts:50](https://github.com/Dastari/unifi-access-api/blob/ebc68332f7cf5ab24ce978ac63770c578a9abdcb/src/client.ts#L50)
+Defined in: [src/client.ts:50](https://github.com/Dastari/unifi-access-api/blob/c46fde22b8dd006c45b0d11709f3a55a97c21715/src/client.ts#L50)
 
 ***
 
@@ -98,7 +98,7 @@ Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1076
 
 > `readonly` **response**: `T`
 
-Defined in: [src/client.ts:51](https://github.com/Dastari/unifi-access-api/blob/ebc68332f7cf5ab24ce978ac63770c578a9abdcb/src/client.ts#L51)
+Defined in: [src/client.ts:51](https://github.com/Dastari/unifi-access-api/blob/c46fde22b8dd006c45b0d11709f3a55a97c21715/src/client.ts#L51)
 
 ***
 
@@ -118,7 +118,7 @@ Defined in: node\_modules/typescript/lib/lib.es5.d.ts:1078
 
 > `readonly` **status**: `number`
 
-Defined in: [src/client.ts:49](https://github.com/Dastari/unifi-access-api/blob/ebc68332f7cf5ab24ce978ac63770c578a9abdcb/src/client.ts#L49)
+Defined in: [src/client.ts:49](https://github.com/Dastari/unifi-access-api/blob/c46fde22b8dd006c45b0d11709f3a55a97c21715/src/client.ts#L49)
 
 ***
 

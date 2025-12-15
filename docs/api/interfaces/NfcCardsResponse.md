@@ -1,8 +1,8 @@
-[**unifi-access-api v1.0.6**](../README.md)
+[**unifi-access-api v1.1.0**](../README.md)
 
 ***
 
-Defined in: [src/types/credentials.ts:84](https://github.com/Dastari/unifi-access-api/blob/ebc68332f7cf5ab24ce978ac63770c578a9abdcb/src/types/credentials.ts#L84)
+Defined in: [src/types/credentials.ts:84](https://github.com/Dastari/unifi-access-api/blob/c46fde22b8dd006c45b0d11709f3a55a97c21715/src/types/credentials.ts#L84)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [src/types/credentials.ts:84](https://github.com/Dastari/unifi-acces
 
 > **code**: `string`
 
-Defined in: [src/types/common.ts:4](https://github.com/Dastari/unifi-access-api/blob/ebc68332f7cf5ab24ce978ac63770c578a9abdcb/src/types/common.ts#L4)
+Defined in: [src/types/common.ts:4](https://github.com/Dastari/unifi-access-api/blob/c46fde22b8dd006c45b0d11709f3a55a97c21715/src/types/common.ts#L4)
 
 #### Inherited from
 
@@ -30,7 +30,7 @@ Defined in: [src/types/common.ts:4](https://github.com/Dastari/unifi-access-api/
 
 > **data**: [`NfcCard`](NfcCard.md)[]
 
-Defined in: [src/types/common.ts:6](https://github.com/Dastari/unifi-access-api/blob/ebc68332f7cf5ab24ce978ac63770c578a9abdcb/src/types/common.ts#L6)
+Defined in: [src/types/common.ts:6](https://github.com/Dastari/unifi-access-api/blob/c46fde22b8dd006c45b0d11709f3a55a97c21715/src/types/common.ts#L6)
 
 #### Inherited from
 
@@ -42,7 +42,7 @@ Defined in: [src/types/common.ts:6](https://github.com/Dastari/unifi-access-api/
 
 > **msg**: `string`
 
-Defined in: [src/types/common.ts:5](https://github.com/Dastari/unifi-access-api/blob/ebc68332f7cf5ab24ce978ac63770c578a9abdcb/src/types/common.ts#L5)
+Defined in: [src/types/common.ts:5](https://github.com/Dastari/unifi-access-api/blob/c46fde22b8dd006c45b0d11709f3a55a97c21715/src/types/common.ts#L5)
 
 #### Inherited from
 
@@ -54,7 +54,7 @@ Defined in: [src/types/common.ts:5](https://github.com/Dastari/unifi-access-api/
 
 > `optional` **pagination**: `object`
 
-Defined in: [src/types/credentials.ts:85](https://github.com/Dastari/unifi-access-api/blob/ebc68332f7cf5ab24ce978ac63770c578a9abdcb/src/types/credentials.ts#L85)
+Defined in: [src/types/credentials.ts:85](https://github.com/Dastari/unifi-access-api/blob/c46fde22b8dd006c45b0d11709f3a55a97c21715/src/types/credentials.ts#L85)
 
 #### page\_num
 

@@ -1,8 +1,8 @@
-[**unifi-access-api v1.0.6**](../README.md)
+[**unifi-access-api v1.1.0**](../README.md)
 
 ***
 
-Defined in: [src/types/access-control.ts:103](https://github.com/Dastari/unifi-access-api/blob/ebc68332f7cf5ab24ce978ac63770c578a9abdcb/src/types/access-control.ts#L103)
+Defined in: [src/types/access-control.ts:103](https://github.com/Dastari/unifi-access-api/blob/c46fde22b8dd006c45b0d11709f3a55a97c21715/src/types/access-control.ts#L103)
 
 ## Extends
 
@@ -14,7 +14,7 @@ Defined in: [src/types/access-control.ts:103](https://github.com/Dastari/unifi-a
 
 > `optional` **description**: `string`
 
-Defined in: [src/types/access-control.ts:99](https://github.com/Dastari/unifi-access-api/blob/ebc68332f7cf5ab24ce978ac63770c578a9abdcb/src/types/access-control.ts#L99)
+Defined in: [src/types/access-control.ts:99](https://github.com/Dastari/unifi-access-api/blob/c46fde22b8dd006c45b0d11709f3a55a97c21715/src/types/access-control.ts#L99)
 
 #### Inherited from
 
@@ -26,7 +26,7 @@ Defined in: [src/types/access-control.ts:99](https://github.com/Dastari/unifi-ac
 
 > `optional` **holidays**: [`CreateHolidayRequest`](CreateHolidayRequest.md)[]
 
-Defined in: [src/types/access-control.ts:100](https://github.com/Dastari/unifi-access-api/blob/ebc68332f7cf5ab24ce978ac63770c578a9abdcb/src/types/access-control.ts#L100)
+Defined in: [src/types/access-control.ts:100](https://github.com/Dastari/unifi-access-api/blob/c46fde22b8dd006c45b0d11709f3a55a97c21715/src/types/access-control.ts#L100)
 
 #### Inherited from
 
@@ -38,7 +38,7 @@ Defined in: [src/types/access-control.ts:100](https://github.com/Dastari/unifi-a
 
 > `optional` **name**: `string`
 
-Defined in: [src/types/access-control.ts:98](https://github.com/Dastari/unifi-access-api/blob/ebc68332f7cf5ab24ce978ac63770c578a9abdcb/src/types/access-control.ts#L98)
+Defined in: [src/types/access-control.ts:98](https://github.com/Dastari/unifi-access-api/blob/c46fde22b8dd006c45b0d11709f3a55a97c21715/src/types/access-control.ts#L98)
 
 #### Inherited from
 

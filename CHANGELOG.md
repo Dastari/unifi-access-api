@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.0] - 2025-12-15
+### Added
+- Exported endpoint definition map (`endpointDefinitions`) plus helper types (`EndpointCallOptions`, `EndpointPathParams`, `EndpointQueryParams`, `EndpointRequestBody`, `EndpointResponse`) so consumers can derive request/response types per endpoint.
+
+### Changed
+- Method hover docs now reference the concrete endpoint definition type, so IDE tooltips show the real options shape (`path`/`query`/`body`) and the resolved response type instead of `EndpointFor<'...'>`.
+
+### Docs
+- Regenerated TypeDoc markdown output under `docs/api` for the updated exports and endpoint typing helpers.
+
 ## [1.0.6] - 2025-12-05
 ### Fixed
 - Static resource endpoints now surface the documented `StaticResourceResponse` type in emitted declaration files, ensuring downstream projects see the semantic alias instead of the generic `FileResponse`.
