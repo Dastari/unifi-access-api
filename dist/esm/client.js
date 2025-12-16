@@ -297,7 +297,7 @@ function logUnifiAccessRequest(url, requestInit) {
     const method = requestInit.method ?? 'GET';
     const headers = redactAuthorizationHeader(requestInit.headers);
     const bodyPreview = previewBody(requestInit.body);
-    // Intentionally using console.log (not debug) per request.
+    // Intentionally using console.log (not debug) so the output is visible in most runtimes.
     console.log('[unifi-access-api] HTTP request', {
         method,
         url,

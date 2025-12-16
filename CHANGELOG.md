@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.0] - 2025-12-16
+### Added
+- `UNIFI_ACCESS_DEBUG=1` request logging to print every outgoing REST call (method, URL, headers, body) to the console with the Authorization token redacted.
+
 ## [1.1.0] - 2025-12-15
 ### Added
 - Exported endpoint definition map (`endpointDefinitions`) plus helper types (`EndpointCallOptions`, `EndpointPathParams`, `EndpointQueryParams`, `EndpointRequestBody`, `EndpointResponse`) so consumers can derive request/response types per endpoint.
