@@ -96,6 +96,9 @@ export class UnifiAccessApi {
             requestInit.agent = this.agent;
         }
         try {
+            if (isUnifiAccessDebugEnabled()) {
+                logUnifiAccessRequest(url, requestInit);
+            }
             const response = await this.fetchImpl(url, requestInit);
             if (!response.ok) {
                 const text = await safeReadText(response);
@@ -276,5 +279,74 @@ function extractFilename(disposition) {
     if (!match)
         return undefined;
     return decodeURIComponent(match[1] ?? match[2] ?? '');
+}
+function isUnifiAccessDebugEnabled() {
+    // Support Node (process.env) while remaining safe in browser/bundler contexts.
+    const envValue = typeof process !== 'undefined' &&
+        typeof process.env !== 'undefined' &&
+        process.env &&
+        process.env.UNIFI_ACCESS_DEBUG;
+    if (envValue === undefined || envValue === null)
+        return false;
+    if (typeof envValue === 'string') {
+        return envValue === '1' || envValue.toLowerCase() === 'true' || envValue.toLowerCase() === 'yes';
+    }
+    return Boolean(envValue);
+}
+function logUnifiAccessRequest(url, requestInit) {
+    const method = requestInit.method ?? 'GET';
+    const headers = redactAuthorizationHeader(requestInit.headers);
+    const bodyPreview = previewBody(requestInit.body);
+    // Intentionally using console.log (not debug) per request.
+    console.log('[unifi-access-api] HTTP request', {
+        method,
+        url,
+        headers,
+        body: bodyPreview,
+    });
+}
+function redactAuthorizationHeader(headers) {
+    const obj = headersToObject(headers);
+    for (const key of Object.keys(obj)) {
+        if (key.toLowerCase() === 'authorization') {
+            obj[key] = 'Bearer [REDACTED]';
+        }
+    }
+    return obj;
+}
+function headersToObject(headers) {
+    if (!headers)
+        return {};
+    if (Array.isArray(headers)) {
+        return Object.fromEntries(headers.map(([k, v]) => [String(k), String(v)]));
+    }
+    // Headers instance
+    if (typeof Headers !== 'undefined' && headers instanceof Headers) {
+        const out = {};
+        headers.forEach((value, key) => {
+            out[key] = value;
+        });
+        return out;
+    }
+    // Plain object record
+    return Object.fromEntries(Object.entries(headers).map(([k, v]) => [k, String(v)]));
+}
+function previewBody(body) {
+    if (body === undefined)
+        return undefined;
+    if (body === null)
+        return null;
+    if (typeof body === 'string')
+        return body;
+    // Try to keep logs readable; show type hints for non-strings.
+    if (typeof ArrayBuffer !== 'undefined' && body instanceof ArrayBuffer)
+        return `[ArrayBuffer byteLength=${body.byteLength}]`;
+    if (typeof Blob !== 'undefined' && body instanceof Blob)
+        return `[Blob size=${body.size} type=${body.type}]`;
+    if (typeof FormData !== 'undefined' && body instanceof FormData)
+        return '[FormData]';
+    if (typeof URLSearchParams !== 'undefined' && body instanceof URLSearchParams)
+        return body.toString();
+    return `[Body type=${typeof body}]`;
 }
 //# sourceMappingURL=client.js.map
