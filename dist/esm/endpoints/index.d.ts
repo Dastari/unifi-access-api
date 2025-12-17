@@ -173,7 +173,9 @@ export declare const endpointDefinitions: {
     }, undefined, import("../index.js").UpdateVisitorRequest, import("../index.js").SuccessOnlyResponse, "json">;
     readonly deleteVisitor: import("../index.js").EndpointDefinition<{
         id: string;
-    }, undefined, undefined, import("../index.js").SuccessOnlyResponse, "json">;
+    }, {
+        is_force?: boolean | 0 | 1;
+    }, undefined, import("../index.js").SuccessOnlyResponse, "json">;
     readonly assignVisitorNfcCard: import("../index.js").EndpointDefinition<{
         id: string;
     }, undefined, import("../index.js").AssignVisitorNfcCardRequest, import("../index.js").SuccessOnlyResponse, "json">;

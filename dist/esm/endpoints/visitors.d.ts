@@ -17,7 +17,9 @@ export declare const visitorEndpoints: {
     }, undefined, UpdateVisitorRequest, SuccessOnlyResponse, "json">;
     readonly deleteVisitor: import("../internal/endpoint.js").EndpointDefinition<{
         id: string;
-    }, undefined, undefined, SuccessOnlyResponse, "json">;
+    }, {
+        is_force?: boolean | 0 | 1;
+    }, undefined, SuccessOnlyResponse, "json">;
     readonly assignVisitorNfcCard: import("../internal/endpoint.js").EndpointDefinition<{
         id: string;
     }, undefined, AssignVisitorNfcCardRequest, SuccessOnlyResponse, "json">;

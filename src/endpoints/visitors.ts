@@ -14,6 +14,14 @@ import { defineEndpoint } from '../internal/endpoint.js';
 import type { SuccessOnlyResponse } from '../types/common.js';
 
 type NoQuery = undefined;
+type DeleteVisitorQuery = {
+  /**
+   * When true/1, force-delete the visitor even if they have related resources.
+   *
+   * Note: UniFi Access expects this as `is_force` in the query string.
+   */
+  is_force?: boolean | 0 | 1;
+};
 
 export const visitorEndpoints = {
   createVisitor: defineEndpoint<undefined, NoQuery, CreateVisitorRequest, CreateVisitorResponse>({
@@ -42,7 +50,7 @@ export const visitorEndpoints = {
     path: '/api/v1/developer/visitors/:id',
   }),
 
-  deleteVisitor: defineEndpoint<{ id: string }, NoQuery, undefined, SuccessOnlyResponse>({
+  deleteVisitor: defineEndpoint<{ id: string }, DeleteVisitorQuery, undefined, SuccessOnlyResponse>({
     method: 'DELETE',
     path: '/api/v1/developer/visitors/:id',
   }),

@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.1] - 2025-12-18
+### Fixed
+- `deleteVisitor` now accepts the documented `query.is_force` option in TypeScript typings.
+
 ## [1.2.0] - 2025-12-16
 ### Added
 - `UNIFI_ACCESS_DEBUG=1` request logging to print every outgoing REST call (method, URL, headers, body) to the console with the Authorization token redacted.
